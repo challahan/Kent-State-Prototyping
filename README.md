@@ -1,6 +1,6 @@
-# Foundation libsass template
+# Kent State Prototyping Template
 
-This is a template to start your own project that uses Grunt and libsass!
+This template, built on Zurb Foundation, makes prototyping for Kent State websites easier than ever before.  Yay!
 
 ## Requirements
 
