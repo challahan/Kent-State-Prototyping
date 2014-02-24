@@ -1,4 +1,77 @@
-.ksu-gold {
-	color: white;
-	transition: all 5s ease-in;
+.logo-white {
+	background-image: url(../img/Kent-State-Logo-White.svg);
+	background-repeat: no-repeat;
+}
+
+.logo-blue {
+	background-image: url(../img/Kent-State-Logo-Blue.svg);
+	background-repeat: no-repeat;
+}
+
+
+.header-white {
+	padding: em-calc(15);
+	height: em-calc(115);
+	margin: 0 auto;
+	padding-top: em-calc(20);
+	background-image:-moz-linear-gradient(14% 1% -90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%) !important;
+background-image:-webkit-gradient(linear,14% 1%,14% 94%,color-stop(0.11, rgb(255,255,255)),color-stop(0.55, rgb(247,247,247)),color-stop(1, rgba(238,238,238,0.93)))!important;
+background-image:-webkit-linear-gradient(-90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)!important;
+background-image:-o-linear-gradient(-90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)!important;
+background-image:-ms-linear-gradient(-90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)!important;
+background-image:linear-gradient(180deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)!important;
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#edeeeeee,GradientType=0)"!important;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#edeeeeee,GradientType=0)!important;
+}
+
+#ksu-header .logo-white, #ksu-header .logo-blue {
+	background-size: 100% auto;
+	height: em-calc(100);
+	margin: 0  auto;
+	width: 15em;
+}
+
+
+.header-blue {
+	padding: em-calc(15);
+		background-image:-moz-linear-gradient(14% 14% -90deg,$header-color 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);
+	background-image:-webkit-gradient(linear,14% 14%,14% 86%,color-stop(0, $header-color),color-stop(0.21, rgb(0,39,81)),color-stop(1, rgba(0,60,120,0.96)));
+	background-image:-webkit-linear-gradient(-90deg,$header-color 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);
+	background-image:-o-linear-gradient(-90deg,$header-color 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);
+	background-image:-ms-linear-gradient(-90deg,$header-color 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);
+	background-image:linear-gradient(180deg,$header-color 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0);
+	height: em-calc(80);
+	margin: 0 auto;
+	padding-top: em-calc(20);
+}
+
+#logo {
+	height: em-calc(100);
+	width: 8em;
+	background-size: 100%;
+	margin-top: em-calc(15);
+	margin-right: em-calc(15);
+	margin: 0px auto;
+}
+
+.logo-white span, .logo-blue span {
+	display: none;
+}
+
+@media #{$small} { 
+#logo {
+	height: em-calc(200);
+	width: 15em;
+	background-size: 100%;
+	margin-top: em-calc(15);
+	margin-right: em-calc(15);
+	margin: 0px auto;
+}
+
+.header-blue {
+	height: em-calc(115);
+}
+
 }
