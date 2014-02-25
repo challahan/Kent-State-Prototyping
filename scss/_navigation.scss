@@ -1,0 +1,168 @@
+
+
+.top-bar-section ul {
+	background-color: $dark-blue;
+	
+	li > a {
+	}
+	
+	li:hover > a {
+		background-color: white;
+		color: $dark-blue;
+	}
+	
+	a:not(.button):hover {
+		background-color: white;
+		color: $dark-blue;
+	}
+}
+
+
+
+.side-nav li a {
+	display: inline;
+}
+
+p.title a {
+	font-weight: bold;
+	font-family: $slab-serif;
+}
+
+.section-container.auto > section > .title {
+	background-color: lighten($warm-gray-1, 10%);
+	border-top: 4px solid $cyan;
+}
+
+nav.breadcrumbs {
+	background-color: none !important;
+	line-height: 150%;
+}
+
+.section-container > section.active > .title {
+	border-top: 4px solid $ksu-blue;
+	a {
+		color: $dark-blue;
+	}
+}
+
+.section-container.accordion > section.active > .title {
+	background-color: $ksu-blue;
+	border: 0;
+	a {
+		color: white;
+	}
+}
+
+.section-container.vertical-tabs > section.active > .title {
+	background-color: $ksu-blue;
+	border-top: none;
+	a {
+		color: white;
+	}
+}
+
+.section-container.accordion > section:not(.active) {
+	background-color: lighten($warm-gray-1, 10%);
+}
+
+.section-container.auto > section > .title:hover {
+	border-top: 4px solid $ksu-blue;
+}
+
+.action-link {
+	font-weight: bold;
+	font-family: $sans-serif-condensed;
+	
+	i {
+		margin-left: .1em;
+	}
+}
+
+.read-more-link {
+	font-weight: bold !important;
+	
+	i {
+		margin-left: .5em;
+	}
+	
+	span {
+		font-family: $sans-serif-condensed;
+	}
+}
+
+
+
+nav {
+}
+
+.side-nav {
+	
+	li:before {
+		content: none;
+	}
+	
+	li  {
+		margin: 0 0 0.1em 0;
+		background-color: lighten($warm-gray-1, 9%);
+		border-left: 6px solid $cyan;
+		
+		a {
+			padding: .9em;
+			display: block;
+			padding-left: 1em;
+			color: $ksu-blue !important;
+			font-family: $sans-serif;
+		}
+		
+		a:hover, a:active, a:focus {
+			background-color: lighten($warm-gray-1, 5%);
+		}
+		
+		ul {
+			background-color: lighten($warm-gray-1,13%);
+			margin-left: -6px;
+			border-right: 1px solid lighten($warm-gray-1,10%);
+			
+			li {
+				background-color: transparent;
+				list-style-type: none;
+				border-left: 6px solid $bright-yellow;
+				font-size: .95em;
+				
+				a {
+					padding: .5em;
+					padding-left:2em;
+				}
+			}
+			
+			li:hover {
+				border-left: 6px solid lighten($bright-yellow, 15%);
+			}
+		}
+		
+		
+	}
+
+	
+	li.active > {
+		
+		a:first-child {
+		color: $dark-blue;
+		}
+		
+
+	}
+	
+	li.active {
+		border-left: 6px solid $dark-blue;
+
+	}
+	
+	li.active:hover {
+		border-left: 6px solid $dark-blue;
+	}
+	
+	li:hover {
+		border-left: 6px solid lighten($cyan, 5%);
+	}
+}

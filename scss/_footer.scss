@@ -5,13 +5,23 @@ footer {
 	color: $footer-text-color;
 	padding: em-calc(20);
 	padding-top: 2em;
+	text-align: center;
 	
 	h3 {
 		color: $footer-heading-color;
 		margin-top: 0;
 	}
 	
+	ul li:before {
+		content: none;
+	}
+	
+	.links {
+		margin-bottom: 2em;
+	}
+	
 }
+
 
 .top {
 	text-align: center;
@@ -46,7 +56,7 @@ footer ul {
 	margin: 0;
 	font-weight: 200;
 	font-size: em-calc(14);
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 footer .quicklinks {
@@ -54,19 +64,24 @@ footer .quicklinks {
 	font-family: $sans-serif-condensed;
 	font-size: em-calc(16);
 	text-transform: uppercase;
-	width: 75%;
+	width: 8em;
+	margin: 0px auto;
+	margin-bottom: 2em;
 	
 	li {
-		text-align: right;
 		margin-bottom: .5em;
 	}
 	
 	a {
-		color: white;
+		color: $quicklink-color;
 	}
 	
 	a:hover {
 		color: $quicklink-hover-color;
+	}
+	
+	li:before {
+		content: none;
 	}
 }
 
@@ -111,9 +126,12 @@ margin-top: .2em;
 .copyright {
 	width:90%;
 margin:0px auto;
-font-size:.7em;
 margin-bottom:1em;
 text-align: center;
+
+	p {
+		font-size: .7rem;
+	}
 }
 
 
@@ -122,5 +140,20 @@ text-align: center;
 	.copyright {
 		width: 50%;
 	}
+	
+	footer {
+		text-align: inherit;
+	}
+	
+	footer .quicklinks {
+		width: 75%;
+		
+		li {
+			text-align: right;
+		}
+		
+	}
+	
+	
 
 }

@@ -1,0 +1,106 @@
+body {
+	font-family: $sans-serif;
+}
+
+a {
+	font-weight: 400;
+}
+
+.caption {
+	font-family: $sans-serif-condensed;
+	font-size: .85em;
+	color: $caption-color;
+	margin-top: .5em;
+	margin-bottom: .2em;
+}
+
+.introduction {
+	color: $introduction-color;
+	font-size: 1.3em;
+	font-family: $sans-serif-condensed;
+}
+
+blockquote {
+	font-family: $slab-serif;
+	text-align: center;
+	border-left: none;
+	color: $quote-color;
+	font-size: 1.2em;
+	border-top: 1px solid lighten($warm-gray-1,10%);
+	border-bottom: 1px solid lighten($warm-gray-1,10%);
+	padding-bottom: .5em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+
+	
+	cite {
+		font-style: normal;
+	}
+}
+
+
+h1.title {
+	font-family: $sans-serif-condensed;
+	font-weight: 700;
+	color: $title-color;
+	font-size: 2.5em;
+	text-transform: none;
+}
+
+h1.landing {
+	font-family: $serif;
+	font-weight: 600;
+	color: $cool-gray;
+	font-size: 2.5em;
+	text-transform: none;
+}
+
+h1.subheader {
+	font-family: $sans-serif-condensed;
+	font-weight: 600;
+	color: $title-color;
+	text-transform: none;
+	font-size: 1.5em;
+}
+
+h1 {
+	font-family: $sans-serif-condensed;
+	font-weight: 700;
+	color: $h1-color;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-family: $sans-serif-condensed;
+	font-weight: 400;
+	color: $h2-color;
+	margin-top: .5em !important;
+}
+
+h3 {
+	font-family: $slab-serif;
+	color: $h3-color;
+	text-transform: uppercase;
+	margin-bottom: .2em;
+	font-weight: 500;
+}
+
+h4 {
+	font-family: $sans-serif-condensed;
+	color: $h4-color;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+h5 {
+	color: $h5-color;
+	font-family: $slab-serif;
+	font-weight: normal;
+}
+
+h6 {
+	color: $h6-color;
+	font-weight: normal;
+	font-family: $sans-serif;
+}
