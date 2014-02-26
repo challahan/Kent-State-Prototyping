@@ -1,4 +1,32 @@
+.top-bar-section {
+	font-family: $sans-serif-condensed;
+	text-transform: uppercase;
+}
 
+.top-bar-section ul li > a {
+}
+
+.top-bar-section ul {
+	background-color: $dark-blue;
+	margin-left: 1.5em;
+	
+	li > a {
+	}
+	
+	li:hover > a {
+		background-color: white;
+		color: $dark-blue;
+	}
+	
+	a:not(.button):hover {
+		background-color: white;
+		color: $dark-blue;
+	}
+}
+
+.top-bar-section .has-dropdown > a::after {
+	border-color: $ksu-gold transparent transparent transparent;
+}
 
 .top-bar-section ul {
 	background-color: $dark-blue;
@@ -16,6 +44,9 @@
 		color: $dark-blue;
 	}
 }
+
+.top-bar-section ul {display: table; margin: 0 auto;}
+.top-bar-section ul li {display: table-cell;}
 
 
 
@@ -122,16 +153,17 @@ nav {
 			background-color: lighten($warm-gray-1,13%);
 			margin-left: -6px;
 			border-right: 1px solid lighten($warm-gray-1,10%);
+			margin-top: 0;
 			
 			li {
 				background-color: transparent;
 				list-style-type: none;
 				border-left: 6px solid $bright-yellow;
-				font-size: .95em;
 				
 				a {
 					padding: .5em;
 					padding-left:2em;
+					font-size: .9em;
 				}
 			}
 			

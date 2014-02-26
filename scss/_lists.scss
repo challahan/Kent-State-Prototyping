@@ -55,3 +55,11 @@ ol {
 		margin-bottom: 10px;
 	}
 }
+
+.top-bar {
+	ul li:before {
+		content: none;
+	}
+	
+	overflow: hidden;
+}
