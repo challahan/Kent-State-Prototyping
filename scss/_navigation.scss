@@ -11,6 +11,7 @@
 	margin-left: 1.5em;
 	
 	li > a {
+		font-weight: bold;
 	}
 	
 	li:hover > a {
@@ -30,6 +31,8 @@
 
 .top-bar-section ul {
 	background-color: $dark-blue;
+	display: table;
+	margin: 0 auto;
 	
 	li > a {
 	}
@@ -44,10 +47,6 @@
 		color: $dark-blue;
 	}
 }
-
-.top-bar-section ul {display: table; margin: 0 auto;}
-.top-bar-section ul li {display: table-cell;}
-
 
 
 .side-nav li a {
@@ -197,4 +196,40 @@ nav {
 	li:hover {
 		border-left: 6px solid lighten($cyan, 5%);
 	}
+}
+
+.button-group {
+	background-color: $warm-gray-1;
+	-webkit-box-shadow: 0 4px 5px -2px rgba(0,0,0,.5);
+	box-shadow: 0 2px 5px -2px rgba(0,0,0,.5);
+	margin-bottom: 2em;
+	
+	.button {
+		margin-bottom: 0 !important;
+		background-color: $warm-gray-1;
+		color: lighten(black, 10%);
+		border-top: none;
+		border-bottom: none;
+		font-weight: 600 !important;
+		padding-left: inherit !important;
+		padding-right: inherit !important;
+	}
+	
+	li:before {
+		content: none;
+	}
+	
+	li:first-child a {
+		border-left: 1px solid $warm-gray-1;
+	}
+	
+	li:last-child a {
+		border-right: 1px solid $warm-gray-1;
+	}
+	
+	.button:hover, .button:active, .button:focus {
+		background-color: $cool-gray;
+		color: white;
+	}
+	
 }

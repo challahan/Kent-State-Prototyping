@@ -18,6 +18,23 @@ a {
 	color: $introduction-color;
 	font-size: 1.3em;
 	font-family: $sans-serif-condensed;
+	margin-top: 1em;
+}
+
+.landing-title {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 2em;
+	padding-left: 1.5em;
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #000000),
+	color-stop(1, rgba(0,0,0,0)),
+	color-stop(1, #FFFFFF)
+);
 }
 
 blockquote {
@@ -38,6 +55,33 @@ blockquote {
 	}
 }
 
+.photo-caption {
+	text-shadow: 2px 2px 5px rgba(0,0,0,.9);
+	padding-bottom: 1em;
+	float: right;
+	padding-right: 1em;
+	position: relative;
+	z-index: 100;
+	margin-top: -3em;
+	
+	.caption {
+		color: white;
+	}
+	
+	i {
+		color: $bright-yellow;
+		padding-right: 1em;
+	}
+	
+	.caption-title {
+		color: $bright-yellow;
+		font-family: $sans-serif-condensed;
+		display: inline-block;
+		font-weight: bold;
+	}
+}
+
+
 
 h1.title {
 	font-family: $sans-serif-condensed;
@@ -50,8 +94,9 @@ h1.title {
 h1.landing {
 	font-family: $serif;
 	font-weight: 600;
-	color: $cool-gray;
-	font-size: 2.5em;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0,0,0,.9);
+	font-size: 3.7em;
 	text-transform: none;
 }
 
@@ -75,7 +120,17 @@ h2 {
 	font-family: $sans-serif-condensed;
 	font-weight: 400;
 	color: $h2-color;
-	margin-top: .5em !important;
+	margin-top: .5em;
+}
+
+h2.subheader {
+	font-family: $sans-serif;
+	color: $bright-yellow;
+	margin: 0;
+	padding: 0;
+	margin-top: -1em;
+	font-size: 1.3em;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.9);
 }
 
 h3 {
@@ -103,4 +158,13 @@ h6 {
 	color: $h6-color;
 	font-weight: normal;
 	font-family: $sans-serif;
+}
+
+@media #{$medium-up} { 
+	
+	.photo-caption {max-width: 45%;
+	margin-top: -6em;
+	margin-right: 2em;
+	}
+
 }
