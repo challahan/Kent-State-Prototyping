@@ -106,13 +106,15 @@
 	
 	span {
 		font-family: $sans-serif !important;
+		margin-right: 1em;
 	}
 	
 }
 
 .fa-arrow-circle-o-right::before {
-	float:right;
-margin-left:1em;
+	right: 0;
+padding-right:1em;
+position: absolute;
 }
 
 .accent {
@@ -122,6 +124,7 @@ margin-left:1em;
 		
 		span {
 		font-family: $sans-serif !important;
+		margin-right: 1em;
 	}
 		
 }
@@ -131,11 +134,15 @@ margin-left:1em;
 }
 
 .button {
-	padding-left: 4em;
-	padding-right: 4em;
+	padding-left: 3em;
+	padding-right: 3em;
 	font-family: $sans-serif-condensed;
-	font-weight: 200;
 	box-shadow: none;
-	border-radius: 1px;
+	border-radius: 2px;
 	line-height:35px;
+	
+	span {
+		font-family: $sans-serif;
+		font-weight: bold;
+	}
 }
