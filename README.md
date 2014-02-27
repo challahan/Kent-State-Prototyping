@@ -2,6 +2,12 @@
 
 This template, built on Zurb Foundation, makes prototyping for Kent State websites easier than ever before.  Yay!
 
+## What's Included
+
+* index.html:  This is the "kitchen sink", which shows examples of the available styles.
+* landing-page-template.html:  This is a template for a basic top-level landing page.
+* Coming Soon: Page w/ Left Column, Departmental Pages
+
 ## Requirements
 
 You'll need to have the following items installed before continuing.
@@ -27,3 +33,10 @@ And you're set!
 
   * `scss/_settings.scss`: Foundation configuration settings go in here
   * `scss/app.scss`: Application styles go here
+
+
+## Wishlist
+
+   * Simplify the structure of buttons.  Currently, using lots of important tags instead of mix-ins.
+   * Replace all color values with "theme" values instead, so that colors can be easily swapped.
+  
