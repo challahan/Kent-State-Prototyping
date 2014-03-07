@@ -179,6 +179,7 @@ h2.subheader {
 	.tabs-content {
 		text-align: left;
 		border: 1px solid $warm-gray-1;
+		margin-bottom: .2em;
 	}
 }
 
@@ -248,7 +249,7 @@ h2.subheader {
 		h3 {
 			color: $ksu-gold;
 			font-size: 1.5em;
-			margin-top: 2em;
+			margin-top: 1em;
 		}
 
 		p {
@@ -381,6 +382,7 @@ h2.subheader {
 .tabs-content > .content {
 		margin-left:4%;
 		width:96%;
+		padding: 1rem;
 	}
 
 .section-container.auto > section > .title {

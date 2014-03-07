@@ -122,7 +122,8 @@ h2.subheader {
     margin-top: 0; }
   .landing-row .tabs-content {
     text-align: left;
-    border: 1px solid #e0ded9; }
+    border: 1px solid #e0ded9;
+    margin-bottom: 0.2em; }
 
 .feature-row {
   text-align: center;
@@ -167,7 +168,7 @@ h2.subheader {
   .feature-row h3 {
     color: #eaab00;
     font-size: 1.5em;
-    margin-top: 2em; }
+    margin-top: 1em; }
   .feature-row p {
     color: white; }
   .feature-row .colored-blue {
@@ -244,7 +245,8 @@ h2.subheader {
 
 .tabs-content > .content {
   margin-left: 4%;
-  width: 96%; }
+  width: 96%;
+  padding: 1rem; }
 
 .section-container.auto > section > .title {
   background-color: #f7f6f5;
