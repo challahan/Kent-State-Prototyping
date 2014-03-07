@@ -4,7 +4,6 @@
   overflow: hidden;
   background-position: center;
   padding-top: 175px;
-  -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
 .landing-title {
@@ -122,11 +121,11 @@ h2.subheader {
   .landing-row h2 {
     margin-top: 0; }
   .landing-row .tabs-content {
-    text-align: left; }
+    text-align: left;
+    border: 1px solid #e0ded9; }
 
 .feature-row {
   text-align: center;
-  -webkit-background-size: 425% auto;
   background-size: 425% auto;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
   .feature-row h2 {
@@ -146,7 +145,20 @@ h2.subheader {
   .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
     font-size: 1.5em;
     text-align: center;
-    bottom: 1em; }
+    bottom: 1em;
+    font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+    font-weight: 600; }
+    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span a {
+      color: #ffc82e;
+      text-transform: uppercase;
+      font-size: 0.5em;
+      font-weight: bold;
+      padding-left: 1.5em;
+      padding-bottom: 0.3em; }
+    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span a:hover {
+      color: #ffd561; }
+    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
+      color: white !important; }
   .feature-row .orbit-container ul li:before {
     content: none; }
   .feature-row .small {
@@ -186,7 +198,6 @@ h2.subheader {
 
 @media only screen and (min-width:40.063em) {
   .feature-row {
-    -webkit-background-size: 125% auto;
     background-size: 125% auto;
     background-position: center top; }
     .feature-row h2 {
@@ -224,9 +235,15 @@ h2.subheader {
     border-top: 4px solid #009dd8;
     margin-right: 1px; }
   .tabs dd.active {
-    border-top: 4px solid #002664; }
+    border-top: 4px solid #002664;
+    border-left: 1px solid #e0ded9;
+    border-right: 1px solid #e0ded9; }
     .tabs dd.active a {
       color: #002147; }
+
+.tabs-content > .content {
+  margin-left: 4%;
+  width: 96%; }
 
 .section-container.auto > section > .title {
   background-color: #f7f6f5;
@@ -261,9 +278,12 @@ h2.subheader {
 
 @media only screen and (min-width:64.063em) {
   .hero {
-    -webkit-background-size: 100% auto;
     background-size: 100% auto;
     padding-top: 300px; } }
+
+@media only screen and (min-width:40.063em) and (max-width:64em) {
+  .hero {
+    background-size: 120% auto; } }
 
 @media only screen and (max-width: 40em) {
   .button-group {
