@@ -178,6 +178,7 @@ h2.subheader {
 
 	.tabs-content {
 		text-align: left;
+		border: 1px solid $warm-gray-1;
 	}
 }
 
@@ -213,6 +214,26 @@ h2.subheader {
 			font-size: 1.5em;
 			text-align: center;
 			bottom: 1em;
+			font-family: $sans-serif-condensed;
+			font-weight: 600;
+
+			span a {
+				color: $bright-yellow;
+				text-transform: uppercase;
+				font-size: .5em;
+				font-weight: bold;
+				padding-left: 1.5em;
+				padding-bottom: .3em;
+
+			}
+
+			span a:hover {
+				color: lighten($bright-yellow, 10%);
+			}
+
+			.fa-caret-right::before {
+					color: white !important;
+				}
 		}
 
 		.orbit-container ul li:before {
@@ -347,12 +368,19 @@ h2.subheader {
 
 	dd.active {
 	border-top: 4px solid $ksu-blue;
+	border-left:1px solid $warm-gray-1;
+	border-right:1px solid $warm-gray-1;
 	a {
 		color: $dark-blue;
 	}
 }
 
 }
+
+.tabs-content > .content {
+		margin-left:4%;
+		width:96%;
+	}
 
 .section-container.auto > section > .title {
 	background-color: lighten($warm-gray-1, 10%);
@@ -405,6 +433,12 @@ h2.subheader {
 		padding-top: 300px;
 	}
 	
+}
+
+@media #{$medium-only} {
+	.hero {
+		background-size: 120% auto;
+	}
 }
 
 @media #{$small-only} {
