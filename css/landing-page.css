@@ -162,7 +162,8 @@ h2.subheader {
   .feature-row .orbit-container ul li:before {
     content: none; }
   .feature-row .small {
-    width: 20em; }
+    min-width: 15em;
+    max-width: 20em; }
   .feature-row h3 {
     color: #eaab00;
     font-size: 1.5em;
