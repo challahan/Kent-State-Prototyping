@@ -1,0 +1,20 @@
+// Code //
+
+pre code {
+	display: block;
+padding: 0.5em;
+background: #fafafa;
+color: #333333; 
+}
+
+pre code .code-container {
+	margin: 10px 0px;
+	padding: 5px;
+	overflow-x: auto;
+	line-height: 1.3rem;
+	font-weight: normal; 
+}
+
+pre {
+	display: none;
+}

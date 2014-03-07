@@ -1,81 +1,41 @@
-.align-left {
-	float: left;
-	padding: 1em;
-	padding-right: 2em;
-	
-	.flex-video {
-		min-width: 300px;
-		height: auto;
-	}
-}
 
-.hero {
-	min-height: 275px;
-	width: 100%;
-	overflow:hidden;
-	background-position: center;
-	padding-top: 175px;
-	background-size: 200% auto;
-}
 
-.image-centered {
-		text-align: center;
-		
-		h2 {
-			font-size: 2em;
-			margin-top: -1.7em;
-			margin-bottom: .5em;
-		}
-
-		img {
-	width: 90%;
-	height: auto;
-	margin: 0px auto;
-	border: 1px solid lighten($warm-gray-1, 2%);
-	padding: .3em;
-	margin-bottom: 1.5em;
-}
-}
-
-.image-rounded {
-	text-align: center;
-	
-	img {
-		border-radius: 5px;
-		margin-bottom: 1em;
-		padding-top: .5em;
-	}
-	
-	h2 {
-		font-weight: 600;
-		font-size: 2em;
-		margin-top: -1.7em;
-		margin-bottom: .5em;
-	}
-}
-
-.align-right {
-	float: right;
-	padding: 1em;
-	padding-left: 2em;
-}
-
-.align-center {
+.icon-sunburst {
+	background-size: 100% auto;
+	max-width: 10em;
+	background-position: 0,.2em;
+	background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.4%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%22100px%22%20height%3D%2286px%22%20viewBox%3D%220%200%20100%2086%22%20enable-background%3D%22new%200%200%20100%2086%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%23EDB21F%22%20stroke%3D%22%23EDB21F%22%20stroke-width%3D%220.5248%22%20stroke-miterlimit%3D%223.8637%22%20d%3D%22M65.916%2C57.497%0D%0A%09c0%2C0%2C0.94-0.913%2C3.291-1.131c2.694-0.249%2C4.164-1.398%2C5.164-2.658c1.004-1.249%2C0.965-2.587%2C2.073-3.659%0D%0A%09c1.132-1.09%2C2.111-1.773%2C3.472-1.923c1.377-0.147%2C2.431%2C0.049%2C3.521-0.585c1.092-0.634%2C1.131-0.645%2C1.131-0.645%0D%0A%09s-0.795%2C0.268-1.805%2C0.347c-1%2C0.088-2.548-0.327-3.472-0.327c-0.922%2C0-2.888%2C0.416-4.019%2C1.458c-1.129%2C1.05-2.221%2C2.728-3.352%2C3.183%0D%0A%09c-1.129%2C0.457-2.695%2C0.902-3.508%2C0.654c-1.449-0.445-2.014-0.773-3.273-0.615c-1.25%2C0.168-1.604%2C0.387-1.604%2C0.387l12.989-16.678%0D%0A%09L59.14%2C47.77c0%2C0%2C0.021-0.774%2C0.525-1.865c0.498-1.081%2C2.283-2.222%2C2.549-4.036c0.229-1.548%2C0.359-2.509-0.504-4.285%0D%0A%09c-0.746-1.576-0.664-2.894-0.479-3.876c0.209-1.11%2C0.901-2.261%2C1.526-2.866c1.072-1.03%2C1.32-1.636%2C1.527-2.41l0.188-0.752%0D%0A%09c0%2C0-0.039%2C0.317-0.834%2C1.318c-0.854%2C1.071-1.348%2C0.794-2.391%2C1.766c-1.049%2C0.962-1.795%2C2.152-2.131%2C3.55%0D%0A%09c-0.396%2C1.636%2C0.35%2C2.271%2C0.131%2C3.937c-0.219%2C1.568-0.367%2C1.885-1.221%2C3.054c-0.734%2C1.002-1.271%2C1.22-2.38%2C1.805%0D%0A%09c-0.883%2C0.456-1.625%2C1.081-2.103%2C2.211l-3.264-20.397l-3.093%2C20.563c0%2C0-1.129-1.754-1.171-2.339%0D%0A%09c-0.059-0.754-0.108-3.223-1.507-4.671c-1.171-1.21-1.825-1.547-3.768-2.279c-1.141-0.428-2.449-1.775-3.015-2.966%0D%0A%09c-0.565-1.2-0.458-3.391-0.624-3.897c-0.168-0.505-0.923-1.694-0.923-1.694s0.415%2C1.03%2C0.376%2C2.031%0D%0A%09c-0.039%2C1.002-0.545%2C2.758-0.415%2C3.472c0.128%2C0.713%2C0.209%2C2.181%2C1.755%2C3.599c1.547%2C1.428%2C2.182%2C1.26%2C3.143%2C3.144%0D%0A%09c0.962%2C1.883%2C0.795%2C2.845%2C0.455%2C3.888c-0.336%2C1.05-0.713%2C2.052-0.376%2C2.934c0.337%2C0.873%2C0.327%2C1.062%2C0.327%2C1.062L24.073%2C35.306%0D%0A%09l12.863%2C16.668c0%2C0-1.657-0.148-2.55-0.942c-1.239-1.081-2.073-1.626-3.519-2.022c0%2C0-1.359-0.486-3.322%2C0.1%0D%0A%09c-1.975%2C0.584-1.599%2C0.733-2.936%2C0.941c-1.341%2C0.209-3.49-0.117-4.542-1.001c-1.041-0.883-1.903-1.655-2.658-1.903%0D%0A%09c-0.752-0.248-1.357-0.316-1.357-0.316s1.209%2C0.426%2C2.132%2C1.467c0.942%2C1.071%2C1.17%2C2.062%2C2.508%2C2.807c1.409%2C0.772%2C2.599%2C1.08%2C3.858%2C1%0D%0A%09c1.249-0.088%2C1.288-0.386%2C2.963-0.188c0.905%2C0.1%2C2.658%2C0.793%2C3.106%2C1.318c1.178%2C1.408%2C1.902%2C2.776%2C2.469%2C3.302%0D%0A%09c0.713%2C0.675%2C1.586%2C0.963%2C1.586%2C0.963l-21.389%2C3.56c0%2C0%2C20.198-1.34%2C22.836-1.469c2.639-0.119%2C9.856-0.686%2C14.25-0.624%0D%0A%09c4.393%2C0.07%2C7.03%2C0.259%2C9.974%2C0.437c2.956%2C0.188%2C27.438%2C1.746%2C27.438%2C1.746L65.916%2C57.497z%22/%3E%0D%0A%3C/svg%3E%0D%0A');
+	background-repeat: no-repeat;
+	height: 5em;
+	width: 120%;
 	float: none;
-	text-align: center;
-	padding: 1em;
+	margin: 0px auto;
 }
 
+.icon-examples {
 
-.th {
-	margin-bottom: .5em;
+	i {
+	margin-right: .5em;
+	margin-top: 1em;
+	margin-left: 0 !important;
+	color: $cyan;
+	}
+	i:before {
+		margin-left: 0 !important;
+	}
+}
+
+ul.clearing-thumbs li:before {
+	content: none !important;
 }
 
 @media #{$large-up} {
 
-	.hero {
-		background-size: 100% auto;
-		padding-top: 300px;
+	.icon-sunburst {
+		height: em-calc(60);
+		width: 80%;
+		float: right;
+		margin: inherit;
 	}
 	
 }

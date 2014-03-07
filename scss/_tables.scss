@@ -1,20 +1,7 @@
-table {
+@media #{$small-only} {
 
-	margin-top: 1em;
-	margin-bottom: 1em;
-	
-	thead {
-		background: $cyan;
-		text-transform: uppercase;
-		
-		tr th {
-			color: white;
-			text-transform: uppercase;
-		}
-	}
-	
-	tr.even, tr.alt, tr:nth-of-type(even) {
-		background: lighten($warm-gray-1, 10%);
-	}
-	
+	table.responsive td {
+	font-size:.7em;
+}
+
 }

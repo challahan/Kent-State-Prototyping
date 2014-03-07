@@ -10,10 +10,12 @@ module.exports = function(grunt) {
       },
       dist: {
         options: {
-          outputStyle: 'compressed'
+          outputStyle: 'condensed'
         },
         files: {
-          'css/app.css': 'scss/app.scss'
+          'css/app.css': 'scss/app.scss',
+          'css/landing-page.css': 'scss/landing-page.scss',
+          'css/editor.css': 'scss/editor.scss'
         }        
       }
     },

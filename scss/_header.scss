@@ -60,6 +60,11 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endCol
 	display: none;
 }
 
+.demo {
+	width:90% !important;
+margin-left:3% !important;
+}
+
 @media #{$small} { 
 #logo {
 	height: em-calc(200);

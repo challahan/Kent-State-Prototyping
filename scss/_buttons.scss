@@ -11,9 +11,8 @@
   background: linear-gradient(to right, $cyan 0%,$cyan 90%,lighten($dark-blue,5%) 90%,lighten($dark-blue,5%) 100%);
   padding-right: 0em;
   padding-left: 5%;
-  padding-bottom: .9em;
+  padding-bottom: .8em;
   box-shadow: none !important;
-  
 }
 
 .action-item:after {
@@ -41,108 +40,4 @@
 	color: lighten($bright-yellow, 10%) !important;
 }
 
-.secondary {
-	font-family: $slab-serif !important;
-	box-shadow: none;
-	border-radius: 5px !important;
-	font-size: em-calc(11);
-	text-transform: uppercase;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
-	padding-top: .8em;
-	padding-bottom: .8em;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
 
-.secondary:hover {
-	background-color: lighten($secondary, 10%);
-}
-
-.large {
-	padding-left: 3em !important;
-	padding-right: 3em !important;
-	padding-top: 1.2em !important;
-	padding-bottom: 1.2em !important;
-	background-color: $dark-blue;
-	border: darken($dark-blue, 5%);
-	margin-top: .5em;
-	
-	span {
-		font-family: $sans-serif !important;
-	}
-
-}
-
-.fa-caret-right::before {
-		margin-left: .5em;
-		color: $cyan;
-		float: Right;
-}
-
-.check {
-	padding-left: 2em !important;
-	padding-right: 2em !important;
-	background-color: $dark-blue;
-	border: darken($dark-blue, 5%);
-	font-weight: 600;
-	border-radius: 2px;
-	
-	
-	i {
-		padding-right: .5em;
-		line-height:40px;
-		vertical-align:middle;
-		color: $ksu-gold;
-	}
-	
-}
-
-.small {
-	font-size: 1em !important;
-	padding-top: 1.2em !important;
-	padding-bottom: 1.2em !important;
-	margin-top: .5em;
-	
-	span {
-		font-family: $sans-serif !important;
-		margin-right: 1em;
-	}
-	
-}
-
-.fa-arrow-circle-o-right::before {
-	right: 0;
-padding-right:1em;
-position: absolute;
-}
-
-.accent {
-		background-color: $ksu-gold !important;
-		color: $ksu-blue !important;
-		border: 1px solid darken($ksu-gold, 5%) !important;
-		
-		span {
-		font-family: $sans-serif !important;
-		margin-right: 1em;
-	}
-		
-}
-
-.accent:hover {
-	background-color: lighten($ksu-gold, 10%) !important;
-}
-
-.button {
-	padding-left: 3em;
-	padding-right: 3em;
-	font-family: $sans-serif-condensed;
-	box-shadow: none;
-	border-radius: 2px;
-	line-height:35px;
-	
-	span {
-		font-family: $sans-serif;
-		font-weight: bold;
-	}
-}
