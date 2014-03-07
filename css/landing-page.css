@@ -76,7 +76,7 @@ h1.subheader {
     margin-bottom: 1em;
     padding-top: 0.5em; }
   .image-rounded h2 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 2em;
     margin-top: -1.7em;
     margin-bottom: 0.5em; }
@@ -104,6 +104,15 @@ h1.subheader {
     background-color: #737373;
     color: white; }
 
+h2.subheader {
+  font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
+  color: #ffc82e;
+  margin: 0;
+  padding: 0;
+  margin-top: -1.5em;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9); }
+
 .landing-row {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -111,6 +120,8 @@ h1.subheader {
   border-bottom: 1px solid #f0efed; }
   .landing-row h2 {
     margin-top: 0; }
+  .landing-row .tabs-content {
+    text-align: left; }
 
 .feature-row {
   text-align: center;
@@ -122,6 +133,20 @@ h1.subheader {
     margin-top: 0;
     margin-bottom: 0.5em;
     color: #eaab00; }
+  .feature-row ul {
+    text-shadow: none;
+    text-align: left;
+    margin-top: 2em; }
+    .feature-row ul a {
+      color: white; }
+    .feature-row ul li {
+      margin-bottom: 2em; }
+  .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
+    font-size: 1.5em;
+    text-align: center;
+    bottom: 1em; }
+  .feature-row .orbit-container ul li:before {
+    content: none; }
   .feature-row .small {
     width: 20em; }
   .feature-row h3 {
@@ -134,6 +159,18 @@ h1.subheader {
     background-color: rgba(0, 38, 100, 0.8);
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
+  .feature-row .colored-gray {
+    background-color: rgba(115, 115, 115, 0.05);
+    padding-top: 2.5em;
+    padding-bottom: 1.5em; }
+    .feature-row .colored-gray h3 {
+      color: #002147;
+      text-shadow: none;
+      margin-top: 1em; }
+    .feature-row .colored-gray h2 {
+      text-align: center; }
+    .feature-row .colored-gray ul li a {
+      color: black; }
   .feature-row .colored-gold {
     background-color: rgba(234, 171, 0, 0.8);
     padding-top: 1.5em;
@@ -152,8 +189,8 @@ h1.subheader {
     .feature-row h2 {
       font-size: 2.5em; }
     .feature-row .colored-black, .feature-row .colored-blue, .feature-row .colored-gold {
-      padding-top: 4em;
-      padding-bottom: 4em; }
+      padding-top: 3em;
+      padding-bottom: 3em; }
   .photo-caption {
     max-width: 45%;
     margin-top: -7em;
@@ -167,16 +204,26 @@ h1.subheader {
     line-height: 100%;
     margin-bottom: 0.4em; } }
 
-.tabs dd a {
-  font-family: "museo-slab", Georgia, serif; }
-.tabs dd {
-  background-color: #f7f6f5;
-  border-top: 4px solid #009dd8;
-  margin-right: 1px; }
-.tabs dd.active {
-  border-top: 4px solid #002664; }
-  .tabs dd.active a {
-    color: #002147; }
+.promo h2 {
+  text-align: center; }
+.promo p {
+  text-align: center; }
+
+.promo.first {
+  border-right: 1px solid #e0ded9; }
+
+.tabs {
+  margin-top: 2em; }
+  .tabs dd a {
+    font-family: "museo-slab", Georgia, serif; }
+  .tabs dd {
+    background-color: #f7f6f5;
+    border-top: 4px solid #009dd8;
+    margin-right: 1px; }
+  .tabs dd.active {
+    border-top: 4px solid #002664; }
+    .tabs dd.active a {
+      color: #002147; }
 
 .section-container.auto > section > .title {
   background-color: #f7f6f5;
