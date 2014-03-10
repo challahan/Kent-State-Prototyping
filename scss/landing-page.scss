@@ -421,7 +421,6 @@ h2.subheader {
 
 @media #{$medium-up} {
 	.feature-row {
-		background-size:275% auto;
 		background-position: center top;
 
 		h2 {
@@ -477,6 +476,10 @@ h2.subheader {
 		background-size: 120% auto;
 		min-height: 250px;
 		padding-top: 220px;
+	}
+
+	.feature-row {
+		background-size:275% auto;
 	}
 }
 
