@@ -212,7 +212,7 @@ h2.subheader {
 		}
 
 		.orbit-container .orbit-slides-container > * .orbit-caption {
-			font-size: 1.5em;
+			font-size: 1em;
 			text-align: center;
 			bottom: 1em;
 			font-family: $sans-serif-condensed;
@@ -300,43 +300,6 @@ h2.subheader {
 		}
 }
 
-@media #{$medium-up} {
-	.feature-row {
-		background-size:275% auto;
-		background-position: center top;
-
-		h2 {
-			font-size: 2.5em;
-		}
-
-		.colored-black, .colored-blue, .colored-gold {
-				padding-top: 3em;
-		padding-bottom: 3em;
-		}
-	
-	}
-
-	.photo-caption {
-		max-width: 45%;
-		margin-top: -7em;
-		margin-right: 2em;
-		padding-right: .5em;
-	}
-
-	.landing-title {
-		padding-left: 1.5em;
-		text-align: inherit;
-	}
-
-	h1.landing {
-		max-width: 45%;
-		line-height: 100%;
-		margin-bottom: .4em;
-	}
-
-	
-}
-
 .promo {
 
 	h2 {
@@ -350,6 +313,7 @@ h2.subheader {
 
 .promo.first {
 	border-right: 1px solid $warm-gray-1;
+	margin-bottom: 1em;
 }
 
 .tabs  {
@@ -358,6 +322,8 @@ h2.subheader {
 
 	dd a {
 		font-family: $slab-serif;
+		font-size: .7rem;
+		text-align: center;
 	}
 
 	dd {
@@ -365,6 +331,7 @@ h2.subheader {
 		background-color: lighten($warm-gray-1, 10%);
 	border-top: 4px solid $cyan;
 	margin-right: 1px;
+	width: 100%;
 
 	}
 
@@ -441,13 +408,66 @@ h2.subheader {
 	}
 
 	.feature-row {
-		background-size: 100% auto;
+		background-size: 130% auto;
 	}
 
 	h2.subheader {
 		margin-top: -1.5em;
 	}
 
+
+	
+}
+
+@media #{$medium-up} {
+	.feature-row {
+		background-size:275% auto;
+		background-position: center top;
+
+		h2 {
+			font-size: 2.5em;
+		}
+
+		.colored-black, .colored-blue, .colored-gold {
+				padding-top: 3em;
+		padding-bottom: 3em;
+		}
+
+	
+	}
+
+	.tabs {
+
+			dd {
+				width: auto;
+
+				a {
+					font-size: 1rem;
+				}
+			}
+		}
+
+	.feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
+		font-size: 1.5em;
+	}
+
+	.photo-caption {
+		max-width: 45%;
+		margin-top: -7em;
+		margin-right: 2em;
+		padding-right: .5em;
+	}
+
+	.landing-title {
+		padding-left: 1.5em;
+		text-align: inherit;
+	}
+
+	h1.landing {
+		max-width: 45%;
+		line-height: 100%;
+		margin-bottom: .4em;
+	}
 
 	
 }
