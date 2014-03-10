@@ -160,7 +160,7 @@ h2.subheader {
       color: #ffd561; }
     .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
       color: white !important;
-      margin-top: 0.1em; }
+      margin-top: 0.2em; }
   .feature-row .orbit-container ul li:before {
     content: none; }
   .feature-row .small {
