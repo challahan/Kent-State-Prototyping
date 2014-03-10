@@ -159,7 +159,8 @@ h2.subheader {
     .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span:hover {
       color: #ffd561; }
     .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
-      color: white !important; }
+      color: white !important;
+      margin-top: 0.1em; }
   .feature-row .orbit-container ul li:before {
     content: none; }
   .feature-row .small {
