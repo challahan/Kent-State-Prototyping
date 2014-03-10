@@ -4,6 +4,7 @@
   overflow: hidden;
   background-position: center;
   padding-top: 175px;
+  -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
 .landing-title {
@@ -127,6 +128,7 @@ h2.subheader {
 
 .feature-row {
   text-align: center;
+  -webkit-background-size: 425% auto;
   background-size: 425% auto;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
   .feature-row h2 {
@@ -200,6 +202,7 @@ h2.subheader {
 
 @media only screen and (min-width:40.063em) {
   .feature-row {
+    -webkit-background-size: 125% auto;
     background-size: 125% auto;
     background-position: center top; }
     .feature-row h2 {
@@ -281,11 +284,13 @@ h2.subheader {
 
 @media only screen and (min-width:64.063em) {
   .hero {
+    -webkit-background-size: 100% auto;
     background-size: 100% auto;
     padding-top: 300px; } }
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
+    -webkit-background-size: 120% auto;
     background-size: 120% auto; } }
 
 @media only screen and (max-width: 40em) {

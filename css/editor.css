@@ -22,6 +22,7 @@
 
 .secondary {
   font-family: "museo-slab", Georgia, serif !important;
+  -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 5px !important;
   font-size: 0.6875rem;
@@ -91,9 +92,10 @@
   background-color: #ffbf1e !important; }
 
 .button {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+  -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 2px;
   line-height: 35px; }
@@ -180,7 +182,7 @@ a {
 
 .introduction {
   color: #737373;
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   margin-top: 1em; }
 
