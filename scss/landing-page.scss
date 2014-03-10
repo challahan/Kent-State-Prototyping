@@ -218,7 +218,7 @@ h2.subheader {
 			font-family: $sans-serif-condensed;
 			font-weight: 600;
 
-			span a {
+			a span  {
 				color: $bright-yellow;
 				text-transform: uppercase;
 				font-size: .5em;
@@ -228,7 +228,7 @@ h2.subheader {
 
 			}
 
-			span a:hover {
+			a span:hover  {
 				color: lighten($bright-yellow, 10%);
 			}
 

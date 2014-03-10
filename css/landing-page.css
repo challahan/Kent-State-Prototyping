@@ -149,14 +149,14 @@ h2.subheader {
     bottom: 1em;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     font-weight: 600; }
-    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span a {
+    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption a span {
       color: #ffc82e;
       text-transform: uppercase;
       font-size: 0.5em;
       font-weight: bold;
       padding-left: 1.5em;
       padding-bottom: 0.3em; }
-    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span a:hover {
+    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption a span:hover {
       color: #ffd561; }
     .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
       color: white !important; }
