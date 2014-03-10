@@ -6,11 +6,11 @@
 
 
 .hero {
-	min-height: 275px;
+	min-height: 220px;
 	width: 100%;
 	overflow:hidden;
-	background-position: center;
-	padding-top: 175px;
+	background-position: top center;
+	padding-top: 135px;
 	background-size: 200% auto;
 }
 
@@ -71,7 +71,7 @@ h1.landing {
 	font-weight: 600;
 	color: white;
 	text-shadow: 2px 2px 5px rgba(0,0,0,.9);
-	font-size: 5em;
+	font-size: 4em;
 	text-transform: none;
 }
 
@@ -185,7 +185,7 @@ h2.subheader {
 
 .feature-row {
 	text-align: center;
-	background-size: 425% auto;
+	background-size: 700% auto;
 	text-shadow: 2px 2px 5px rgba(0,0,0,.9);
 
 		h2 {
@@ -294,7 +294,7 @@ h2.subheader {
 
 
 		.colored-black {
-			background-color: rgba(0,0,0,.5);
+			background-color: rgba(0,0,0,.7);
 			padding-top: 1.5em;
 			padding-bottom: 1.5em;
 		}
@@ -302,7 +302,7 @@ h2.subheader {
 
 @media #{$medium-up} {
 	.feature-row {
-		background-size: 125% auto;
+		background-size:275% auto;
 		background-position: center top;
 
 		h2 {
@@ -435,12 +435,24 @@ h2.subheader {
 		background-size: 100% auto;
 		padding-top: 300px;
 	}
+
+	h1.landing {
+		font-size: 5em;
+	}
+
+	.feature-row {
+		background-size: 100% auto;
+	}
+
+
 	
 }
 
 @media #{$medium-only} {
 	.hero {
 		background-size: 120% auto;
+		min-height: 250px;
+		padding-top: 220px;
 	}
 }
 

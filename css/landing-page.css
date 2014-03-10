@@ -1,10 +1,9 @@
 .hero {
-  min-height: 275px;
+  min-height: 220px;
   width: 100%;
   overflow: hidden;
-  background-position: center;
-  padding-top: 175px;
-  -webkit-background-size: 200% auto;
+  background-position: top center;
+  padding-top: 135px;
   background-size: 200% auto; }
 
 .landing-title {
@@ -46,7 +45,7 @@ h1.landing {
   font-weight: 600;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
-  font-size: 5em;
+  font-size: 4em;
   text-transform: none; }
 
 h1.subheader {
@@ -128,8 +127,7 @@ h2.subheader {
 
 .feature-row {
   text-align: center;
-  -webkit-background-size: 425% auto;
-  background-size: 425% auto;
+  background-size: 700% auto;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
   .feature-row h2 {
     font-weight: 600;
@@ -196,14 +194,13 @@ h2.subheader {
   .feature-row .button {
     text-shadow: none; }
   .feature-row .colored-black {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
 
 @media only screen and (min-width:40.063em) {
   .feature-row {
-    -webkit-background-size: 125% auto;
-    background-size: 125% auto;
+    background-size: 275% auto;
     background-position: center top; }
     .feature-row h2 {
       font-size: 2.5em; }
@@ -284,14 +281,18 @@ h2.subheader {
 
 @media only screen and (min-width:64.063em) {
   .hero {
-    -webkit-background-size: 100% auto;
     background-size: 100% auto;
-    padding-top: 300px; } }
+    padding-top: 300px; }
+  h1.landing {
+    font-size: 5em; }
+  .feature-row {
+    background-size: 100% auto; } }
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
-    -webkit-background-size: 120% auto;
-    background-size: 120% auto; } }
+    background-size: 120% auto;
+    min-height: 250px;
+    padding-top: 220px; } }
 
 @media only screen and (max-width: 40em) {
   .button-group {
