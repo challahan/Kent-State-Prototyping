@@ -99,7 +99,8 @@
   line-height: 35px; }
   .button span {
     font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
-    font-weight: bold; }
+    font-weight: bold;
+    display: inline-block; }
 
 ul {
   list-style: none;
