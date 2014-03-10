@@ -42,7 +42,7 @@ autoprefixer: {
 
       sass: {
         files: 'scss/**/*.scss',
-        tasks: ['sass']
+        tasks: ['sass', 'autoprefixer']
       }
     }
 // End Grunt Watch //  
@@ -56,7 +56,7 @@ autoprefixer: {
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('build', ['sass', 'autoprefixer']);
+  grunt.registerTask('build', ['autoprefixer', 'sass']);
   grunt.registerTask('default', ['build','watch']);
 
 }
