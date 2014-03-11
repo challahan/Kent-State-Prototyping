@@ -153,11 +153,13 @@ ol {
   .read-more-link span {
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
 
-.action-link i {
-  margin-left: 0.1em; }
-.action-link span {
-  font-weight: bold;
-  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
+.action-link {
+  margin-bottom: 1em; }
+  .action-link i {
+    margin-left: 0.1em; }
+  .action-link span {
+    font-weight: bold;
+    font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
 
 .action-link.fa-arrow-circle-o-right::before {
   float: right;
