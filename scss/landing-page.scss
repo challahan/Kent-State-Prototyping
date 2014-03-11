@@ -74,7 +74,6 @@ h1.subheader {
 	color: $title-color;
 	text-transform: none;
 	font-size: 1.5em;
-	display: block;
 }
 
 .image-centered {
@@ -156,6 +155,7 @@ h2.subheader {
 	margin-top: -1.2em;
 	font-size: 1.5em;
 	text-shadow: 1px 1px 2px rgba(0,0,0,.9);
+	display: block;
 }
 
 
