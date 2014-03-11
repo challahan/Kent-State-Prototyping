@@ -210,9 +210,9 @@ h2.subheader {
 		.orbit-container .orbit-slides-container > * .orbit-caption {
 			font-size: 1em;
 			text-align: center;
-			bottom: 1em;
 			font-family: $sans-serif-condensed;
 			font-weight: 600;
+			background-color: rgba($cool-gray,.9);
 
 			span  {
 				color: $bright-yellow;

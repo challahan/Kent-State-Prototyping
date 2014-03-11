@@ -153,9 +153,9 @@ h2.subheader {
   .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
     font-size: 1em;
     text-align: center;
-    bottom: 1em;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
-    font-weight: 600; }
+    font-weight: 600;
+    background-color: rgba(115, 115, 115, 0.9); }
     .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span {
       color: #ffc82e;
       text-transform: uppercase;
