@@ -3007,7 +3007,7 @@ table {
       color: white;
       text-align: left; }
   table tr th, table tr td {
-    padding: 0.9375rem 1.25rem;
+    padding: 0.3125rem 0.625rem;
     font-size: 0.875rem;
     color: #222222; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
