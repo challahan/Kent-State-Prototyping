@@ -212,7 +212,7 @@ h2.subheader {
 			text-align: center;
 			font-family: $sans-serif-condensed;
 			font-weight: 600;
-			background-color: rgba($cool-gray,.95);
+			background-color: rgba(darken($cool-gray,10%),.95);
 
 			span  {
 				color: $bright-yellow;
