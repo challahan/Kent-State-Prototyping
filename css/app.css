@@ -4702,7 +4702,7 @@ footer .quicklinks {
 
 @media only screen and (max-width: 40em) {
   table.responsive td {
-    font-size: 0.3em; } }
+    font-size: 0.1em; } }
 
 .icon-sunburst {
   -webkit-background-size: 100% auto;
