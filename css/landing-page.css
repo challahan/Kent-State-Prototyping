@@ -300,11 +300,12 @@ h2.subheader {
     padding-right: 0.5em; }
   .landing-title {
     padding-left: 1.5em;
-    text-align: inherit; }
+    text-align: left; }
   h1.landing {
     max-width: 45%;
     line-height: 100%;
-    margin-bottom: 0.4em; } }
+    margin-bottom: 0.4em;
+    text-align: left; } }
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
