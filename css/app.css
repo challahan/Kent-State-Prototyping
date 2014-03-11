@@ -3712,7 +3712,7 @@ h4 {
   font-size: 0.875rem; }
 
 h5 {
-  font-size: 1.125rem; }
+  font-size: 1.1875rem; }
 
 h6 {
   font-size: 1.2em; }
@@ -4059,7 +4059,7 @@ nav.tab-bar {
     line-height: 2.8125rem;
     margin: 0; }
   nav.tab-bar h1, nav.tab-bar h2, nav.tab-bar h3, nav.tab-bar h4 {
-    font-size: 1.125rem; }
+    font-size: 1.1875rem; }
 
 section.left-small {
   width: 2.8125rem;
@@ -4466,7 +4466,7 @@ body {
 
 .header-white {
   padding: 0.9375rem;
-  height: 7.1875rem;
+  height: 5rem;
   margin: 0 auto;
   padding-top: 1.25rem;
   background-image: -webkit-gradient(linear, 14% 1%, 14% 94%, color-stop(0.11, #ffffff), color-stop(0.55, #f7f7f7), color-stop(1, rgba(238, 238, 238, 0.93))) !important;
@@ -4690,7 +4690,7 @@ footer .quicklinks {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
-  margin-top: 0.2em; }
+  margin-top: 0.5em; }
 
 .action-item:hover {
   background: -webkit-gradient(linear, left top, right top, from(#00b1f2), color-stop(90%, #00b1f2), color-stop(90%, #00397a), to(#00397a));
@@ -4723,6 +4723,9 @@ footer .quicklinks {
   color: #009dd8; }
 .icon-examples i:before {
   margin-left: 0 !important; }
+
+.orbit-bullets li:before {
+  content: none; }
 
 ul.clearing-thumbs li:before {
   content: none !important; }

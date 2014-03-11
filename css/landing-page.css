@@ -251,10 +251,11 @@ h2.subheader {
   .section-container > section.active > .title a {
     color: #002147; }
 
-.section-container.accordion > section.active > .title {
+.section-container.accordion > section.active > .title, .accordion dd.active a {
   background-color: #002664;
-  border: 0; }
-  .section-container.accordion > section.active > .title a {
+  border: 0;
+  color: white; }
+  .section-container.accordion > section.active > .title a, .accordion dd.active a a {
     color: white; }
 
 .section-container.vertical-tabs > section.active > .title {

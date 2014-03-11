@@ -25,6 +25,10 @@
 	}
 }
 
+.orbit-bullets li:before {
+	content: none;
+}
+
 ul.clearing-thumbs li:before {
 	content: none !important;
 }

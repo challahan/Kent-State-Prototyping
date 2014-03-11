@@ -369,9 +369,10 @@ h2.subheader {
 	}
 }
 
-.section-container.accordion > section.active > .title {
+.section-container.accordion > section.active > .title, .accordion dd.active a {
 	background-color: $ksu-blue;
 	border: 0;
+	color: white;
 	a {
 		color: white;
 	}

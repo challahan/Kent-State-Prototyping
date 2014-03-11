@@ -20,8 +20,13 @@
 .th {
   margin-bottom: 0.5em; }
 
+.button {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  line-height: 35px; }
+
 .secondary {
-  font-family: "museo-slab", Georgia, serif !important;
+  font-family: "museo-slab", Georgia, serif;
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 5px !important;
@@ -37,6 +42,16 @@
 .secondary:hover {
   background-color: #003a97; }
 
+.small {
+  font-size: 1em !important;
+  padding-top: 1.2em !important;
+  padding-bottom: 1.2em !important;
+  margin-top: 0.5em; }
+  .small span {
+    font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
+    margin-right: 1em;
+    font-weight: bold; }
+
 .large {
   padding-left: 3em !important;
   padding-right: 3em !important;
@@ -44,9 +59,14 @@
   padding-bottom: 1.2em !important;
   background-color: #002147;
   border: #00152e;
-  margin-top: 0.5em; }
+  margin-top: 0.5em;
+  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+  border-radius: 2px; }
   .large span {
-    font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important; }
+    font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1.2em; }
 
 .fa-caret-right::before {
   margin-left: 0.5em;
@@ -66,15 +86,6 @@
     vertical-align: middle;
     color: #eaab00; }
 
-.small {
-  font-size: 1em !important;
-  padding-top: 1.2em !important;
-  padding-bottom: 1.2em !important;
-  margin-top: 0.5em; }
-  .small span {
-    font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
-    margin-right: 1em; }
-
 .button.fa-arrow-circle-o-right::before {
   right: 0;
   padding-right: 1em;
@@ -88,22 +99,11 @@
     font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
     margin-right: 1em; }
 
+.large:hover, .check:hover {
+  background-color: #00397a; }
+
 .accent:hover {
   background-color: #ffbf1e !important; }
-
-.button {
-  padding-left: 3em;
-  padding-right: 3em;
-  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border-radius: 2px;
-  line-height: 35px; }
-  .button span {
-    font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    display: inline-block;
-    line-height: 1.2em; }
 
 ul {
   list-style: none;
@@ -125,23 +125,29 @@ ul {
     margin-left: -1.2em;
     position: relative;
     float: left; }
-  ul ul.preview li {
-    font-size: 0.8em;
-    margin-left: 0em;
-    margin-bottom: 0.3em; }
-  ul ul.preview li:before {
-    color: #ffc82e; }
 
 ol {
-  font-style: italic;
-  color: #002664;
-  font-weight: bold;
-  padding-left: 15px;
+  font-style: normal;
+  color: black;
+  counter-reset: li;
+  margin-left: 1em;
+  padding-left: 0;
+  list-style: none;
   margin-top: 0.5em; }
-  ol p {
-    font-style: normal;
-    color: black;
-    margin-bottom: 10px; }
+  ol > li {
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 2em;
+    margin-top: 0.7em; }
+  ol > li:before {
+    content: counter(li);
+    counter-increment: li;
+    margin-right: 10px;
+    font-style: italic;
+    color: #002664;
+    font-weight: bold;
+    left: -1.5em;
+    position: absolute; }
 
 .read-more-link {
   font-weight: bold !important; }
@@ -217,27 +223,30 @@ h2 {
   font-weight: 400;
   color: #009dd8;
   margin-top: 0.5em;
-  margin-bottom: 0.5em; }
+  margin-bottom: 0.7em; }
 
 h3 {
   font-family: "museo-slab", Georgia, serif;
   color: #002147;
   text-transform: uppercase;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.7em;
   font-weight: 500; }
 
 h4 {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   color: #002664;
   text-transform: uppercase;
-  font-weight: 600; }
+  font-weight: 600;
+  margin-bottom: 1em; }
 
 h5 {
   color: #002664;
   font-family: "museo-slab", Georgia, serif;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: 1em; }
 
 h6 {
   color: #737373;
   font-weight: normal;
-  font-family: "tablet-gothic", Helvetica, Arial, sans-serif; }
+  font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
+  margin-bottom: 1em; }

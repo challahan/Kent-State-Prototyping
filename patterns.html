@@ -33,7 +33,7 @@
   <!-- If you are using the gem version, you need this only -->
   <link rel="stylesheet" href="css/app.css" />
   <link rel="stylesheet" href="css/landing-page.css" />
-    <link rel="stylesheet" href="css/editor.css" />
+  <link rel="stylesheet" href="css/editor.css" />
   <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <script src="bower_components/modernizr/modernizr.js"></script>
   <script type="text/javascript">
@@ -122,7 +122,10 @@
 			</ul>
 			<hr>
 	 <h3>Global Header (Neutral)</h3>
-	<div class="row header-white" id="ksu-header"><a href="http://www.kent.edu"><div class="icon-KSU-logo-nooutline-blue-01"><span>Kent State University</span></div></a></div>
+    <header class="row header-white demo">
+    <div class="logo-blue" id="logo"><a href="http://www.kent.edu"><span>Kent State University</span></a>
+    </div>
+    </header>
 	  	<a class="button secondary" onclick="toggle_visibility('white-gradient');">Show CSS</a>
 	  	<pre id="white-gradient">
   			<code class="language-javascript"><div class="code-container">background-image:-moz-linear-gradient(14% 1% -90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)<br/>
@@ -686,11 +689,11 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
   		<hr>
   		<h2 id="typography">Typography</h3>
   		<h3>Fonts</h3>
-  			<ul style="font-size: 1.5em; list-style: none; margin:0; margin-top: .5em;">
-  				<li class="sans-serif">Sans-Serif: Tablet Gothic (Body Copy)</li>
-  				<li class="sans-serif-condensed">Sans-Serif-Condensed: Tablet Gothic Condensed</li>
-  				<li class="slab-serif">Slab Serif: Museo Slab</li>
-  				<li class="serif">Serif: Garamond</li>
+  			<ul>
+  				<li>Sans-Serif: Tablet Gothic (Body Copy)</li>
+  				<li>Sans-Serif-Condensed: Tablet Gothic Condensed</li>
+  				<li>Slab Serif: Museo Slab</li>
+  				<li>Serif: Garamond</li>
   			</ul>
   		<a class="button secondary" onclick="toggle_visibility('font-sass');">Show SASS Variables</a>
   		<pre id="font-sass">
@@ -929,9 +932,12 @@ I do not fear computers. I fear the lack of them. Maecenas faucibus mollis inter
   		<h2 id="lists">Lists</h2>
   		<h3>Ordered List</h3>
   			<ol>
-	  			<li><p>List Item 1</p></li>
-	  			<li><p>List Item 2</p></li>
-	  			<li><p>List Item 3</p></li>
+	  			<li>List Item 1</li>
+	  			<li>List Item 2</li>
+	  			<li>List Item 3</li>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
 	  		</ol>
 	  	<h3>Unordered (Bulleted) Lists</h3>
 	  		<ul class="preview">
@@ -1208,6 +1214,7 @@ The Kent Campus Is Closed Today
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/scroll.js"></script>
   <!-- End Required JavaScript Calls -->
 </body>
 </html>

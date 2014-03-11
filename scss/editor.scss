@@ -38,8 +38,13 @@
 
 // Buttons //
 
+.button {
+	box-shadow: none;
+	line-height:35px;
+}
+
 .secondary {
-	font-family: $slab-serif !important;
+	font-family: $slab-serif;
 	box-shadow: none;
 	border-radius: 5px !important;
 	font-size: em-calc(11);
@@ -56,6 +61,20 @@
 	background-color: lighten($secondary, 10%);
 }
 
+.small {
+	font-size: 1em !important;
+	padding-top: 1.2em !important;
+	padding-bottom: 1.2em !important;
+	margin-top: .5em;
+	
+	span {
+		font-family: $sans-serif !important;
+		margin-right: 1em;
+		font-weight: bold;
+	}
+	
+}
+
 .large {
 	padding-left: 3em !important;
 	padding-right: 3em !important;
@@ -64,9 +83,14 @@
 	background-color: $dark-blue;
 	border: darken($dark-blue, 5%);
 	margin-top: .5em;
+	font-family: $sans-serif-condensed;
+	border-radius: 2px;
 	
 	span {
-		font-family: $sans-serif !important;
+		font-family: $sans-serif;
+		font-weight: bold;
+		display: inline-block;
+		line-height: 1.2em;
 	}
 
 }
@@ -95,19 +119,6 @@
 	
 }
 
-.small {
-	font-size: 1em !important;
-	padding-top: 1.2em !important;
-	padding-bottom: 1.2em !important;
-	margin-top: .5em;
-	
-	span {
-		font-family: $sans-serif !important;
-		margin-right: 1em;
-	}
-	
-}
-
 .button.fa-arrow-circle-o-right::before {
 	right: 0;
 padding-right:1em;
@@ -126,24 +137,12 @@ position: absolute;
 		
 }
 
-.accent:hover {
-	background-color: lighten($ksu-gold, 10%) !important;
+.large:hover, .check:hover {
+	background-color: lighten($dark-blue, 10%);
 }
 
-.button {
-	padding-left: 3em;
-	padding-right: 3em;
-	font-family: $sans-serif-condensed;
-	box-shadow: none;
-	border-radius: 2px;
-	line-height:35px;
-	
-	span {
-		font-family: $sans-serif;
-		font-weight: bold;
-		display: inline-block;
-		line-height: 1.2em;
-	}
+.accent:hover {
+	background-color: lighten($ksu-gold, 10%) !important;
 }
 
 
@@ -176,34 +175,35 @@ ul {
     position: relative;
     float: left;
 	}
-	
-	ul.preview li {
-		font-size: .8em;
-		margin-left: 0em;
-		margin-bottom: .3em;	
-	}
-	
-	ul.preview {
-		li:before {
-			color: $bullet-color;
-	}
-	}
-
 
 }
 
 ol {
-	font-style: italic;
-	color: $numeral-color;
-	font-weight: bold;
-	padding-left: 15px;
+	
+	font-style: normal;
+	color: black;
+	counter-reset: li;
+	margin-left: 1em;
+	padding-left: 0;
+	list-style: none;
 	margin-top: .5em;
 
-	
-	p {
-		font-style: normal;
-		color: black;
+	>li {
 		margin-bottom: 10px;
+		position: relative;
+		margin-left: 2em;
+		margin-top: .7em;
+	}
+
+	>li:before {
+		content: counter(li);
+		counter-increment:li;
+		margin-right: 10px;
+		font-style: italic;
+		color: $numeral-color;
+		font-weight: bold;
+		left: -1.5em;
+		position: absolute;
 	}
 }
 
@@ -320,14 +320,14 @@ h2 {
 	font-weight: 400;
 	color: $h2-color;
 	margin-top: .5em;
-	margin-bottom: .5em;
+	margin-bottom: .7em;
 }
 
 h3 {
 	font-family: $slab-serif;
 	color: $h3-color;
 	text-transform: uppercase;
-	margin-bottom: .2em;
+	margin-bottom: .7em;
 	font-weight: 500;
 }
 
@@ -336,16 +336,19 @@ h4 {
 	color: $h4-color;
 	text-transform: uppercase;
 	font-weight: 600;
+	margin-bottom: 1em;
 }
 
 h5 {
 	color: $h5-color;
 	font-family: $slab-serif;
 	font-weight: normal;
+	margin-bottom: 1em;
 }
 
 h6 {
 	color: $h6-color;
 	font-weight: normal;
 	font-family: $sans-serif;
+	margin-bottom: 1em;
 }
