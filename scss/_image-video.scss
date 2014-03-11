@@ -12,10 +12,6 @@
 	margin: 0px auto;
 }
 
-.flex-video iframe {
-	max-width: 275px;
-}
-
 .icon-examples {
 
 	i {
@@ -45,39 +41,5 @@ ul.clearing-thumbs li:before {
 		float: right;
 		margin: inherit;
 	}
-
-	.flex-video iframe {
-		max-width: auto;
-	}
 	
-}
-
-@media #{$small-only} {
-	.align-left {
-		float: none;
-		display: block;
-		text-align: center;
-		min-width: 50%;
-		margin: 0px auto;
-		height: auto;
-		padding-left: 0;
-		padding-right: 0;
-		
-			.flex-video {
-		min-width: 200px;
-		height: auto;
-		}
-		
-	}
-
-	.align-right {
-		float: none;
-		display: block;
-		text-align: center;
-		min-width: 30%;
-		margin: 0px auto;
-		height: auto;
-		padding-right: 0;
-		padding-left: 0;
-	}
 }
