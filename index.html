@@ -1,92 +1,889 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kent State Website - Boilerplate Template</title>
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="css/landing-page.css" />
-    <link rel="stylesheet" href="css/editor.css" />
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/oct1xai.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body id="top">
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="apple-touch-icon-precomposed" href="img/favicon-152.png">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="msapplication-TileImage" content="img/favicon-144.png">
+  <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/favicon-152.png">
+
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon-144.png">
+
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/favicon-120.png">
+
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/favicon-114.png">
+
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon-72.png">
+
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="img/favicon-57.png">
+
+  <title>Kent State Pattern Library</title>
+  <script type="text/javascript" src="//use.typekit.net/oct1xai.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- If you are using the gem version, you need this only -->
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/landing-page.css" />
+  <link rel="stylesheet" href="css/editor.css" />
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
+
+</head>
+
+<body id="top">
+<div id="myModal" class="reveal-modal" data-reveal>
+  <h2>Kent State Is Ohio's Best University</h2>
+  <p class="introduction">Modals can contain special formatting.</p>
+  <p>You can dismiss the modal window by clicking the X.</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
   <header class="row header-blue">
   	<div class="logo-white" id="logo"><a href="http://www.kent.edu"><span>Kent State University</span></a>
-  	</div>
+    </div>
   </header>
-  <nav class="top-bar" data-topbar>
-  <ul class="title-area">
-    <li class="name"></li>
-    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
-  </ul>
-  <section class="top-bar-section">
-  		<!-- Left Nav Section -->
-    <ul>
-      <li class="has-dropdown"><a href="#">About KSU</a>
-      </li>
-      <li class="has-dropdown"><a href="#">Academics</a>
-      </li>
-      <li class="has-dropdown"><a href="#">Admissions, Tuition and Aid</a>
-      </li>
-      <li class="has-dropdown"><a href="#">Campus Life</a>
-      </li>
-      <li class="has-dropdown"><a href="#">Athletics</a>
-      </li>
-      <li class="has-dropdown"><a href="#">Research</a>
-      </li>
-       <li class="has-dropdown"><a href="#">Locations</a>
-      </li>
-    </ul>
-  </section>
-</nav>
   <div class="row">
-      <div class="small-12 medium-4 large-3  columns">
-	  <ul class="side-nav">
-		  	<li class="active"><a href="#">Subnavigation 1</a>
-		  	<ul>
-		  			<li><a href="#" class="scrollTo">Subnavigation a</a></li>
-		  			<li><a href="#" class="scrollTo">Subnavigation b</a></li>
-		  	</ul>
-		  	</li>
-		  	<li><a href="#" class="scrollTo">Subnavigation 2</a></li>
-		  	<li><a href="#" class="scrollTo">Subnavigation 3</a></li>
-		  	<li><a href="#" class="scrollTo">Subnavigation 4</a></li>
-	  	</ul>
-      </div>
-  	<div class="small-12 medium-8 large-9 columns">
-  		<div class="panel">This is the Kitchen Sink, demonstrating all available elements.  Use this page as a guide to the different available elements you can use.</div>
-  		<h1>h1. This is a Very Large Header</h1>
-  			<p class="introduction">This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool. Wrap <strong> around type to make it bold!</strong>. You can also <em>italicize your words</em>.</p>
-  				<a href="#" class="button secondary">Small Button</a> 
-  				<blockquote>I do not fear computers. I fear the lack of them. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.<cite>Isaac Asimov</cite></blockquote>
-  				
-  		<h2>h2. This is a Large Header</h2>
-  			<p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool. Wrap <strong> around type to make it bold!</strong>. You can also <em>italicize your words</em>.</p>
-  				<a href="#" class="small button fa fa-arrow-circle-o-right"><span>Medium Button with Arrow</span></a><br />
-  		<h3>h3. This is a Medium Header</h3>
-  			<p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool. Wrap <strong> around type to make it bold!</strong>. You can also <em>italicize your words</em>.</p>
-  			<a href="#" class="small button accent fa fa-arrow-circle-o-right"><span>Medium Button with Arrow</span></a><br />
-  		<h4>h4. This is a Moderate Header</h4>
-  			<p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool. Wrap <strong> around type to make it bold!</strong>. You can also <em>italicize your words</em>.</p>
-  				<a href="#" class="button large fa fa-caret-right"><span>Large Button</span></a><br />
-  		<h5>h5. This is a Small Header</h5>
+  	<nav class="large-3  columns">
+  	<ul class="side-nav">
+	  	<li><a href="#header" class="scrollTo">Header/Footer</a></li>
+	  	<li><a href="#colors" class="scrollTo">Colors</a></li>
+	  	<li><a href="#navigation" class="scrollTo">Navigation</a></li>
+	  	<li><a href="#typography" class="scrollTo">Typography</a></li>
+	  	<li><a href="#buttons" class="scrollTo">Buttons</a></li>
+	  	<li><a href="#tables" class="scrollTo">Tables</a></li>
+	  	<li><a href="#lists" class="scrollTo">Lists</a></li>
+	  	<li><a href="#alerts" class="scrollTo">Alerts & Panels</a></li>
+	  	<li><a href="#icons" class="scrollTo">Icons</a></li>
+	  	<li><a href="#image-video" class="scrollTo">Images & Videos</a></li>
+	  	<li><a href="#forms" class="scrollTo">Forms</a></li>
+  	</ul>
+  	</nav>
+  	<article class="large-9 columns">
+  		<h1 class="heading">Web Pattern Library</h1>
+  		<p class="introduction">The Kent State University Web Pattern Library, provided by <a href="http://www.kent.edu/ucm">University Communications and Marketing</a>, is a collection of web patterns and code snippets that you can use to inform and guide your web site's design.  If you're using Drupal, many of these patterns are already available to you.  If you're developing a website or application outside of Drupal, you can use these code snippets on your website.</p>
+  		<p class="introduction">The Kent State Pattern Library uses <a href="http://sass-lang.com/">SASS</a>, CSS and <a href="http://foundation.zurb.com/docs/v/4.3.2/">Zurb Foundation v4</a>.  For more detailed information, see our <a href="http://www.kent.edu/web">Guide to Web Standards</a>.</p>
+  		<div class="row">
+  		<div class="large-8 small-12 columns">
+  		<a class="small button fa fa-arrow-circle-o-right" href="http://www.kent.edu/ucm"><span>Guide to Web Standards</span></a>
+  		</div>
+  		<div class="large-4 small-12 columns">
+  			<div class="icon-sunburst"></div>
+  		</div>
+  		</div>
+  		<hr>
+  		<h2 id="header">Header/Footer</h2>
+  		
+  		<h3>Global Header Guidelines</h3>
+		<ul class="preview">
+			<li>The header should be marked up in CSS only.  Only in extreme circumstances should you create a graphic version of the header.</li>
+			<li>The Kent State logo must link to www.kent.edu (except for regional campuses, which will link to the regional campus home page).</li>
+			<li>The Kent State logo should be one of the logos below. The Kent State web logo should never be converted into a different file format or altered in any way.</li>
+			<li>The Kent State logo may be scaled to no less than 200 device pixels horizontally.</li>
+			<li>No elements may be added within or on top of the Kent State header.</li>
+		</ul>
+			<div class="panel">You must either use the SVG version of the logo, with a PNG fallback version, or use the 2X version downscaled to 50% in order to support high-density displays.</div>
+			<hr>
+  		<h3>Global Header (Blue)</h3>
+  			<header class="row header-blue demo">
+    <div class="logo-white" id="logo"><a href="http://www.kent.edu"><span>Kent State University</span></a>
+    </div>
+  </header>
+  		<a class="button secondary" onclick="toggle_visibility('blue-gradient');">Show CSS</a>
+  		<pre id="blue-gradient">
+  			<code class="language-javascript"><div class="code-container">background-image:-moz-linear-gradient(14% 14% -90deg, rgb(0,33,71) 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%); <br/>
+	background-image:-webkit-gradient(linear,14% 14%,14% 86%,color-stop(0, rgb(0,33,71)),color-stop(0.21, rgb(0,39,81)),color-stop(1, rgba(0,60,120,0.96)));<br/>
+	background-image:-webkit-linear-gradient(-90deg,rgb(0,33,71) 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);<br/>
+	background-image:-o-linear-gradient(-90deg,rgb(0,33,71) 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);<br/>
+	background-image:-ms-linear-gradient(-90deg,rgb(0,33,71) 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);<br/>
+	background-image:linear-gradient<br/>(180deg,rgb(0,33,71) 0%,rgb(0,39,81) 21%,rgba(0,60,120,0.96) 100%);</br/>
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient<br/>(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0)";</div></code></pre>
+		<h4>White Logo Files</h4>
+			<ul>
+				<li><a href="img/Kent-State-Logo-White.svg">SVG Logo - White</a></li>
+				<li><a href="img/Kent-State-Logo-White-Fallback@2x.png">PNG Logo @2x - White</a></li>
+				<!--<li><a href="img/Kent-State-Logo-White-Fallback@1x.png">PNG Logo @1x</a></li>-->
+			</ul>
+			<hr>
+	 <h3>Global Header (Neutral)</h3>
+    <header class="row header-white demo">
+    <div class="logo-blue" id="logo"><a href="http://www.kent.edu"><span>Kent State University</span></a>
+    </div>
+    </header>
+	  	<a class="button secondary" onclick="toggle_visibility('white-gradient');">Show CSS</a>
+	  	<pre id="white-gradient">
+  			<code class="language-javascript"><div class="code-container">background-image:-moz-linear-gradient(14% 1% -90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)<br/>
+background-image:-webkit-gradient(linear,14% 1%,14% 94%,color-stop(0.11, rgb(255,255,255)),color-stop(0.55, rgb(247,247,247)),color-stop(1, rgba(238,238,238,0.93)))<br/>
+background-image:-webkit-linear-gradient(-90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)<br/>
+background-image:-o-linear-gradient(-90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)<br/>
+background-image:-ms-linear-gradient(-90deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)<br/>
+background-image:linear-gradient(180deg,rgb(255,255,255) 11%,rgb(247,247,247) 55%,rgba(238,238,238,0.93) 100%)<br/>
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient<br/>(startColorstr=#ffffffff,endColorstr=#edeeeeee,GradientType=0)"<br/>
+filter:progid:DXImageTransform.Microsoft.gradient<br/>(startColorstr=#ffffffff,<br/>endColorstr=#edeeeeee,GradientType=0)</div></code></pre>
+<h4>Blue Logo Files</h4>
+		<ul>
+			<li><a href="img/Kent-State-Logo-Blue.svg"> SVG Logo - Blue</a></li>
+			<li><a href="img/Kent-State-Logo-Blue-Fallback@2x.png">PNG Logo @2x - Blue</a></li>
+			<!--<li><a href="img/Kent-State-Logo-Blue-Fallback@1x.png">PNG Logo @1x - Blue</a></li>-->
+		</ul>
+  		<hr>
+  		<h3>Global Footer</h3>
+  		<div class="panel">The "fat footer" commonly repeats the top navigation in list format.  Optional Quick Links are placed to the right.  The footer also houses social media icons and contact information.</div>
+  			<footer id="ksu-footer">
+  			<div class="row demo">
+  			  <div class="small-12 large-4 columns"><h3>About</h3>
+  				<ul>
+  					<li>Administration</li>
+  					<li>Alumni</li>
+  					<li>Centers & Institutes</li>
+  				</ul></div>
+  <div class="small-12 large-4 columns"><h3>Academics</h3>
+  				<ul>
+  					<li>Administration</li>
+  					<li>Alumni</li>
+  					<li>Centers & Institutes</li>
+  				</ul></div>
+  			<div class="small-12 large-4 columns">
+  				<ul class="quicklinks">
+  					<li><a href="#">Quicklink 1</a></li>
+  					<li><a href="#">Quicklink 1</a></li>
+  					<li><a href="#">Quicklink 1</a></li>
+  				</ul>
+  			</div>
+  			</div>
+  <div class="row contact">
+    			<div class="logo-white" id="footer-white"><a href="http://www.kent.edu"><span>Kent State University</span></a></div>
+  	<div class="large-4 columns"><span class="footer-head">Phone</span><p>330-672-3000</p>
+  	</div>
+  	<div class="large-4 columns"><span class="footer-head">Address</span><p>800 East Summit Street, Kent, Ohio 44242</p>
+  	</div>
+  	<div class="large-4 columns"><span class="footer-head">Email</span><p>info@kent.edu</p>
+  	</div>
+  </div>
+  <div class="row">
+  <div class="small-12 small-centered copyright">
+  	<p>As a top Ohio undergraduate and graduate school, Kent State’s eight campuses offer the resources of a large university with the friendly atmosphere of a liberal arts college. Enroll today to start pursuing your future at one of the best colleges in Ohio. We’ve been educating graduates for over 100 years; join us today.</p>
+  	<p>Copyright 2014 Kent State University</p>
+  </div>
+  </div>
+
+</footer>
+  		<hr>
+  		<h2 id="colors">Colors</h2>
+  		<h3>Primary Colors</h3>
+  		<p>Kent State Blue and Kent State Gold may be used at 50% and 30% opacity.</p>
+  			<table class="swatches responsive">
+  				<tbody>
+  					<tr>
+  						<td>
+  							<div class="chip ksu-blue"></div>rgb(0,38,100)<br/>PMS 281<br/>#002664
+  						</td>
+  						<td>
+  							<div class="chip ksu-gold"></div>rgb(234,171,0)<br/>PMS 124<br/>#eaab00
+  						</td>
+  					</tr>
+  				</tbody>
+  			</table>
+  			<hr>
+  					<h3 id="colors">Neutral Colors</h3>
+  			<table class="swatches responsive">
+  				<tbody>
+  				  					
+  					<tr>
+  						<td>Black</td>
+  						  	<td>
+  							<div class="chip black"></div>rgb(0,0,0)<br>PMS Black<br/>#00000
+  						</td>
+  						<td></td>
+  					</tr>
+  					<tr>
+  						<td>Warm Neutral Grays
+  						</td>
+  						<td>
+  							<div class="chip off-white"></div>rgb(224,222,217)<br/>Warm Gray 1C<br/>#e0ded9
+  						</td>
+  						<td>
+  							<div class="chip light-gray"></div>rgb(199,194,186)<br/>Warm Gray 3C<br/>#c7c2bc
+  						</td>
+  					</tr>
+  					<tr>
+  						<td>
+  						</td>
+  						<td>
+  							<div class="chip gray"></div>rgb(174,167,159)<br/>Warm Gray 5C<br/>#afa79f
+  						</td>
+  						<td>
+  							<div class="chip dark-gray"></div>rgb(139,129,120)<br/>Warm Gray 8C<br/>#8b8078
+  						</td>
+  					</tr>
+  					<tr>
+  						<td>Cool Gray (Web Only)
+  						</td>
+  						<td>
+  							<div class="chip cool-gray"></div>rgb(115,115,115)<br/>Cool Gray<br/>#737373
+  						</td>
+  						<td>
+  						</td>
+  					</tr>
+
+  				</tbody>
+  			</table>
+  		<hr>
+  		<h3 id="secondary-colors">Accent Colors</h3>
+  		<div class="panel">Accent colors may be used on no more than 20% of the page.</div>
+  			<table class="swatches responsive">
+  				<tbody><tr>
+  						<td>
+  						Dark Blue Accent
+  							<div class="chip dark-blue"></div>rgb(0,33,71)<br/>PMS 282<br/>#002147
+  						</td>
+  						<td>
+  						Dark Gold Accent
+  							<div class="chip dark-gold"></div>rgb(211,145,0)<br/>PMS 7550C<br/>#d39100
+  						</td>
+  					</tr>
+  					<tr>
+  						
+  						<td>
+  						Cyan Accent
+  							<div class="chip cyan"></div>rgb(0,157,216)<br/>PMS Cyan<br/>#009ddb
+  						</td>
+  						<td>
+  						Bright Gold Accent
+  							<div class="chip bright-yellow"></div>rgb(255,200,46)<br/>PMS 123<br/>#ffc82e
+  						</td>
+  					</tr>
+  					<tr>
+  						<td>
+  						Green
+  							<div class="chip green"></div>rgb(135,150,55)<br/>Green 7495C<br />#879637<br />
+  						</td>
+  						<td>
+  						Dark Green
+  							<div class="chip dark-green"></div>rgb(91,99,52)<br/>Dark Green 5753C<br/>#5b6334<br /> 
+  						</td>
+  					</tr>
+  					  					<tr>
+
+  						<td>
+  						Purple
+  							<div class="chip purple"></div>rgb(110,44,107)<br/>Purple 255C<br/>#6e2c6b
+  						</td>
+  						<td>
+  						Teal
+  							<div class="chip teal"></div>rgb(88, 145, 153)<br/>Teal 5483C<br/>#589199
+  						</td>
+  					</tr>
+  					
+  					<tr>
+  						<td>
+  						Orange
+  							<div class="chip orange"></div>rgb(197, 76, 0)<br/>Orange 1525C<br/>#c54c00
+  						</td>
+  						<td>
+  						Brown
+  							<div class="chip brown"></div>rgb(106, 73, 28)<br/>Brown 1405C<br/>#6a491c
+  						</td>
+  					</tr>
+  					
+  					  					 <tr>
+  						<td>
+  						Red
+  							<div class="chip red"></div>rgb(158, 48, 57)<br/>Red 1807C<br/>#9e3039
+  						</td>
+  							<td>
+  							Maroon
+  							<div class="chip maroon"></div>rgb(136, 35, 69)<br/>Maroon 208C<br/>#9e2345
+  						</td>
+  					  	</tr>
+  					  					
+  				</tbody>
+  			</table>
+  				<hr>
+  		<h3 id="secondary-colors">Color Palettes</h3>
+  		<table class="swatches responsive">
+  				<tbody>
+  				<tr><td>Traditional</td><td></td><td></td></tr>
+  					<tr>
+  							<td>
+  							<div class="chip ksu-blue"></div>rgb(0,38,100)<br/>PMS 281<br/>#002664
+  						</td>
+  						<td>
+  							<div class="chip ksu-gold"></div>rgb(234,171,0)<br/>PMS 124<br/>#eaab00
+  						</td>
+  						<td>
+  							<div class="chip gray"></div>rgb(174,167,159)<br/>Warm Gray 5C<br/>#afa79f
+  						</td>
+  					</tr>
+  				<tr><td>Bright</td><td></td><td></td></tr>
+
+  					<tr>
+  							<td>
+  							<div class="chip alt-blue"></div>rgb(66,109,169)<br/>Alt Blue (Web Only)<br/>#426da9
+  						</td>
+  						<td>
+  							<div class="chip ksu-gold"></div>rgb(234,171,0)<br/>PMS 124<br/>#eaab00
+  						</td>
+  						<td>
+  							<div class="chip light-gray"></div>rgb(199,194,186)<br/>Warm Gray 3C<br/>#c7c2bc
+  						</td>
+  					</tr>
+  					<tr><td>Gray with Accent</td><td></td><td></td></tr>
+  					<tr>
+  							<td>
+  							<div class="chip cool-gray"></div>rgb(115,115,115)<br/>Cool Gray<br/>#737373
+  						</td>
+  						<td>
+  							<div></div>Choice of Primary Color or <br/>Accent Color (See Above)<br/>
+  						</td>
+  						<td>
+  							<div class="chip light-gray"></div>rgb(199,194,186)<br/>Warm Gray 3C<br/>#c7c2bc
+  						</td>
+  					</tr>
+  				</tbody>
+  		</table>  
+  	  		<a class="button secondary" onclick="toggle_visibility('color-variables');">Show SASS Variables</a>
+  		<pre id="color-variables">
+<code class="language-javascript"><div class="code-container">
+$ksu-blue: rgb(0,38,100); // #002663 and PMS 281 //
+$ksu-gold: rgb(234,171,0); // #ECAC00 and PMS 124 //
+
+$dark-blue: rgb(0,33,71); // #002147 and PMS 282 //
+$dark-gold: rgb(211,145,0); // #d39100 and PMS 7550 C //
+
+$cyan: rgb(0,157,216); // #009ddb and PMS Cyan //
+$bright-yellow: rgb(255,200,46); // #ffc82e and PMS 123C //
+
+$cool-gray: rgb(115,115,115); // #EEEEEE and Cool Gray //
+$warm-gray-1: rgb(224,222,217); // #e0ded9 and Warm Gray 1C //
+$warm-gray-3: rgb(199,194,186); // #c7c2bc and Warm Gray 3C //
+$warm-gray-5: rgb(174,167,159); // #afa79f and Warm Gray 5C //
+$warm-gray-8: rgb(139,129,120); // #8b8078 and 8C //
+
+$black: rgb(0,0,0); // #000000 //
+
+$green: rgb(135,150,55); // #879637 and PMS 7495C //
+
+$dark-green: rgb(91,99,52); // #5B6334 and PMS 5753C //
+
+$purple: rgb(110,44,107); // #6e2c6b and PMS 255C //
+
+$teal: rgb(88,145,153); // #589199 and PMS 5483C //
+
+$orange: rgb(197,76,0); // #c54c00 and PMS 1525C //
+
+$brown: rgb(106,73,28); // #6a491c and PMS 1405C //
+
+$red: rgb(158,48,57); // #9e2345 and PMS 208C //
+
+$maroon: rgb(136, 35,69); // #9e2345 and PMS 208C //
+
+$alt-blue: rgb(66, 109, 169); // #426da9//
+</div>
+</code>
+  		</pre>					
+  	<hr>
+  		<h2 id="navigation">Navigation</h3>
+  		<h3>Button Group</h3>
+  		<div class="panel">Button Groups are commonly used on top-level landing pages, and gently drop down to a section on the page</div>
+  		<br />
+  		<ul class="button-group even-6">
+  <li><a href="#" class="button">About Us</a></li>
+  <li><a href="#" class="button">Faculty</a></li>
+  <li><a href="#" class="button">Students</a></li>
+  <li><a href="#" class="button">Alumni</a></li>
+  <li><a href="#" class="button">Staff</a></li>
+  <li><a href="#" class="button">Grad Students</a></li>
+</ul>
+<a class="button secondary" onclick="toggle_visibility('button-group-example');">Show Markup</a>
+  		<pre id="button-group-example">
+  			<code class="language-html"><div class="code-container">
+  &lt;ul class="button-group even-6">
+  &lt;li>&lt;a href="#" class="button">About Us&lt;/a>&lt;/li>
+  &lt;li>&lt;a href="#" class="button">Faculty&lt;/a>&lt;/li>
+  &lt;li>&lt;a href="#" class="button">Students&lt;/a>&lt;/li>
+  &lt;li>&lt;a href="#" class="button">Alumni&lt;/a>&lt;/li>
+  &lt;li>&lt;a href="#" class="button">Staff&lt;/a>&lt;/li>
+  &lt;li>&lt;a href="#" class="button">Grad Students&lt;/a>&lt;/li>
+&lt;/ul>
+  			</div></code>
+  		</pre>
+  		<hr>
+  		<h3>Pagination</h3>
+  		<ul class="pagination">
+  <li class="arrow unavailable"><a href="">&laquo;</a></li>
+  <li class="current"><a href="">1</a></li>
+  <li><a href="">2</a></li>
+  <li><a href="">3</a></li>
+  <li><a href="">4</a></li>
+  <li class="unavailable"><a href="">&hellip;</a></li>
+  <li><a href="">12</a></li>
+  <li><a href="">13</a></li>
+  <li class="arrow"><a href="">&raquo;</a></li>
+</ul>
+<hr>
+		<h3>Sidebar Navigation</h3>
+		<ul class="side-nav">
+  <li class="active"><a href="#">Link 1</a>
+  	<ul>
+  		<li><a href="#">Sub Navigation</a></li>
+  		<li><a href="#">Sub Navigation</a></li>
+  	</ul>
+  	</li>
+  <li><a href="#">Link 2</a></li>
+  <li><a href="#">Link 3</a></li>
+  <li><a href="#">Link 4</a></li>
+</ul>
+<hr>
+		<h3>Global Navigation</h3>
+		<nav class="top-bar">
+			<ul class="title-area">
+				<li class="name"></li>
+				<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			</ul>
+		<section class="top-bar-section">
+			<ul class="left">
+				 <li class="has-dropdown"><a href="#">About KSU</a>
+				 <ul class="dropdown left">
+				 	<li><a href="#">Administration</a></li>
+				 	<li><a href="#">Facts</a></li>
+				 	<li><a href="#">President</a></li>
+				 </ul></li>
+				 <li class="has-dropdown"><a href="#">Academics</a><ul class="dropdown left">
+				 	<li><a href="#">Administration</a></li>
+				 	<li><a href="#">Facts</a></li>
+				 	<li><a href="#">President</a></li>
+				 </ul></li>
+				 <li class="has-dropdown"><a href="#">Admissions, Tuition &amp; Aid</a><ul class="dropdown left">
+				 	<li><a href="#">Administration</a></li>
+				 	<li><a href="#">Facts</a></li>
+				 	<li><a href="#">President</a></li>
+				 </ul></li>
+				 <li class="has-dropdown"><a href="#">Campus Life</a><ul class="dropdown left">
+				 	<li><a href="#">Administration</a></li>
+				 	<li><a href="#">Facts</a></li>
+				 	<li><a href="#">President</a></li>
+				 </ul></li>
+			</ul>
+		</nav>
+<hr>
+			<h3>Breadcrumbs</h3>
+				<nav class="breadcrumbs">
+					<a href="#">Home</a>
+					<a href="#">Academics</a>
+					<a class="current" href="#">College of Arts and Sciences</a>
+				</nav>
+<hr>
+			<h3>Action Links</h3>
+			<br />
+				<a href="#" class="action-link fa fa-arrow-circle-o-right"><span>Visit Campus Today</span></a><br />
+			<br />
+			<h3>Read More Link</h3>
+			<div class="panel">To ensure proper accessibility, Read More links must always describe the context to which they're linking.</div>
+				<a href="#" class="read-more-link fa fa-caret-right"><span>Read More About Our Programs</span></a>
+
+			<hr>
+			<h3>Horizontal Tabs</h3>
+
+			<div class="panel">By default, section elements will be an accordion on mobile and tabs on desktops and tablets.</div>
+
+      <!-- Start Tabs -->
+
+<dl class="tabs" data-tab>
+  <dd class="active"><a href="#panel2-1">Section 1</a></dd>
+  <dd><a href="#panel2-2">Section 2</a></dd>
+  <dd><a href="#panel2-3">Section 3</a></dd>
+</dl>
+<div class="tabs-content">
+  <div class="content active" id="panel2-1">
+    <p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.</p>
+  </div>
+  <div class="content" id="panel2-2">
+    <p>Second panel content goes here...</p>
+  </div>
+  <div class="content" id="panel2-3">
+    <p>Third panel content goes here...</p>
+  </div>
+</div>
+
+<!-- End Tabs -->
+
+				<!--<div class="section-container auto" data-section>
+							<section class="active">
+			    <p class="title" data-section-title><a href="#panel1">Section 1</a></p>
+			    <div class="content" data-section-content>
+			      <p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.</p>
+			    </div>
+			  </section>
+			  <section>
+			    <p class="title" data-section-title><a href="#panel2">Section 2</a></p>
+			    <div class="content" data-section-content>
+			      <p>Content of section 2.</p>
+			    </div>
+			  </section>
+			</div>-->
+<a class="button secondary" onclick="toggle_visibility('horizontal-example');">Show Markup</a>
+  		<pre id="horizontal-example">
+<code class="language-javascript"><div class="code-container">
+&lt;div class="section-container auto" data-section>
+	&lt;section class="active">
+		&lt;p class="title" data-section-title>&lt;a href="#panel1">Section 1&lt;/a>&lt;/p>
+			&lt;div class="content" data-section-content>
+				&lt;p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.&lt;/p>
+			    &lt;/div>
+			  &lt;/section>
+			  &lt;section>
+			    &lt;p class="title" data-section-title>&lt;a href="#panel2">Section 2&lt;/a>&lt;/p>
+			    &lt;div class="content" data-section-content>
+			      &lt;p>Content of section 2.&lt;/p>
+			&lt;/div>
+	&lt;/section>
+&lt;/div>
+		</div>
+</code>
+  		</pre>
+			<hr>
+	<h3>Accordions</h3>
+	<div class="panel">Adding an accordion class to the section container will show an accordion on both small and large screens.</div>
+
+  <dl class="accordion" data-accordion>
+  <dd>
+    <a href="#panel1">Accordion 1</a>
+      <div id="panel1" class="content active">
+      Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </dd>
+  <dd>
+    <a href="#panel2">Accordion 2</a>
+    <div id="panel2" class="content">
+      Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </dd>
+  <dd>
+    <a href="#panel3">Accordion 3</a>
+    <div id="panel3" class="content">
+      Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </div>
+  </dd>
+</dl>
+			<!--<div class="section-container accordion" data-section="accordion">
+  <section class="active">
+    <p class="title" data-section-title><a href="#">Section 1</a></p>
+    <div class="content" data-section-content>
+      <p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.</p>
+    </div>
+  </section>
+  <section>
+    <p class="title" data-section-title><a href="#">Section 2</a></p>
+    <div class="content" data-section-content>
+      <p>Content of section 2.</p>
+    </div>
+  </section>
+</div>-->
+  		<a class="button secondary" onclick="toggle_visibility('accordion-example');">Show Markup</a>
+  		<pre id="accordion-example">
+<code class="language-javascript"><div class="code-container">
+&lt;div class="section-container accordion" data-section="accordion">
+  &lt;section class="active">
+    &lt;p class="title" data-section-title>&lt;a href="#">Section 1&lt;/a>&lt;/p>
+    &lt;div class="content" data-section-content>
+      &lt;p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.&lt;/p>
+    &lt;/div>
+  &lt;/section>
+  &lt;section>
+    &lt;p class="title" data-section-title>&lt;a href="#">Section 2&lt;/a>&lt;/p>
+    &lt;div class="content" data-section-content>
+      &lt;p>Content of section 2.&lt;/p>
+    &lt;/div>
+  &lt;/section>
+&lt;/div>
+</div>
+</code>
+  		</pre>
+<hr>
+<h3>Vertical Tabs</h3>
+<div class="panel">Adding a vertical-tabs class to the section container and setting data-section="vertical-tabs" will enable tabs on both small and large screens.</div>
+<dl class="tabs vertical" data-tab>
+  <dd class="active"><a href="#panel1a">Tab 1</a></dd>
+  <dd><a href="#panel2a">Tab 2</a></dd>
+  <dd><a href="#panel3a">Tab 3</a></dd>
+  <dd><a href="#panel4a">Tab 4</a></dd>
+</dl>
+<div class="tabs-content vertical">
+  <div class="content active" id="panel1a">
+    <p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.</p>
+  </div>
+  <div class="content" id="panel2a">
+    <p>Panel 2 content goes here.</p>
+  </div>
+  <div class="content" id="panel3a">
+    <p>Panel 3 content goes here.</p>
+  </div>
+  <div class="content" id="panel4a">
+    <p>Panel 4 content goes here.</p>
+  </div>
+</div>
+<br style="clear:both"/>
+<!--<div class="section-container vertical-tabs" data-section="vertical-tabs">
+  <section class="active">
+    <p class="title" data-section-title><a href="#">Section 1</a></p>
+    <div class="content" data-section-content>
+      <p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.</p>
+    </div>
+  </section>
+  <section>
+    <p class="title" data-section-title><a href="#">Section 2</a></p>
+    <div class="content" data-section-content>
+      <p>Content of section 2.</p>
+    </div>
+  </section>
+  <section>
+    <p class="title" data-section-title><a href="#">Section 3</a></p>
+    <div class="content" data-section-content>
+      <p>Content of section 3.</p>
+    </div>
+  </section>
+</div>-->
+  		<a class="button secondary" onclick="toggle_visibility('vertical-example');">Show Markup</a>
+  		<pre id="vertical-example">
+<code class="language-javascript"><div class="code-container">
+&lt;div class="section-container vertical-tabs" data-section="vertical-tabs">
+  &lt;section class="active">
+    &lt;p class="title" data-section-title>&lt;a href="#">Section 1&lt;/a>&lt;/p>
+    &lt;div class="content" data-section-content>
+      &lt;p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.&lt;/p>
+    &lt;/div>
+  &lt;/section>
+  &lt;section>
+    &lt;p class="title" data-section-title>&lt;a href="#">Section 2&lt;/a>&lt;/p>
+    &lt;div class="content" data-section-content>
+      &lt;p>Content of section 2.&lt;/p>
+    &lt;/div>
+  &lt;/section>
+  &lt;section>
+    &lt;p class="title" data-section-title>&lt;a href="#">Section 3&lt;/a>&lt;/p>
+    &lt;div class="content" data-section-content>
+      &lt;p>Content of section 3.&lt;/p>
+    &lt;/div>
+  &lt;/section>
+&lt;/div>
+</div>
+</code>
+  		</pre>
+  		<hr>
+  		<h2 id="typography">Typography</h3>
+  		<h3>Fonts</h3>
   			<ul>
-  				<li>List Item 1</li>
-  				<li>List Item 2</li>
-  				<li>List Item 3</li>
+  				<li>Sans-Serif: Tablet Gothic (Body Copy)</li>
+  				<li>Sans-Serif-Condensed: Tablet Gothic Condensed</li>
+  				<li>Slab Serif: Museo Slab</li>
+  				<li>Serif: Garamond</li>
   			</ul>
-  			<p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool. Wrap <strong> around type to make it bold!</strong>. You can also <em>italicize your words</em>.</p>
-  				<a href="#" class="button check"><i class="fa fa-check-square fa-2x"></i>Large Button With Icon</a><br />
+  		<a class="button secondary" onclick="toggle_visibility('font-sass');">Show SASS Variables</a>
+  		<pre id="font-sass">
+  		<code class="language-html"><div class="code-container">
+$serif: "adobe-garamond-pro", Georgia, serif;
+$sans-serif: "tablet-gothic", Helvetica, Arial, sans-serif;
+$sans-serif-condensed: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+$slab-serif: "museo-slab", Georgia, serif;
+  		</div></code>
+  		</pre>
+  		<h4>Tablet Gothic (Body Copy)</h4>
+  		<table>
+  		<thead>
+  			<tr>
+  				<td>Font-Family</td>
+  				<td>Font-Weight</td>
+  				<td>Font-Style</td>
+  			</tr>
+  		</thead>
+  		<tbody>
+  		    <tr>
+  		    	<td>"tablet-gothic"</td>
+  		        <td>400</td>
+  		        <td>normal</td>
+  		    </tr>
+  		     <tr>
+  		    	<td>"tablet-gothic"</td>
+  		        <td>400</td>
+  		        <td>italic</td>
+  		    </tr>
+  		     <tr>
+  		    	<td>"tablet-gothic"</td>
+  		        <td>600</td>
+  		        <td>normal</td>
+  		    </tr>
+  		</tbody>
+  		  
+  		</table>
+  		<br />
+  		<h4>Adobe Garamond Pro</h4>
+  		<table>
+  		<thead>
+  			<tr>
+  				<td>Font-Family</td>
+  				<td>Font-Weight</td>
+  				<td>Font-Style</td>
+  			</tr>
+  		</thead>
+  		<tbody>
+  		    <tr>
+  		    	<td>"adobe-garamond-pro"</td>
+  		        <td>400</td>
+  		        <td>normal</td>
+  		    </tr>
+  		     <tr>
+  		    	<td>"adobe-garamond-pro"</td>
+  		        <td>400</td>
+  		        <td>italic</td>
+  		    </tr>
+  		     <tr>
+  		    	<td>"adobe-garamond-pro"</td>
+  		        <td>700</td>
+  		        <td>normal</td>
+  		    </tr>
+  		</tbody>
+  		</table>
+  		<br />
+  		<h4>Tablet Gothic Semi-Condensed</h4>
+  		<table>
+  			<thead>
+  			<tr>
+  				<td>Font-Family</td>
+  				<td>Font-Weight</td>
+  				<td>Font-Style</td>
+  			</tr>
+  			</thead>
+  			<tbody>
+  		     <tr>
+  		    	<td>"tablet-gothic-semi-condensed"</td>
+  		        <td>400</td>
+  		        <td>normal</td>
+  		    </tr>
+  		    <tr>
+  		    	<td>"tablet-gothic-semi-condensed"</td>
+  		        <td>600</td>
+  		        <td>normal</td>
+  		    </tr>
+  		     <tr>
+  		    	<td>"tablet-gothic-semi-condensed"</td>
+  		        <td>700</td>
+  		        <td>normal</td>
+  		    </tr>
+  			</tbody>
+  		</table>
+  		<br />
+  		<h4>Museo Slab</h4>
+  		<table>
+  			<thead>
+  			<tr>
+  				<td>Font-Family</td>
+  				<td>Font-Weight</td>
+  				<td>Font-Style</td>
+  			</tr>
+  			</thead>
+  			<tbody>
+  		    <tr>
+  		    	<td>"museo-slab"</td>
+  		        <td>300</td>
+  		        <td>normal</td>
+  		    </tr>
+  		     <tr>
+  		    	<td>"museo-slab"</td>
+  		        <td>500</td>
+  		        <td>normal</td>
+  		    </tr>
+  			</tbody>
+  		   
+  		</table>
+  		<br />
+  		<h3>Embedding Fonts</h3>
+  		<p>In order to use Kent State's official fonts, you must embed the following two lines of JavaScript into the <code>HEAD</code> of custom websites.  These fonts are included by default in Kent State's official templates.  These fonts may only be used on kent.edu servers and localhost for development.</p>
+  		<a class="button secondary" onclick="toggle_visibility('fonts');">Show JavaScript</a>
+  		<pre id="fonts">
+<code class="language-javascript"><div class="code-container">
+	&lt;script type="text/javascript" src="//use.typekit.net/oct1xai.js">/&lt;script>
+	&lt;script type="text/javascript">try{Typekit.load();}catch(e){}&lt;/script>
+</div>
+</code>
+  		</pre>
+  		<hr>
+  		<h3>Large Titles</h3>
+  		<h1 class="title">This is the Home Page Headline Title</h1>
+  		<h1 class="subheader">This is a Sub Header</h1>
+  		<hr>
+  		<h3>Body Copy Headings</h3>
+  		<div class="panel">H1 is reserved for the page title.  H2 - H6 are available for formatting body copy</div>
+  		<h1>h1. This is a Very Large Header</h1>
+  		<h2>h2. This is a Large Header</h2>
+  		<h3>h3. This is a Medium Header</h3>
+  		<h4>h4. This is a Moderate Header</h4>
+  		<h5>h5. This is a Small Header</h5>
   		<h6>h6. This is a Tiny Header</h6>
-  			<ol>
-  				<li><p>Numbered Item 1</p></li>
-  				<li><p>Numbered Item 2</p></li>
-  				<li><p>Numbered Item 3</p></li>
-  			</ol>
-  			<p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool. Wrap <strong> around type to make it bold!</strong>. You can also <em>italicize your words</em>.</p>
+  		<br>
+  		<hr>
+  		<h3>Introductory Paragraph</h3>
+  		<p class="introduction">This is an introductory paragraph. Introductory paragraphs appear in a condensed font, with slightly larger type and colored cool-gray.</p>
+  		<hr>
+  		<h3>Paragraphs</h3>
+  		<p>This is a paragraph. Paragraphs are preset with a font size, line height and spacing to match the overall vertical rhythm. To show what a paragraph looks like this needs a little more content so, did you know that there are storms occurring on Jupiter that are larger than the Earth? Pretty cool. Wrap <strong> around type to make it bold!</strong>. You can also <em>italicize your words</em>.</p>
+  		<hr>
+  		<h3>Links</h3>
+  		<p>Links are very standard, and are <a href="#">bolded, with an accent color</a> to set them apart from regular text.</p>
+  		<hr>
+  		<h3>Quotes</h3>
+  		<blockquote>I do not fear computers. I fear the lack of them. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.<cite>Isaac Asimov</cite></blockquote>
+  		<a class="button secondary" onclick="toggle_visibility('quote-example');">Show Markup</a>
+  		<pre id="quote-example">
+  			<code class="language-html"><div class="code-container">
+&lt;blockquote>
+I do not fear computers. I fear the lack of them. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur.
+&lt;cite>Isaac Asimov&lt;/cite>
+&lt;/blockquote>
+ </div></code>
+  		</pre>
+  		<hr>
+  		<h3>Captions</h3>
+  		<p class="caption">Kent State Students walk to class on a summer day, near Risman Plaza.</p>
+  			  	<a class="button secondary" onclick="toggle_visibility('caption-example');">Show Markup</a>
+  		<pre id="caption-example">
+  			<code class="language-html"><div class="code-container">
+ &lt;p class="caption">Kent State Students walk to class on a summer day, near Risman Plaza.&lt;/p>
+ </div></code>
+  		</pre>
+  		<hr>
+  		<h2 id="buttons">Buttons</h2>
+  			<h3>Standard Buttons and Calls to Action</h3>
+  			<div class="panel">Small buttons are used most commonly, while larger buttons are reserved for more important actions.  Calls to action are only available for use on home pages.</div>
+			  		<!-- Size Classes -->
+			<a href="#" class="button secondary">Small Button</a> <br />
+			<a href="#" class="small button fa fa-arrow-circle-o-right"><span>Medium Button with Arrow</span></a><br />
+			<a href="#" class="small button accent fa fa-arrow-circle-o-right"><span>Medium Button with Arrow</span></a><br />
+			<a href="#" class="button large fa fa-caret-right"><span>Large Button</span></a><br />
+			<a href="#" class="button check"><i class="fa fa-check-square fa-2x"></i>Large Button With Icon</a><br />
+			<a href="#" class="action-item button">Call to Action</a> <br />
+			
+			<!-- Color Classes -->
+	
+			
+  		<hr>
+  		<h2 id="tables">Tables</h2>
   		<table>
   <thead>
     <tr>
@@ -108,40 +905,293 @@
     </tr>
   </tbody>
 </table>
-  	</div>
+	  	<a class="button secondary" onclick="toggle_visibility('table-example');">Show Markup</a>
+  		<pre id="table-example">
+  			<code class="language-html"><div class="code-container">
+&lt;table>
+  &lt;thead>
+    &lt;tr>
+      &lt;th>Table Header&lt;/th>
+      &lt;th>Table Header&lt;/th>
+      &lt;th>Table Header</th>
+      &lt;th>Table Header&lt;/th>
+    &lt;/tr>
+  &lt;/thead>
+  &lt;tbody>
+    &lt;tr>
+      &lt;td>Content Goes Here&lt;/td>
+      &lt;td>This is longer content Donec id elit non mi porta gravida at eget metus.&lt;/td>
+      &lt;td>Content Goes Here&lt;/td>
+      &lt;td>Content Goes Here&lt;/td>
+    &lt;/tr>
+  &lt;/tbody>
+&lt;/table>
+ </div></code>
+  		</pre>
+<hr>
+  		<h2 id="lists">Lists</h2>
+  		<h3>Ordered List</h3>
+  			<ol>
+	  			<li>List Item 1</li>
+	  			<li>List Item 2</li>
+	  			<li>List Item 3</li>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+	  		</ol>
+	  	<h3>Unordered (Bulleted) Lists</h3>
+	  		<ul class="preview">
+	  			<li>List Item 1</li>
+	  				<ul class="preview">
+	  					<li>Sub List 1</li>
+	  					<li>Sub List 2</li>
+	  				</ul>
+	  			<li>List Item 2</li>
+	  			<li>List Item 3</li>
+	  		</ul>
+	  	<a class="button secondary" onclick="toggle_visibility('lists-example');">Show Markup</a>
+  		<pre id="lists-example">
+  			<code class="language-html"><div class="code-container">
+&lt;ol>
+	&lt;li>List Item 1&lt;/li>
+	&lt;li>List Item 2&lt;/li>
+	&lt;li>List Item 3&lt;/li>
+&lt;/ol>
+<br/>
+&lt;ul>
+	&lt;li>List Item 1&lt;/li>
+	 	&lt;ul>
+	  		&lt;li>Sub List 1&lt;/li>
+	  		&lt;li>Sub List 2&lt;/li>
+	  	&lt;/ul>
+	 &lt;li>List Item 2&lt;/li>
+	 &lt;li>List Item 3&lt;/li>
+&lt;/ul>
+ </div></code>
+  		</pre>
+	  	<hr>
+  		<h2 id="alerts">Alerts and Panels</h2>
+  		<h3>Modal Windows</h3>
+  		<div class="panel">Modals can be set to "tiny", "small", "medium", "large" and "xlarge" classes.</div>
+  			<a class="small button fa fa-arrow-circle-o-right" data-reveal-id="myModal" data-reveal><span>Click Me For A Modal</span></a>
+  			<br>
+  		<a class="button secondary" onclick="toggle_visibility('modal-example');">Show Markup</a>
+  		<pre id="modal-example">
+  			<code class="language-html"><div class="code-container">
+&lt;div id="myModal" class="reveal-modal">
+  &lt;h2>Kent State Is Ohio's Best University&lt;/h2>
+  &lt;p class="introduction">Modals can contain special formatting.&lt;/p>
+  &lt;p>You can dismiss the modal window by clicking the X.&lt;/p>
+  &lt;a class="close-reveal-modal">&#215;&lt;/a>
+&lt;/div>
+<br/>
+&lt;a href="#" data-reveal-id="myModal">Click Me For A Modal&lt;/a>
+  			</div></code>
+  		</pre>
+  		<hr>
+  		<h3>Alert Box</h3>
+  			<div data-alert class="alert-box">
+  The Kent Campus Is Closed Today
+  <a href="#" class="close">&times;</a>
+</div>
+<a class="button secondary" onclick="toggle_visibility('alert-example');">Show Markup</a>
+  		<pre id="alert-example">
+  			<code class="language-html"><div class="code-container">
+&lt;div data-alert class="alert-box">
+The Kent Campus Is Closed Today
+&lt;a href="#" class="close">&times;&lt;/a>
+&lt;/div>
+  			</div></code>
+  		</pre>
+<hr>
+		<h3>Panels</h3>
+			<div class="panel">
+				This is a great way to call out information.
+  		</div>
+  		   <a class="button secondary" onclick="toggle_visibility('panel-example');">Show Markup</a>
+  		<pre id="panel-example">
+  		<code class="language-html"><div class="code-container">
+&lt;div class="panel">This is a great way to call out information.&lt;/div>
+  		</div>
+  			</code>
+  		</pre>
+ 
+  		<hr> 
+  		<h3>Tooltips</h3>
+  		<p>Tooltips are a quick way to provide <span data-tooltip class="has-tip" title="Tooltips are awesome, you should totally use them!">extended information</span> on a term or action on a page.</p>	
+  		<a class="button secondary" onclick="toggle_visibility('tooltip');">Show HTML</a>
+  		<pre id="tooltip">
+  		<code class="language-html"><div class="code-container">&lt;span data-tooltip class="has-tip" title="Tooltips are awesome, you should totally use them!">extended information&lt;/span&gt;</div></code>
+  		</pre>
+  		<hr>
+	<h2 id="icons">Icons</h2>
+	<p>Kent State Websites use the icon fonts from Font Awesome.  Font Awesome allows you to embed scaleable, high-quality icons on your website and within buttons.  Visit <a href="http://fontawesome.io">Font Awesome</a> to learn more.</p>
+<h3>Frequently Used Icons</h3>
+	<div class="row icon-examples">
+		<div class="large-4 columns"><i class="fa fa-arrow-circle-o-right"></i><span>fa-arrow-circle-o-right</span></div>
+		<div class="large-4 columns"><i class="fa fa-check-square"></i><span>fa-check-square</span></div>
+		<div class="large-4 columns"><i class="fa fa-calendar"></i><span>fa-calendar</span></div>
+	</div>
+	<div class="row icon-examples">
+		<div class="large-4 columns"><i class="fa fa-caret-right"></i><span>fa-caret-right</span></div>
+		<div class="large-4 columns"><i class="fa fa-play-circle-o"></i><span>fa-play-circle-o</span></div>
+		<div class="large-4 columns"><i class="fa fa-twitter-square"></i><span>fa-twitter-square</span></div>
+	</div>
+	<div class="row icon-examples">
+		<div class="large-4 columns"><i class="fa fa-facebook-square"></i><span>fa-facebook-square</span></div>
+		<div class="large-4 columns"><i class="fa fa-google-plus-square"></i><span>fa-google-plus-square</span></div>
+		<div class="large-4 columns"><i class="fa fa-tumblr-square"></i><span>fa-tumblr-square</span></div>
+	</div>
+	<div class="row icon-examples">
+		<div class="large-4 columns"><i class="fa fa-linkedin-square"></i><span>fa-linkedin-square</span></div>
+		<div class="large-4 columns"><i class="fa fa-foursquare"></i><span>fa-foursquare</span></div>
+		<div class="large-4 columns"><i class="fa fa-youtube-square"></i><span>fa-youtube-square</span></div>
+	</div>
+	<div class="row icon-examples">
+		<div class="large-4 columns"><i class="fa fa-pinterest"></i><span>fa-pinterest</span></div>
+		<div class="large-4 columns"><i class="fa fa-instagram"></i><span>fa-instagram</span></div>
+		<div class="large-4 columns"><i class="fa fa-flickr"></i><span>fa-flickr</span></div>
+	</div>
+	<br/>
+<a class="button secondary" onclick="toggle_visibility('icon-example');">Show Markup</a>
+  		<pre id="icon-example">
+  			<code class="language-html"><div class="code-container">&lt;i class="fa fa-camera-retro">&lt;/i&gt;</div></code>
+  		</pre>
+
+<hr>
+<h2 id="image-video">Images/Videos</h2>
+	<h3>Image Sliders</h3>
+	<ul data-orbit data-options="animation: 'fade'">
+  <li>
+    <img src="img/golf.jpg" alt="Caption" />
+    <div class="orbit-caption">This is the caption</div>
+  </li>
+  <li>
+    <img src="img/ride.jpg" alt="Caption" />
+    <div class="orbit-caption">This is the caption</div>
+  </li>
+  <li>
+    <img src="img/group.jpg" alt="Caption" />
+    <div class="orbit-caption">This is the caption</div>
+  </li>
+</ul>
+<a class="button secondary" onclick="toggle_visibility('slider-example');">Show Markup</a>
+  		<pre id="slider-example">
+  			<code class="language-html"><div class="code-container">	  			
+&lt;ul data-orbit>
+  &lt;li>
+    &lt;img src="../img/demos/demo1.jpg" />
+    &lt;div class="orbit-caption">...&lt;/div>
+  &lt;/li>
+  &lt;li>
+    &lt;img src="../img/demos/demo2.jpg" />
+    &lt;div class="orbit-caption">...&lt;/div>
+  &lt;/li>
+  &lt;li>
+    &lt;img src="../img/demos/demo3.jpg" />
+    &lt;div class="orbit-caption">...&lt;/div>
+  &lt;/li>
+&lt;/ul>	  			
+  			</div></code>
+  		</pre>
+<hr>
+<h3>Image Gallery With Lightbox</h3>
+<ul class="clearing-thumbs" data-clearing>
+  <li><a href="img/golf.jpg"><img data-caption="This is the caption" src="img/golf-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+  <li><a href="img/ride.jpg"><img data-caption="This is the caption" src="img/ride-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+  <li><a href="img/group.jpg"><img data-caption="This is the caption" src="img/group-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+  <li><a href="img/golf.jpg"><img data-caption="This is the caption" src="img/golf-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+  <li><a href="img/ride.jpg"><img data-caption="This is the caption" src="img/ride-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+  <li><a href="img/group.jpg"><img data-caption="This is the caption" src="img/group-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+   <li><a href="img/golf.jpg"><img data-caption="This is the caption" src="img/golf-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+  <li><a href="img/ride.jpg"><img data-caption="This is the caption" src="img/ride-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+  <li><a href="img/group.jpg"><img data-caption="This is the caption" src="img/group-thumb.jpg" class="th" style="width: 50%; height: auto;"></a></li>
+</ul>
+<a class="button secondary" onclick="toggle_visibility('lightbox-example');">Show Markup</a>
+  		<pre id="lightbox-example">
+  			<code class="language-html"><div class="code-container">	  			
+&lt;ul class="clearing-thumbs" data-clearing>
+  &lt;li>&lt;a href="img/golf.jpg">&lt;img data-caption="This is the caption" src="img/golf-thumb.jpg" class="th">&lt;/a>&lt;/li>
+  &lt;li>&lt;a href="img/ride.jpg">&lt;img data-caption="This is the caption" src="img/ride-thumb.jpg" class="th">&lt;/a>&lt;/li>
+&lt;/ul>	  			
+  			</div></code>
+  		</pre>
+<hr>
+	<h3>Left Aligned Elements</h3>
+	<div class="align-left">
+	<img src="img/president.png" alt="President Warren" />
+	<p class="caption">This is the caption</p>
+	</div>
+  	<p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.  When you invest your willingness and hard work, Kent State offers academic support, real-world experience, a diverse and inclusive campus culture and the philosophy that new ideas matter. Combine that with a strong liberal arts foundation, and you will join the nearly 200,000 alumni who have made a difference worldwide.  One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.  When you invest your willingness and hard work, Kent State offers academic support, real-world experience, a diverse and inclusive campus culture and the philosophy that new ideas matter. Combine that with a strong liberal arts foundation, and you will join the nearly 200,000 alumni who have made a difference worldwide.</p>
+  		<h3>Right Aligned Elements</h3>
+	<div class="align-right">
+	<img src="img/president.png" alt="President Warren" />
+	<p class="caption">This is the caption</p>
+	</div>
+  	<p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.  When you invest your willingness and hard work, Kent State offers academic support, real-world experience, a diverse and inclusive campus culture and the philosophy that new ideas matter. Combine that with a strong liberal arts foundation, and you will join the nearly 200,000 alumni who have made a difference worldwide.  One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.  When you invest your willingness and hard work, Kent State offers academic support, real-world experience, a diverse and inclusive campus culture and the philosophy that new ideas matter. Combine that with a strong liberal arts foundation, and you will join the nearly 200,000 alumni who have made a difference worldwide.</p>
+  	<h3>Center Aligned Elements</h3>
+	<div class="align-center">
+	<img src="img/president.png" alt="President Warren" />
+	<p class="caption">This is the caption</p>
+	</div>
+  	<p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.  When you invest your willingness and hard work, Kent State offers academic support, real-world experience, a diverse and inclusive campus culture and the philosophy that new ideas matter. Combine that with a strong liberal arts foundation, and you will join the nearly 200,000 alumni who have made a difference worldwide.  One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.  When you invest your willingness and hard work, Kent State offers academic support, real-world experience, a diverse and inclusive campus culture and the philosophy that new ideas matter. Combine that with a strong liberal arts foundation, and you will join the nearly 200,000 alumni who have made a difference worldwide.</p>
+  	<h3>Inline Videos</h3>
+  	<div class="panel">If you're embedding a video from YouTube, Vimeo, or another site that uses iframe, embed or object elements, you can wrap your video in div.flex-video to create an intrinsic ratio that will properly scale your video on any device.</div>
+	<div class="align-left">
+	<div class="flex-video"><iframe width="500px" height="500" src="//www.youtube.com/embed/x-Cyyfnr1nI" frameborder="0" allowfullscreen></iframe></div>
+	<p class="caption">This is the caption</p>
+	</div>
+  	<p>One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.  When you invest your willingness and hard work, Kent State offers academic support, real-world experience, a diverse and inclusive campus culture and the philosophy that new ideas matter. Combine that with a strong liberal arts foundation, and you will join the nearly 200,000 alumni who have made a difference worldwide.  One of Ohio’s best universities, Kent State is accessible financially and academically to many students. Its proximity to major metropolitan areas puts students within reach of world-class dining, museums and Fortune 500 companies.  When you invest your willingness and hard work, Kent State offers academic support, real-world experience, a diverse and inclusive campus culture and the philosophy that new ideas matter. Combine that with a strong liberal arts foundation, and you will join the nearly 200,000 alumni who have made a difference worldwide.</p>
+  	<a class="button secondary" onclick="toggle_visibility('video-example');">Show Markup</a>
+  		<pre id="video-example">
+  			<code class="language-html"><div class="code-container">	  			
+&lt;div class="align-left">
+&lt;div class="flex-video">&lt;iframe width="500px" height="500" src="https://www.youtube.com/embed/x-Cyyfnr1nI" frameborder="0" allowfullscreen>&lt;/iframe>&lt;/div>
+&lt;p class="caption">This is the caption&lt;/p>
+&lt;/div>	  			
+  			</div></code>
+  		</pre>
+  <hr>
+  <h2 id="forms">Forms</h2>
+   <form>
+   <div class="row">
+    <div class="large-6 columns">
+      <div class="row collapse">
+        <div class="small-10 columns">
+          <input type="text" placeholder="Your Email Address">
+        </div>
+        <div class="small-2 columns">
+          <a href="#" class="button prefix">Submit</a>
+        </div>
+      </div>
+    </div>
+   </div>
+   </form>
+   <a class="button secondary" onclick="toggle_visibility('form-example');">Show Markup</a>
+  		<pre id="form-example">
+  			<code class="language-html"><div class="code-container">	  			
+  &lt;form>
+   &lt;div class="row">
+    &lt;div class="large-6 columns">
+      &lt;div class="row collapse">
+        &lt;div class="small-10 columns">
+          &lt;input type="text" placeholder="Your Email Address">
+        &lt;/div>
+        &lt;div class="small-2 columns">
+          &lt;a href="#" class="button prefix">Submit&lt;/a>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+   &lt;/div>
+   &lt;/form>
+  			</div></code>
+  		</pre>
+   <hr>
+  	</article>
+  </div>
+  <div class="row">
   </div>
   <footer>
-  <div class="row links">
-  	<div class="large-11 large-centered columns">
-	  	<div class="row">
-	  		<div class="small-12 medium-6 large-3 columns"><h3>About</h3>
-	  				<ul>
-	  					<li>Administration</li>
-	  					<li>Alumni</li>
-	  					<li>Centers & Institutes</li>
-	  				</ul></div>
-	  <div class="small-12 large-3 medium-6 columns"><h3>Academics</h3>
-	  				<ul>
-	  					<li>Administration</li>
-	  					<li>Alumni</li>
-	  					<li>Centers & Institutes</li>
-	  				</ul></div>
-	   <div class="small-12 large-3 columns"><h3>Academics</h3>
-	  				<ul>
-	  					<li>Administration</li>
-	  					<li>Alumni</li>
-	  					<li>Centers & Institutes</li>
-	  				</ul></div>
-	  		<div class="small-12 large-3 columns">
-	  				<ul class="quicklinks">
-	  					<li><a href="#">Quicklink 1</a></li>
-	  					<li><a href="#">Quicklink 1</a></li>
-	  					<li><a href="#">Quicklink 1</a></li>
-	  				</ul>
-	  		</div>
-  </div>
-  	</div>
-  </div>
   <div class="row contact">
       	<div class="logo-white" id="footer-white"><a href="http://www.kent.edu"><span>Kent State University</span></a></div>
   	<div class="large-4 columns"><span class="footer-head">Phone</span><p>330-672-3000</p>
@@ -160,10 +1210,11 @@
   </div>
   </div>
   </footer>
-  <!-- Required JavaScript Calls -->
+   <!-- Required JavaScript Calls -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/scroll.js"></script>
   <!-- End Required JavaScript Calls -->
-  </body>
+</body>
 </html>
