@@ -4744,6 +4744,26 @@ ul.clearing-thumbs li:before {
   .flex-video iframe {
     max-width: auto; } }
 
+@media only screen and (max-width: 40em) {
+  .align-left {
+    float: none;
+    display: block;
+    text-align: center;
+    min-width: 50%;
+    margin: 0px auto;
+    height: auto; }
+    .align-left .flex-video {
+      min-width: 200px;
+      height: auto; }
+  .align-right {
+    float: none;
+    display: block;
+    text-align: center;
+    min-width: 30%;
+    margin: 0px auto;
+    height: auto;
+    padding-right: 0; } }
+
 .panel {
   font-size: 0.9em;
   line-height: 150%;

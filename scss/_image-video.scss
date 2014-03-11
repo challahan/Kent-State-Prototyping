@@ -51,3 +51,30 @@ ul.clearing-thumbs li:before {
 	}
 	
 }
+
+@media #{$small-only} {
+	.align-left {
+		float: none;
+		display: block;
+		text-align: center;
+		min-width: 50%;
+		margin: 0px auto;
+		height: auto;
+		
+			.flex-video {
+		min-width: 200px;
+		height: auto;
+		}
+		
+	}
+
+	.align-right {
+		float: none;
+		display: block;
+		text-align: center;
+		min-width: 30%;
+		margin: 0px auto;
+		height: auto;
+		padding-right: 0;
+	}
+}
