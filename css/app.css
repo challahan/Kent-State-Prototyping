@@ -4466,7 +4466,7 @@ body {
 
 .header-white {
   padding: 0.9375rem;
-  height: 5rem;
+  height: 7.1875rem;
   margin: 0 auto;
   padding-top: 1.25rem;
   background-image: -webkit-gradient(linear, 14% 1%, 14% 94%, color-stop(0.11, #ffffff), color-stop(0.55, #f7f7f7), color-stop(1, rgba(238, 238, 238, 0.93))) !important;
@@ -4491,7 +4491,7 @@ body {
   background-image: linear-gradient(180deg, #002147 0%, #002751 21%, rgba(0, 60, 120, 0.96) 100%);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0)";
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0);
-  height: 5rem;
+  height: 7.1875rem;
   margin: 0 auto;
   padding-top: 1.25rem; }
 
@@ -4519,9 +4519,7 @@ body {
     background-size: 100%;
     margin-top: 0.9375rem;
     margin-right: 0.9375rem;
-    margin: 0px auto; }
-  .header-blue {
-    height: 7.1875rem; } }
+    margin: 0px auto; } }
 
 footer {
   background-color: #002664;

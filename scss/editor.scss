@@ -383,3 +383,9 @@ h6 {
 		padding-left: 0;
 	}
 }
+
+@media #{$medium-up} {
+	.flex-video {
+		min-width:300px;
+	}
+}
