@@ -24,7 +24,8 @@
   padding-right: 0.1em;
   position: relative;
   z-index: 100;
-  margin-top: -2.5em; }
+  margin-top: -2.5em;
+  font-size: 1em; }
   .photo-caption .caption {
     color: white; }
   .photo-caption i {
