@@ -21,11 +21,13 @@
   margin-bottom: 0.5em; }
 
 .button {
+  -webkit-box-shadow: none;
   box-shadow: none;
   line-height: 35px; }
 
 .secondary {
   font-family: "museo-slab", Georgia, serif;
+  -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 5px !important;
   font-size: 0.6875rem;
