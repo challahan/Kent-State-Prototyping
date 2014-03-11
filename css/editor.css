@@ -154,7 +154,8 @@ ol {
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
 
 .action-link {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  margin-top: 0.5em; }
   .action-link i {
     margin-left: 0.1em; }
   .action-link span {
