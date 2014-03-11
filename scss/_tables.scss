@@ -1,7 +1,13 @@
 @media #{$small-only} {
 
-	table.responsive td {
-	font-size:.1em;
-}
+	table.responsive  {
 
+	border-collapse: collapse;
+
+	td {
+	font-size:.1em;
+
+	}
+
+}
 }

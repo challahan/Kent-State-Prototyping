@@ -4701,8 +4701,10 @@ footer .quicklinks {
   color: #ffd561 !important; }
 
 @media only screen and (max-width: 40em) {
-  table.responsive td {
-    font-size: 0.1em; } }
+  table.responsive {
+    border-collapse: collapse; }
+    table.responsive td {
+      font-size: 0.1em; } }
 
 .icon-sunburst {
   -webkit-background-size: 100% auto;
