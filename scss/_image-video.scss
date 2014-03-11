@@ -60,6 +60,8 @@ ul.clearing-thumbs li:before {
 		min-width: 50%;
 		margin: 0px auto;
 		height: auto;
+		padding-left: 0;
+		padding-right: 0;
 		
 			.flex-video {
 		min-width: 200px;
@@ -76,5 +78,6 @@ ul.clearing-thumbs li:before {
 		margin: 0px auto;
 		height: auto;
 		padding-right: 0;
+		padding-left: 0;
 	}
 }

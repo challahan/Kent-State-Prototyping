@@ -4751,7 +4751,9 @@ ul.clearing-thumbs li:before {
     text-align: center;
     min-width: 50%;
     margin: 0px auto;
-    height: auto; }
+    height: auto;
+    padding-left: 0;
+    padding-right: 0; }
     .align-left .flex-video {
       min-width: 200px;
       height: auto; }
@@ -4762,7 +4764,8 @@ ul.clearing-thumbs li:before {
     min-width: 30%;
     margin: 0px auto;
     height: auto;
-    padding-right: 0; } }
+    padding-right: 0;
+    padding-left: 0; } }
 
 .panel {
   font-size: 0.9em;
