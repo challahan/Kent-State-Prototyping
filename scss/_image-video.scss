@@ -12,6 +12,10 @@
 	margin: 0px auto;
 }
 
+.flex-video iframe {
+	max-width: 275px;
+}
+
 .icon-examples {
 
 	i {
@@ -40,6 +44,10 @@ ul.clearing-thumbs li:before {
 		width: 80%;
 		float: right;
 		margin: inherit;
+	}
+
+	.flex-video iframe {
+		max-width: auto;
 	}
 	
 }
