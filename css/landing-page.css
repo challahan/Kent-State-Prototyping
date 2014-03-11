@@ -183,6 +183,10 @@ h2.subheader {
     background-color: rgba(0, 38, 100, 0.8);
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
+  .feature-row .colored-blue-dark {
+    background-color: rgba(0, 33, 71, 0.9);
+    padding-top: 2em;
+    padding-bottom: 1.5em; }
   .feature-row .colored-gray {
     background-color: rgba(115, 115, 115, 0.05);
     padding-top: 2.5em;
