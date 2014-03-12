@@ -174,10 +174,8 @@ h2.subheader {
       color: #009dd8 !important;
       font-size: 0.7em;
       margin-top: 0.45em; }
-  .feature-row .orbit-container {
-    margin-top: 1em; }
-    .feature-row .orbit-container ul li:before {
-      content: none; }
+  .feature-row .orbit-container ul li:before {
+    content: none; }
   .feature-row .small {
     min-width: 15em;
     max-width: 20em;
@@ -330,7 +328,9 @@ h2.subheader {
     max-width: 45%;
     line-height: 100%;
     margin-bottom: 0.4em;
-    text-align: left; } }
+    text-align: left; }
+  .orbit-container {
+    margin-top: 1em; } }
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {

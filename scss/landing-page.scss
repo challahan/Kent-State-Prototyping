@@ -243,8 +243,6 @@ h2.subheader {
 
 		.orbit-container  {
 
-			margin-top: 1em;
-
 			ul li:before {
 				content: none;
 			}
@@ -500,6 +498,10 @@ h2.subheader {
 		line-height: 100%;
 		margin-bottom: .4em;
 		text-align: left;
+	}
+
+	.orbit-container {
+		margin-top: 1em;
 	}
 
 	
