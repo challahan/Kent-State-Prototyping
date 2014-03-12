@@ -147,29 +147,37 @@ h2.subheader {
     text-align: left;
     margin-top: 2em; }
     .feature-row ul a {
-      color: white; }
+      color: white;
+      -webkit-transition: 0.1s color linear;
+      transition: 0.1s color linear; }
+    .feature-row ul a:hover, .feature-row ul a:active, .feature-row ul a:focus {
+      color: #ffc82e; }
     .feature-row ul li {
       margin-bottom: 2em; }
   .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
-    font-size: 1em;
+    font-size: 0.9em;
     text-align: center;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     font-weight: 600;
-    background-color: rgba(90, 90, 90, 0.95); }
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #002664; }
     .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span {
-      color: #ffc82e;
+      color: #002664;
       text-transform: uppercase;
       font-size: 0.5em;
       font-weight: bold;
       padding-left: 1.5em;
       padding-bottom: 0.3em; }
     .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span:hover {
-      color: #ffd561; }
+      color: #003a97; }
     .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
-      color: white !important;
-      margin-top: 0.2em; }
-  .feature-row .orbit-container ul li:before {
-    content: none; }
+      color: #009dd8 !important;
+      font-size: 0.7em;
+      margin-top: 0.45em; }
+  .feature-row .orbit-container {
+    margin-top: 1em; }
+    .feature-row .orbit-container ul li:before {
+      content: none; }
   .feature-row .small {
     min-width: 15em;
     max-width: 20em; }
@@ -184,9 +192,11 @@ h2.subheader {
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
   .feature-row .colored-blue-dark {
-    background-color: rgba(0, 33, 71, 0.9);
+    background-color: rgba(0, 33, 71, 0.97);
     padding-top: 2em;
     padding-bottom: 1.5em; }
+    .feature-row .colored-blue-dark .orbit-bullets li.active {
+      background: #009dd8; }
   .feature-row .colored-gray {
     background-color: rgba(115, 115, 115, 0.05);
     padding-top: 2.5em;
@@ -208,7 +218,10 @@ h2.subheader {
   .feature-row .colored-black {
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 1.5em;
-    padding-bottom: 1.5em; }
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid white; }
+    .feature-row .colored-black .button {
+      min-width: 17em; }
 
 .promo h2 {
   text-align: center; }

@@ -199,6 +199,11 @@ h2.subheader {
 
 			a {
 				color: white;
+				transition: .1s color linear;
+			}
+
+			a:hover,a:active,a:focus {
+				color: $bright-yellow;
 			}
 
 
@@ -208,14 +213,15 @@ h2.subheader {
 		}
 
 		.orbit-container .orbit-slides-container > * .orbit-caption {
-			font-size: 1em;
+			font-size: .9em;
 			text-align: center;
 			font-family: $sans-serif-condensed;
 			font-weight: 600;
-			background-color: rgba(darken($cool-gray,10%),.95);
+			background-color: rgba(white,.9);
+			color: $ksu-blue;
 
 			span  {
-				color: $bright-yellow;
+				color: $ksu-blue;
 				text-transform: uppercase;
 				font-size: .5em;
 				font-weight: bold;
@@ -225,17 +231,24 @@ h2.subheader {
 			}
 
 			span:hover  {
-				color: lighten($bright-yellow, 10%);
+				color: lighten($ksu-blue, 10%);
 			}
 
 			.fa-caret-right::before {
-					color: white !important;
-					margin-top: .2em;
+					color: $cyan !important;
+					font-size: .7em;
+					margin-top: .45em;
 				}
 		}
 
-		.orbit-container ul li:before {
-			content: none;
+		.orbit-container  {
+
+			margin-top: 1em;
+
+			ul li:before {
+				content: none;
+			}
+
 		}
 
 		.small {
@@ -261,9 +274,13 @@ h2.subheader {
 
 		.colored-blue-dark {
 
-			background-color: rgba($dark-blue, .9);
+			background-color: rgba($dark-blue, .97);
 			padding-top: 2em;
 			padding-bottom: 1.5em;
+
+			.orbit-bullets li.active {
+				background: $cyan;
+			}
 
 		}
 
@@ -302,6 +319,11 @@ h2.subheader {
 			background-color: rgba(0,0,0,.7);
 			padding-top: 1.5em;
 			padding-bottom: 1.5em;
+			border-bottom: 1px solid white;
+
+			.button {
+				min-width: 17em;
+			}
 		}
 }
 

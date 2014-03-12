@@ -44,7 +44,8 @@
   padding-top: 1.2em !important;
   padding-bottom: 1.2em !important;
   margin-top: 0.5em;
-  margin-right: 1em;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
   border-radius: 2px; }
   .small span {
     font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
@@ -157,7 +158,8 @@ ul {
   margin: 0;
   margin-left: 2em;
   list-style-position: outside;
-  margin-top: 0.5em; }
+  margin-top: 0.5em;
+  margin-bottom: 1em; }
   ul li {
     padding-left: 0em;
     text-indent: 0em;
