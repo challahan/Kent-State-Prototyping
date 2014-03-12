@@ -153,8 +153,8 @@ h2.subheader {
 	color: $bright-yellow;
 	margin: 0;
 	padding: 0;
+	font-size: 1em;
 	margin-top: -1.2em;
-	font-size: 1.4em;
 	margin-left: .1em;
 	text-shadow: 1px 1px 2px rgba(0,0,0,.9);
 	display: block;
@@ -440,14 +440,14 @@ h2.subheader {
 	}
 
 	h2.subheader {
-		margin-top: -1.5em;
+		margin-top: -1.3em;
+		font-size: 1.4em;
 	}
-
-
-	
 }
 
 @media #{$medium-up} {
+	
+
 	.feature-row {
 		background-position: center top;
 
@@ -459,8 +459,6 @@ h2.subheader {
 				padding-top: 3em;
 		padding-bottom: 3em;
 		}
-
-	
 	}
 
 	.tabs {
@@ -502,10 +500,15 @@ h2.subheader {
 
 @media #{$medium-only} {
 	.hero {
-		background-size: 120% auto;
+		background-size: 125% auto;
 		min-height: 250px;
 		padding-top: 220px;
 	}
+
+		h2.subheader {
+			max-width:45%;
+			font-size: 1.1em;
+		}
 
 	.feature-row {
 		background-size:275% auto;
@@ -513,6 +516,12 @@ h2.subheader {
 }
 
 @media #{$small-only} {
+
+	h2.subheader {
+		max-width: 80%;
+		margin: 0px auto;
+		margin-top: -1em;
+	}
 
 	.button-group {
 		float: none;

@@ -113,8 +113,8 @@ h2.subheader {
   color: #ffc82e;
   margin: 0;
   padding: 0;
+  font-size: 1em;
   margin-top: -1.2em;
-  font-size: 1.4em;
   margin-left: 0.1em;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
   display: block; }
@@ -298,7 +298,8 @@ h2.subheader {
     -webkit-background-size: 130% auto;
     background-size: 130% auto; }
   h2.subheader {
-    margin-top: -1.5em; } }
+    margin-top: -1.3em;
+    font-size: 1.4em; } }
 
 @media only screen and (min-width:40.063em) {
   .feature-row {
@@ -330,15 +331,22 @@ h2.subheader {
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
-    -webkit-background-size: 120% auto;
-    background-size: 120% auto;
+    -webkit-background-size: 125% auto;
+    background-size: 125% auto;
     min-height: 250px;
     padding-top: 220px; }
+  h2.subheader {
+    max-width: 45%;
+    font-size: 1.1em; }
   .feature-row {
     -webkit-background-size: 275% auto;
     background-size: 275% auto; } }
 
 @media only screen and (max-width: 40em) {
+  h2.subheader {
+    max-width: 80%;
+    margin: 0px auto;
+    margin-top: -1em; }
   .button-group {
     float: none; }
     .button-group .button {
