@@ -179,8 +179,9 @@ h2.subheader {
     .feature-row .orbit-container ul li:before {
       content: none; }
   .feature-row .small {
-    min-width: 14.5em;
-    max-width: 20em; }
+    min-width: 15em;
+    max-width: 20em;
+    float: left; }
   .feature-row h3 {
     color: #eaab00;
     font-size: 1.5em;
@@ -221,7 +222,7 @@ h2.subheader {
     padding-bottom: 1.5em;
     border-bottom: 1px solid white; }
     .feature-row .colored-black .button {
-      min-width: 17em; }
+      min-width: 15em; }
 
 .promo h2 {
   text-align: center; }
@@ -309,6 +310,8 @@ h2.subheader {
     .feature-row .colored-black, .feature-row .colored-blue, .feature-row .colored-gold {
       padding-top: 3em;
       padding-bottom: 3em; }
+    .feature-row .colored-black .button {
+      min-width: 15em; }
   .tabs dd {
     width: auto; }
     .tabs dd a {
@@ -347,6 +350,8 @@ h2.subheader {
     max-width: 80%;
     margin: 0px auto;
     margin-top: -1em; }
+  .orbit-container .orbit-slides-container img {
+    max-width: 150%; }
   .button-group {
     float: none; }
     .button-group .button {

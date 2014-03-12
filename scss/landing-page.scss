@@ -252,8 +252,9 @@ h2.subheader {
 		}
 
 		.small {
-			min-width: 14.5em;
+			min-width: 15em;
 			max-width:20em;
+			float: left;
 		}
 
 		h3 {
@@ -322,7 +323,7 @@ h2.subheader {
 			border-bottom: 1px solid white;
 
 			.button {
-				min-width: 17em;
+				min-width: 15em;
 			}
 		}
 }
@@ -459,6 +460,12 @@ h2.subheader {
 				padding-top: 3em;
 		padding-bottom: 3em;
 		}
+
+		.colored-black {
+			.button {
+				min-width: 15em;
+			}
+		}
 	}
 
 	.tabs {
@@ -521,6 +528,10 @@ h2.subheader {
 		max-width: 80%;
 		margin: 0px auto;
 		margin-top: -1em;
+	}
+
+	.orbit-container .orbit-slides-container img {
+		max-width: 150%;
 	}
 
 	.button-group {
