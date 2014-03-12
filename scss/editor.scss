@@ -62,11 +62,13 @@
 	padding-bottom: 1.2em !important;
 	margin-top: .5em;
 	margin-right: 1em;
+	border-radius: 2px;
 	
 	span {
 		font-family: $sans-serif !important;
 		margin-right: 1em;
 		font-weight: bold;
+		text-shadow: 1px 1px 1px rgba(0,0,0,.4)
 	}
 	
 }
@@ -129,6 +131,7 @@ position: absolute;
 		span {
 		font-family: $sans-serif !important;
 		margin-right: 1em;
+		text-shadow: none;
 	}
 		
 }
@@ -140,6 +143,52 @@ position: absolute;
 .accent:hover {
 	background-color: lighten($ksu-gold, 10%) !important;
 }
+
+.action-item {
+  width: 100%;
+  max-width: 25em;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: left;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, $cyan 0%,$cyan 90%,lighten($dark-blue,5%) 90%,lighten($dark-blue,5%) 100%);
+  padding-right: 0em;
+  padding-left: 5%;
+  padding-bottom: .8em;
+  box-shadow: none !important;
+  padding-top: .7em;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+.action-item:after {
+	width: 0; 
+	content: "";
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid $bright-yellow;
+	margin: 0px auto;
+	font-size: 110% !important;
+	float: right;
+	margin-right: 3.8%;
+	text-align: center;
+	 transition: .3s all ease;
+  -webkit-transition: .3s all ease;
+  margin-top: .5em;
+}
+
+.action-item:hover {
+  	background: linear-gradient(to right, lighten($cyan,5%) 0%,lighten($cyan,5%) 90%,lighten($dark-blue,10%) 90%,lighten($dark-blue,10%) 100%);
+}
+
+.action-item:hover:after {
+	color: lighten($bright-yellow, 10%) !important;
+}
+
+
+
 
 
 // Lists //

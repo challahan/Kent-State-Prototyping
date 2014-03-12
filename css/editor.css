@@ -44,11 +44,13 @@
   padding-top: 1.2em !important;
   padding-bottom: 1.2em !important;
   margin-top: 0.5em;
-  margin-right: 1em; }
+  margin-right: 1em;
+  border-radius: 2px; }
   .small span {
     font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
     margin-right: 1em;
-    font-weight: bold; }
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
 
 .large {
   padding-left: 3em !important;
@@ -95,13 +97,59 @@
   border: 1px solid #d19500 !important; }
   .accent span {
     font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
-    margin-right: 1em; }
+    margin-right: 1em;
+    text-shadow: none; }
 
 .large:hover, .check:hover {
   background-color: #00397a; }
 
 .accent:hover {
   background-color: #ffbf1e !important; }
+
+.action-item {
+  width: 100%;
+  max-width: 25em;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: left;
+  border: none;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left top, right top, from(#009dd8), color-stop(90%, #009dd8), color-stop(90%, #002d61), to(#002d61));
+  background: -webkit-linear-gradient(left, #009dd8 0%, #009dd8 90%, #002d61 90%, #002d61 100%);
+  background: linear-gradient(to right, #009dd8 0%, #009dd8 90%, #002d61 90%, #002d61 100%);
+  padding-right: 0em;
+  padding-left: 5%;
+  padding-bottom: 0.8em;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  padding-top: 0.7em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
+
+.action-item:after {
+  width: 0;
+  content: "";
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #ffc82e;
+  margin: 0px auto;
+  font-size: 110% !important;
+  float: right;
+  margin-right: 3.8%;
+  text-align: center;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  margin-top: 0.5em; }
+
+.action-item:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#00b1f2), color-stop(90%, #00b1f2), color-stop(90%, #00397a), to(#00397a));
+  background: -webkit-linear-gradient(left, #00b1f2 0%, #00b1f2 90%, #00397a 90%, #00397a 100%);
+  background: linear-gradient(to right, #00b1f2 0%, #00b1f2 90%, #00397a 90%, #00397a 100%); }
+
+.action-item:hover:after {
+  color: #ffd561 !important; }
 
 ul {
   list-style: none;
