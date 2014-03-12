@@ -92,6 +92,7 @@ nav {
 			padding-left: 1em;
 			color: $ksu-blue !important;
 			font-family: $sans-serif;
+			transition: background-color .3s linear;
 		}
 		
 		a:hover, a:active, a:focus {
@@ -108,6 +109,7 @@ nav {
 				background-color: transparent;
 				list-style-type: none;
 				border-left: 6px solid $bright-yellow;
+				transition: background-color .3s linear;
 				
 				a {
 					padding: .5em;
