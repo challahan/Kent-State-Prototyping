@@ -178,8 +178,7 @@ h2.subheader {
     content: none; }
   .feature-row .small {
     min-width: 15em;
-    max-width: 20em;
-    float: left; }
+    max-width: 20em; }
   .feature-row h3 {
     color: #eaab00;
     font-size: 1.5em;
@@ -196,6 +195,8 @@ h2.subheader {
     padding-bottom: 1.5em; }
     .feature-row .colored-blue-dark .orbit-bullets li.active {
       background: #009dd8; }
+    .feature-row .colored-blue-dark .introduction {
+      margin-top: 0em; }
   .feature-row .colored-gray {
     background-color: rgba(115, 115, 115, 0.05);
     padding-top: 2.5em;
@@ -331,6 +332,8 @@ h2.subheader {
     text-align: left;
     font-size: 4em; }
   .orbit-container {
+    margin-top: 1em; }
+  .colored-blue-dark .introduction {
     margin-top: 1em; } }
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {

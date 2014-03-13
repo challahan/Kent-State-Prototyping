@@ -252,7 +252,6 @@ h2.subheader {
 		.small {
 			min-width: 15em;
 			max-width:20em;
-			float: left;
 		}
 
 		h3 {
@@ -279,6 +278,10 @@ h2.subheader {
 
 			.orbit-bullets li.active {
 				background: $cyan;
+			}
+
+			.introduction {
+				margin-top: 0em;
 			}
 
 		}
@@ -503,6 +506,12 @@ h2.subheader {
 
 	.orbit-container {
 		margin-top: 1em;
+	}
+
+	.colored-blue-dark {
+		.introduction {
+			margin-top: 1em;
+		}
 	}
 
 	
