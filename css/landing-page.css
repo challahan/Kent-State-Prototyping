@@ -1,4 +1,4 @@
-#landing .hero {
+.hero {
   min-height: 220px;
   width: 100%;
   overflow: hidden;
@@ -6,7 +6,8 @@
   padding-top: 125px;
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
-#landing .landing-title {
+
+.landing-title {
   position: relative;
   bottom: 0;
   width: 100%;
@@ -15,7 +16,8 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.93)));
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%); }
-#landing .photo-caption {
+
+.photo-caption {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
   padding-bottom: 1em;
   float: right;
@@ -24,64 +26,70 @@
   z-index: 100;
   margin-top: -2.5em;
   font-size: 1em; }
-  #landing .photo-caption .caption {
+  .photo-caption .caption {
     color: white; }
-  #landing .photo-caption i {
+  .photo-caption i {
     color: #ffc82e;
     padding-right: 1em; }
-  #landing .photo-caption .caption-title {
+  .photo-caption .caption-title {
     color: #ffc82e;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     display: inline-block;
     font-weight: bold; }
-#landing h1.title {
+
+h1.title {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #009dd8;
   font-size: 2.5em;
   text-transform: none; }
-#landing h1.landing {
+
+h1.landing {
   font-family: "adobe-garamond-pro", Georgia, serif;
   font-weight: 600;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
   font-size: 3.5em;
   text-transform: none; }
-#landing h1.subheader {
+
+h1.subheader {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   font-weight: 600;
   color: #009dd8;
   text-transform: none;
   font-size: 1.5em; }
-#landing .image-centered {
+
+.image-centered {
   text-align: center; }
-  #landing .image-centered h2 {
+  .image-centered h2 {
     font-size: 2em;
     margin-top: -1.7em;
     margin-bottom: 0.5em; }
-  #landing .image-centered img {
+  .image-centered img {
     width: 90%;
     height: auto;
     margin: 0px auto;
     border: 1px solid #e5e3df;
     padding: 0.3em;
     margin-bottom: 1.5em; }
-#landing .image-rounded {
+
+.image-rounded {
   text-align: center; }
-  #landing .image-rounded img {
+  .image-rounded img {
     border-radius: 5px;
     margin-bottom: 1em;
     padding-top: 0.5em; }
-  #landing .image-rounded h2 {
+  .image-rounded h2 {
     font-weight: 400;
     font-size: 2em;
     margin-top: -1.7em;
     margin-bottom: 0.5em; }
-#landing .button-group {
+
+.button-group {
   background-color: #e0ded9;
   -webkit-box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.5); }
-  #landing .button-group .button {
+  .button-group .button {
     margin-bottom: 0 !important;
     background-color: #e0ded9;
     color: #1a1a1a;
@@ -90,16 +98,17 @@
     font-weight: 600 !important;
     padding-left: inherit !important;
     padding-right: inherit !important; }
-  #landing .button-group li:before {
+  .button-group li:before {
     content: none; }
-  #landing .button-group li:first-child a {
+  .button-group li:first-child a {
     border-left: 1px solid #e0ded9; }
-  #landing .button-group li:last-child a {
+  .button-group li:last-child a {
     border-right: 1px solid #e0ded9; }
-  #landing .button-group .button:hover, #landing .button-group .button:active, #landing .button-group .button:focus {
+  .button-group .button:hover, .button-group .button:active, .button-group .button:focus {
     background-color: #737373;
     color: white; }
-#landing h2.subheader {
+
+h2.subheader {
   font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
   color: #ffc82e;
   margin: 0;
@@ -109,234 +118,251 @@
   margin-left: 0.1em;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
   display: block; }
-#landing .landing-row {
+
+.landing-row {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: 0.5em;
   border-bottom: 1px solid #f0efed; }
-  #landing .landing-row h2 {
+  .landing-row h2 {
     margin-top: 0; }
-  #landing .landing-row .tabs-content {
+  .landing-row .tabs-content {
     text-align: left;
     border: 1px solid #e0ded9;
     margin-bottom: 0.2em; }
-#landing .feature-row {
+
+.feature-row {
   text-align: center;
   -webkit-background-size: 700% auto;
   background-size: 700% auto;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
-  #landing .feature-row h2 {
+  .feature-row h2 {
     font-weight: 600;
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 0.5em;
     color: #eaab00; }
-  #landing .feature-row ul {
+  .feature-row ul {
     text-shadow: none;
     text-align: left;
     margin-top: 2em; }
-    #landing .feature-row ul a {
+    .feature-row ul a {
       color: white;
       -webkit-transition: 0.1s color linear;
       transition: 0.1s color linear; }
-    #landing .feature-row ul a:hover, #landing .feature-row ul a:active, #landing .feature-row ul a:focus {
+    .feature-row ul a:hover, .feature-row ul a:active, .feature-row ul a:focus {
       color: #ffc82e; }
-    #landing .feature-row ul li {
+    .feature-row ul li {
       margin-bottom: 2em; }
-  #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
+  .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
     font-size: 0.9em;
     text-align: center;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     font-weight: 600;
     background-color: rgba(255, 255, 255, 0.7);
     color: #002664; }
-    #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span {
+    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span {
       color: #002664;
       text-transform: uppercase;
       font-size: 0.5em;
       font-weight: bold;
       padding-left: 1.5em;
       padding-bottom: 0.3em; }
-    #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span:hover {
+    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span:hover {
       color: #003a97; }
-    #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
+    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
       color: #009dd8 !important;
       font-size: 0.7em;
       margin-top: 0.45em; }
-  #landing .feature-row .orbit-container ul li:before {
+  .feature-row .orbit-container ul li:before {
     content: none; }
-  #landing .feature-row .small {
+  .feature-row .small {
     min-width: 15em;
     max-width: 20em; }
-  #landing .feature-row h3 {
+  .feature-row h3 {
     color: #eaab00;
     font-size: 1.5em;
     margin-top: 1em; }
-  #landing .feature-row p {
+  .feature-row p {
     color: white; }
-  #landing .feature-row .colored-blue {
+  .feature-row .colored-blue {
     background-color: rgba(0, 38, 100, 0.8);
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
-  #landing .feature-row .colored-blue-dark {
+  .feature-row .colored-blue-dark {
     background-color: rgba(91, 99, 52, 0.95);
     padding-top: 2em;
     padding-bottom: 1.5em; }
-    #landing .feature-row .colored-blue-dark .orbit-bullets li.active {
+    .feature-row .colored-blue-dark .orbit-bullets li.active {
       background: #009dd8; }
-    #landing .feature-row .colored-blue-dark .introduction {
+    .feature-row .colored-blue-dark .introduction {
       margin-top: 0em; }
-  #landing .feature-row .colored-gray {
+  .feature-row .colored-gray {
     background-color: rgba(115, 115, 115, 0.05);
     padding-top: 2.5em;
     padding-bottom: 1.5em; }
-    #landing .feature-row .colored-gray h3 {
+    .feature-row .colored-gray h3 {
       color: #002147;
       text-shadow: none;
       margin-top: 1em; }
-    #landing .feature-row .colored-gray h2 {
+    .feature-row .colored-gray h2 {
       text-align: center; }
-    #landing .feature-row .colored-gray ul li a {
+    .feature-row .colored-gray ul li a {
       color: black; }
-  #landing .feature-row .colored-gold {
+  .feature-row .colored-gold {
     background-color: rgba(234, 171, 0, 0.8);
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
-  #landing .feature-row .button {
+  .feature-row .button {
     text-shadow: none; }
-  #landing .feature-row .colored-black {
+  .feature-row .colored-black {
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     border-bottom: 1px solid white; }
-    #landing .feature-row .colored-black .button {
+    .feature-row .colored-black .button {
       min-width: 15em; }
-#landing .promo h2 {
+
+.promo h2 {
   text-align: center; }
-#landing .promo p {
+.promo p {
   text-align: center; }
-#landing .promo.first {
+
+.promo.first {
   border-right: 1px solid #e0ded9;
   margin-bottom: 1em; }
-#landing .tabs {
+
+.tabs {
   margin-top: 2em; }
-  #landing .tabs dd a {
+  .tabs dd a {
     font-family: "museo-slab", Georgia, serif;
     font-size: 0.7rem;
     text-align: center; }
-  #landing .tabs dd {
+  .tabs dd {
     background-color: #f7f6f5;
     border-top: 4px solid #009dd8;
     margin-right: 1px;
     width: 100%; }
-  #landing .tabs dd.active {
+  .tabs dd.active {
     border-top: 4px solid #002664;
     border-left: 1px solid #e0ded9;
     border-right: 1px solid #e0ded9; }
-    #landing .tabs dd.active a {
+    .tabs dd.active a {
       color: #002147; }
-#landing .tabs-content > .content {
+
+.tabs-content > .content {
   margin-left: 4%;
   width: 96%;
   padding: 1rem; }
-#landing .section-container.auto > section > .title {
+
+.section-container.auto > section > .title {
   background-color: #f7f6f5;
   border-top: 4px solid #009dd8; }
-#landing .section-container > section.active > .title {
+
+.section-container > section.active > .title {
   border-top: 4px solid #002664; }
-  #landing .section-container > section.active > .title a {
+  .section-container > section.active > .title a {
     color: #002147; }
-#landing .section-container.accordion > section.active > .title, #landing .accordion dd.active a {
+
+.section-container.accordion > section.active > .title, .accordion dd.active a {
   background-color: #002664;
   border: 0;
   color: white; }
-  #landing .section-container.accordion > section.active > .title a, #landing .accordion dd.active a a {
+  .section-container.accordion > section.active > .title a, .accordion dd.active a a {
     color: white; }
-#landing .section-container.vertical-tabs > section.active > .title {
+
+.section-container.vertical-tabs > section.active > .title {
   background-color: #002664;
   border-top: none; }
-  #landing .section-container.vertical-tabs > section.active > .title a {
+  .section-container.vertical-tabs > section.active > .title a {
     color: white; }
-#landing .section-container.accordion > section:not(.active) {
+
+.section-container.accordion > section:not(.active) {
   background-color: #f7f6f5; }
-#landing .section-container.auto > section > .title:hover {
+
+.section-container.auto > section > .title:hover {
   border-top: 4px solid #002664; }
+
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  #landing .button-group .button {
+  .button-group .button {
     font-size: 0.7rem; } }
+
 @media only screen and (min-width:64.063em) {
-  #landing .hero {
+  .hero {
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     padding-top: 300px; }
-  #landing h1.landing {
+  h1.landing {
     font-size: 5em; }
-  #landing .feature-row {
+  .feature-row {
     -webkit-background-size: 130% auto;
     background-size: 130% auto; }
-  #landing h2.subheader {
+  h2.subheader {
     margin-top: -1.3em;
     font-size: 1.4em; } }
+
 @media only screen and (min-width:40.063em) {
-  #landing .feature-row {
+  .feature-row {
     background-position: center top; }
-    #landing .feature-row h2 {
+    .feature-row h2 {
       font-size: 2.5em; }
-    #landing .feature-row .colored-black, #landing .feature-row .colored-blue, #landing .feature-row .colored-gold {
+    .feature-row .colored-black, .feature-row .colored-blue, .feature-row .colored-gold {
       padding-top: 3em;
       padding-bottom: 3em; }
-    #landing .feature-row .colored-black .button {
+    .feature-row .colored-black .button {
       min-width: 15em; }
-  #landing .tabs dd {
+  .tabs dd {
     width: auto; }
-    #landing .tabs dd a {
+    .tabs dd a {
       font-size: 1rem; }
-  #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
+  .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
     font-size: 1.5em; }
-  #landing .photo-caption {
+  .photo-caption {
     max-width: 45%;
     margin-top: -7em;
     margin-right: 2em;
     padding-right: 0.5em; }
-  #landing .landing-title {
+  .landing-title {
     padding-left: 1.5em;
     text-align: left; }
-  #landing h1.landing {
+  h1.landing {
     max-width: 45%;
     line-height: 100%;
     margin-bottom: 0.4em;
     text-align: left;
     font-size: 4em; }
-  #landing .orbit-container {
+  .orbit-container {
     margin-top: 1em; }
-  #landing .colored-blue-dark .introduction {
+  .colored-blue-dark .introduction {
     margin-top: 1em; } }
+
 @media only screen and (min-width:40.063em) and (max-width:64em) {
-  #landing .hero {
+  .hero {
     -webkit-background-size: 125% auto;
     background-size: 125% auto;
     min-height: 250px;
     padding-top: 220px; }
-  #landing h2.subheader {
+  h2.subheader {
     max-width: 45%;
     font-size: 1.1em; }
-  #landing .feature-row {
+  .feature-row {
     -webkit-background-size: 275% auto;
     background-size: 275% auto; } }
+
 @media only screen and (max-width: 40em) {
-  #landing h2.subheader {
+  h2.subheader {
     max-width: 80%;
     margin: 0px auto;
     margin-top: -1em; }
-  #landing .orbit-container .orbit-slides-container img {
+  .orbit-container .orbit-slides-container img {
     max-width: 150%; }
-  #landing .button-group {
+  .button-group {
     float: none; }
-    #landing .button-group .button {
+    .button-group .button {
       text-align: center; }
-    #landing .button-group li {
+    .button-group li {
       width: 100% !important; }
-      #landing .button-group li a {
+      .button-group li a {
         border-left: none !important;
         border-right: none !important;
         border-bottom: 1px solid silver !important; } }
