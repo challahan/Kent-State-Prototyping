@@ -4692,7 +4692,8 @@ ul.clearing-thumbs li:before {
   background-color: #002147;
   margin-left: 1.5em; }
   .top-bar-section ul li > a {
-    font-weight: bold; }
+    font-weight: 600;
+    letter-spacing: 0.06ex; }
   .top-bar-section ul li:hover > a {
     background-color: white;
     color: #002147; }
