@@ -1,4 +1,4 @@
-.hero {
+#landing .hero {
   min-height: 220px;
   width: 100%;
   overflow: hidden;
@@ -6,8 +6,7 @@
   padding-top: 125px;
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
-
-.landing-title {
+#landing .landing-title {
   position: relative;
   bottom: 0;
   width: 100%;
@@ -16,8 +15,7 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.93)));
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%); }
-
-.photo-caption {
+#landing .photo-caption {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
   padding-bottom: 1em;
   float: right;
@@ -26,70 +24,64 @@
   z-index: 100;
   margin-top: -2.5em;
   font-size: 1em; }
-  .photo-caption .caption {
+  #landing .photo-caption .caption {
     color: white; }
-  .photo-caption i {
+  #landing .photo-caption i {
     color: #ffc82e;
     padding-right: 1em; }
-  .photo-caption .caption-title {
+  #landing .photo-caption .caption-title {
     color: #ffc82e;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     display: inline-block;
     font-weight: bold; }
-
-h1.title {
+#landing h1.title {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #009dd8;
   font-size: 2.5em;
   text-transform: none; }
-
-h1.landing {
+#landing h1.landing {
   font-family: "adobe-garamond-pro", Georgia, serif;
   font-weight: 600;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
   font-size: 3.5em;
   text-transform: none; }
-
-h1.subheader {
+#landing h1.subheader {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   font-weight: 600;
   color: #009dd8;
   text-transform: none;
   font-size: 1.5em; }
-
-.image-centered {
+#landing .image-centered {
   text-align: center; }
-  .image-centered h2 {
+  #landing .image-centered h2 {
     font-size: 2em;
     margin-top: -1.7em;
     margin-bottom: 0.5em; }
-  .image-centered img {
+  #landing .image-centered img {
     width: 90%;
     height: auto;
     margin: 0px auto;
     border: 1px solid #e5e3df;
     padding: 0.3em;
     margin-bottom: 1.5em; }
-
-.image-rounded {
+#landing .image-rounded {
   text-align: center; }
-  .image-rounded img {
+  #landing .image-rounded img {
     border-radius: 5px;
     margin-bottom: 1em;
     padding-top: 0.5em; }
-  .image-rounded h2 {
+  #landing .image-rounded h2 {
     font-weight: 400;
     font-size: 2em;
     margin-top: -1.7em;
     margin-bottom: 0.5em; }
-
-.button-group {
+#landing .button-group {
   background-color: #e0ded9;
   -webkit-box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.5); }
-  .button-group .button {
+  #landing .button-group .button {
     margin-bottom: 0 !important;
     background-color: #e0ded9;
     color: #1a1a1a;
@@ -98,17 +90,16 @@ h1.subheader {
     font-weight: 600 !important;
     padding-left: inherit !important;
     padding-right: inherit !important; }
-  .button-group li:before {
+  #landing .button-group li:before {
     content: none; }
-  .button-group li:first-child a {
+  #landing .button-group li:first-child a {
     border-left: 1px solid #e0ded9; }
-  .button-group li:last-child a {
+  #landing .button-group li:last-child a {
     border-right: 1px solid #e0ded9; }
-  .button-group .button:hover, .button-group .button:active, .button-group .button:focus {
+  #landing .button-group .button:hover, #landing .button-group .button:active, #landing .button-group .button:focus {
     background-color: #737373;
     color: white; }
-
-h2.subheader {
+#landing h2.subheader {
   font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
   color: #ffc82e;
   margin: 0;
@@ -118,251 +109,234 @@ h2.subheader {
   margin-left: 0.1em;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
   display: block; }
-
-.landing-row {
+#landing .landing-row {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-top: 0.5em;
   border-bottom: 1px solid #f0efed; }
-  .landing-row h2 {
+  #landing .landing-row h2 {
     margin-top: 0; }
-  .landing-row .tabs-content {
+  #landing .landing-row .tabs-content {
     text-align: left;
     border: 1px solid #e0ded9;
     margin-bottom: 0.2em; }
-
-.feature-row {
+#landing .feature-row {
   text-align: center;
   -webkit-background-size: 700% auto;
   background-size: 700% auto;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
-  .feature-row h2 {
+  #landing .feature-row h2 {
     font-weight: 600;
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 0.5em;
     color: #eaab00; }
-  .feature-row ul {
+  #landing .feature-row ul {
     text-shadow: none;
     text-align: left;
     margin-top: 2em; }
-    .feature-row ul a {
+    #landing .feature-row ul a {
       color: white;
       -webkit-transition: 0.1s color linear;
       transition: 0.1s color linear; }
-    .feature-row ul a:hover, .feature-row ul a:active, .feature-row ul a:focus {
+    #landing .feature-row ul a:hover, #landing .feature-row ul a:active, #landing .feature-row ul a:focus {
       color: #ffc82e; }
-    .feature-row ul li {
+    #landing .feature-row ul li {
       margin-bottom: 2em; }
-  .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
+  #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
     font-size: 0.9em;
     text-align: center;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     font-weight: 600;
     background-color: rgba(255, 255, 255, 0.7);
     color: #002664; }
-    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span {
+    #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span {
       color: #002664;
       text-transform: uppercase;
       font-size: 0.5em;
       font-weight: bold;
       padding-left: 1.5em;
       padding-bottom: 0.3em; }
-    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span:hover {
+    #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption span:hover {
       color: #003a97; }
-    .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
+    #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption .fa-caret-right::before {
       color: #009dd8 !important;
       font-size: 0.7em;
       margin-top: 0.45em; }
-  .feature-row .orbit-container ul li:before {
+  #landing .feature-row .orbit-container ul li:before {
     content: none; }
-  .feature-row .small {
+  #landing .feature-row .small {
     min-width: 15em;
     max-width: 20em; }
-  .feature-row h3 {
+  #landing .feature-row h3 {
     color: #eaab00;
     font-size: 1.5em;
     margin-top: 1em; }
-  .feature-row p {
+  #landing .feature-row p {
     color: white; }
-  .feature-row .colored-blue {
+  #landing .feature-row .colored-blue {
     background-color: rgba(0, 38, 100, 0.8);
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
-  .feature-row .colored-blue-dark {
+  #landing .feature-row .colored-blue-dark {
     background-color: rgba(91, 99, 52, 0.95);
     padding-top: 2em;
     padding-bottom: 1.5em; }
-    .feature-row .colored-blue-dark .orbit-bullets li.active {
+    #landing .feature-row .colored-blue-dark .orbit-bullets li.active {
       background: #009dd8; }
-    .feature-row .colored-blue-dark .introduction {
+    #landing .feature-row .colored-blue-dark .introduction {
       margin-top: 0em; }
-  .feature-row .colored-gray {
+  #landing .feature-row .colored-gray {
     background-color: rgba(115, 115, 115, 0.05);
     padding-top: 2.5em;
     padding-bottom: 1.5em; }
-    .feature-row .colored-gray h3 {
+    #landing .feature-row .colored-gray h3 {
       color: #002147;
       text-shadow: none;
       margin-top: 1em; }
-    .feature-row .colored-gray h2 {
+    #landing .feature-row .colored-gray h2 {
       text-align: center; }
-    .feature-row .colored-gray ul li a {
+    #landing .feature-row .colored-gray ul li a {
       color: black; }
-  .feature-row .colored-gold {
+  #landing .feature-row .colored-gold {
     background-color: rgba(234, 171, 0, 0.8);
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
-  .feature-row .button {
+  #landing .feature-row .button {
     text-shadow: none; }
-  .feature-row .colored-black {
+  #landing .feature-row .colored-black {
     background-color: rgba(0, 0, 0, 0.7);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     border-bottom: 1px solid white; }
-    .feature-row .colored-black .button {
+    #landing .feature-row .colored-black .button {
       min-width: 15em; }
-
-.promo h2 {
+#landing .promo h2 {
   text-align: center; }
-.promo p {
+#landing .promo p {
   text-align: center; }
-
-.promo.first {
+#landing .promo.first {
   border-right: 1px solid #e0ded9;
   margin-bottom: 1em; }
-
-.tabs {
+#landing .tabs {
   margin-top: 2em; }
-  .tabs dd a {
+  #landing .tabs dd a {
     font-family: "museo-slab", Georgia, serif;
     font-size: 0.7rem;
     text-align: center; }
-  .tabs dd {
+  #landing .tabs dd {
     background-color: #f7f6f5;
     border-top: 4px solid #009dd8;
     margin-right: 1px;
     width: 100%; }
-  .tabs dd.active {
+  #landing .tabs dd.active {
     border-top: 4px solid #002664;
     border-left: 1px solid #e0ded9;
     border-right: 1px solid #e0ded9; }
-    .tabs dd.active a {
+    #landing .tabs dd.active a {
       color: #002147; }
-
-.tabs-content > .content {
+#landing .tabs-content > .content {
   margin-left: 4%;
   width: 96%;
   padding: 1rem; }
-
-.section-container.auto > section > .title {
+#landing .section-container.auto > section > .title {
   background-color: #f7f6f5;
   border-top: 4px solid #009dd8; }
-
-.section-container > section.active > .title {
+#landing .section-container > section.active > .title {
   border-top: 4px solid #002664; }
-  .section-container > section.active > .title a {
+  #landing .section-container > section.active > .title a {
     color: #002147; }
-
-.section-container.accordion > section.active > .title, .accordion dd.active a {
+#landing .section-container.accordion > section.active > .title, #landing .accordion dd.active a {
   background-color: #002664;
   border: 0;
   color: white; }
-  .section-container.accordion > section.active > .title a, .accordion dd.active a a {
+  #landing .section-container.accordion > section.active > .title a, #landing .accordion dd.active a a {
     color: white; }
-
-.section-container.vertical-tabs > section.active > .title {
+#landing .section-container.vertical-tabs > section.active > .title {
   background-color: #002664;
   border-top: none; }
-  .section-container.vertical-tabs > section.active > .title a {
+  #landing .section-container.vertical-tabs > section.active > .title a {
     color: white; }
-
-.section-container.accordion > section:not(.active) {
+#landing .section-container.accordion > section:not(.active) {
   background-color: #f7f6f5; }
-
-.section-container.auto > section > .title:hover {
+#landing .section-container.auto > section > .title:hover {
   border-top: 4px solid #002664; }
-
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-  .button-group .button {
+  #landing .button-group .button {
     font-size: 0.7rem; } }
-
 @media only screen and (min-width:64.063em) {
-  .hero {
+  #landing .hero {
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     padding-top: 300px; }
-  h1.landing {
+  #landing h1.landing {
     font-size: 5em; }
-  .feature-row {
+  #landing .feature-row {
     -webkit-background-size: 130% auto;
     background-size: 130% auto; }
-  h2.subheader {
+  #landing h2.subheader {
     margin-top: -1.3em;
     font-size: 1.4em; } }
-
 @media only screen and (min-width:40.063em) {
-  .feature-row {
+  #landing .feature-row {
     background-position: center top; }
-    .feature-row h2 {
+    #landing .feature-row h2 {
       font-size: 2.5em; }
-    .feature-row .colored-black, .feature-row .colored-blue, .feature-row .colored-gold {
+    #landing .feature-row .colored-black, #landing .feature-row .colored-blue, #landing .feature-row .colored-gold {
       padding-top: 3em;
       padding-bottom: 3em; }
-    .feature-row .colored-black .button {
+    #landing .feature-row .colored-black .button {
       min-width: 15em; }
-  .tabs dd {
+  #landing .tabs dd {
     width: auto; }
-    .tabs dd a {
+    #landing .tabs dd a {
       font-size: 1rem; }
-  .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
+  #landing .feature-row .orbit-container .orbit-slides-container > * .orbit-caption {
     font-size: 1.5em; }
-  .photo-caption {
+  #landing .photo-caption {
     max-width: 45%;
     margin-top: -7em;
     margin-right: 2em;
     padding-right: 0.5em; }
-  .landing-title {
+  #landing .landing-title {
     padding-left: 1.5em;
     text-align: left; }
-  h1.landing {
+  #landing h1.landing {
     max-width: 45%;
     line-height: 100%;
     margin-bottom: 0.4em;
     text-align: left;
     font-size: 4em; }
-  .orbit-container {
+  #landing .orbit-container {
     margin-top: 1em; }
-  .colored-blue-dark .introduction {
+  #landing .colored-blue-dark .introduction {
     margin-top: 1em; } }
-
 @media only screen and (min-width:40.063em) and (max-width:64em) {
-  .hero {
+  #landing .hero {
     -webkit-background-size: 125% auto;
     background-size: 125% auto;
     min-height: 250px;
     padding-top: 220px; }
-  h2.subheader {
+  #landing h2.subheader {
     max-width: 45%;
     font-size: 1.1em; }
-  .feature-row {
+  #landing .feature-row {
     -webkit-background-size: 275% auto;
     background-size: 275% auto; } }
-
 @media only screen and (max-width: 40em) {
-  h2.subheader {
+  #landing h2.subheader {
     max-width: 80%;
     margin: 0px auto;
     margin-top: -1em; }
-  .orbit-container .orbit-slides-container img {
+  #landing .orbit-container .orbit-slides-container img {
     max-width: 150%; }
-  .button-group {
+  #landing .button-group {
     float: none; }
-    .button-group .button {
+    #landing .button-group .button {
       text-align: center; }
-    .button-group li {
+    #landing .button-group li {
       width: 100% !important; }
-      .button-group li a {
+      #landing .button-group li a {
         border-left: none !important;
         border-right: none !important;
         border-bottom: 1px solid silver !important; } }
