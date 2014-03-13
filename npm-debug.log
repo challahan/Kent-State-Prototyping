@@ -1,0 +1,335 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-cli',
+1 verbose cli   'grunt-init' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'grunt-cli', null ]
+5 verbose cache add name=undefined spec="grunt-cli" args=["grunt-cli",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'grunt-cli',
+6 verbose parsed url   path: 'grunt-cli',
+6 verbose parsed url   href: 'grunt-cli' }
+7 verbose cache add [ 'grunt-init', null ]
+8 verbose cache add name=undefined spec="grunt-init" args=["grunt-init",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'grunt-init',
+9 verbose parsed url   path: 'grunt-init',
+9 verbose parsed url   href: 'grunt-init' }
+10 silly lockFile 671ef8ac-grunt-cli grunt-cli
+11 verbose lock grunt-cli /Users/challahan/.npm/671ef8ac-grunt-cli.lock
+12 silly lockFile b1006280-grunt-init grunt-init
+13 verbose lock grunt-init /Users/challahan/.npm/b1006280-grunt-init.lock
+14 silly lockFile 671ef8ac-grunt-cli grunt-cli
+15 silly lockFile 671ef8ac-grunt-cli grunt-cli
+16 silly lockFile b1006280-grunt-init grunt-init
+17 silly lockFile b1006280-grunt-init grunt-init
+18 verbose addNamed [ 'grunt-cli', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+21 verbose lock grunt-cli@ /Users/challahan/.npm/d63f3d0b-grunt-cli.lock
+22 verbose addNamed [ 'grunt-init', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 20a2bbcf-grunt-init grunt-init@
+25 verbose lock grunt-init@ /Users/challahan/.npm/20a2bbcf-grunt-init.lock
+26 silly addNameRange { name: 'grunt-cli', range: '*', hasData: false }
+27 silly addNameRange { name: 'grunt-init', range: '*', hasData: false }
+28 verbose url raw grunt-init
+29 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-init' ]
+30 verbose url resolved https://registry.npmjs.org/grunt-init
+31 info trying registry request attempt 1 at 18:59:27
+32 http GET https://registry.npmjs.org/grunt-init
+33 verbose url raw grunt-cli
+34 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+35 verbose url resolved https://registry.npmjs.org/grunt-cli
+36 info trying registry request attempt 1 at 18:59:27
+37 verbose etag "3BS104SVTHIW6F9SGBHQFQS23"
+38 http GET https://registry.npmjs.org/grunt-cli
+39 http 200 https://registry.npmjs.org/grunt-cli
+40 silly registry.get cb [ 200,
+40 silly registry.get   { date: 'Wed, 12 Mar 2014 22:59:29 GMT',
+40 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+40 silly registry.get     etag: '"DTXWA8VWG17RCSTGG4LCAQ65C"',
+40 silly registry.get     'content-type': 'application/json',
+40 silly registry.get     via: '1.1 varnish',
+40 silly registry.get     'cache-control': 'max-age=1',
+40 silly registry.get     'content-length': '19448',
+40 silly registry.get     'accept-ranges': 'bytes',
+40 silly registry.get     age: '635',
+40 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-d45-DAL',
+40 silly registry.get     'x-cache': 'MISS, HIT',
+40 silly registry.get     'x-cache-hits': '0, 1',
+40 silly registry.get     'x-timer': 'S1394635048.767009974,VS0,VS-734,VE-710,VE30120589',
+40 silly registry.get     vary: 'Accept',
+40 silly registry.get     'keep-alive': 'timeout=10, max=50',
+40 silly registry.get     connection: 'Keep-Alive' } ]
+41 silly addNameRange number 2 { name: 'grunt-cli', range: '*', hasData: true }
+42 silly addNameRange versions [ 'grunt-cli',
+42 silly addNameRange   [ '0.1.0',
+42 silly addNameRange     '0.1.1',
+42 silly addNameRange     '0.1.2',
+42 silly addNameRange     '0.1.3',
+42 silly addNameRange     '0.1.4',
+42 silly addNameRange     '0.1.5',
+42 silly addNameRange     '0.1.6',
+42 silly addNameRange     '0.1.7',
+42 silly addNameRange     '0.1.8',
+42 silly addNameRange     '0.1.9',
+42 silly addNameRange     '0.1.10',
+42 silly addNameRange     '0.1.11',
+42 silly addNameRange     '0.1.12',
+42 silly addNameRange     '0.1.13' ] ]
+43 verbose addNamed [ 'grunt-cli', '0.1.13' ]
+44 verbose addNamed [ '0.1.13', '0.1.13' ]
+45 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+46 verbose lock grunt-cli@0.1.13 /Users/challahan/.npm/28997503-grunt-cli-0-1-13.lock
+47 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+48 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+49 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+50 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+51 http 200 https://registry.npmjs.org/grunt-init
+52 silly registry.get cb [ 200,
+52 silly registry.get   { date: 'Wed, 12 Mar 2014 22:59:29 GMT',
+52 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+52 silly registry.get     etag: '"7MSO2LP6YVU3OE6576O2GGA70"',
+52 silly registry.get     'content-type': 'application/json',
+52 silly registry.get     via: '1.1 varnish',
+52 silly registry.get     'cache-control': 'max-age=1',
+52 silly registry.get     'content-length': '19294',
+52 silly registry.get     'accept-ranges': 'bytes',
+52 silly registry.get     age: '0',
+52 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-d97-DAL',
+52 silly registry.get     'x-cache': 'MISS, MISS',
+52 silly registry.get     'x-cache-hits': '0, 0',
+52 silly registry.get     'x-timer': 'S1394665169.210691452,VS0,VS-307,VE-214,VE127',
+52 silly registry.get     vary: 'Accept',
+52 silly registry.get     'keep-alive': 'timeout=10, max=50',
+52 silly registry.get     connection: 'Keep-Alive' } ]
+53 silly addNameRange number 2 { name: 'grunt-init', range: '*', hasData: true }
+54 silly addNameRange versions [ 'grunt-init',
+54 silly addNameRange   [ '0.1.0',
+54 silly addNameRange     '0.2.0',
+54 silly addNameRange     '0.2.1',
+54 silly addNameRange     '0.3.0',
+54 silly addNameRange     '0.2.0-rc1',
+54 silly addNameRange     '0.2.0-rc2',
+54 silly addNameRange     '0.2.0-rc3',
+54 silly addNameRange     '0.2.0-rc4',
+54 silly addNameRange     '0.2.0-rc5',
+54 silly addNameRange     '0.2.0-rc6',
+54 silly addNameRange     '0.2.0-rc7',
+54 silly addNameRange     '0.2.0-rc8',
+54 silly addNameRange     '0.3.1' ] ]
+55 verbose addNamed [ 'grunt-init', '0.3.1' ]
+56 verbose addNamed [ '0.3.1', '0.3.1' ]
+57 silly lockFile 73ebea0d-grunt-init-0-3-1 grunt-init@0.3.1
+58 verbose lock grunt-init@0.3.1 /Users/challahan/.npm/73ebea0d-grunt-init-0-3-1.lock
+59 silly lockFile 28206dbb--grunt-init-grunt-init-0-3-1-tgz https://registry.npmjs.org/grunt-init/-/grunt-init-0.3.1.tgz
+60 verbose lock https://registry.npmjs.org/grunt-init/-/grunt-init-0.3.1.tgz /Users/challahan/.npm/28206dbb--grunt-init-grunt-init-0-3-1-tgz.lock
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-init/-/grunt-init-0.3.1.tgz',
+61 verbose addRemoteTarball   '1b4a8b4b85daadfba783c130b5e1dac1d3820a08' ]
+62 info retry fetch attempt 1 at 18:59:29
+63 verbose fetch to= /var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/tmp.tgz
+64 http GET https://registry.npmjs.org/grunt-init/-/grunt-init-0.3.1.tgz
+65 http 200 https://registry.npmjs.org/grunt-init/-/grunt-init-0.3.1.tgz
+66 verbose tar unpack /var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/tmp.tgz
+67 silly lockFile 975d37dd-69791-0-4711117697879672-package tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package
+68 verbose lock tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package /Users/challahan/.npm/975d37dd-69791-0-4711117697879672-package.lock
+69 silly lockFile 0550e411-69791-0-4711117697879672-tmp-tgz tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/tmp.tgz
+70 verbose lock tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/tmp.tgz /Users/challahan/.npm/0550e411-69791-0-4711117697879672-tmp-tgz.lock
+71 silly gunzTarPerm modes [ '755', '644' ]
+72 silly gunzTarPerm extractEntry package.json
+73 silly gunzTarPerm extractEntry .npmignore
+74 silly gunzTarPerm extractEntry README.md
+75 silly gunzTarPerm extractEntry Gruntfile.js
+76 silly gunzTarPerm extractEntry .jshintrc
+77 silly gunzTarPerm extractEntry LICENSE-MIT
+78 silly gunzTarPerm extractEntry .travis.yml
+79 silly gunzTarPerm extractEntry bin/grunt-init
+80 silly gunzTarPerm extractEntry dev/generate.exp
+81 silly gunzTarPerm extractEntry AUTHORS
+82 silly gunzTarPerm extractEntry tasks/init.js
+83 silly gunzTarPerm extractEntry tasks/lib/git.js
+84 silly gunzTarPerm extractEntry tasks/lib/helpers.js
+85 silly gunzTarPerm extractEntry tasks/lib/prompt.js
+86 silly gunzTarPerm extractEntry templates/licenses/LICENSE-Apache-2.0
+87 silly gunzTarPerm extractEntry templates/licenses/LICENSE-BSD-3-Clause
+88 silly gunzTarPerm extractEntry templates/licenses/LICENSE-GPL-2.0
+89 silly gunzTarPerm extractEntry templates/licenses/LICENSE-MIT
+90 silly gunzTarPerm extractEntry templates/licenses/LICENSE-MPL-2.0
+91 silly gunzTarPerm extractEntry templates/misc/placeholder
+92 silly gunzTarPerm extractEntry test/git_test.js
+93 silly lockFile 975d37dd-69791-0-4711117697879672-package tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package
+94 silly lockFile 975d37dd-69791-0-4711117697879672-package tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package
+95 silly lockFile 0550e411-69791-0-4711117697879672-tmp-tgz tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/tmp.tgz
+96 silly lockFile 0550e411-69791-0-4711117697879672-tmp-tgz tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/tmp.tgz
+97 verbose tar pack [ '/Users/challahan/.npm/grunt-init/0.3.1/package.tgz',
+97 verbose tar pack   '/var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package' ]
+98 verbose tarball /Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+99 verbose folder /var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package
+100 silly lockFile 975d37dd-69791-0-4711117697879672-package tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package
+101 verbose lock tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package /Users/challahan/.npm/975d37dd-69791-0-4711117697879672-package.lock
+102 silly lockFile b8f539b2-npm-grunt-init-0-3-1-package-tgz tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+103 verbose lock tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz /Users/challahan/.npm/b8f539b2-npm-grunt-init-0-3-1-package-tgz.lock
+104 silly lockFile 975d37dd-69791-0-4711117697879672-package tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package
+105 silly lockFile 975d37dd-69791-0-4711117697879672-package tar:///var/folders/nl/w6v_2rrx2hjgqlmpfjvhy32r0000gn/T/npm-1590-qrWZ72Ru/1394665169791-0.4711117697879672/package
+106 silly lockFile b8f539b2-npm-grunt-init-0-3-1-package-tgz tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+107 silly lockFile b8f539b2-npm-grunt-init-0-3-1-package-tgz tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+108 silly lockFile 13139be0-han-npm-grunt-init-0-3-1-package /Users/challahan/.npm/grunt-init/0.3.1/package
+109 verbose lock /Users/challahan/.npm/grunt-init/0.3.1/package /Users/challahan/.npm/13139be0-han-npm-grunt-init-0-3-1-package.lock
+110 silly lockFile 13139be0-han-npm-grunt-init-0-3-1-package /Users/challahan/.npm/grunt-init/0.3.1/package
+111 silly lockFile 13139be0-han-npm-grunt-init-0-3-1-package /Users/challahan/.npm/grunt-init/0.3.1/package
+112 verbose tar unpack /Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+113 silly lockFile a4311d52-han-npm-grunt-init-0-3-1-package tar:///Users/challahan/.npm/grunt-init/0.3.1/package
+114 verbose lock tar:///Users/challahan/.npm/grunt-init/0.3.1/package /Users/challahan/.npm/a4311d52-han-npm-grunt-init-0-3-1-package.lock
+115 silly lockFile b8f539b2-npm-grunt-init-0-3-1-package-tgz tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+116 verbose lock tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz /Users/challahan/.npm/b8f539b2-npm-grunt-init-0-3-1-package-tgz.lock
+117 silly gunzTarPerm modes [ '755', '644' ]
+118 silly gunzTarPerm extractEntry package.json
+119 silly gunzTarPerm extractEntry .npmignore
+120 silly gunzTarPerm extractEntry README.md
+121 silly gunzTarPerm extractEntry Gruntfile.js
+122 silly gunzTarPerm extractEntry .jshintrc
+123 silly gunzTarPerm extractEntry LICENSE-MIT
+124 silly gunzTarPerm extractEntry .travis.yml
+125 silly gunzTarPerm extractEntry bin/grunt-init
+126 silly gunzTarPerm extractEntry dev/generate.exp
+127 silly gunzTarPerm extractEntry AUTHORS
+128 silly gunzTarPerm extractEntry tasks/init.js
+129 silly gunzTarPerm extractEntry tasks/lib/git.js
+130 silly gunzTarPerm extractEntry tasks/lib/helpers.js
+131 silly gunzTarPerm extractEntry tasks/lib/prompt.js
+132 silly gunzTarPerm extractEntry templates/licenses/LICENSE-Apache-2.0
+133 silly gunzTarPerm extractEntry templates/licenses/LICENSE-BSD-3-Clause
+134 silly gunzTarPerm extractEntry templates/licenses/LICENSE-GPL-2.0
+135 silly gunzTarPerm extractEntry templates/licenses/LICENSE-MIT
+136 silly gunzTarPerm extractEntry templates/licenses/LICENSE-MPL-2.0
+137 silly gunzTarPerm extractEntry templates/misc/placeholder
+138 silly gunzTarPerm extractEntry test/git_test.js
+139 silly lockFile a4311d52-han-npm-grunt-init-0-3-1-package tar:///Users/challahan/.npm/grunt-init/0.3.1/package
+140 silly lockFile a4311d52-han-npm-grunt-init-0-3-1-package tar:///Users/challahan/.npm/grunt-init/0.3.1/package
+141 silly lockFile b8f539b2-npm-grunt-init-0-3-1-package-tgz tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+142 silly lockFile b8f539b2-npm-grunt-init-0-3-1-package-tgz tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+143 verbose chmod /Users/challahan/.npm/grunt-init/0.3.1/package.tgz 644
+144 verbose chown /Users/challahan/.npm/grunt-init/0.3.1/package.tgz [ 501, 20 ]
+145 silly lockFile 28206dbb--grunt-init-grunt-init-0-3-1-tgz https://registry.npmjs.org/grunt-init/-/grunt-init-0.3.1.tgz
+146 silly lockFile 28206dbb--grunt-init-grunt-init-0-3-1-tgz https://registry.npmjs.org/grunt-init/-/grunt-init-0.3.1.tgz
+147 silly lockFile 73ebea0d-grunt-init-0-3-1 grunt-init@0.3.1
+148 silly lockFile 73ebea0d-grunt-init-0-3-1 grunt-init@0.3.1
+149 silly lockFile 20a2bbcf-grunt-init grunt-init@
+150 silly lockFile 20a2bbcf-grunt-init grunt-init@
+151 silly resolved [ { name: 'grunt-cli',
+151 silly resolved     description: 'The grunt command line interface.',
+151 silly resolved     version: '0.1.13',
+151 silly resolved     author: { name: 'Grunt Team' },
+151 silly resolved     homepage: 'http://gruntjs.com/',
+151 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt-cli.git' },
+151 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt-cli/issues' },
+151 silly resolved     licenses: [ [Object] ],
+151 silly resolved     bin: { grunt: 'bin/grunt' },
+151 silly resolved     engines: { node: '>= 0.8.0' },
+151 silly resolved     scripts: { test: 'node bin/grunt test' },
+151 silly resolved     preferGlobal: true,
+151 silly resolved     dependencies: { nopt: '~1.0.10', 'findup-sync': '~0.1.0', resolve: '~0.3.1' },
+151 silly resolved     devDependencies: { grunt: '~0.4.0', 'grunt-contrib-jshint': '~0.2.0' },
+151 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+151 silly resolved     readme: '# grunt-cli [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-cli.png?branch=master)](http://travis-ci.org/gruntjs/grunt-cli)\n> The Grunt command line interface.\n\nInstall this globally and you\'ll have access to the `grunt` command anywhere on your system.\n\n```shell\nnpm install -g grunt-cli\n```\n\n**Note:** The job of the `grunt` command is to load and run the version of Grunt you have installed locally to your project, irrespective of its version.  Starting with Grunt v0.4, you should never install Grunt itself globally.  For more information about why, [please read this](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation).\n\nSee the [Getting Started](http://gruntjs.com/getting-started) guide for more information.\n\n## Shell tab auto-completion\nTo enable tab auto-completion for Grunt, add one of the following lines to your `~/.bashrc` or `~/.zshrc` file.\n\n```bash\n# Bash, ~/.bashrc\neval "$(grunt --completion=bash)"\n```\n\n```bash\n# Zsh, ~/.zshrc\neval "$(grunt --completion=zsh)"\n```\n\n## Installing grunt-cli locally\nIf you prefer the idiomatic Node.js method to get started with a project (`npm install && npm test`) then install grunt-cli locally with `npm install grunt-cli --save-dev`. Then add a script to your `package.json` to run the associated grunt command: `"scripts": { "test": "grunt test" } `. Now `npm test` will use the locally installed `./node_modules/.bin/grunt` executable to run your Grunt commands.\n\nTo read more about npm scripts, please visit the npm docs: [https://npmjs.org/doc/misc/npm-scripts.html](https://npmjs.org/doc/misc/npm-scripts.html).\n',
+151 silly resolved     readmeFilename: 'README.md',
+151 silly resolved     _id: 'grunt-cli@0.1.13',
+151 silly resolved     _from: 'grunt-cli@' },
+151 silly resolved   { name: 'grunt-init',
+151 silly resolved     description: 'Generate project scaffolding from a template.',
+151 silly resolved     version: '0.3.1',
+151 silly resolved     homepage: 'https://github.com/gruntjs/grunt-init',
+151 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+151 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt-init.git' },
+151 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-init/issues' },
+151 silly resolved     licenses: [ [Object] ],
+151 silly resolved     preferGlobal: true,
+151 silly resolved     bin: { 'grunt-init': 'bin/grunt-init' },
+151 silly resolved     engines: { node: '>= 0.8.0' },
+151 silly resolved     scripts: { test: 'grunt test' },
+151 silly resolved     dependencies:
+151 silly resolved      { prompt: '~0.1.12',
+151 silly resolved        semver: '~1.0.14',
+151 silly resolved        hooker: '~0.2.3',
+151 silly resolved        colors: '~0.6.0-1',
+151 silly resolved        grunt: '~0.4.0',
+151 silly resolved        lodash: '~2.4.1',
+151 silly resolved        async: '~0.2.10' },
+151 silly resolved     devDependencies:
+151 silly resolved      { 'grunt-contrib-jshint': '~0.8.0',
+151 silly resolved        'grunt-contrib-nodeunit': '~0.3.0' },
+151 silly resolved     keywords: [ 'grunt', 'template', 'scaffold', 'generate', 'project' ],
+151 silly resolved     contributors: [ [Object] ],
+151 silly resolved     readme: '# grunt-init [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-init.png?branch=master)](http://travis-ci.org/gruntjs/grunt-init)\nGrunt-init is a scaffolding tool used to automate project creation.\n\n## Introduction\nCheck out our [project scaffolding guide] for a primer on how to use grunt-init.\n\n## Documentation\nThe [project scaffolding guide] has API documentation and usage examples.\n\n## Support / Contributing\nBefore you make an issue, please read our [contribution guide].\n\nYou can find the grunt team in [#grunt on irc.freenode.net](irc://irc.freenode.net/#grunt).\n\n\n[contribution guide]: http://gruntjs.com/contributing\n[project scaffolding guide]: http://gruntjs.com/project-scaffolding\n',
+151 silly resolved     readmeFilename: 'README.md',
+151 silly resolved     _id: 'grunt-init@0.3.1',
+151 silly resolved     dist: { shasum: '401a8a4d7728a6665f25f8d017e390bd89f406b6' },
+151 silly resolved     _from: 'grunt-init@',
+151 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-init/-/grunt-init-0.3.1.tgz' } ]
+152 info install grunt-cli@0.1.13 into /usr/local/lib
+153 info install grunt-init@0.3.1 into /usr/local/lib
+154 info installOne grunt-cli@0.1.13
+155 info installOne grunt-init@0.3.1
+156 info /usr/local/lib/node_modules/grunt-init unbuild
+157 info /usr/local/lib/node_modules/grunt-cli unbuild
+158 verbose tar unpack /Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+159 silly lockFile 2d48effc-ocal-lib-node-modules-grunt-init tar:///usr/local/lib/node_modules/grunt-init
+160 verbose lock tar:///usr/local/lib/node_modules/grunt-init /Users/challahan/.npm/2d48effc-ocal-lib-node-modules-grunt-init.lock
+161 silly lockFile b8f539b2-npm-grunt-init-0-3-1-package-tgz tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz
+162 verbose lock tar:///Users/challahan/.npm/grunt-init/0.3.1/package.tgz /Users/challahan/.npm/b8f539b2-npm-grunt-init-0-3-1-package-tgz.lock
+163 info preuninstall grunt-cli@0.1.13
+164 silly gunzTarPerm modes [ '755', '644' ]
+165 info uninstall grunt-cli@0.1.13
+166 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild grunt-cli@0.1.13
+167 verbose /usr/local/bin,[object Object] binRoot
+168 info /usr/local/lib/node_modules/grunt-cli unbuild
+169 error Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-init'
+169 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-init']
+169 error   errno: 3,
+169 error   code: 'EACCES',
+169 error   path: '/usr/local/lib/node_modules/grunt-init',
+169 error   fstream_type: 'Directory',
+169 error   fstream_path: '/usr/local/lib/node_modules/grunt-init',
+169 error   fstream_class: 'DirWriter',
+169 error   fstream_stack:
+169 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+169 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+169 error      'Object.oncomplete (fs.js:107:15)' ] }
+170 error Please try running this command again as root/Administrator.
+171 error System Darwin 13.1.0
+172 error command "node" "/usr/local/bin/npm" "i" "-g" "grunt-cli" "grunt-init"
+173 error cwd /Users/challahan/Dropbox/UCM - Hallahan/Projects/Wireframe Boilerplate - Github
+174 error node -v v0.10.26
+175 error npm -v 1.4.3
+176 error path /usr/local/lib/node_modules/grunt-init
+177 error fstream_path /usr/local/lib/node_modules/grunt-init
+178 error fstream_type Directory
+179 error fstream_class DirWriter
+180 error code EACCES
+181 error errno 3
+182 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/grunt-init'
+183 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+183 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+183 error fstream_stack Object.oncomplete (fs.js:107:15)
+184 verbose exit [ 3, true ]
