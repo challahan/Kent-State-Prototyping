@@ -171,12 +171,6 @@ h2.subheader {
 	h2 {
 		margin-top: 0;
 	}
-
-	.tabs-content {
-		text-align: left;
-		border: 1px solid $warm-gray-1;
-		margin-bottom: .2em;
-	}
 }
 
 .feature-row {
@@ -307,9 +301,21 @@ h2.subheader {
 		}
 
 		.colored-gold {
-			background-color: rgba($ksu-gold, .8);
+			background-color: rgba($dark-gold, .8);
 			padding-top: 1.5em;
 			padding-bottom: 1.5em;
+
+
+			h2 {
+				color: white;
+				font-size: 4em;
+			}
+
+			h3 {
+				color: $dark-blue;
+				text-shadow: none;
+				font-weight: bold;
+			}
 		}
 
 		.button {
@@ -326,8 +332,66 @@ h2.subheader {
 			.button {
 				min-width: 15em;
 			}
+
+			i {
+				color: $bright-yellow;
+				margin-top: .5em;
+			}
+		}
+
+		.colored-black-light {
+			background-image: linear-gradient(to bottom, rgba(0,0,0,.5) 0%,rgba($dark-blue,.9) 100%);
+			padding-top: 1.5em;
+			padding-bottom: 1.5em;
+			border-bottom: 1px solid white;
+
+			.button {
+				min-width: 15em;
+			}
+
+						p {
+				text-shadow: 2px 2px 2px rgba(0,0,0,1);
+			}
+
+			i {
+				color: $bright-yellow;
+				margin-top: .5em;
+			}
+
+			h1 {
+				color: white;
+				font-size: 3.2em;
+				font-family: $sans-serif;
+				font-weight: bold;
+
+				span {
+					color: $bright-yellow;
+					font-family: $sans-serif-condensed;
+					font-weight: 700;
+				}
+			}
 		}
 }
+
+
+.box {
+	/*padding:.7em;*/
+	/*background-color: rgba(0,0,0,.3);
+	border-radius: 10px;
+	border:1px solid rgba(255,255,255,.3);*/
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	display: block;
+	transition: .2s background-color ease-in;
+
+	p {
+		font-size: .9em;
+	}
+}
+
+/*.box:hover, .box:active, .box:focus {
+	background-color: rgba(255,255,255,.2);
+}*/
 
 .promo {
 
@@ -376,9 +440,20 @@ h2.subheader {
 }
 
 .tabs-content > .content {
-		margin-left:4%;
+		margin-left:2%;
+		margin-right: 2%;
 		width:96%;
 		padding: 1rem;
+}
+
+.tabs-content {
+		text-align: left;
+		border: 1px solid $warm-gray-1;
+		margin-bottom: 1.5em;
+
+		.landscape {
+		margin-bottom: 1em;
+	}
 	}
 
 .section-container.auto > section > .title {
@@ -512,6 +587,10 @@ h2.subheader {
 		.introduction {
 			margin-top: 1em;
 		}
+	}
+
+	.feature-row .colored-black-light h1 {
+		font-size: 4.5em;
 	}
 
 	
