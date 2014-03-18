@@ -1,21 +1,52 @@
 //Image Alignment Classes //
 
-.image-align-left {
-  float: left;
-  padding: 1em;
-  padding-right: 2em; }
 
-.image-align-right {
-  float: right;
-  padding: 1em;
-  padding-left: 2em; }
+// Lists //
 
-.image-align-center {
-  float: none;
-  text-align: center;
-  padding: 1em;
-  margin: 0px auto; }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 2em;
+  list-style-position: outside;
+  margin-top: 0.5em;
+  margin-bottom: 1em; }
+  ul li {
+    padding-left: 0em;
+    text-indent: 0em;
+    margin-bottom: 0.5em; }
+  ul li:before {
+    content: "■";
+    font-size: 1em;
+    color: #ffc82e;
+    padding-right: 0px;
+    line-height: 20px;
+    margin-left: -1.2em;
+    position: relative;
+    float: left; }
 
+ol {
+  font-style: normal;
+  color: black;
+  counter-reset: li;
+  margin-left: 1em;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0.5em; }
+  ol > li {
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 2em;
+    margin-top: 0.7em; }
+  ol > li:before {
+    content: counter(li);
+    counter-increment: li;
+    margin-right: 10px;
+    font-style: italic;
+    color: #002664;
+    font-weight: bold;
+    left: -1.5em;
+    position: absolute; }
 
 // Typography //
 
