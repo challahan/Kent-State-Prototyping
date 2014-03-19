@@ -251,7 +251,8 @@ h2.subheader {
       color: white;
       font-size: 2.8em;
       font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-top: 0.5em; }
       .feature-row .colored-black-light h1 span {
         display: none;
         color: #ffc82e;
