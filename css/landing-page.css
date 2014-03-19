@@ -257,6 +257,9 @@ h2.subheader {
         color: #ffc82e;
         font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
         font-weight: 700; }
+    .feature-row .colored-black-light .future-students-logo {
+      width: 100%;
+      height: auto; }
 
 .box {
   /*padding:.7em;*/
