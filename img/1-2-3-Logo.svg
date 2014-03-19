@@ -3,6 +3,14 @@
     <title>1,2,3-GoLogo</title>
     <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
     <defs></defs>
+    <filter id="dropShadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+    <feOffset dx="2" dy="4" />
+    <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <text id="Kent-State-Checklist" sketch:type="MSTextLayer" font-family="Tablet Gothic SemiCondensed" font-size="36" font-weight="bold">
             <tspan x="9" y="182.406703" fill="#FFFFFF">Kent State</tspan>
