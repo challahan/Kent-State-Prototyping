@@ -359,8 +359,8 @@ h2.subheader {
 			}
 
 			.shadow {
-    -webkit-filter: drop-shadow( -3px -3px 3px rgba(0,0,0,.9));
-            filter: drop-shadow( -3px -3px 3px rgba(0,0,0,.7)); /* Same syntax as box-shadow */
+    -webkit-filter: drop-shadow( -2px -2px 3px rgba(0,0,0,.9));
+            filter: drop-shadow( -2px -2px 3px rgba(0,0,0,.9)); /* Same syntax as box-shadow */
             -webkit-transform: translateZ(0);
 }
 

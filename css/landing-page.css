@@ -243,8 +243,8 @@ h2.subheader {
       color: #ffc82e;
       margin-top: 0.5em; }
     .feature-row .colored-black-light .shadow {
-      -webkit-filter: drop-shadow(-3px -3px 3px rgba(0, 0, 0, 0.9));
-      filter: drop-shadow(-3px -3px 3px rgba(0, 0, 0, 0.7));
+      -webkit-filter: drop-shadow(-2px -2px 3px rgba(0, 0, 0, 0.9));
+      filter: drop-shadow(-2px -2px 3px rgba(0, 0, 0, 0.9));
       /* Same syntax as box-shadow */
       -webkit-transform: translateZ(0); }
     .feature-row .colored-black-light h1 {
