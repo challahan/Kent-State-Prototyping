@@ -242,12 +242,18 @@ h2.subheader {
     .feature-row .colored-black-light i {
       color: #ffc82e;
       margin-top: 0.5em; }
+    .feature-row .colored-black-light .shadow {
+      -webkit-filter: drop-shadow(-3px -3px 3px rgba(0, 0, 0, 0.9));
+      filter: drop-shadow(-3px -3px 3px rgba(0, 0, 0, 0.7));
+      /* Same syntax as box-shadow */
+      -webkit-transform: translateZ(0); }
     .feature-row .colored-black-light h1 {
       color: white;
       font-size: 2.8em;
       font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
       font-weight: bold; }
       .feature-row .colored-black-light h1 span {
+        display: none;
         color: #ffc82e;
         font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
         font-weight: 700; }

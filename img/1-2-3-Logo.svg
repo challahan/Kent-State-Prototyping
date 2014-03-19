@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="607px" height="190px" viewBox="0 0 607 190" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>1,2,3-GoLogo</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <text id="Kent-State-Checklist" sketch:type="MSTextLayer" font-family="Tablet Gothic SemiCondensed" font-size="35" font-weight="bold" letter-spacing="0.945945978">
+            <tspan x="7" y="171.5" fill="#FFFFFF">Kent State</tspan>
+            <tspan x="159.81946" y="171.5" fill="#000000"> </tspan>
+            <tspan x="166.295406" y="171.5" fill="#FFFFFF">Checklist for </tspan>
+            <tspan x="359.928649" y="171.5" fill="#EAAB00">Future  Students</tspan>
+        </text>
+        <text id="…" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Tablet Gothic SemiCondensed" font-size="96" font-style="italic" font-weight="bold">
+            <tspan x="312" y="122">…</tspan>
+        </text>
+        <g id="Rectangle-2-copy-+-2" sketch:type="MSLayerGroup" transform="translate(108.000000, 14.000000)">
+            <rect id="Rectangle-2-copy" stroke="#FFFFFF" fill="#EAAB00" sketch:type="MSShapeGroup" x="0" y="1.93043478" width="82" height="105.208696" rx="8"></rect>
+            <text id="2" sketch:type="MSTextLayer" font-family="Museo Slab" font-size="92.6608696" font-weight="473" fill="#FFFFFF">
+                <tspan x="13.6666667" y="87">2</tspan>
+            </text>
+        </g>
+        <g id="Rectangle-2-copy-+-3" sketch:type="MSLayerGroup" transform="translate(10.000000, 14.000000)">
+            <rect id="Rectangle-2-copy" stroke="#FFFFFF" fill="#EAAB00" sketch:type="MSShapeGroup" x="0" y="1.93043478" width="82" height="105.208696" rx="8"></rect>
+            <text id="1" sketch:type="MSTextLayer" font-family="Museo Slab" font-size="92.6608696" font-weight="473" fill="#FFFFFF">
+                <tspan x="16.6666667" y="87">1</tspan>
+            </text>
+        </g>
+        <g id="Rectangle-2-copy-2-+-3" sketch:type="MSLayerGroup" transform="translate(206.000000, 14.000000)">
+            <rect id="Rectangle-2-copy-2" stroke="#FFFFFF" fill="#EAAB00" sketch:type="MSShapeGroup" x="0" y="1.93043478" width="82" height="105.208696" rx="8"></rect>
+            <text id="3" sketch:type="MSTextLayer" font-family="Museo Slab" font-size="92.6608696" font-weight="473" fill="#FFFFFF">
+                <tspan x="14.6428571" y="87">3</tspan>
+            </text>
+        </g>
+        <text id="-GO!" sketch:type="MSTextLayer" font-family="Tablet Gothic SemiCondensed" font-size="140" font-style="italic" font-weight="bold">
+            <tspan x="369" y="121" fill="#FFC82E"> </tspan>
+            <tspan x="391.12" y="121" fill="#FFFFFF">GO</tspan>
+            <tspan x="552.54" y="121" fill="#EAAB00">!</tspan>
+        </text>
+    </g>
+</svg>

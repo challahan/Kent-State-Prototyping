@@ -358,6 +358,12 @@ h2.subheader {
 				margin-top: .5em;
 			}
 
+			.shadow {
+    -webkit-filter: drop-shadow( -3px -3px 3px rgba(0,0,0,.9));
+            filter: drop-shadow( -3px -3px 3px rgba(0,0,0,.7)); /* Same syntax as box-shadow */
+            -webkit-transform: translateZ(0);
+}
+
 			h1 {
 				color: white;
 				font-size: 2.8em;
@@ -365,6 +371,7 @@ h2.subheader {
 				font-weight: bold;
 
 				span {
+					display: none;
 					color: $bright-yellow;
 					font-family: $sans-serif-condensed;
 					font-weight: 700;
