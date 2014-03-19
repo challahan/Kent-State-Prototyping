@@ -35,8 +35,9 @@
   padding-bottom: 0.8em;
   margin-top: 0.5em;
   margin-bottom: 2em;
-  color: white;
   background-color: #002664; }
+  .secondary a {
+    color: white; }
 
 .secondary:hover {
   background-color: #003a97; }

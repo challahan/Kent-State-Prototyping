@@ -50,8 +50,11 @@
 	padding-bottom: .8em;
 	margin-top: .5em;
 	margin-bottom: 2em;
-	color: white;
   	background-color: $ksu-blue;
+
+  	a {
+  		color: white;
+  	}
 }
 
 .secondary:hover {
