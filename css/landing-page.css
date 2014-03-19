@@ -373,7 +373,8 @@ h2.subheader {
       padding-top: 3em;
       padding-bottom: 3em; }
     .feature-row .colored-black .button {
-      min-width: 15em; }
+      min-width: 15em;
+      max-width: 18em; }
   .tabs dd {
     width: auto; }
     .tabs dd a {
