@@ -15,7 +15,8 @@ module.exports = function(grunt) {
         files: {
           'css/app.css': 'scss/app.scss',
           'css/landing-page.css': 'scss/landing-page.scss',
-          'css/editor.css': 'scss/editor.scss'
+          'css/editor.css': 'scss/editor.scss',
+          'css/1-2-3-styles.css': 'scss/1-2-3-styles.scss'
         }        
       }
     },

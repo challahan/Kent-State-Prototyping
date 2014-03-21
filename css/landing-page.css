@@ -299,23 +299,21 @@ h2.subheader {
 .tabs-content.checklist {
   padding: 1em; }
 
-.landing-page-tabs {
-  margin-top: 2em; }
-  .landing-page-tabs dd a {
-    font-family: "museo-slab", Georgia, serif;
-    font-size: 0.7rem;
-    text-align: center; }
-  .landing-page-tabs dd {
-    background-color: #f7f6f5;
-    border-top: 4px solid #009dd8;
-    margin-right: 1px;
-    width: 100%; }
-  .landing-page-tabs dd.active {
-    border-top: 4px solid #002664;
-    border-left: 1px solid #e0ded9;
-    border-right: 1px solid #e0ded9; }
-    .landing-page-tabs dd.active a {
-      color: #002147; }
+.landing-page-tabs dd a {
+  font-family: "museo-slab", Georgia, serif;
+  font-size: 0.7rem;
+  text-align: center; }
+.landing-page-tabs dd {
+  background-color: #f7f6f5;
+  border-top: 4px solid #009dd8;
+  margin-right: 1px;
+  width: 100%; }
+.landing-page-tabs dd.active {
+  border-top: 4px solid #002664;
+  border-left: 1px solid #e0ded9;
+  border-right: 1px solid #e0ded9; }
+  .landing-page-tabs dd.active a {
+    color: #002147; }
 
 .landing-page-tabs .tabs-content > .content {
   margin-left: 2%;
