@@ -296,6 +296,9 @@ h2.subheader {
   .tabs-content h4 {
     padding-left: 1em; }
 
+.tabs-content.checklist {
+  padding: 1em; }
+
 .landing-page-tabs {
   margin-top: 2em; }
   .landing-page-tabs dd a {
