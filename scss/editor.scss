@@ -69,14 +69,16 @@
 	margin-right: .3em;
 	margin-left: .3em;
 	border-radius: 2px;
-	
-	span {
-		font-family: $sans-serif !important;
-		margin-right: 1em;
-		font-weight: bold;
-		text-shadow: 1px 1px 1px rgba(0,0,0,.4)
-	}
-	
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+	line-height: 150%;
+}
+
+.small:after {
+	content: "\f18e";
+	padding-left: .5em;
+	color: white;
+	font-family: FontAwesome;
 }
 
 .large {
@@ -87,22 +89,18 @@
 	background-color: $dark-blue;
 	border: darken($dark-blue, 5%);
 	margin-top: .5em;
-	font-family: $sans-serif-condensed;
-	border-radius: 2px;
-	
-	span {
-		font-family: $sans-serif;
-		font-weight: bold;
-		display: inline-block;
-		line-height: 1.2em;
-	}
-
+	border-radius: 4px;
+	display: inline-block;
+	line-height: 150%;
+	font-size: 1.1em !important;
 }
 
-.fa-caret-right::before {
+.large:after {
 		margin-left: .5em;
 		color: $cyan;
-		float: Right;
+		content: "\f0da";
+		float: right;
+		font-family: FontAwesome;
 }
 
 .check {
@@ -113,33 +111,27 @@
 	font-weight: 600;
 	border-radius: 4px;
 	
-	
-	i {
+}
+
+.check:before {
 		padding-right: .5em;
 		line-height:40px;
 		vertical-align:middle;
 		color: $ksu-gold;
-	}
-	
-}
-
-.button.fa-arrow-circle-o-right::before {
-	right: 0;
-padding-right:1em;
-position: absolute;
+		content: "\f14a";
+		font-family: FontAwesome;
+		font-size: 1.6em;
 }
 
 .accent {
 		background-color: $ksu-gold !important;
 		color: $ksu-blue !important;
 		border: 1px solid darken($ksu-gold, 5%) !important;
-		
-		span {
-		font-family: $sans-serif !important;
-		margin-right: 1em;
-		text-shadow: none;
-	}
-		
+		text-shadow: none;		
+}
+
+.accent:after {
+	color: $ksu-blue;
 }
 
 .large:hover, .check:hover {
@@ -267,34 +259,31 @@ ol {
 
 .read-more-link {
 	font-weight: bold !important;
-	
-	i {
-		margin-left: .5em;
-	}
-	
-	span {
-		font-family: $sans-serif-condensed;
-	}
+	font-family: $sans-serif-condensed;
+	color: $cyan !important;
+}
+
+.read-more-link:after {
+	font-family: FontAwesome;
+	margin-left: .5em;
+	color: $cyan;
+	content: "\f0da";
 }
 
 .action-link  {
 
-	margin-bottom: 1.2em;
+	margin-bottom: 1.5em;
+	display: block;
 	margin-top: .5em;
-	
-	i {
-		margin-left: .1em;
-	}
-
-	span {
-		font-weight: bold;
+	font-weight: bold;
 	font-family: $sans-serif-condensed;
-	}
 }
 
-.action-link.fa-arrow-circle-o-right::before {
-		float:right;
-		padding-left: .5em;
+.action-link:after {
+	content: "\f18e";
+	padding-left: .5em;
+	color: $cyan;
+	font-family: FontAwesome;
 }
 
 

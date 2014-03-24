@@ -82,7 +82,7 @@
   		<p class="introduction">The Kent State Pattern Library uses <a href="http://sass-lang.com/">SASS</a>, <a href="https://github.com/challahan/Kent-State-Prototyping">GitHub</a> and <a href="http://foundation.zurb.com/docs/v/4.3.2/">Zurb Foundation v4</a>.  For more detailed information, see our <a href="http://www.kent.edu/web">Guide to Web Standards</a>.</p>
   		<div class="row">
   		<div class="large-8 small-12 columns">
-  		<a class="small button fa fa-arrow-circle-o-right" href="http://www.kent.edu/ucm"><span>Guide to Web Standards</span></a>
+  		<a class="small button" href="http://www.kent.edu/ucm">Guide to Web Standards</a>
   		</div>
   		<div class="large-4 small-12 columns">
   			<div class="icon-sunburst"></div>
@@ -91,7 +91,7 @@
   		<hr>
       <h2 id="prototyping">Templates for Prototyping</h2>
         <p>If you like rapid prototyping, you can download our Kent State rapid prototyping templates from GitHub.  These templates are not intended for production use, but feel free to use them for demonstration purposes.</p>
-        <a class="small button fa fa-arrow-circle-o-right" href="https://github.com/challahan/Kent-State-Prototyping"><span>Download on GitHub</span></a>
+        <a class="small button" href="https://github.com/challahan/Kent-State-Prototyping">Download on GitHub</a>
         <h3>Prototype Page Samples</h3>
         <ul>
           <li><a href="patchwork.html">Patchwork (Demonstrates Most Styles Together)</a></li>
@@ -412,14 +412,15 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
   		<h3>Button Group</h3>
   		<div class="panel">Button Groups are commonly used on top-level landing pages, and gently drop down to a section on the page</div>
   		<br />
-  		<ul class="button-group even-6">
+      <div id="landing-page-global">
+  		<ul class="landing-page-tabs button-group even-6">
   <li><a href="#" class="button">About Us</a></li>
   <li><a href="#" class="button">Faculty</a></li>
   <li><a href="#" class="button">Students</a></li>
   <li><a href="#" class="button">Alumni</a></li>
   <li><a href="#" class="button">Staff</a></li>
   <li><a href="#" class="button">Grad Students</a></li>
-</ul>
+</ul></div>
 <a class="button secondary" onclick="toggle_visibility('button-group-example');">Show Markup</a>
   		<pre id="button-group-example">
   			<code class="language-html"><div class="code-container">
@@ -501,11 +502,11 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
 <hr>
 			<h3>Action Links</h3>
 			<br />
-				<a href="#" class="action-link fa fa-arrow-circle-o-right"><span>Visit Campus Today</span></a><br />
+				<a href="#" class="action-link">Visit Campus Today</a><br />
 			<br />
 			<h3>Read More Link</h3>
 			<div class="panel">To ensure proper accessibility, Read More links must always describe the context to which they're linking.</div>
-				<a href="#" class="read-more-link fa fa-caret-right"><span>Read More About Our Programs</span></a>
+				<a href="#" class="read-more-link">Read More About Our Programs</a>
 
 			<hr>
 			<h3>Horizontal Tabs</h3>
@@ -514,7 +515,7 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
 
       <!-- Start Tabs -->
 
-<dl class="tabs" data-tab>
+<dl class="tabs landing-page-tabs" data-tab>
   <dd class="active"><a href="#panel2-1">Section 1</a></dd>
   <dd><a href="#panel2-2">Section 2</a></dd>
   <dd><a href="#panel2-3">Section 3</a></dd>
@@ -571,7 +572,7 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
 	<h3>Accordions</h3>
 	<div class="panel">Adding an accordion class to the section container will show an accordion on both small and large screens.</div>
 
-  <dl class="accordion" data-accordion>
+  <dl class="accordion landing-page-tabs" data-accordion>
   <dd>
     <a href="#panel1">Accordion 1</a>
       <div id="panel1" class="content active">
@@ -628,7 +629,7 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
 <hr>
 <h3>Vertical Tabs</h3>
 <div class="panel">Adding a vertical-tabs class to the section container and setting data-section="vertical-tabs" will enable tabs on both small and large screens.</div>
-<dl class="tabs vertical" data-tab>
+<dl class="tabs vertical landing-page-tabs" data-tab>
   <dd class="active"><a href="#panel1a">Tab 1</a></dd>
   <dd><a href="#panel2a">Tab 2</a></dd>
   <dd><a href="#panel3a">Tab 3</a></dd>
@@ -882,10 +883,10 @@ I do not fear computers. I fear the lack of them. Maecenas faucibus mollis inter
   			<div class="panel">Small buttons are used most commonly, while larger buttons are reserved for more important actions.  Calls to action are only available for use on home pages.</div>
 			  		<!-- Size Classes -->
 			<a href="#" class="button secondary">Small Button</a> <br />
-			<a href="#" class="small button fa fa-arrow-circle-o-right"><span>Medium Button with Arrow</span></a><br />
-			<a href="#" class="small button accent fa fa-arrow-circle-o-right"><span>Medium Button with Arrow</span></a><br />
-			<a href="#" class="button large fa fa-caret-right"><span>Large Button</span></a><br />
-			<a href="#" class="button check"><i class="fa fa-check-square fa-2x"></i>Large Button With Icon</a><br />
+			<a href="#" class="small button">Medium Button with Arrow</a><br />
+			<a href="#" class="small button accent">Medium Button with Arrow</a><br />
+			<a href="#" class="button large">Large Button</a><br />
+			<a href="#" class="button check">Large Button With Icon</a><br />
 			<a href="#" class="action-item button">Call to Action</a> <br />
 			
 			<!-- Color Classes -->
@@ -982,7 +983,7 @@ I do not fear computers. I fear the lack of them. Maecenas faucibus mollis inter
   		<h2 id="alerts">Alerts and Panels</h2>
   		<h3>Modal Windows</h3>
   		<div class="panel">Modals can be set to "tiny", "small", "medium", "large" and "xlarge" classes.</div>
-  			<a class="small button fa fa-arrow-circle-o-right" data-reveal-id="myModal" data-reveal><span>Click Me For A Modal</span></a>
+  			<a class="small button" data-reveal-id="myModal" data-reveal>Click Me For A Modal</a>
   			<br>
   		<a class="button secondary" onclick="toggle_visibility('modal-example');">Show Markup</a>
   		<pre id="modal-example">

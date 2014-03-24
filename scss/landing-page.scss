@@ -205,6 +205,22 @@ h2.subheader {
 	display: block;
 }
 
+.action-link  {
+
+	margin-bottom: 1.5em;
+	display: block;
+	margin-top: .5em;
+	font-weight: bold;
+	font-family: $sans-serif-condensed;
+}
+
+.action-link:after {
+	content: "\f18e";
+	padding-left: .5em;
+	color: $cyan;
+	font-family: FontAwesome;
+}
+
 
 .landing-row {
 	padding-top: 2em;
@@ -229,21 +245,18 @@ h2.subheader {
 			background-color: #009dd8;
 		border-color: #007fad;
 		color: white;
-		-webkit-transition: background-color 300ms ease-out;
 		transition: background-color 300ms ease-out;
-
-		span {
-			font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
-margin-right: 1em;
-font-weight: bold;
+		font-weight: bold;
 text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-		}
+
 	}
 
-.fa-arrow-circle-o-right:before {
-  right: 0;
-  padding-right: 1em;
-  position: absolute; }
+	.small:after {
+	content: "\f18e";
+	padding-left: .5em;
+	color: white;
+	font-family: FontAwesome;
+	}
 }
 
 .feature-row {
@@ -293,8 +306,12 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 				font-size: .5em;
 				font-weight: bold;
 				padding-left: 1.5em;
-				padding-bottom: .3em;
 
+			}
+
+			.read-more-link:after {
+				font-size: .8em;
+				margin-top: 1em;
 			}
 
 			span:hover  {
