@@ -128,7 +128,10 @@ h1.subheader {
 		padding-left: inherit !important;
 		padding-right: inherit !important;
 		line-height: 45px;
-		border-right: 1px solid rgba(255, 255, 255, 0.5);
+
+		a {
+			border-right: 1px solid rgba(255, 255, 255, 0.5);
+		}
 	}
 	
 	li:before {

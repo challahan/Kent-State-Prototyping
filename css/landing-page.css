@@ -98,8 +98,9 @@ h1.subheader {
     font-weight: 600 !important;
     padding-left: inherit !important;
     padding-right: inherit !important;
-    line-height: 45px;
-    border-right: 1px solid rgba(255, 255, 255, 0.5); }
+    line-height: 45px; }
+    #landing-page-global .button-group .button a {
+      border-right: 1px solid rgba(255, 255, 255, 0.5); }
   #landing-page-global .button-group li:before {
     content: none; }
   #landing-page-global .button-group li:first-child a {
