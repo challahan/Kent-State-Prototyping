@@ -187,7 +187,8 @@ h2.subheader {
   .feature-row h3 {
     color: #eaab00;
     font-size: 1.5em;
-    margin-top: 1em; }
+    margin-top: 1em;
+    font-family: "museo-slab", Georgia, serif; }
   .feature-row p {
     color: white; }
   .feature-row .colored-blue {
