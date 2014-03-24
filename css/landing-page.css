@@ -65,7 +65,8 @@
   -webkit-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
   font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 150%; }
 
 .accent:after {
   color: #002664;
