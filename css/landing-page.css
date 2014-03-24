@@ -96,7 +96,8 @@ h1.subheader {
   .image-centered h2 {
     font-size: 2em;
     margin-top: -1.7em;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    font-weight: normal; }
   .image-centered img {
     width: 90%;
     height: auto;
@@ -115,7 +116,8 @@ h1.subheader {
     font-weight: 400;
     font-size: 2em;
     margin-top: -1.7em;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    font-weight: normal; }
 
 #landing-page-global .button-group {
   background-color: #e0ded9;
