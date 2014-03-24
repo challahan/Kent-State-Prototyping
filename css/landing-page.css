@@ -183,7 +183,19 @@ h2.subheader {
     content: none; }
   .feature-row .small {
     min-width: 15em;
-    max-width: 20em; }
+    max-width: 20em;
+    font-size: 1em !important;
+    padding-top: 1.2em !important;
+    padding-bottom: 1.2em !important;
+    margin-top: 0.5em;
+    margin-right: 0.3em;
+    margin-left: 0.3em;
+    border-radius: 2px;
+    background-color: #009dd8;
+    border-color: #007fad;
+    color: white;
+    -webkit-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out; }
   .feature-row h3 {
     color: #eaab00;
     font-size: 1.5em;
