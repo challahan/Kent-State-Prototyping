@@ -146,6 +146,10 @@ position: absolute;
 	background-color: lighten($dark-blue, 10%);
 }
 
+.small:hover {
+	background-color: darken($cyan, 10%);
+}
+
 .accent:hover {
 	background-color: lighten($ksu-gold, 10%) !important;
 }

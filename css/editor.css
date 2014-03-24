@@ -107,6 +107,9 @@
 .large:hover, .check:hover {
   background-color: #00397a; }
 
+.small:hover {
+  background-color: #0079a5; }
+
 .accent:hover {
   background-color: #ffbf1e !important; }
 
