@@ -32,7 +32,8 @@
   margin-top: -2.5em;
   font-size: 1em; }
   .photo-caption .caption {
-    color: white; }
+    color: white;
+    font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
   .photo-caption i {
     color: #ffc82e;
     padding-right: 1em; }
