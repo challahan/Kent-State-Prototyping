@@ -2,6 +2,7 @@
   background-color: #002664;
   display: block;
   text-align: center;
+  -webkit-transition: 0.2s background-color ease-in;
   transition: 0.2s background-color ease-in;
   margin-top: -1.25rem; }
   #future-students-block .title {
