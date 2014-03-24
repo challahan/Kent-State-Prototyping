@@ -148,6 +148,11 @@ h2.subheader {
     color: white;
     -webkit-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out; }
+    .landing-row .small .span {
+      font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
+      margin-right: 1em;
+      font-weight: bold;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
   .landing-row .small.fa-arrow-circle-o-right::before {
     right: 0;
     padding-right: 1em;
