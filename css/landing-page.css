@@ -97,7 +97,8 @@ h1.subheader {
     border-bottom: none;
     font-weight: 600 !important;
     padding-left: inherit !important;
-    padding-right: inherit !important; }
+    padding-right: inherit !important;
+    line-height: 35px; }
   #landing-page-global .button-group li:before {
     content: none; }
   #landing-page-global .button-group li:first-child a {
