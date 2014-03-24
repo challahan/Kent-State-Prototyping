@@ -100,6 +100,7 @@
 .accent {
   background-color: #eaab00 !important;
   color: #002664 !important;
+  font-weight: bold;
   border: 1px solid #d19500 !important;
   text-shadow: none; }
 
