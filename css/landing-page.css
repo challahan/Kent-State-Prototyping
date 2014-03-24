@@ -7,6 +7,11 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
+.introduction {
+  font-size: 1.4em;
+  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+  margin-top: 1em; }
+
 .landing-title {
   position: relative;
   bottom: 0;
