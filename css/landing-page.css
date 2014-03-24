@@ -188,7 +188,8 @@ h2.subheader {
     color: #eaab00;
     font-size: 1.5em;
     margin-top: 1em;
-    font-family: "museo-slab", Georgia, serif; }
+    font-family: "museo-slab", Georgia, serif;
+    text-transform: uppercase; }
   .feature-row p {
     color: white; }
   .feature-row .colored-blue {
