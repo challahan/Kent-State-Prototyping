@@ -148,7 +148,7 @@ h2.subheader {
     color: white;
     -webkit-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out; }
-    .landing-row .small .span {
+    .landing-row .small span {
       font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
       margin-right: 1em;
       font-weight: bold;
