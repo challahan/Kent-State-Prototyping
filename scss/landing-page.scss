@@ -198,6 +198,11 @@ h2.subheader {
 		-webkit-transition: background-color 300ms ease-out;
 		transition: background-color 300ms ease-out;
 	}
+
+	.small.fa-arrow-circle-o-right::before {
+  right: 0;
+  padding-right: 1em;
+  position: absolute; }
 }
 
 .feature-row {
