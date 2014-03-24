@@ -117,10 +117,6 @@ h1.subheader {
 	background-color: $warm-gray-1;
 	-webkit-box-shadow: 0 4px 5px -2px rgba(0,0,0,.5);
 	box-shadow: 0 2px 5px -2px rgba(0,0,0,.5);
-
-	li {
-		border-right: 1px solid rgba(255, 255, 255, 0.5);
-	}
 	
 	.button {
 		margin-bottom: 0 !important;
@@ -131,7 +127,8 @@ h1.subheader {
 		font-weight: 600 !important;
 		padding-left: inherit !important;
 		padding-right: inherit !important;
-		line-height: 35px;
+		line-height: 45px;
+		border-right: 1px solid rgba(255, 255, 255, 0.5);
 	}
 	
 	li:before {
