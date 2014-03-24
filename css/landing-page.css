@@ -62,7 +62,7 @@
   .accent span {
     font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
     margin-right: 1em;
-    text-shadow: none; }
+    font-weight: bold; }
 
 h1.title {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
@@ -174,7 +174,7 @@ h2.subheader {
       margin-right: 1em;
       font-weight: bold;
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
-  .landing-row .small.fa-arrow-circle-o-right::before {
+  .landing-row .small.fa-arrow-circle-o-right::before, .landing-row .accent.fa-arrow-circle-o-right::before {
     right: 0;
     padding-right: 1em;
     position: absolute; }
