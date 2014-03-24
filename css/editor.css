@@ -18,13 +18,11 @@
   margin-bottom: 0.5em; }
 
 .button {
-  -webkit-box-shadow: none;
   box-shadow: none;
   line-height: 35px; }
 
 .secondary {
   font-family: "museo-slab", Georgia, serif;
-  -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 5px !important;
   font-size: 0.6875rem;
@@ -119,13 +117,10 @@
   text-align: left;
   border: none;
   border-radius: 5px;
-  background: -webkit-gradient(linear, left top, right top, from(#009dd8), color-stop(90%, #009dd8), color-stop(90%, #002d61), to(#002d61));
-  background: -webkit-linear-gradient(left, #009dd8 0%, #009dd8 90%, #002d61 90%, #002d61 100%);
   background: linear-gradient(to right, #009dd8 0%, #009dd8 90%, #002d61 90%, #002d61 100%);
   padding-right: 0em;
   padding-left: 5%;
   padding-bottom: 0.8em;
-  -webkit-box-shadow: none !important;
   box-shadow: none !important;
   padding-top: 0.7em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
@@ -142,14 +137,11 @@
   float: right;
   margin-right: 3.8%;
   text-align: center;
-  -webkit-transition: 0.3s all ease;
   transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
   margin-top: 0.5em; }
 
 .action-item:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#00b1f2), color-stop(90%, #00b1f2), color-stop(90%, #00397a), to(#00397a));
-  background: -webkit-linear-gradient(left, #00b1f2 0%, #00b1f2 90%, #00397a 90%, #00397a 100%);
   background: linear-gradient(to right, #00b1f2 0%, #00b1f2 90%, #00397a 90%, #00397a 100%); }
 
 .action-item:hover:after {
