@@ -57,6 +57,31 @@
 	}
 }
 
+.accent {
+		background-color: $ksu-gold !important;
+		color: $ksu-blue !important;
+		border: 1px solid darken($ksu-gold, 5%) !important;
+		font-size: 1em !important;
+			padding-top: 1.2em !important;
+			padding-bottom: 1.2em !important;
+			margin-top: 0.5em;
+			margin-right: 0.3em;
+			margin-left: 0.3em;
+			border-radius: 2px;
+			background-color: #009dd8;
+		border-color: #007fad;
+		color: white;
+		-webkit-transition: background-color 300ms ease-out;
+		transition: background-color 300ms ease-out;
+		
+		span {
+		font-family: $sans-serif !important;
+		margin-right: 1em;
+		text-shadow: none;
+	}
+		
+}
+
 
 
 h1.title {
