@@ -162,7 +162,8 @@ h2.subheader {
   margin-top: 0.5em;
   border-bottom: 1px solid #f0efed; }
   .landing-row h2 {
-    margin-top: 0; }
+    margin-top: 0;
+    font-weight: normal; }
   .landing-row .small {
     font-size: 1em !important;
     padding-top: 1.2em !important;
