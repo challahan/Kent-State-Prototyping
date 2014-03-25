@@ -265,6 +265,12 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	}
 }
 
+.rssBody h4 {
+	text-transform: inherit;
+	font-size: 1em;
+	font-family: $sans-serif;
+}
+
 .feature-row {
 	text-align: center;
 	background-size: 700% auto;
@@ -518,6 +524,11 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 .promo.first {
 	border-right: 1px solid $warm-gray-1;
 	margin-bottom: 1em;
+}
+
+.research-landing .tabs-content {
+	padding-left:1em;
+	padding-right: 1em;
 }
 
 .tabs-content {

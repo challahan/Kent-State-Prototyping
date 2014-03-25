@@ -206,6 +206,11 @@ h2.subheader {
     color: white;
     font-family: FontAwesome; }
 
+.rssBody h4 {
+  text-transform: inherit;
+  font-size: 1em;
+  font-family: "tablet-gothic", Helvetica, Arial, sans-serif; }
+
 .feature-row {
   text-align: center;
   -webkit-background-size: 700% auto;
@@ -369,6 +374,10 @@ h2.subheader {
 .promo.first {
   border-right: 1px solid #e0ded9;
   margin-bottom: 1em; }
+
+.research-landing .tabs-content {
+  padding-left: 1em;
+  padding-right: 1em; }
 
 .tabs-content {
   text-align: left;
