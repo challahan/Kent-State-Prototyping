@@ -38,6 +38,7 @@
 	display: inline-block;
 	margin: 0 0 1.25rem;
 	font-weight: normal;
+	text-decoration: none;
 }
 
 .secondary {
@@ -76,6 +77,7 @@
 	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 	line-height: 150%;
 	background-color: $cyan !important;
+	color: white;
 }
 
 .small:after {

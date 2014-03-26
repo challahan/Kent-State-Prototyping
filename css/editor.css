@@ -23,7 +23,8 @@
   line-height: 35px;
   display: inline-block;
   margin: 0 0 1.25rem;
-  font-weight: normal; }
+  font-weight: normal;
+  text-decoration: none; }
 
 .secondary {
   font-family: "museo-slab", Georgia, serif;
@@ -57,7 +58,8 @@
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
   line-height: 150%;
-  background-color: #009dd8 !important; }
+  background-color: #009dd8 !important;
+  color: white; }
 
 .small:after {
   content: "\f18e";
