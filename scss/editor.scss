@@ -3,7 +3,6 @@
 @import "settings";
 
 
-
 //Images and Videos //
 
 .image-align-left {
@@ -36,6 +35,9 @@
 .button {
 	box-shadow: none;
 	line-height:35px;
+	display: inline-block;
+	margin: 0 0 1.25rem;
+	font-weight: normal;
 }
 
 .secondary {
@@ -50,15 +52,16 @@
 	padding-bottom: .8em;
 	margin-top: .5em;
 	margin-bottom: 2em;
-  	background-color: $ksu-blue;
+  	background-color: $ksu-blue !important;
+  	color: white !important;
 
   	a {
-  		color: white;
+  		color: white !important;
   	}
 }
 
 .secondary:hover {
-	background-color: lighten($secondary, 10%);
+	background-color: darken($secondary, 10%) !important;
 }
 
 .small {
@@ -72,6 +75,7 @@
 	font-weight: bold;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 	line-height: 150%;
+	background-color: $cyan !important;
 }
 
 .small:after {
@@ -79,6 +83,10 @@
 	padding-left: .5em;
 	color: white;
 	font-family: FontAwesome;
+}
+
+.small:hover, .small:active, .small:focus {
+	background-color: darken($cyan,10%) !important;
 }
 
 .large {
@@ -262,6 +270,7 @@ ol {
 	font-weight: bold !important;
 	font-family: $sans-serif-condensed;
 	color: $cyan !important;
+	transition: .2s color ease;
 }
 
 .read-more-link:after {
@@ -271,6 +280,10 @@ ol {
 	content: "\f0da";
 }
 
+.read-more-link:hover, .read-more-link:active, .read-more-link:focus {
+	color: darken($cyan, 15%) !important;
+}
+
 .action-link  {
 
 	margin-bottom: 1.5em;
@@ -278,6 +291,8 @@ ol {
 	margin-top: .5em;
 	font-weight: bold;
 	font-family: $sans-serif-condensed;
+	color: $cyan;
+	transition: .2s color ease;
 }
 
 .action-link:after {
@@ -287,6 +302,10 @@ ol {
 	font-family: FontAwesome;
 }
 
+.action-link:hover, .action-link:active, .action-link:focus {
+	color: darken($cyan, 15%);
+}
+
 
 // Tables //
 
@@ -294,14 +313,24 @@ table {
 
 	margin-top: 1em;
 	margin-bottom: 1em;
+
+	td {
+		padding: 0.625rem 0.625rem;
+	}
 	
 	thead {
 		background: $cyan;
 		text-transform: uppercase;
+
+		tr td {
+			color: white;
+		}
 		
 		tr th {
 			color: white;
 			text-transform: uppercase;
+			padding-top: rem-calc(12 20 12);
+			padding-bottom: rem-calc(12 20 12);
 		}
 	}
 	
@@ -316,6 +345,7 @@ table {
 
 a {
 	font-weight: 400;
+	color: $cyan;
 }
 
 .caption {
@@ -357,6 +387,7 @@ h1 {
 	color: $h1-color;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+	font-size: rem-calc(32);
 }
 
 h1.heading {
@@ -370,6 +401,7 @@ h2 {
 	color: $h2-color;
 	margin-top: .5em;
 	margin-bottom: .7em;
+	font-size: rem-calc(31.5);
 }
 
 h3 {
@@ -379,6 +411,7 @@ h3 {
 	margin-bottom: .7em;
 	font-weight: 500;
 	margin-top: .5em;
+	font-size: rem-calc(20);
 }
 
 h4 {
@@ -387,6 +420,7 @@ h4 {
 	text-transform: uppercase;
 	font-weight: 600;
 	margin-bottom: 1em;
+	font-size: rem-calc(19);
 }
 
 h5 {
@@ -394,6 +428,7 @@ h5 {
 	font-family: $slab-serif;
 	font-weight: normal;
 	margin-bottom: 1em;
+	font-size: rem-calc(19);
 }
 
 h6 {
@@ -401,6 +436,7 @@ h6 {
 	font-weight: normal;
 	font-family: $sans-serif;
 	margin-bottom: 1em;
+	font-size: 1.2em;
 }
 
 /* sub, sup definitions borrowed from https://gist.github.com/unruthless/413930 */

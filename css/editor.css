@@ -20,7 +20,10 @@
 .button {
   -webkit-box-shadow: none;
   box-shadow: none;
-  line-height: 35px; }
+  line-height: 35px;
+  display: inline-block;
+  margin: 0 0 1.25rem;
+  font-weight: normal; }
 
 .secondary {
   font-family: "museo-slab", Georgia, serif;
@@ -35,12 +38,13 @@
   padding-bottom: 0.8em;
   margin-top: 0.5em;
   margin-bottom: 2em;
-  background-color: #002664; }
+  background-color: #002664 !important;
+  color: white !important; }
   .secondary a {
-    color: white; }
+    color: white !important; }
 
 .secondary:hover {
-  background-color: #003a97; }
+  background-color: #001331 !important; }
 
 .small {
   font-size: 1em !important;
@@ -52,13 +56,17 @@
   border-radius: 2px;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  line-height: 150%; }
+  line-height: 150%;
+  background-color: #009dd8 !important; }
 
 .small:after {
   content: "\f18e";
   padding-left: 0.5em;
   color: white;
   font-family: FontAwesome; }
+
+.small:hover, .small:active, .small:focus {
+  background-color: #0079a5 !important; }
 
 .large {
   padding-left: 3em !important;
@@ -209,7 +217,9 @@ ol {
 .read-more-link {
   font-weight: bold !important;
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
-  color: #009dd8 !important; }
+  color: #009dd8 !important;
+  -webkit-transition: 0.2s color ease;
+  transition: 0.2s color ease; }
 
 .read-more-link:after {
   font-family: FontAwesome;
@@ -217,12 +227,18 @@ ol {
   color: #009dd8;
   content: "\f0da"; }
 
+.read-more-link:hover, .read-more-link:active, .read-more-link:focus {
+  color: #00668b !important; }
+
 .action-link {
   margin-bottom: 1.5em;
   display: block;
   margin-top: 0.5em;
   font-weight: bold;
-  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
+  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+  color: #009dd8;
+  -webkit-transition: 0.2s color ease;
+  transition: 0.2s color ease; }
 
 .action-link:after {
   content: "\f18e";
@@ -230,20 +246,30 @@ ol {
   color: #009dd8;
   font-family: FontAwesome; }
 
+.action-link:hover, .action-link:active, .action-link:focus {
+  color: #00668b; }
+
 table {
   margin-top: 1em;
   margin-bottom: 1em; }
+  table td {
+    padding: 0.625rem 0.625rem; }
   table thead {
     background: #009dd8;
     text-transform: uppercase; }
+    table thead tr td {
+      color: white; }
     table thead tr th {
       color: white;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      padding-top: 0.75rem 1.25rem 0.75rem;
+      padding-bottom: 0.75rem 1.25rem 0.75rem; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #f7f6f5; }
 
 a {
-  font-weight: 400; }
+  font-weight: 400;
+  color: #009dd8; }
 
 .caption {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
@@ -277,7 +303,8 @@ h1 {
   font-weight: 700;
   color: #002664;
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  font-size: 2rem; }
 
 h1.heading {
   margin-top: 1em; }
@@ -287,7 +314,8 @@ h2 {
   font-weight: 400;
   color: #009dd8;
   margin-top: 0.5em;
-  margin-bottom: 0.7em; }
+  margin-bottom: 0.7em;
+  font-size: 1.96875rem; }
 
 h3 {
   font-family: "museo-slab", Georgia, serif;
@@ -295,26 +323,30 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 0.7em;
   font-weight: 500;
-  margin-top: 0.5em; }
+  margin-top: 0.5em;
+  font-size: 1.25rem; }
 
 h4 {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   color: #002664;
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-size: 1.1875rem; }
 
 h5 {
   color: #002664;
   font-family: "museo-slab", Georgia, serif;
   font-weight: normal;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-size: 1.1875rem; }
 
 h6 {
   color: #737373;
   font-weight: normal;
   font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  font-size: 1.2em; }
 
 /* sub, sup definitions borrowed from https://gist.github.com/unruthless/413930 */
 sub, sup {
