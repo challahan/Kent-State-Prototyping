@@ -276,6 +276,18 @@ table {
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #f7f6f5; }
 
+.panel {
+  font-size: 0.9em;
+  line-height: 150%;
+  background: #f7f6f5;
+  border-top: 4px solid #002664;
+  margin-top: 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d7d7d7;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem; }
+
 a {
   font-weight: 400;
   color: #009dd8; }
