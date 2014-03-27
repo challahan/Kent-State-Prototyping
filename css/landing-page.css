@@ -214,6 +214,10 @@ h2.subheader {
   font-size: 1em;
   font-family: "tablet-gothic", Helvetica, Arial, sans-serif; }
 
+img.rounded {
+  border-radius: 5px;
+  margin-bottom: 1em; }
+
 .feature-row {
   text-align: center;
   -webkit-background-size: 700% auto;
@@ -358,9 +362,24 @@ h2.subheader {
         color: #ffc82e;
         font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
         font-weight: 700; }
+    .feature-row .colored-black-light h2 {
+      font-family: "adobe-garamond-pro", Georgia, serif;
+      font-size: 5em;
+      margin-bottom: 0.3em; }
+    .feature-row .colored-black-light .side-description {
+      font-style: italic;
+      font-size: 2em; }
     .feature-row .colored-black-light .future-students-logo {
       width: 100%;
       height: auto; }
+  .feature-row .photo-row {
+    margin-bottom: 1em; }
+    .feature-row .photo-row img {
+      border: 3px solid white;
+      border-radius: 3px;
+      -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      margin-bottom: 1em; }
 
 .box {
   /*padding:.7em;*/

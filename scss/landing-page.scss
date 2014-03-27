@@ -275,6 +275,12 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	font-family: $sans-serif;
 }
 
+
+img.rounded {
+				border-radius: 5px;
+				margin-bottom: 1em;
+		}
+
 .feature-row {
 	text-align: center;
 	background-size: 700% auto;
@@ -501,10 +507,31 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 				}
 			}
 
+			h2 {
+				font-family: $serif;
+				font-size: 5em;
+				margin-bottom: .3em;
+			}
+
+			.side-description {
+				font-style: italic;
+				font-size: 2em;
+			}
+
 			.future-students-logo {
 					width: 100%;
 					height: auto;
 				}
+		}
+
+		.photo-row {
+			margin-bottom: 1em;
+			img {
+				border: 3px solid white;
+				border-radius: 3px;
+				box-shadow: 1px 1px 3px rgba(0,0,0,.5);
+				margin-bottom: 1em;
+			}
 		}
 }
 
