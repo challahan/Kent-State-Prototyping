@@ -226,7 +226,8 @@ ol {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   color: #009dd8 !important;
   -webkit-transition: 0.2s color ease;
-  transition: 0.2s color ease; }
+  transition: 0.2s color ease;
+  text-decoration: none; }
 
 .read-more-link:after {
   font-family: FontAwesome;
@@ -245,7 +246,8 @@ ol {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   color: #009dd8;
   -webkit-transition: 0.2s color ease;
-  transition: 0.2s color ease; }
+  transition: 0.2s color ease;
+  text-decoration: none; }
 
 .action-link:after {
   content: "\f18e";
