@@ -576,6 +576,14 @@ h2.subheader {
     max-width: 80%;
     margin: 0px auto;
     margin-top: -1em; }
+  .side-row h1 {
+    font-size: 5em; }
+  .side-row .side-description {
+    margin-top: -1.3em;
+    font-size: 1.2em;
+    font-style: italic; }
+  .landing-icons p {
+    font-size: 0.9em; }
   .feature-row .orbit-container .orbit-slides-container img {
     max-width: 150%; }
   #landing-page-row .button-group {

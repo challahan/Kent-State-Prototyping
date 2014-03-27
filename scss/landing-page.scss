@@ -850,6 +850,23 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 		margin-top: -1em;
 	}
 
+	.side-row  {
+
+		h1 {
+		font-size: 5em;
+		}	
+
+		.side-description {
+		margin-top: -1.3em;
+		font-size: 1.2em;
+		font-style:italic;
+		}
+	}
+
+	.landing-icons p {
+		font-size: .9em;
+	}
+
 	.feature-row .orbit-container .orbit-slides-container img {
 		max-width: 150%;
 	}
