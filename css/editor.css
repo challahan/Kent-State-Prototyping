@@ -12,7 +12,8 @@
   float: none;
   text-align: center;
   padding: 1em;
-  margin: 0px auto; }
+  margin: 0px auto;
+  display: block; }
 
 .th {
   margin-bottom: 0.5em; }
