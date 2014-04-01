@@ -14,10 +14,14 @@
 	background-size: 200% auto;
 }
 
-.panels-flexible-region-176-center, .panels-flexible-region-14-center {
+.panels-flexible-region-176-center, .panels-flexible-region-226-center {
 	width: 100% !important;
 	margin-top: -1em;
 	margin-bottom: -1em;
+
+	h2 {
+		display: none;
+	}
 }
 
 .introduction {
