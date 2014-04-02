@@ -221,7 +221,8 @@ h2.subheader {
   border: #00152e;
   font-weight: 600;
   border-radius: 4px;
-  color: white !important; }
+  color: white !important;
+  margin-top: 0.5em; }
 
 .check:before {
   padding-right: 0.5em;
