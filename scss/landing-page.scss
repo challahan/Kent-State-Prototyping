@@ -275,6 +275,27 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	font-family: $sans-serif;
 }
 
+.check {
+	padding-left: 1.5em !important;
+	padding-right: 1.5em !important;
+	background-color: $dark-blue;
+	border: darken($dark-blue, 5%);
+	font-weight: 600;
+	border-radius: 4px;
+	color: white !important;
+	
+}
+
+.check:before {
+		padding-right: .5em;
+		line-height:40px;
+		vertical-align:middle;
+		color: $ksu-gold;
+		content: "\f14a";
+		font-family: FontAwesome;
+		font-size: 1.6em;
+}
+
 
 img.rounded {
 				border-radius: 5px;
