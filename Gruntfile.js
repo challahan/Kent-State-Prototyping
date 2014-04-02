@@ -100,6 +100,6 @@ imagemin: {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('build', ['autoprefixer', 'sass']);
-  grunt.registerTask('default', ['imagemin','build','watch']);
+  grunt.registerTask('default', ['build','watch']);
 
 }

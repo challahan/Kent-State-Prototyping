@@ -473,11 +473,12 @@ img.rounded {
   margin-right: 1px;
   width: 100%; }
 .landing-page-tabs dd.active {
-  border-top: 4px solid #002664;
+  border-top: 6px solid #002664;
   border-left: 1px solid #e0ded9;
   border-right: 1px solid #e0ded9; }
   .landing-page-tabs dd.active a {
-    color: #002147; }
+    color: #002147;
+    font-weight: bold; }
 
 .landing-page-tabs .tabs-content > .content {
   margin-left: 2%;
