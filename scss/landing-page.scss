@@ -297,6 +297,29 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 		font-size: 1.6em;
 }
 
+.large {
+	padding-left: 3em !important;
+	padding-right: 3em !important;
+	padding-top: 1.2em !important;
+	padding-bottom: 1.2em !important;
+	background-color: $dark-blue;
+	border: darken($dark-blue, 5%);
+	margin-top: .5em;
+	border-radius: 4px;
+	display: inline-block;
+	line-height: 150%;
+	font-size: 1.1em !important;
+	color: white !important;
+}
+
+.large:after {
+		margin-left: .5em;
+		color: $cyan;
+		content: "\f0da";
+		float: right;
+		font-family: FontAwesome;
+}
+
 
 img.rounded {
 				border-radius: 5px;

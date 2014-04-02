@@ -233,6 +233,27 @@ h2.subheader {
   font-family: FontAwesome;
   font-size: 1.6em; }
 
+.large {
+  padding-left: 3em !important;
+  padding-right: 3em !important;
+  padding-top: 1.2em !important;
+  padding-bottom: 1.2em !important;
+  background-color: #002147;
+  border: #00152e;
+  margin-top: 0.5em;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 150%;
+  font-size: 1.1em !important;
+  color: white !important; }
+
+.large:after {
+  margin-left: 0.5em;
+  color: #009dd8;
+  content: "\f0da";
+  float: right;
+  font-family: FontAwesome; }
+
 img.rounded {
   border-radius: 5px;
   margin-bottom: 1em; }
