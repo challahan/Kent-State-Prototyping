@@ -311,14 +311,13 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	line-height: 150%;
 	font-size: 1.1em !important;
 	color: white !important;
-	margin-left:-.5em !important;
 }
 
 .large:after {
 		margin-left: .5em;
 		color: $cyan;
 		content: "\f0da";
-		float: right;
+		float: none !important;
 		font-family: FontAwesome;
 }
 

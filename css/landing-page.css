@@ -246,14 +246,13 @@ h2.subheader {
   display: inline-block;
   line-height: 150%;
   font-size: 1.1em !important;
-  color: white !important;
-  margin-left: -0.5em !important; }
+  color: white !important; }
 
 .large:after {
   margin-left: 0.5em;
   color: #009dd8;
   content: "\f0da";
-  float: right;
+  float: none !important;
   font-family: FontAwesome; }
 
 img.rounded {
