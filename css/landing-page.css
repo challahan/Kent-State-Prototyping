@@ -92,7 +92,7 @@ h1.landing {
   font-weight: 600;
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
-  font-size: 3.5em;
+  font-size: 2.7em;
   text-transform: none; }
 
 h1.subheader {
@@ -543,7 +543,7 @@ img.rounded {
   background-color: #f7f6f5;
   border-top: 4px solid #009dd8; }
 .landing-page-tabs .section-container > section.active > .title {
-  border-top: 4px solid #002664; }
+  border-top: 6px solid #002664; }
   .landing-page-tabs .section-container > section.active > .title a {
     color: #002147; }
 .landing-page-tabs .section-container.accordion > section.active > .title, .landing-page-tabs .accordion dd.active a {
