@@ -93,7 +93,8 @@ h1.landing {
   color: white;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
   font-size: 2.7em;
-  text-transform: none; }
+  text-transform: none;
+  line-height: 120%; }
 
 h1.subheader {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
@@ -635,7 +636,7 @@ img.rounded {
   h2.subheader {
     max-width: 80%;
     margin: 0px auto;
-    margin-top: -1em; }
+    margin-top: -0.5em; }
   .side-row h1 {
     font-size: 5em; }
   .side-row .side-description {
