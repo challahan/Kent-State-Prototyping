@@ -115,6 +115,7 @@ h1.landing {
 	text-shadow: 2px 2px 5px rgba(0,0,0,.9);
 	font-size: 2.7em;
 	text-transform: none;
+	line-height: 120%;
 }
 
 h1.subheader {
@@ -310,6 +311,7 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	line-height: 150%;
 	font-size: 1.1em !important;
 	color: white !important;
+	margin-left:-.5em !important;
 }
 
 .large:after {
@@ -920,7 +922,7 @@ img.rounded {
 	h2.subheader {
 		max-width: 80%;
 		margin: 0px auto;
-		margin-top: -1em;
+		margin-top: -.5em;
 	}
 
 	.side-row  {
