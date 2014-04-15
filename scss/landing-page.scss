@@ -14,6 +14,60 @@
 	background-size: 200% auto;
 }
 
+.sequence-module {
+
+	text-align: center;
+
+	img {
+		width: 200px;
+	}
+
+	p {
+		font-size: 1.2em;
+		font-weight: bold;
+		color: darken($cool-gray, 10%);
+	}
+
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.button-group.sequence {
+
+	width: 80%;
+	margin:0px auto;
+
+	li:before {
+		content: none;
+	}
+
+	i {
+		display: block;
+	}
+
+	a {
+		display: inline-block;
+		background-color: darken($cool-gray,30%);
+		font-family: $slab-serif;
+	}
+
+	.active {
+		background-color: darken($cool-gray,10%);
+
+		i {
+			color: $ksu-gold;
+		}
+	}
+
+	a:hover, a:active, a:focus {
+		background-color: darken($cool-gray,10%);
+
+		i {
+			color: $ksu-gold;
+		}
+	}
+}
+
 .panels-flexible-region-176-center, .panels-flexible-region-241-center, .panels-flexible-region-226-center, .panels-flexible-region-231-center, .panels-flexible-region-221-center, .panels-flexible-region-216-center, .panels-flexible-region-236-center {
 	width: 100% !important;
 	margin-top: -1em;
@@ -332,6 +386,11 @@ img.rounded {
 	background-size: 700% auto;
 	text-shadow: 2px 2px 5px rgba(0,0,0,.9);
 
+			img.feature {
+		border-radius: 5px;
+		border: 2px solid white;
+	}
+
 		h1 {
 			font-family: $serif;
 			font-size: 7em;
@@ -341,7 +400,6 @@ img.rounded {
 		}
 
 		.side-description {
-			margin-top: -1em;
 			font-size: 1.5em;
 
 		}
@@ -350,7 +408,7 @@ img.rounded {
 			font-weight: 600;
 			font-size: 2em;
 			margin-top: 0;
-			margin-bottom: .5em;
+			margin-bottom: 0em;
 			color: $ksu-gold;
 		}
 
@@ -455,9 +513,14 @@ img.rounded {
 		}
 
 		.colored-gray {
-			background-color: rgba($cool-gray, .05);
+			background-image: linear-gradient(to bottom, rgba($cool-gray,.4) 0%,rgba(black,.8) 100%);
 			padding-top: 2.5em;
 			padding-bottom: 1.5em;
+
+			h2 {
+				font-family: $serif;
+				font-size: 3em;
+			}
 
 			h3 {
 				color: $dark-blue;
@@ -472,12 +535,23 @@ img.rounded {
 			ul li a {
 				color: black;
 			}
+
+			i {
+				color: $bright-yellow;
+				margin-top: .5em;
+			}
 		}
 
 		.colored-gold {
-			background-color: rgba($dark-gold, .8);
+			background-image: linear-gradient(to bottom, rgba($ksu-gold,.3) 0%,rgba($ksu-gold,1) 100%);
 			padding-top: 1.5em;
 			padding-bottom: 1.5em;
+
+			i {
+				color: $dark-blue;
+				margin-top: .5em;
+				text-shadow: none;
+			}
 
 
 			h2 {
@@ -529,7 +603,8 @@ img.rounded {
 
 			i {
 				color: $bright-yellow;
-				margin-top: .5em;
+				margin-top: .3em;
+				margin-bottom: .1em;
 			}
 
 			.shadow {
@@ -555,13 +630,13 @@ img.rounded {
 
 			h2 {
 				font-family: $serif;
-				font-size: 5em;
-				margin-bottom: .3em;
+				font-size: 3em;
 			}
 
 			.side-description {
-				font-style: italic;
-				font-size: 2em;
+				font-size: 2.2em;
+				font-weight: bold;
+				letter-spacing: 1px;
 			}
 
 			.future-students-logo {
@@ -571,29 +646,49 @@ img.rounded {
 		}
 
 		.photo-row {
-			margin-bottom: 1em;
+			margin-bottom: .5em;
 			img {
 				border: 3px solid white;
 				border-radius: 3px;
 				box-shadow: 1px 1px 3px rgba(0,0,0,.5);
-				margin-bottom: 1em;
+				margin-bottom: .5em;
 			}
 		}
 }
 
 
 .box {
-	/*padding:.7em;*/
-	/*background-color: rgba(0,0,0,.3);
-	border-radius: 10px;
-	border:1px solid rgba(255,255,255,.3);*/
+	padding:.7em;
 	margin-top: 1em;
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 	display: block;
-	transition: .2s background-color ease-in;
+	padding-top: 1em;
+	text-shadow: none;
+	transition: .4s all ease;
+	border: 1px solid transparent;
 
 	p {
-		font-size: .9em;
+		color: black;
+		font-weight: normal;
+	}
+
+	h3 {
+		color: $dark-blue;
+	}
+
+	i {
+		color: $cyan;
+	}
+}
+
+.box:hover, .box:active, .box:focus {
+	border: 1px solid lighten($cool-gray, 30%);
+	border-radius: 5px;
+	margin-top: 1.8em;
+	background-color: lighten($cool-gray,50%);
+
+	p {
+		font-color: black;
 	}
 }
 
@@ -601,14 +696,9 @@ img.rounded {
 
 	margin-top: 1px !important;
 
-	img.feature {
-		border-radius: 5px;
-		border: 2px solid white;
-	}
-
 	h1 {
 		font-size: 7em;
-		padding-top: .1em;
+		padding-top: 0em;
 	}
 
 	h3 {
@@ -642,7 +732,7 @@ img.rounded {
 		border-radius: 10px;
 		width: 100%;
 		margin:0px auto;
-		margin-bottom: .2em;
+		margin-bottom: .1em;
 	}
 
 	a:hover, a:active, a:focus {
@@ -822,6 +912,11 @@ img.rounded {
 	.side-row {
 		background-size: 120% auto;
 	}
+
+	.box {
+		margin-bottom: 2em;
+		margin-top: 2em;
+	}
 }
 
 @media #{$medium-up} {
@@ -833,6 +928,10 @@ img.rounded {
 		h2 {
 			font-size: 2.5em;
 		}
+
+			.colored-black-light h2, .colored-gray h2 {
+		font-size: 4em;
+	}
 
 		.colored-black, .colored-blue, .colored-gold {
 				padding-top: 3em;
@@ -896,7 +995,6 @@ img.rounded {
 		font-size: 4.5em;
 	}
 
-	
 }
 
 @media #{$medium-only} {
@@ -904,6 +1002,10 @@ img.rounded {
 		background-size: 125% auto;
 		min-height: 250px;
 		padding-top: 220px;
+	}
+
+	.button-group.sequence {
+		width: 90%;
 	}
 
 		h2.subheader {
@@ -924,6 +1026,16 @@ img.rounded {
 		margin-top: -.5em;
 	}
 
+		.button-group.sequence {
+		li {
+			width: 100%;
+		}
+
+		a {
+			margin-bottom: .1em;
+		}
+	}
+
 	.side-row  {
 
 		h1 {
@@ -933,7 +1045,6 @@ img.rounded {
 		.side-description {
 		margin-top: -1.3em;
 		font-size: 1.2em;
-		font-style:italic;
 		}
 	}
 
