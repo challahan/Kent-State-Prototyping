@@ -75,6 +75,10 @@
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.9) 90%);
     padding-bottom: 2em; }
 
+.full-screen-layout .main {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
 .panels-flexible-region-176-center, .panels-flexible-region-241-center, .panels-flexible-region-226-center, .panels-flexible-region-231-center, .panels-flexible-region-221-center, .panels-flexible-region-216-center, .panels-flexible-region-236-center {
   width: 100% !important;
   margin-top: -1em;
