@@ -96,7 +96,7 @@
 
 	h3 {
 		color: $bright-yellow;
-		margin-top: 2em;
+		margin-top: 1em;
 		font-size: 1.4em;
 	}
 
@@ -1063,8 +1063,11 @@ img.rounded {
 			.gradient {
 		background-image: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 50%);
 		padding-bottom: 5em;
-
 	}
+
+		h3 {
+			margin-top: 2em;
+		}
 	}
 
 }

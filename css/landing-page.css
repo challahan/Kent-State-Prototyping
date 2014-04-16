@@ -60,7 +60,7 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
   .error-page h3 {
     color: #ffc82e;
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 1.4em; }
   .error-page p {
     color: white;
@@ -730,7 +730,9 @@ img.rounded {
     background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9)));
     background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 50%);
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 50%);
-    padding-bottom: 5em; } }
+    padding-bottom: 5em; }
+  .error-page h3 {
+    margin-top: 2em; } }
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
