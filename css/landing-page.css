@@ -43,7 +43,8 @@
   margin-top: 1px;
   -webkit-background-size: 250% auto;
   background-size: 250% auto;
-  background-position: 35% 0; }
+  background-position: 35% 0;
+  padding-left: 0 !important; }
   .error-page h1 {
     color: white;
     margin-bottom: 0.5em;
