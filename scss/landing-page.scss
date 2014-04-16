@@ -68,6 +68,54 @@
 	}
 }
 
+.error-page {
+
+	margin-bottom: 1px;
+	margin-top: 1px;
+	background-size: 250% auto;
+	background-position: 35% 0;
+
+	h1 {
+		color: white;
+		margin-bottom: .5em;
+		padding-top: 2em;
+		font-size: 1.5em;
+		margin-bottom: 0;
+	}
+
+	h2 {
+		color: $bright-yellow;
+		font-weight: bold;
+		padding: 0;
+		font-size: 3em;
+		margin: 0;
+		margin-bottom: .2em;
+		text-shadow: 2px 2px 5px rgba(0,0,0,.9);
+
+	}
+
+	h3 {
+		color: $bright-yellow;
+		margin-top: 2em;
+		font-size: 1.4em;
+	}
+
+	p {
+		color: white;
+		font-size: 1.1em;
+		text-shadow: 2px 2px 5px rgba(0,0,0,.9);
+	}
+
+	a {
+		color: $bright-yellow;
+	}
+
+	.gradient {
+		background-image: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 30%, rgba(0,0,0,0.9) 90%);
+		padding-bottom: 3em;
+	}
+}
+
 .panels-flexible-region-176-center, .panels-flexible-region-241-center, .panels-flexible-region-226-center, .panels-flexible-region-231-center, .panels-flexible-region-221-center, .panels-flexible-region-216-center, .panels-flexible-region-236-center {
 	width: 100% !important;
 	margin-top: -1em;
@@ -901,6 +949,22 @@ img.rounded {
 		padding-top: 300px;
 	}
 
+	.error-page {
+		background-size: 100% auto;
+		background-position: right top;
+
+		h2 {
+		font-size: 5em;
+		margin-bottom: .2em;
+		}
+
+		.gradient {
+			padding-left: 5em !important;
+
+		}
+
+	}
+
 	h1.landing {
 		font-size: 4.5em;
 	}
@@ -994,6 +1058,14 @@ img.rounded {
 	.feature-row .colored-black-light h1 {
 		font-size: 4.5em;
 	}
+	
+	.error-page {
+			.gradient {
+		background-image: linear-gradient(to left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 50%);
+		padding-bottom: 5em;
+
+	}
+	}
 
 }
 
@@ -1002,6 +1074,11 @@ img.rounded {
 		background-size: 125% auto;
 		min-height: 250px;
 		padding-top: 220px;
+	}
+
+	.error-page {
+		background-size: 150% auto;
+		background-position: 10% 0;
 	}
 
 	.button-group.sequence {

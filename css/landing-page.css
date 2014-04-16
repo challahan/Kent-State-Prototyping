@@ -38,6 +38,42 @@
     .button-group.sequence a:hover i, .button-group.sequence a:active i, .button-group.sequence a:focus i {
       color: #eaab00; }
 
+.error-page {
+  margin-bottom: 1px;
+  margin-top: 1px;
+  -webkit-background-size: 250% auto;
+  background-size: 250% auto;
+  background-position: 35% 0; }
+  .error-page h1 {
+    color: white;
+    margin-bottom: 0.5em;
+    padding-top: 2em;
+    font-size: 1.5em;
+    margin-bottom: 0; }
+  .error-page h2 {
+    color: #ffc82e;
+    font-weight: bold;
+    padding: 0;
+    font-size: 3em;
+    margin: 0;
+    margin-bottom: 0.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
+  .error-page h3 {
+    color: #ffc82e;
+    margin-top: 2em;
+    font-size: 1.4em; }
+  .error-page p {
+    color: white;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
+  .error-page a {
+    color: #ffc82e; }
+  .error-page .gradient {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), color-stop(30%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.9)));
+    background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.9) 90%);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.9) 90%);
+    padding-bottom: 3em; }
+
 .panels-flexible-region-176-center, .panels-flexible-region-241-center, .panels-flexible-region-226-center, .panels-flexible-region-231-center, .panels-flexible-region-221-center, .panels-flexible-region-216-center, .panels-flexible-region-236-center {
   width: 100% !important;
   margin-top: -1em;
@@ -630,6 +666,15 @@ img.rounded {
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     padding-top: 300px; }
+  .error-page {
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+    background-position: right top; }
+    .error-page h2 {
+      font-size: 5em;
+      margin-bottom: 0.2em; }
+    .error-page .gradient {
+      padding-left: 5em !important; }
   h1.landing {
     font-size: 4.5em; }
   .feature-row {
@@ -680,7 +725,12 @@ img.rounded {
   .colored-blue-dark .introduction {
     margin-top: 1em; }
   .feature-row .colored-black-light h1 {
-    font-size: 4.5em; } }
+    font-size: 4.5em; }
+  .error-page .gradient {
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9)));
+    background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 50%);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 50%);
+    padding-bottom: 5em; } }
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
@@ -688,6 +738,10 @@ img.rounded {
     background-size: 125% auto;
     min-height: 250px;
     padding-top: 220px; }
+  .error-page {
+    -webkit-background-size: 150% auto;
+    background-size: 150% auto;
+    background-position: 10% 0; }
   .button-group.sequence {
     width: 90%; }
   h2.subheader {
