@@ -394,7 +394,7 @@ img.rounded {
     font-family: "museo-slab", Georgia, serif;
     text-transform: uppercase; }
   .feature-row p {
-    color: white; }
+    color: white !important; }
   .feature-row .colored-blue {
     background-color: rgba(0, 38, 100, 0.8);
     padding-top: 1.5em;
