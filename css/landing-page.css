@@ -78,6 +78,8 @@
 .full-screen-layout .main {
   padding-left: 0 !important;
   padding-right: 0 !important; }
+.full-screen-layout .panels-flexible-region-first {
+  width: 100% !important; }
 
 .introduction {
   font-size: 1.4em;

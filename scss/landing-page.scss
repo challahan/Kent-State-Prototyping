@@ -117,9 +117,16 @@
 	}
 }
 
-.full-screen-layout .main {
+.full-screen-layout  {
+
+	.main {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
+	}	
+
+	.panels-flexible-region-first {
+		width: 100% !important;
+	}
 }
 
 .introduction {
