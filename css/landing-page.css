@@ -29,7 +29,7 @@
     margin-bottom: 0.3em; }
   .button-group.sequence a {
     display: inline-block;
-    background-color: #002147;
+    background-color: black;
     font-family: "museo-slab", Georgia, serif; }
   .button-group.sequence .active {
     background-color: #404040; }
