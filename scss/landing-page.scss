@@ -43,16 +43,18 @@
 
 	i {
 		display: block;
+		color: $ksu-gold;
+		margin-bottom: .3em;
 	}
 
 	a {
 		display: inline-block;
-		background-color: darken($cool-gray,30%);
+		background-color: $dark-blue;
 		font-family: $slab-serif;
 	}
 
 	.active {
-		background-color: darken($cool-gray,10%);
+		background-color: darken($cool-gray,20%);
 
 		i {
 			color: $ksu-gold;
@@ -60,7 +62,7 @@
 	}
 
 	a:hover, a:active, a:focus {
-		background-color: darken($cool-gray,10%);
+		background-color: $ksu-blue;
 
 		i {
 			color: $ksu-gold;
@@ -456,6 +458,9 @@ img.rounded {
 
 		.side-description {
 			font-size: 1.5em;
+			font-family: $sans-serif-condensed;
+			line-height: 120%;
+			margin-top: .2em;
 
 		}
 
@@ -643,13 +648,19 @@ img.rounded {
 		}
 
 		.colored-black-light {
-			background-image: linear-gradient(to bottom, rgba(0,0,0,.4) 0%,rgba($dark-blue,.9) 100%);
+			background-image: linear-gradient(to bottom, rgba(0,0,0,.3) 0%,rgba($dark-blue,.9) 100%);
 			padding-top: 1.5em;
 			padding-bottom: 1.5em;
 			border-bottom: 1px solid white;
 
 			.button {
 				min-width: 15em;
+			}
+
+			h1.go {
+				max-width:600px;
+			margin:0px auto;
+			margin-top:.7em;
 			}
 
 						p {
@@ -713,37 +724,35 @@ img.rounded {
 
 
 .box {
-	padding:.7em;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	padding:1em;
+	margin-top: .5em;
+	margin-bottom: 2em;
 	display: block;
 	padding-top: 1em;
 	text-shadow: none;
 	transition: .4s all ease;
-	border: 1px solid transparent;
+	border: 1px solid rgba($warm-gray-3,.7);
+	border-radius: 5px;
+	margin-top: 1.8em;
+	background-color: $dark-blue;
 
 	p {
-		color: black;
+		color: white;
 		font-weight: normal;
+
+	}
+
+	p.read-more-link {
+		color: white !important;
 	}
 
 	h3 {
-		color: $dark-blue;
+		color: white;
+		font-size: 1.2em;
 	}
 
 	i {
-		color: $cyan;
-	}
-}
-
-.box:hover, .box:active, .box:focus {
-	border: 1px solid lighten($cool-gray, 30%);
-	border-radius: 5px;
-	margin-top: 1.8em;
-	background-color: lighten($cool-gray,50%);
-
-	p {
-		font-color: black;
+		color: $bright-yellow;
 	}
 }
 
@@ -986,7 +995,19 @@ img.rounded {
 
 	.box {
 		margin-bottom: 2em;
-		margin-top: 2em;
+		margin-top: -1.5em;
+		height: 190px;
+	}
+
+	.box:hover, .box:active, .box:focus {
+	border: 1px solid lighten($cool-gray, 30%);
+	border-radius: 5px;
+	margin-top: -2em;
+	background-color: $ksu-blue;
+
+		p {
+		font-color: black;
+		}
 	}
 }
 
