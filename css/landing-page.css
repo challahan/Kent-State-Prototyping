@@ -727,7 +727,9 @@ img.rounded {
   .box.two:hover {
     background-image: url(https://ucm.dreamhosters.com/patterns/img/kent-normal.jpg) !important; }
   .box.three:hover {
-    background-image: url(https://ucm.dreamhosters.com/patterns/img/cleveland-normal.jpg) !important; } }
+    background-image: url(https://ucm.dreamhosters.com/patterns/img/cleveland-normal.jpg) !important; }
+  .colored-black-light .introduction {
+    margin-bottom: 2em; } }
 
 @media only screen and (min-width:40.063em) {
   .feature-row {
