@@ -129,6 +129,10 @@
 	.panels-flexible-region {
 		width: 100% !important;
 	}
+
+	[data-ksu-footer-wrapper] {
+		margin-top: 0 !important;
+	}
 }
 
 .introduction {

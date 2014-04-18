@@ -82,6 +82,8 @@
   padding-right: 0 !important; }
 .full-screen-layout .panels-flexible-region {
   width: 100% !important; }
+.full-screen-layout [data-ksu-footer-wrapper] {
+  margin-top: 0 !important; }
 
 .introduction {
   font-size: 1.4em;
