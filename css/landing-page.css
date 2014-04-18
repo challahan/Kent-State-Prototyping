@@ -478,9 +478,9 @@ img.rounded {
       color: #ffc82e;
       margin-top: 0.5em; }
   .feature-row .colored-black-light {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 33, 71, 0.9)));
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 33, 71, 0.9) 100%);
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 33, 71, 0.9) 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 33, 71, 0.9)));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 33, 71, 0.9) 100%);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 33, 71, 0.9) 100%);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     border-bottom: 1px solid white; }
