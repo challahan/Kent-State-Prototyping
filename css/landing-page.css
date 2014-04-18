@@ -761,7 +761,7 @@ img.rounded {
     margin-top: 1em; }
   .feature-row .colored-black-light h1 {
     font-size: 4.5em; }
-  .button .large {
+  .large {
     width: 100%; }
   .error-page .gradient {
     background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9)));
