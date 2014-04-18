@@ -319,7 +319,8 @@ h2.subheader {
   display: inline-block;
   line-height: 150%;
   font-size: 1.1em !important;
-  color: white !important; }
+  color: white !important;
+  min-width: 15em; }
   .large i {
     display: block;
     margin-bottom: 0.2em;
