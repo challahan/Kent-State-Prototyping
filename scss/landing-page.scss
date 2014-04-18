@@ -735,17 +735,16 @@ img.rounded {
 
 .box {
 	padding:1em;
-	background:url('/img/campus-green-blur.jpg') no-repeat top left;
-	background-position: 0 0;
 	margin-top: .5em;
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	display: block;
 	padding-top: 1em;
-	transition: .4s all ease;
+	transition: .4s margin-top ease-in;
+	background-size: 130% auto;
 	border: 1px solid rgba($warm-gray-3,.7);
 	border-radius: 5px;
 	margin-top: 1.8em;
-	text-shadow: 1px 1px 3px rgba(0,0,0,.7);
+	text-shadow: 1px 1px 3px rgba(0,0,0,.9);
 
 	p {
 		color: white;
@@ -1005,7 +1004,7 @@ img.rounded {
 	}
 
 	.box {
-		margin-bottom: 2em;
+		margin-bottom: 3em;
 		margin-top: -1.5em;
 		height: 190px;
 	}
@@ -1014,11 +1013,21 @@ img.rounded {
 	border: 1px solid lighten($cool-gray, 30%);
 	border-radius: 5px;
 	margin-top: -2em;
-	background-position: 0 -543px;
+
 
 		p {
 		font-color: black;
 		}
+	}
+
+	.box.one:hover {
+			background-image: url(/img/blur-normal.jpg) !important;
+	}
+	.box.two:hover {
+			background-image: url(/img/kent-normal.jpg) !important;
+	}
+	.box.three:hover {
+			background-image: url(/img/cleveland-normal.jpg) !important;
 	}
 }
 
