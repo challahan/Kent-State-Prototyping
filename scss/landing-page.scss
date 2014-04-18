@@ -1020,6 +1020,10 @@ img.rounded {
 		}
 	}
 
+	.box-overlay {
+		background: url(https://ucm.dreamhosters.com/patterns/img/blur-normal.jpg) no-repeat -9999px -9999px;
+	}
+
 	.box.one:hover {
 			background-image: url(https://ucm.dreamhosters.com/patterns/img/blur-normal.jpg) !important;
 	}
