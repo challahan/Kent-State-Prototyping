@@ -710,11 +710,11 @@ img.rounded {
     .box:hover p, .box:active p, .box:focus p {
       font-color: black; }
   .box.one:hover {
-    background-image: url(/img/blur-normal.jpg) !important; }
+    background-image: url(img/blur-normal.jpg) !important; }
   .box.two:hover {
-    background-image: url(/img/kent-normal.jpg) !important; }
+    background-image: url(img/kent-normal.jpg) !important; }
   .box.three:hover {
-    background-image: url(/img/cleveland-normal.jpg) !important; } }
+    background-image: url(img/cleveland-normal.jpg) !important; } }
 
 @media only screen and (min-width:40.063em) {
   .feature-row {
