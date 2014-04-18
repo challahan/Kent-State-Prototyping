@@ -435,7 +435,8 @@ img.rounded {
     padding-bottom: 1.5em; }
     .feature-row .colored-gray h2 {
       font-family: "adobe-garamond-pro", Georgia, serif;
-      font-size: 3em; }
+      font-size: 3em;
+      line-height: 120%; }
     .feature-row .colored-gray h3 {
       color: #002147;
       text-shadow: none;
