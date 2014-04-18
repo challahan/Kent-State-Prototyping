@@ -539,8 +539,8 @@ img.rounded {
   padding-top: 1em;
   -webkit-transition: 0.4s margin-top ease-in;
   transition: 0.4s margin-top ease-in;
-  -webkit-background-size: 150% auto;
-  background-size: 150% auto;
+  -webkit-background-size: 170% auto;
+  background-size: 170% auto;
   border: 1px solid rgba(199, 194, 186, 0.7);
   border-radius: 5px;
   margin-top: 1.8em;
