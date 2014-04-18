@@ -29,12 +29,19 @@
     margin-bottom: 0.3em; }
   .button-group.sequence a {
     display: inline-block;
-    background-color: black;
-    font-family: "museo-slab", Georgia, serif; }
+    background-color: #002147;
+    font-family: "museo-slab", Georgia, serif;
+    border-color: white !important; }
   .button-group.sequence .active {
-    background-color: #404040; }
+    background-color: #e0ded9;
+    color: black; }
     .button-group.sequence .active i {
-      color: #eaab00; }
+      color: #002664; }
+  .button-group.sequence .active:hover, .button-group.sequence .active:active, .button-group.sequence .active:focus {
+    background-color: #e0ded9;
+    color: black; }
+    .button-group.sequence .active:hover i, .button-group.sequence .active:active i, .button-group.sequence .active:focus i {
+      color: #002664; }
   .button-group.sequence a:hover, .button-group.sequence a:active, .button-group.sequence a:focus {
     background-color: #002664; }
     .button-group.sequence a:hover i, .button-group.sequence a:active i, .button-group.sequence a:focus i {

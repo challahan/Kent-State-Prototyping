@@ -49,15 +49,27 @@
 
 	a {
 		display: inline-block;
-		background-color: black;
+		background-color: $dark-blue;
 		font-family: $slab-serif;
+		border-color: white !important;
+
 	}
 
 	.active {
-		background-color: darken($cool-gray,20%);
+		background-color: $warm-gray-1;
+		color: black;
 
 		i {
-			color: $ksu-gold;
+			color: $ksu-blue;
+		}
+	}
+
+	.active:hover, .active:active, .active:focus {
+		background-color: $warm-gray-1;
+		color: black;
+
+		i {
+			color: $ksu-blue;
 		}
 	}
 
