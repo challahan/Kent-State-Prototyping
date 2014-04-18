@@ -709,8 +709,7 @@ img.rounded {
     background-size: 120% auto; }
   .box {
     margin-bottom: 3em;
-    margin-top: -1.5em;
-    height: 200px; }
+    margin-top: -1.5em; }
   .box:hover, .box:active, .box:focus {
     border: 1px solid silver;
     border-radius: 5px;
@@ -771,6 +770,8 @@ img.rounded {
     margin-top: 1em; }
   .feature-row .colored-black-light h1 {
     font-size: 4.5em; }
+  .box {
+    height: 200px; }
   .large {
     width: 14.5em; }
   .error-page .gradient {
