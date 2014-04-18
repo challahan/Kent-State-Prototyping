@@ -709,9 +709,11 @@ img.rounded {
     margin-top: -2em; }
     .box:hover p, .box:active p, .box:focus p {
       font-color: black; }
-  .box-overlay {
-    background: url(https://ucm.dreamhosters.com/patterns/img/blur-normal.jpg) no-repeat -9999px -9999px;
-    background: url(https://ucm.dreamhosters.com/patterns/img/kent-normal.jpg) no-repeat -9999px -9999px;
+  .box-overlay-1 {
+    background: url(https://ucm.dreamhosters.com/patterns/img/blur-normal.jpg) no-repeat -9999px -9999px; }
+  .box-overlay-2 {
+    background: url(https://ucm.dreamhosters.com/patterns/img/kent-normal.jpg) no-repeat -9999px -9999px; }
+  .box-overlay-3 {
     background: url(https://ucm.dreamhosters.com/patterns/img/cleveland-normal.jpg) no-repeat -9999px -9999px; }
   .box.one:hover {
     background-image: url(https://ucm.dreamhosters.com/patterns/img/blur-normal.jpg) !important; }
