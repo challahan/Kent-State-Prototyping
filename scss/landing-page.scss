@@ -426,6 +426,12 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	line-height: 150%;
 	font-size: 1.1em !important;
 	color: white !important;
+
+	i {
+		display:block;
+		margin-bottom: .2em;
+		color: $cyan;
+	}
 }
 
 .large:after {
@@ -729,16 +735,17 @@ img.rounded {
 
 .box {
 	padding:1em;
+	background:url('/img/campus-green-blur.jpg') no-repeat top left;
+	background-position: 0 0;
 	margin-top: .5em;
 	margin-bottom: 2em;
 	display: block;
 	padding-top: 1em;
-	text-shadow: none;
 	transition: .4s all ease;
 	border: 1px solid rgba($warm-gray-3,.7);
 	border-radius: 5px;
 	margin-top: 1.8em;
-	background-color: $dark-blue;
+	text-shadow: 1px 1px 3px rgba(0,0,0,.7);
 
 	p {
 		color: white;
@@ -752,7 +759,7 @@ img.rounded {
 
 	h3 {
 		color: white;
-		font-size: 1.2em;
+		font-size: 1.4em;
 	}
 
 	i {
@@ -1007,7 +1014,7 @@ img.rounded {
 	border: 1px solid lighten($cool-gray, 30%);
 	border-radius: 5px;
 	margin-top: -2em;
-	background-color: $ksu-blue;
+	background-position: 0 -543px;
 
 		p {
 		font-color: black;

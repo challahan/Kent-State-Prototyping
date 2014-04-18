@@ -320,6 +320,10 @@ h2.subheader {
   line-height: 150%;
   font-size: 1.1em !important;
   color: white !important; }
+  .large i {
+    display: block;
+    margin-bottom: 0.2em;
+    color: #009dd8; }
 
 .large:after {
   margin-left: 0.5em;
@@ -521,17 +525,18 @@ img.rounded {
 
 .box {
   padding: 1em;
+  background: url('/img/campus-green-blur.jpg') no-repeat top left;
+  background-position: 0 0;
   margin-top: 0.5em;
   margin-bottom: 2em;
   display: block;
   padding-top: 1em;
-  text-shadow: none;
   -webkit-transition: 0.4s all ease;
   transition: 0.4s all ease;
   border: 1px solid rgba(199, 194, 186, 0.7);
   border-radius: 5px;
   margin-top: 1.8em;
-  background-color: #002147; }
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }
   .box p {
     color: white;
     font-weight: normal; }
@@ -539,7 +544,7 @@ img.rounded {
     color: white !important; }
   .box h3 {
     color: white;
-    font-size: 1.2em; }
+    font-size: 1.4em; }
   .box i {
     color: #ffc82e; }
 
@@ -702,7 +707,7 @@ img.rounded {
     border: 1px solid silver;
     border-radius: 5px;
     margin-top: -2em;
-    background-color: #002664; }
+    background-position: 0 -543px; }
     .box:hover p, .box:active p, .box:focus p {
       font-color: black; } }
 
