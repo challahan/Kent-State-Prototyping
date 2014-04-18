@@ -426,7 +426,6 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	line-height: 150%;
 	font-size: 1.1em !important;
 	color: white !important;
-	min-width: 15em;
 
 	i {
 		display:block;
@@ -1119,6 +1118,12 @@ img.rounded {
 
 	.feature-row .colored-black-light h1 {
 		font-size: 4.5em;
+	}
+
+	.button {
+		.large {
+			width: 100%;
+		}
 	}
 	
 	.error-page {
