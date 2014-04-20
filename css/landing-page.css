@@ -620,14 +620,12 @@ img.rounded {
   border-right: 1px solid #e0ded9;
   margin-bottom: 1em; }
 
-.research-landing .tabs-content {
-  padding-left: 1em;
-  padding-right: 1em; }
-
 .tabs-content {
   text-align: left;
   border: 1px solid #e0ded9;
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+  padding-left: 2em;
+  padding-right: 2em; }
   .tabs-content .landscape {
     margin-bottom: 1em; }
   .tabs-content h4 {

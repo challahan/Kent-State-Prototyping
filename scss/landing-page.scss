@@ -876,15 +876,13 @@ img.rounded {
 	margin-bottom: 1em;
 }
 
-.research-landing .tabs-content {
-	padding-left:1em;
-	padding-right: 1em;
-}
 
 .tabs-content {
 		text-align: left;
 		border: 1px solid $warm-gray-1;
 		margin-bottom: 1.5em;
+		padding-left:2em;
+		padding-right:2em;
 
 		.landscape {
 		margin-bottom: 1em;
