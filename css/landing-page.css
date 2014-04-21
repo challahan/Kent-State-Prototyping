@@ -290,6 +290,8 @@ h2.subheader {
     color: white;
     font-family: FontAwesome; }
 
+.rssBody ul {
+  list-style-type: none; }
 .rssBody h4 {
   text-transform: inherit;
   font-size: 1em;
