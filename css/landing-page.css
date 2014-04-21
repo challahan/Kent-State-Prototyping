@@ -367,7 +367,9 @@ img.rounded {
     color: #002664; }
     .feature-row .owl-caption .read-more-link {
       color: #009dd8;
-      font-size: 0.7em; }
+      font-size: 0.7em;
+      margin-bottom: 0;
+      padding-bottom: 0; }
   .feature-row img.feature {
     border-radius: 5px;
     border: 2px solid white; }
