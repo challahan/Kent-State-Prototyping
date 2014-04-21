@@ -352,6 +352,13 @@ img.rounded {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
   .feature-row .owl-item li {
     margin-bottom: 0; }
+  .feature-row .owl-caption {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%; }
   .feature-row img.feature {
     border-radius: 5px;
     border: 2px solid white; }
