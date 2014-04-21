@@ -678,7 +678,7 @@ img.rounded {
   margin-right: 2%;
   width: 96%;
   padding: 1rem; }
-.landing-page-tabs .section-container > section > .title {
+.landing-page-tabs .section-container .title {
   background-color: #f7f6f5;
   border-top: 4px solid #009dd8; }
 .landing-page-tabs .section-container > section.active > .title {
