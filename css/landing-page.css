@@ -678,13 +678,13 @@ img.rounded {
   margin-right: 2%;
   width: 96%;
   padding: 1rem; }
-.landing-page-tabs .section-container > section > .title {
+.landing-page-tabs .section-container.auto > section.active > .title a {
   background-color: #f7f6f5 !important;
   border-top: 4px solid #009dd8 !important; }
 .landing-page-tabs .section-container > section.active > .title {
-  border-top: 6px solid #002664; }
+  border-top: 6px solid #002664 !important; }
   .landing-page-tabs .section-container > section.active > .title a {
-    color: #002147; }
+    color: #002147 !important; }
 .landing-page-tabs .section-container.accordion > section.active > .title, .landing-page-tabs .accordion dd.active a {
   background-color: #002664;
   border: 0;

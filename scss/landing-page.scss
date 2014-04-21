@@ -967,15 +967,15 @@ img.rounded {
 		padding: 1rem;
 }
 
-.section-container>section>.title {
+.section-container.auto > section.active > .title a {
 	background-color: lighten($warm-gray-1, 10%) !important;
 	border-top: 4px solid $cyan !important;
 }
 
 .section-container > section.active > .title {
-	border-top: 6px solid $ksu-blue;
+	border-top: 6px solid $ksu-blue !important;
 	a {
-		color: $dark-blue;
+		color: $dark-blue !important;
 	}
 }
 
