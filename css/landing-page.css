@@ -364,7 +364,7 @@ img.rounded {
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: #002664; }
-    .feature-row .owl-caption .read-more-link a {
+    .feature-row .owl-caption .read-more-link {
       color: #009dd8;
       font-size: 0.7em; }
   .feature-row img.feature {
