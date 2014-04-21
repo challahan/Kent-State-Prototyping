@@ -737,17 +737,17 @@ img.rounded {
     .box:hover p, .box:active p, .box:focus p {
       font-color: black; }
   .box-overlay-1 {
-    background: url(https://ucm.dreamhosters.com/patterns/img/blur-normal.jpg) no-repeat -9999px -9999px; }
+    background: url(https://cms.kent.edu/sites/default/files/blur-normal.jpg) no-repeat -9999px -9999px; }
   .box-overlay-2 {
-    background: url(https://ucm.dreamhosters.com/patterns/img/kent-normal.jpg) no-repeat -9999px -9999px; }
+    background: url(https://cms.kent.edu/sites/default/files/kent-normal.jpg) no-repeat -9999px -9999px; }
   .box-overlay-3 {
-    background: url(https://ucm.dreamhosters.com/patterns/img/cleveland-normal.jpg) no-repeat -9999px -9999px; }
+    background: url(https://cms.kent.edu/sites/default/files/cleveland-normal.jpg) no-repeat -9999px -9999px; }
   .box.one:hover {
-    background-image: url(https://ucm.dreamhosters.com/patterns/img/blur-normal.jpg) !important; }
+    background-image: url(https://cms.kent.edu/sites/default/files/blur-normal.jpg) !important; }
   .box.two:hover {
-    background-image: url(https://ucm.dreamhosters.com/patterns/img/kent-normal.jpg) !important; }
+    background-image: url(https://cms.kent.edu/sites/default/files/kent-normal.jpg) !important; }
   .box.three:hover {
-    background-image: url(https://ucm.dreamhosters.com/patterns/img/cleveland-normal.jpg) !important; }
+    background-image: url(https://cms.kent.edu/sites/default/files/cleveland-normal.jpg) !important; }
   .colored-black-light .introduction {
     margin-bottom: 2em; } }
 
