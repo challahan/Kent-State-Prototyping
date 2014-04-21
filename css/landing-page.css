@@ -351,7 +351,8 @@ img.rounded {
   background-size: 700% auto;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
   .feature-row .owl-item li {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    list-style-type: none; }
   .feature-row .owl-caption {
     position: absolute;
     display: block;
