@@ -358,9 +358,9 @@ img.rounded {
     display: block;
     bottom: 0;
     padding: 1em;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
     width: 100%;
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-align: center;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     font-weight: 600;
@@ -756,6 +756,8 @@ img.rounded {
     background-position: center top; }
     .feature-row h2 {
       font-size: 2.5em; }
+    .feature-row .owl-caption {
+      font-size: 1.3em; }
     .feature-row .colored-black-light h2, .feature-row .colored-gray h2 {
       font-size: 4em; }
     .feature-row .colored-black, .feature-row .colored-blue, .feature-row .colored-gold {
