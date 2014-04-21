@@ -483,11 +483,16 @@ img.rounded {
 	padding: 1em;
 	background: rgba(255,255,255,.9);
 	width: 100%;
-	font-size: 2em;
+	font-size: 1.3em;
 	text-align: center;
 	font-family: $sans-serif-condensed;
 	font-weight: 600;
 	color: $ksu-blue;
+
+		.read-more-link a {
+			color: $cyan;
+			font-size: .7em;
+		}
 	}
 
 			img.feature {

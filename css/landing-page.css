@@ -359,11 +359,14 @@ img.rounded {
     padding: 1em;
     background: rgba(255, 255, 255, 0.9);
     width: 100%;
-    font-size: 2em;
+    font-size: 1.3em;
     text-align: center;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
     font-weight: 600;
     color: #002664; }
+    .feature-row .owl-caption .read-more-link a {
+      color: #009dd8;
+      font-size: 0.7em; }
   .feature-row img.feature {
     border-radius: 5px;
     border: 2px solid white; }
