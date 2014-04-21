@@ -397,10 +397,17 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 	}
 }
 
-.rssBody h4 {
+.rssBody  {
+
+	ul {
+		list-style-type: none;
+	}
+
+h4 {
 	text-transform: inherit;
 	font-size: 1em;
 	font-family: $sans-serif;
+}
 }
 
 .check {
@@ -464,6 +471,10 @@ img.rounded {
 	text-align: center;
 	background-size: 700% auto;
 	text-shadow: 2px 2px 5px rgba(0,0,0,.9);
+
+	.owl-item li {
+		margin-bottom: 0;
+	}
 
 			img.feature {
 		border-radius: 5px;
