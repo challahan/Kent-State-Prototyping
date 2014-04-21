@@ -967,7 +967,7 @@ img.rounded {
 		padding: 1rem;
 }
 
-.section-container.auto > section > .title {
+.section-container.auto > section > .title a {
 	background-color: lighten($warm-gray-1, 10%);
 	border-top: 4px solid $cyan;
 }
