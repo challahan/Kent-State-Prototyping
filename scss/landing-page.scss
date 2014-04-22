@@ -14,6 +14,40 @@
 	background-size: 200% auto;
 }
 
+main {
+	ul {
+
+	list-style: none;
+    padding:0;
+    margin:0;
+    margin-left: 2em;
+    list-style-position: outside;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    
+    li { 
+    padding-left: 0em; 
+    text-indent: 0em;
+    margin-bottom: .3em;
+    
+	
+	}
+	
+	li:before {
+    content: "\f0c8";
+    font-family: FontAwesome;
+    font-size: .7em;
+    color: $bullet-color;
+    padding-right: 0;
+    line-height: 28px;
+    margin-left: -2em;
+    position: relative;
+    float: left;
+	}
+
+}
+}
+
 .sequence-module {
 
 	text-align: center;
@@ -1228,9 +1262,9 @@ img.rounded {
 		margin-top: -.5em;
 	}
 
-		.button-group.sequence {
+		.button-group.even-3 {
 		li {
-			width: 100%;
+			width: 100% !important;
 		}
 
 		a {
