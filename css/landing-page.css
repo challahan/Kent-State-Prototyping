@@ -19,6 +19,8 @@ main ul {
     padding-left: 0em;
     text-indent: 0em;
     margin-bottom: 0.3em; }
+    main ul li a {
+      font-weight: bold; }
   main ul li:before {
     content: "\f0c8";
     font-family: FontAwesome;
