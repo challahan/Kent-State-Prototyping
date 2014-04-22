@@ -19,13 +19,19 @@
 .feature-caption {
 
 background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.93) 100%);
-bottom: 1rem;
-right: 0rem; 
+bottom: 1rem !important;
+right: 0rem !important;
 padding: 2em;
 
 	.feature-label {
 		color: $bright-yellow;
 	font-family: $sans-serif-condensed;
+	}
+
+	.feature-title {
+		color: white;
+	font-family: $sans-serif-condensed;
+	line-height:150%;
 	}
 }
 
