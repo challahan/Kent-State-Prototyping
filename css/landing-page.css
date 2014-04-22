@@ -828,9 +828,9 @@ img.rounded {
     max-width: 80%;
     margin: 0px auto;
     margin-top: -0.5em; }
-  .button-group.sequence li {
+  .button-group.even-3 li {
     width: 100%; }
-  .button-group.sequence a {
+  .button-group.even-3 a {
     margin-bottom: 0.1em; }
   .side-row h1 {
     font-size: 5em; }
