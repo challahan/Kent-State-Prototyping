@@ -18,10 +18,7 @@
 
 main {
 
-	#ksu_og_side_nav:before {
-		content: none;
-	}
-	
+
 	ul {
 
 	list-style: none;
@@ -53,6 +50,10 @@ main {
 	}
 
 }
+
+	#ksu_og_side_nav:before {
+		content: none;
+	}
 }
 
 .sequence-module {

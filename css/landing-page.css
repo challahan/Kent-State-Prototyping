@@ -7,8 +7,6 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
-main #ksu_og_side_nav:before {
-  content: none; }
 main ul {
   list-style: none;
   padding: 0;
@@ -31,6 +29,8 @@ main ul {
     margin-left: -2em;
     position: relative;
     float: left; }
+main #ksu_og_side_nav:before {
+  content: none; }
 
 .sequence-module {
   text-align: center;
