@@ -25,7 +25,7 @@ main {
 	list-style: none;
     padding:0;
     margin:0;
-    margin-left: 2em;
+    margin-left: 1.5em;
     list-style-position: outside;
     margin-top: .5em;
     margin-bottom: 1em;
@@ -49,7 +49,7 @@ main {
     color: $bullet-color;
     padding-right: 0;
     line-height: 28px;
-    margin-left: -2em;
+    margin-left: -1.5em;
     position: relative;
     float: left;
 	}
@@ -71,6 +71,33 @@ main {
 	.owl-carousel {
 			margin-left: 0;
 		}
+
+	ol {
+	
+	counter-reset: li;
+	margin-left: 1em;
+	padding-left: 0;
+	list-style: none;
+	margin-top: .5em;
+
+	>li {
+		margin-bottom: 10px;
+		position: relative;
+		margin-left: 2em;
+		margin-top: .7em;
+	}
+
+	>li:before {
+		content: counter(li);
+		counter-increment:li;
+		margin-right: 10px;
+		font-style: italic;
+		color: $numeral-color;
+		font-weight: bold;
+		left: -1.5em;
+		position: absolute;
+	}
+	}
 }
 
 // End List Styles //

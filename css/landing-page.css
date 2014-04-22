@@ -39,6 +39,26 @@ main .button-group li:before, main .owl-item li:before, main #ksu_og_side_nav li
   margin-left: inherit; }
 main .owl-carousel {
   margin-left: 0; }
+main ol {
+  counter-reset: li;
+  margin-left: 1em;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0.5em; }
+  main ol > li {
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 2em;
+    margin-top: 0.7em; }
+  main ol > li:before {
+    content: counter(li);
+    counter-increment: li;
+    margin-right: 10px;
+    font-style: italic;
+    color: #002664;
+    font-weight: bold;
+    left: -1.5em;
+    position: absolute; }
 
 .sequence-module {
   text-align: center;
