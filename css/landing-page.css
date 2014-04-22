@@ -7,6 +7,8 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
+main .owl-carousel ul {
+  margin-left: 0; }
 main ul {
   list-style: none;
   padding: 0;
