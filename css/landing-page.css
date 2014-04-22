@@ -755,10 +755,10 @@ img.rounded {
   width: 96%;
   padding: 1rem; }
 
-.section-container .title a {
+.section-container .title {
   background-color: #f7f6f5 !important;
   border-top: 4px solid #009dd8 !important;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: bold; }
 
 .section-container > section.active > .title {
