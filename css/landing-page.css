@@ -761,7 +761,7 @@ img.rounded {
   font-weight: bold; }
 
 .section-container.auto > section > .title a {
-  font-size: 1.3em; }
+  font-size: 1.3em !important; }
 
 .section-container > section.active > .title {
   border-top: 6px solid #002664 !important;
