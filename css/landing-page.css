@@ -29,7 +29,7 @@ main ul {
     margin-left: -2em;
     position: relative;
     float: left; }
-main #ksu_og_side_nav:before {
+main #ksu_og_side_nav li:before {
   content: none; }
 
 .sequence-module {
