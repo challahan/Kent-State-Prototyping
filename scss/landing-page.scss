@@ -1094,13 +1094,16 @@ img.rounded {
 }
 }
 
-.section-container .title {
+.section-container .title a {
 	background-color: lighten($warm-gray-1, 10%) !important;
 	border-top: 4px solid $cyan !important;
+	font-size: 1rem;
+	font-weight: bold;
 }
 
 .section-container > section.active > .title {
 	border-top: 6px solid $ksu-blue !important;
+	background-color: white;
 	a {
 		color: $dark-blue !important;
 	}
