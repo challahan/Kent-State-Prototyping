@@ -765,7 +765,7 @@ img.rounded {
 
 .section-container > section.active > .title {
   border-top: 6px solid #002664 !important;
-  background-color: white; }
+  background-color: white !important; }
   .section-container > section.active > .title a {
     color: #002147 !important; }
 
