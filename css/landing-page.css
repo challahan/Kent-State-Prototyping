@@ -759,8 +759,9 @@ img.rounded {
   background-color: #f7f6f5 !important;
   border-top: 4px solid #009dd8 !important;
   font-weight: bold; }
-  .section-container .title a {
-    font-size: 1.3rem; }
+
+.section-container.auto > section > .title a {
+  font-size: 1.3em; }
 
 .section-container > section.active > .title {
   border-top: 6px solid #002664 !important;
