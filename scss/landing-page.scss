@@ -15,6 +15,8 @@
 }
 
 
+// Styles for Lists //
+
 
 main {
 
@@ -56,7 +58,16 @@ main {
 		line-height: inherit;
 		margin-left: inherit;
 	}
+
+	#ksu_og_side_nav {
+		li {
+			margin-bottom: 0;
+		}
+	}
 }
+
+// End List Styles //
+
 
 .sequence-module {
 
