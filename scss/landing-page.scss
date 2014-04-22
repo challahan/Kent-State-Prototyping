@@ -92,7 +92,7 @@ main {
 		}
 	}
 
-	.button-group li:before, #ksu_og_side_nav li:before {
+	.button-group li:before, .inline-list li:before, #ksu_og_side_nav li:before {
 		content: none;
 		line-height: inherit;
 		margin-left: inherit;
@@ -101,6 +101,7 @@ main {
 	.owl-carousel {
 			margin-left: 0;
 		}
+
 
 	ol {
 	
