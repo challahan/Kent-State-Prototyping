@@ -14,7 +14,14 @@
 	background-size: 200% auto;
 }
 
+
+
 main {
+
+	#ksu_og_side_nav:before {
+		content: none;
+	}
+	
 	ul {
 
 	list-style: none;
