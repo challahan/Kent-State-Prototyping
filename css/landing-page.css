@@ -14,7 +14,8 @@
   bottom: 1rem !important;
   right: 0rem !important;
   padding: 2em;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  width: 100%; }
   .feature-caption .feature-label {
     color: #ffc82e;
     font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
