@@ -7,10 +7,6 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
-.section-container .title {
-  background-color: #f7f6f5 !important;
-  border-top: 4px solid #009dd8 !important; }
-
 .feature-caption {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.93)));
   background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%);
@@ -758,24 +754,33 @@ img.rounded {
   margin-right: 2%;
   width: 96%;
   padding: 1rem; }
-.landing-page-tabs .section-container > section.active > .title {
+
+.section-container .title {
+  background-color: #f7f6f5 !important;
+  border-top: 4px solid #009dd8 !important; }
+
+.section-container > section.active > .title {
   border-top: 6px solid #002664 !important; }
-  .landing-page-tabs .section-container > section.active > .title a {
+  .section-container > section.active > .title a {
     color: #002147 !important; }
-.landing-page-tabs .section-container.accordion > section.active > .title, .landing-page-tabs .accordion dd.active a {
+
+.section-container.accordion > section.active > .title, .accordion dd.active a {
   background-color: #002664;
   border: 0;
   color: white; }
-  .landing-page-tabs .section-container.accordion > section.active > .title a, .landing-page-tabs .accordion dd.active a a {
+  .section-container.accordion > section.active > .title a, .accordion dd.active a a {
     color: white; }
-.landing-page-tabs .section-container.vertical-tabs > section.active > .title {
+
+.section-container.vertical-tabs > section.active > .title {
   background-color: #002664;
   border-top: none; }
-  .landing-page-tabs .section-container.vertical-tabs > section.active > .title a {
+  .section-container.vertical-tabs > section.active > .title a {
     color: white; }
-.landing-page-tabs .section-container.accordion > section:not(.active) {
+
+.section-container.accordion > section:not(.active) {
   background-color: #f7f6f5; }
-.landing-page-tabs .section-container.auto > section > .title:hover {
+
+.section-container.auto > section > .title:hover {
   border-top: 4px solid #002664; }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
