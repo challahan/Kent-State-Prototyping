@@ -35,7 +35,7 @@ main .button-group li:before, main .owl-item li:before, main #ksu_og_side_nav li
   content: none;
   line-height: inherit;
   margin-left: inherit; }
-main .owl-carousel ul {
+main .owl-carousel {
   margin-left: 0; }
 
 .sequence-module {
