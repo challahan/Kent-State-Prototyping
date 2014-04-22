@@ -30,7 +30,9 @@ main ul {
     position: relative;
     float: left; }
 main #ksu_og_side_nav li:before {
-  content: none; }
+  content: none;
+  line-height: inherit;
+  margin-left: inherit; }
 
 .sequence-module {
   text-align: center;
