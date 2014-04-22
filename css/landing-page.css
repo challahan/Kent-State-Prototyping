@@ -29,13 +29,9 @@ main ul {
     margin-left: -2em;
     position: relative;
     float: left; }
-main #ksu_og_side_nav li:before {
-  content: none;
-  line-height: inherit;
-  margin-left: inherit; }
 main #ksu_og_side_nav li {
   margin-bottom: 0; }
-main .button-group li:before {
+main .button-group li:before, main .owl-item li:before, main #ksu_og_side_nav li:before {
   content: none;
   line-height: inherit;
   margin-left: inherit; }
