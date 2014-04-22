@@ -1094,22 +1094,29 @@ img.rounded {
 }
 }
 
-.section-container .title {
+.section-container  {
+
+	br {
+		display: none;
+	}
+
+	.title {
 	background-color: lighten($warm-gray-1, 10%) !important;
 	border-top: 4px solid $cyan !important;
 	font-weight: bold;
 
 }
+}
 
 .section-container.auto > section > .title a {
 
-	font-size: 1.3em;
+	font-size: 1.3em !important;
 }
 
 
 .section-container > section.active > .title {
 	border-top: 6px solid $ksu-blue !important;
-	background-color: white;
+	background-color: white !important;
 	a {
 		color: $dark-blue !important;
 	}
