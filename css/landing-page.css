@@ -7,8 +7,6 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
-main .owl-carousel ul {
-  margin-left: 0; }
 main ul {
   list-style: none;
   padding: 0;
@@ -37,6 +35,8 @@ main .button-group li:before, main .owl-item li:before, main #ksu_og_side_nav li
   content: none;
   line-height: inherit;
   margin-left: inherit; }
+main .owl-carousel ul {
+  margin-left: 0; }
 
 .sequence-module {
   text-align: center;
