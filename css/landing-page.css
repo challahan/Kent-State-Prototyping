@@ -35,6 +35,10 @@ main #ksu_og_side_nav li:before {
   margin-left: inherit; }
 main #ksu_og_side_nav li {
   margin-bottom: 0; }
+main .button-group li:before {
+  content: none;
+  line-height: inherit;
+  margin-left: inherit; }
 
 .sequence-module {
   text-align: center;

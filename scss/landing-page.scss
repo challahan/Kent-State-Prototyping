@@ -64,6 +64,12 @@ main {
 			margin-bottom: 0;
 		}
 	}
+
+	.button-group li:before {
+		content: none;
+		line-height: inherit;
+		margin-left: inherit;
+	}
 }
 
 // End List Styles //
