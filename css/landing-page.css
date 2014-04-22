@@ -36,7 +36,8 @@ main ul {
     text-indent: 0em;
     margin-bottom: 0.3em; }
     main ul li a {
-      font-weight: bold; }
+      font-weight: bold;
+      color: #009dd8; }
     main ul li a:hover, main ul li a:focus {
       color: #25c5ff; }
   main ul li:before {
