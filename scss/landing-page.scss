@@ -38,6 +38,10 @@ main {
     a {
     	font-weight: bold;
     }
+
+    a:hover {
+    	color: lighten($cyan, 15%);
+    }
     
 	
 	}
