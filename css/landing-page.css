@@ -36,7 +36,8 @@ main ul {
   margin-top: 0.5em;
   margin-bottom: 1em; }
   main ul.no-bullet a {
-    font-weight: normal; }
+    font-weight: normal;
+    color: #002147; }
   main ul li {
     padding-left: 0em;
     text-indent: 0em;
