@@ -38,6 +38,8 @@ main ul {
   main ul.no-bullet a {
     font-weight: normal;
     color: #002147; }
+    main ul.no-bullet a:hover {
+      color: #002664; }
   main ul li {
     padding-left: 0em;
     text-indent: 0em;
