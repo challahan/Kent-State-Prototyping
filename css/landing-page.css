@@ -64,7 +64,7 @@ main #ksu_og_side_nav li {
 main #ksu_og_side_nav a {
   font-weight: normal;
   color: #002664; }
-main .button-group li:before, main .inline-list li:before, main #ksu_og_side_nav li:before {
+main .clearing-thumbs li:before, main .button-group li:before, main .inline-list li:before, main #ksu_og_side_nav li:before {
   content: none;
   line-height: inherit;
   margin-left: inherit; }
