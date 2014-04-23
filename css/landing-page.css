@@ -35,6 +35,8 @@ main ul {
   list-style-position: outside;
   margin-top: 0.5em;
   margin-bottom: 1em; }
+  main ul.no-bullet a {
+    font-weight: normal; }
   main ul li {
     padding-left: 0em;
     text-indent: 0em;
@@ -42,8 +44,6 @@ main ul {
     main ul li a {
       font-weight: bold;
       color: #009dd8; }
-    main ul li a.no-bullet {
-      font-weight: normal; }
     main ul li a:hover, main ul li a:focus {
       color: #25c5ff; }
   main ul li:before {
