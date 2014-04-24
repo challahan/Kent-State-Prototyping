@@ -22,7 +22,10 @@
 
 [data-where-is-kent] {
   margin-bottom: -48px;
-  background-color: #f7f6f5; }
+  background-color: #fbfbfb; }
+  [data-where-is-kent] h2 {
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
 
 .feature-caption {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.93)));
