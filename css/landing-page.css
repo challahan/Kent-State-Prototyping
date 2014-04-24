@@ -7,6 +7,11 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
+ul#ksu_og_side_nav ul.active > li.expanded ul {
+  display: none; }
+ul#ksu_og_side_nav ul.active > li.expanded.active ul {
+  display: block; }
+
 .primaryEventsFeed ul {
   margin-left: 0; }
 
