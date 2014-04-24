@@ -14,7 +14,8 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul {
   ul#ksu_og_side_nav ul.active > li.expanded.active ul li a {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    background-color: white; }
+    background-color: white;
+    font-size: 0.9em; }
 
 .primaryEventsFeed ul {
   margin-left: 0; }
