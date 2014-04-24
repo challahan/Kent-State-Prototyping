@@ -25,7 +25,7 @@
   background-color: #fbfbfb;
   border-top: 1px solid #f2f1ef; }
   [data-where-is-kent] h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
     margin-top: 1rem; }
 
 .feature-caption {
