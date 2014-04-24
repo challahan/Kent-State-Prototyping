@@ -42,13 +42,15 @@ ul#ksu_og_side_nav.active > li.expanded.active ul li a {
   float: left;
   padding: 1em;
   padding-right: 2em;
-  width: auto; }
+  width: auto;
+  max-width: 50%; }
 
 .image-align-right {
   float: right;
   padding: 1em;
   padding-left: 2em;
-  width: auto; }
+  width: auto;
+  max-width: 50%; }
 
 .image-align-center {
   float: none;
