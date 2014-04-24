@@ -22,7 +22,8 @@
 
 [data-where-is-kent] {
   margin-bottom: -48px;
-  background-color: #fbfbfb; }
+  background-color: #fbfbfb;
+  border-top: 1px solid #f2f1ef; }
   [data-where-is-kent] h2 {
     margin-bottom: 1rem;
     margin-top: 1rem; }
