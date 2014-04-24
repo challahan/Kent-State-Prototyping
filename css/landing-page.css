@@ -9,6 +9,8 @@
 
 ul#ksu_og_side_nav ul.active > li.expanded ul, ul#ksu_og_side_nav.active > li.expanded ul {
   display: none; }
+ul#ksu_og_side_nav > li > ul.active > li.expanded.active > a, ul#ksu_og_side_nav > li.expanded.active > a {
+  margin-bottom: 0; }
 ul#ksu_og_side_nav ul.active > li.expanded.active ul, ul#ksu_og_side_nav.active > li.expanded.active ul {
   display: block; }
 ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.active > li.expanded.active ul li a {
