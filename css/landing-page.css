@@ -77,7 +77,7 @@ main #ksu_og_side_nav li {
   margin-bottom: 0; }
 main #ksu_og_side_nav a {
   font-weight: normal;
-  color: #002664; }
+  color: #4d4d4d; }
 main .clearing-thumbs li:before, main .button-group li:before, main .inline-list li:before, main #ksu_og_side_nav li:before {
   content: none;
   line-height: inherit;
