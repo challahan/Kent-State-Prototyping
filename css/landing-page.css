@@ -11,8 +11,8 @@
   margin-top: 20px; }
   [data-primary-infographics] .owl-carousel img {
     margin-bottom: 10px; }
-  [data-primary-infographics] .owl-carousel .title .smaller {
-    letter-spacing: 1px; }
+[data-primary-infographics] .title .smaller {
+  letter-spacing: 1px; }
 
 .f-dropdown.content {
   margin-top: 10px; }
