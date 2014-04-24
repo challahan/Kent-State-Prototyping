@@ -41,19 +41,22 @@ ul#ksu_og_side_nav.active > li.expanded.active ul li a {
 .image-align-left {
   float: left;
   padding: 1em;
-  padding-right: 2em; }
+  padding-right: 2em;
+  width: auto; }
 
 .image-align-right {
   float: right;
   padding: 1em;
-  padding-left: 2em; }
+  padding-left: 2em;
+  width: auto; }
 
 .image-align-center {
   float: none;
   text-align: center;
   padding: 1em;
   margin: 0px auto;
-  display: block; }
+  display: block;
+  width: auto; }
 
 .feature-caption {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.93)));
