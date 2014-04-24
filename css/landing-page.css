@@ -50,7 +50,8 @@ main ul {
   margin-bottom: 1em; }
   main ul.no-bullet a {
     font-weight: normal;
-    color: #002147; }
+    color: #002147;
+    font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
     main ul.no-bullet a:hover {
       color: #002664; }
   main ul li {
