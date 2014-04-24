@@ -7,6 +7,9 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
+.primaryEventsFeed ul {
+  margin-left: 0; }
+
 [data-primary-infographics] .owl-carousel {
   margin-top: 20px; }
   [data-primary-infographics] .owl-carousel img {
