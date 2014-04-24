@@ -11,11 +11,11 @@ ul#ksu_og_side_nav ul.active > li.expanded ul {
   display: none; }
 ul#ksu_og_side_nav ul.active > li.expanded.active ul {
   display: block; }
-  ul#ksu_og_side_nav ul.active > li.expanded.active ul li a {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    background-color: white;
-    font-size: 0.95em; }
+ul#ksu_og_side_nav.active > li.expanded.active ul li a {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: white;
+  font-size: 0.95em; }
 
 .primaryEventsFeed ul {
   margin-left: 0; }
