@@ -959,8 +959,8 @@ img.rounded {
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
-    -webkit-background-size: 125% auto;
-    background-size: 125% auto;
+    -webkit-background-size: 135% auto;
+    background-size: 135% auto;
     min-height: 250px;
     padding-top: 220px; }
   .button-group .button {
