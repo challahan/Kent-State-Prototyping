@@ -94,6 +94,78 @@ main {
 		   color: $ksu-blue;
 		}
 	}
+	
+	// Until they can be put into core, temporary styles for menu blocks as sidebar nav //
+	#ksu_og_side_nav ul.menu {
+
+		li{
+			margin-left:0;
+			float:left;
+			width:100%;
+			position:relative;
+			display:block;
+			
+			a{
+				transition:background-color .4s ease;
+				margin-left:0;
+				float:left;
+				display:block;
+				width:100%;
+				position:relative;
+				background-color:#f5f4f2;
+				margin-bottom:.1rem;
+				padding-top:.9rem;
+				padding-bottom:.9rem;
+				color:black;
+
+				&.active {font-weight:bold;}
+				&:hover {background-color:#ebeae7;}
+				&:before {
+					content:' ';
+					position:absolute;
+					width:6px;
+					height:100%;
+					top:0;
+					left:0;
+					background-color:#002147;
+				}
+
+			}
+			
+			&:hover > a:before {background-color:#002147;}
+
+			ul{
+				margin-top:0;
+				margin-left:0;
+				float:left;
+				width:100%;
+				position:relative;
+				display:block;
+				
+				>li {
+					display:block;
+					
+					>a {
+						display:block;padding-left:2rem;
+						
+						&:before{
+							content:' ';
+							position:absolute;
+							width:6px;
+							height:100%;
+							top:0;
+							left:0;
+							background-color:#ffc82e;
+						}
+					}
+				
+					&:hover>a {background-color:#ffdc7b;}
+				
+				}
+			}
+			
+		}
+	}
 
 	.button-group li:before, .inline-list li:before, #ksu_og_side_nav li:before {
 		content: none;
@@ -108,29 +180,29 @@ main {
 
 	ol {
 	
-	counter-reset: li;
-	margin-left: 1em;
-	padding-left: 0;
-	list-style: none;
-	margin-top: .5em;
-
-	>li {
-		margin-bottom: 10px;
-		position: relative;
-		margin-left: 2em;
-		margin-top: .7em;
-	}
-
-	>li:before {
-		content: counter(li);
-		counter-increment:li;
-		margin-right: 10px;
-		font-style: italic;
-		color: $numeral-color;
-		font-weight: bold;
-		left: -1.5em;
-		position: absolute;
-	}
+		counter-reset: li;
+		margin-left: 1em;
+		padding-left: 0;
+		list-style: none;
+		margin-top: .5em;
+	
+		>li {
+			margin-bottom: 10px;
+			position: relative;
+			margin-left: 2em;
+			margin-top: .7em;
+		}
+	
+		>li:before {
+			content: counter(li);
+			counter-increment:li;
+			margin-right: 10px;
+			font-style: italic;
+			color: $numeral-color;
+			font-weight: bold;
+			left: -1.5em;
+			position: absolute;
+		}
 	}
 }
 
