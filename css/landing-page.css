@@ -861,6 +861,8 @@ img.rounded {
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     padding-top: 300px; }
+  .button-group .button {
+    font-size: 0.9rem; }
   .error-page {
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
@@ -953,9 +955,7 @@ img.rounded {
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 50%);
     padding-bottom: 5em; }
   .error-page h3 {
-    margin-top: 2em; }
-  .button-group .button {
-    font-size: 0.7rem; } }
+    margin-top: 2em; } }
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
@@ -963,6 +963,8 @@ img.rounded {
     background-size: 125% auto;
     min-height: 250px;
     padding-top: 220px; }
+  .button-group .button {
+    font-size: 0.7rem; }
   .error-page {
     -webkit-background-size: 150% auto;
     background-size: 150% auto;
