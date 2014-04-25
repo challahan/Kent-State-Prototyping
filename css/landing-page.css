@@ -325,6 +325,14 @@ h1.subheader {
   text-transform: none;
   font-size: 1.5em; }
 
+.facts .huge {
+  font-size: 5em;
+  margin-bottom: -0.2em;
+  font-family: "museo-slab", Georgia, serif;
+  color: #002147; }
+.facts p {
+  margin-bottom: 2em; }
+
 .image-centered {
   text-align: center; }
   .image-centered h2 {
