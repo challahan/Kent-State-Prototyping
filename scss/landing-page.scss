@@ -258,7 +258,8 @@ main {
 					display:block;
 					
 					>a {
-						display:block;padding-left:2rem;
+						display:block;
+						padding-left:2rem;
 						
 						&:before{
 							content:' ';
@@ -277,7 +278,7 @@ main {
 			}
 			
 		}
-	}
+	} 
 
 	.clearing-thumbs li:before, .button-group li:before, .inline-list li:before, #ksu_og_side_nav li:before {
 		content: none;
