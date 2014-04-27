@@ -445,8 +445,9 @@ h1.subheader {
 
 main > .main > ul.button-group {
   margin-left: 0.5rem;
-  position: absolute;
-  bottom: -50px; }
+  /* (if we decide to reposition the buttons below the body)
+	position: absolute;
+	bottom: -50px;*/ }
   main > .main > ul.button-group > li > a.small.button.secondary {
     padding: 0.5rem;
     margin-bottom: 0.5rem; }

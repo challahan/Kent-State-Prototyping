@@ -657,8 +657,9 @@ h1.subheader {
 // Primary Tabs - visible to admins only //
 main>.main>ul.button-group {
 	margin-left: .5rem;
+	/* (if we decide to reposition the buttons below the body)
 	position: absolute;
-	bottom: -50px;
+	bottom: -50px;*/
 
 	>li>a.small.button.secondary {
 		padding: .5rem;
