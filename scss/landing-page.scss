@@ -654,6 +654,20 @@ h1.subheader {
 	
 }
 
+// Primary Tabs - visible to admins only //
+main>.main>ul.button-group {
+	margin-left: .5rem;
+	position: absolute;
+	bottom: -50px;
+
+	>li>a.small.button.secondary {
+		padding: .5rem;
+		margin-bottom: .5rem;
+	}
+}
+
+
+
 h2.subheader {
 	font-family: $sans-serif;
 	color: $bright-yellow;

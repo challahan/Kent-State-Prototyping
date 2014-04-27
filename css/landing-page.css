@@ -443,6 +443,14 @@ h1.subheader {
     background-color: #737373;
     color: white; }
 
+main > .main > ul.button-group {
+  margin-left: 0.5rem;
+  position: absolute;
+  bottom: -50px; }
+  main > .main > ul.button-group > li > a.small.button.secondary {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem; }
+
 h2.subheader {
   font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
   color: #ffc82e;
