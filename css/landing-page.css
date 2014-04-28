@@ -22,7 +22,7 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
 .primaryEventsFeed ul {
   margin-left: 0; }
 
-.panel-pane.pane-block.pane-kent-custom-blocks-kent-featured-photo-small {
+.panel-pane.pane-block.pane-kent-custom-blocks-kent-featured-photo-small, .panel-pane.pane-block.pane-kent-custom-blocks-kent-sidebar-menu {
   margin-top: 1em; }
 
 .pane-node-title {
