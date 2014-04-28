@@ -390,9 +390,10 @@ h1.subheader {
   font-size: 3em;
   margin-bottom: -0.2em;
   font-family: "museo-slab", Georgia, serif;
-  color: #002147; }
+  color: #002147;
+  margin-top: 0.5em; }
 .facts p {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
 
 .image-centered {
