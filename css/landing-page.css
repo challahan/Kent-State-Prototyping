@@ -21,10 +21,19 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
 
 .view-news-landing-page .views-row {
   padding-bottom: 1em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
   border-bottom: 1px solid #e0ded9; }
 .view-news-landing-page .news-author {
   display: inline; }
+.view-news-landing-page .views-label-field-author, .view-news-landing-page .news-author {
+  text-transform: uppercase;
+  font-size: 0.9em; }
+.view-news-landing-page .views-field-created {
+  font-size: 0.9em;
+  font-style: italic; }
+.view-news-landing-page .views-field-body {
+  margin-top: 1em; }
 
 .primaryEventsFeed ul {
   margin-left: 0; }
