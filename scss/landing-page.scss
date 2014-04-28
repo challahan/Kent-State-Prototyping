@@ -74,6 +74,10 @@ ul#ksu_og_side_nav  {
 
 }
 
+ul.pagination li:before {
+	content: none;
+}
+
 
 // Home Page and Global Adjustments //
 

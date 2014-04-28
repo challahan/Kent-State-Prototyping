@@ -40,6 +40,9 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
   margin-top: 1em;
   line-height: 140%; }
 
+ul.pagination li:before {
+  content: none; }
+
 .primaryEventsFeed ul {
   margin-left: 0; }
 
