@@ -51,6 +51,7 @@ ul#ksu_og_side_nav  {
 
 	.news-author  {
 		display: inline;
+		color: $cool-gray;
 	}
 
 	.views-label-field-author, .news-author {
@@ -61,6 +62,8 @@ ul#ksu_og_side_nav  {
 	.views-field-created {
 		font-size: .9em;
 		font-style: italic;
+		margin-top: .3em;
+		color: $cool-gray;
 	}
 
 	.views-field-body {
