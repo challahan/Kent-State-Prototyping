@@ -19,8 +19,16 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
   background-color: white;
   font-size: 0.95em; }
 
+.view-news-landing-page .views-row {
+  padding-bottom: 1em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #e0ded9; }
+
 .primaryEventsFeed ul {
   margin-left: 0; }
+
+.homepage-feature img {
+  margin-top: 1em; }
 
 .panel-pane.pane-block.pane-kent-custom-blocks-kent-featured-photo-small, .panel-pane.pane-block.pane-kent-custom-blocks-kent-sidebar-menu {
   margin-top: 1em; }

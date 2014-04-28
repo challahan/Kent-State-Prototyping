@@ -4,7 +4,6 @@
 @import "colors-blue";
 @import "settings";
 
-
 .hero {
 	min-height: 220px;
 	width: 100%;
@@ -39,6 +38,18 @@ ul#ksu_og_side_nav  {
 	}
 }
 
+// News Global Listing //
+
+.view-news-landing-page {
+
+	.views-row {
+		padding-bottom: 1em;
+		margin-bottom: .5em;
+		border-bottom: 1px solid $warm-gray-1;
+	}
+
+}
+
 
 // Home Page and Global Adjustments //
 
@@ -46,6 +57,10 @@ ul#ksu_og_side_nav  {
 	ul {
 		margin-left: 0;
 	}
+}
+
+.homepage-feature img {
+	margin-top: 1em;
 }
 
 .panel-pane.pane-block.pane-kent-custom-blocks-kent-featured-photo-small, .panel-pane.pane-block.pane-kent-custom-blocks-kent-sidebar-menu {
