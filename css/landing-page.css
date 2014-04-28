@@ -22,6 +22,12 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
 .primaryEventsFeed ul {
   margin-left: 0; }
 
+.panel-pane.pane-block.pane-kent-custom-blocks-kent-featured-photo-small {
+  margin-top: 1em; }
+
+.pane-node-title {
+  margin-top: 1em; }
+
 [data-primary-infographics] .owl-carousel {
   margin-top: 20px; }
   [data-primary-infographics] .owl-carousel img {
