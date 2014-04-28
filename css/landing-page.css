@@ -29,10 +29,10 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
   color: #737373; }
 .view-news-landing-page .views-label-field-author, .view-news-landing-page .news-author {
   text-transform: uppercase;
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #737373; }
 .view-news-landing-page .views-field-created {
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-style: italic;
   margin-top: 0.3em;
   color: #737373; }
