@@ -23,6 +23,8 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
   padding-bottom: 1em;
   margin-bottom: 0.5em;
   border-bottom: 1px solid #e0ded9; }
+.view-news-landing-page .news-author {
+  display: inline; }
 
 .primaryEventsFeed ul {
   margin-left: 0; }
