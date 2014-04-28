@@ -394,7 +394,8 @@ h1.subheader {
   margin-top: 0.5em; }
 .facts p {
   margin-bottom: 1.5em;
-  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
+  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+  font-size: 1.2em; }
 
 .image-centered {
   text-align: center; }
