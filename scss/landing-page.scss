@@ -1647,6 +1647,10 @@ img.rounded {
 
 @media #{$small-only} {
 
+	#future-students-block {
+		width: 100%;
+	}
+
 	h2.subheader {
 		max-width: 80%;
 		margin: 0px auto;
