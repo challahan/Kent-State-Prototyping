@@ -1095,6 +1095,8 @@ img.rounded {
     background-size: 275% auto; } }
 
 @media only screen and (max-width: 40em) {
+  #future-students-block {
+    width: 100%; }
   h2.subheader {
     max-width: 80%;
     margin: 0px auto;
