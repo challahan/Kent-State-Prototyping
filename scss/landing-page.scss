@@ -48,7 +48,9 @@ ul#ksu_og_side_nav  {
 	> li > ul.active >li.active > ul > li.expanded ul li {
 
 		a {
-		color: purple;
+		font-size: .7em;
+		padding-top: 0.3em;
+		padding-bottom: 0.3em;
            &:before {
            	 background-color: $bright-yellow;
            }
