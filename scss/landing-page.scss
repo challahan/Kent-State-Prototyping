@@ -15,6 +15,10 @@
 
 #future-students-block {
 	transition: background-color 1s ease;
+
+	&:hover, &:active, &:focus {
+		background-color: $dark-blue;
+	}
 }
 
 // Global Navigation //

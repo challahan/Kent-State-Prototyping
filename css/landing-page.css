@@ -10,6 +10,8 @@
 #future-students-block {
   -webkit-transition: background-color 1s ease;
   transition: background-color 1s ease; }
+  #future-students-block:hover, #future-students-block:active, #future-students-block:focus {
+    background-color: #002147; }
 
 ul#ksu_og_side_nav ul.active > li.expanded ul, ul#ksu_og_side_nav.active > li.expanded ul {
   display: none; }
