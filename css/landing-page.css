@@ -25,10 +25,10 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
   background-color: white;
   font-size: 0.95em; }
 ul#ksu_og_side_nav > li > ul.active > li.active > ul > li.expanded ul li a {
-  font-size: 0.85em;
+  font-size: 0.8em;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
-  padding-left: 1em; }
+  padding-left: 4em; }
   ul#ksu_og_side_nav > li > ul.active > li.active > ul > li.expanded ul li a:before {
     background-color: #ffc82e; }
 
