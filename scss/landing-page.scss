@@ -44,6 +44,10 @@ ul#ksu_og_side_nav  {
 			font-size: .95em;
 		}
 	}
+
+	> li > ul.active >li.expanded.active > ul li a {
+		color: purple;
+	}
 }
 
 // News Global Listing //
