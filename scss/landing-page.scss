@@ -14,10 +14,10 @@
 }
 
 #future-students-block {
-	transition: background-color 1s ease;
+	transition: background-color .5s ease;
 
 	&:hover, &:active, &:focus {
-		background-color: $dark-blue;
+		background-color: lighten($ksu-blue, 10%);
 	}
 }
 

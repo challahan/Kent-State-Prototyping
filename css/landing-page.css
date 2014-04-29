@@ -8,10 +8,10 @@
   background-size: 200% auto; }
 
 #future-students-block {
-  -webkit-transition: background-color 1s ease;
-  transition: background-color 1s ease; }
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease; }
   #future-students-block:hover, #future-students-block:active, #future-students-block:focus {
-    background-color: #002147; }
+    background-color: #003a97; }
 
 ul#ksu_og_side_nav ul.active > li.expanded ul, ul#ksu_og_side_nav.active > li.expanded ul {
   display: none; }
