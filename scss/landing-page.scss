@@ -45,7 +45,7 @@ ul#ksu_og_side_nav  {
 		}
 	}
 
-	> li > ul.active >li.active > ul li.expanded {
+	> li > ul.active >li.active > ul > li.expanded ul li {
 
 		a {
 		color: purple;
