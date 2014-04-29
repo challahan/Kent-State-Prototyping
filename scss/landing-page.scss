@@ -45,8 +45,15 @@ ul#ksu_og_side_nav  {
 		}
 	}
 
-	> li > ul.active >li.expanded.active > ul li a {
+	> li > ul.active >li.active > ul li.expanded {
+
+		a {
 		color: purple;
+           &:before {
+           	 background-color: $bright-yellow;
+           }
+
+	    }
 	}
 }
 

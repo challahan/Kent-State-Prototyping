@@ -26,6 +26,8 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
   font-size: 0.95em; }
 ul#ksu_og_side_nav > li > ul.active > li.active > ul li.expanded a {
   color: purple; }
+  ul#ksu_og_side_nav > li > ul.active > li.active > ul li.expanded a:before {
+    background-color: #ffc82e; }
 
 .view-news-landing-page .views-row {
   padding-bottom: 1em;
