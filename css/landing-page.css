@@ -16,7 +16,8 @@
   color: #009dd8;
   -webkit-transition: 0.2s color ease;
   transition: 0.2s color ease;
-  text-decoration: none; }
+  text-decoration: none;
+  line-height: 130%; }
   .homepage-feature .read-more:after {
     font-family: FontAwesome;
     margin-left: 0.5em;
