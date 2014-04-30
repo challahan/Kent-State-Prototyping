@@ -13,6 +13,10 @@
 	background-size: 200% auto;
 }
 
+div[role="document"].none [data-ksu-mega-wrapper] {
+	border-top: none;
+}
+
 .homepage-feature  {
 
 		.read-more {

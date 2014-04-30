@@ -7,6 +7,9 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
+div[role="document"].none [data-ksu-mega-wrapper] {
+  border-top: none; }
+
 .homepage-feature .read-more {
   margin-bottom: 1.5em;
   display: block;
