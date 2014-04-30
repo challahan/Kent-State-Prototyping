@@ -7,6 +7,10 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
+.homepage-feature .play i {
+  color: white;
+  opacity: 0.8; }
+
 #future-students-block {
   -webkit-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease; }
@@ -26,8 +30,8 @@ ul#ksu_og_side_nav ul.active > li.expanded.active ul li a, ul#ksu_og_side_nav.ac
   font-size: 0.95em; }
 ul#ksu_og_side_nav > li > ul.active > li.active > ul > li.expanded ul li a {
   font-size: 0.8em;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
   padding-left: 4em; }
   ul#ksu_og_side_nav > li > ul.active > li.active > ul > li.expanded ul li a:before {
     background-color: #ffc82e; }

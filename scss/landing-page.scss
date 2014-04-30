@@ -13,6 +13,11 @@
 	background-size: 200% auto;
 }
 
+.homepage-feature .play i {
+	color: white;
+	opacity: .8;
+}
+
 #future-students-block {
 	transition: background-color .5s ease;
 
@@ -49,8 +54,8 @@ ul#ksu_og_side_nav  {
 
 		a {
 		font-size: .8em;
-		padding-top: 0.3em;
-		padding-bottom: 0.3em;
+		padding-top: 0.4em;
+		padding-bottom: 0.4em;
 		padding-left: 4em;
            &:before {
            	 background-color: $bright-yellow;
