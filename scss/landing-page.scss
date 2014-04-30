@@ -13,13 +13,34 @@
 	background-size: 200% auto;
 }
 
-.homepage-feature .play i {
-	color: white;
-	opacity: .7;
-	transition: .3s opacity ease;
+.homepage-feature  {
 
-	&:hover {
+		.read-more {
+			margin-bottom: 1.5em;
+			display: block;
+			margin-top: .5em;
+			font-weight: bold;
+			font-family: $sans-serif;
+			color: $cyan;
+			transition: .2s color ease;
+			text-decoration: none;
+
+			&:after {
+				font-family: FontAwesome;
+				margin-left: .5em;
+				color: $cyan;
+				content: "\f0da";
+			}
+		}
+
+		.play i {
+			color: white;
+			opacity: .7;
+			transition: .3s opacity ease;
+
+		&:hover {
 		opacity: 1;
+		}
 	}
 }
 

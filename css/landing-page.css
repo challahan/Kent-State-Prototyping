@@ -7,6 +7,21 @@
   -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
+.homepage-feature .read-more {
+  margin-bottom: 1.5em;
+  display: block;
+  margin-top: 0.5em;
+  font-weight: bold;
+  font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
+  color: #009dd8;
+  -webkit-transition: 0.2s color ease;
+  transition: 0.2s color ease;
+  text-decoration: none; }
+  .homepage-feature .read-more:after {
+    font-family: FontAwesome;
+    margin-left: 0.5em;
+    color: #009dd8;
+    content: "\f0da"; }
 .homepage-feature .play i {
   color: white;
   opacity: 0.7;
