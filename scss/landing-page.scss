@@ -15,7 +15,12 @@
 
 .homepage-feature .play i {
 	color: white;
-	opacity: .8;
+	opacity: .7;
+	transition: .3s opacity ease;
+
+	&:hover {
+		opacity: 1;
+	}
 }
 
 #future-students-block {
