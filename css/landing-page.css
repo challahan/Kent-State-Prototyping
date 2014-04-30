@@ -92,6 +92,9 @@ ul.pagination li:before {
 .panel-pane.pane-block.pane-kent-custom-blocks-kent-featured-photo-small, .panel-pane.pane-block.pane-kent-custom-blocks-kent-sidebar-menu {
   margin-top: 1em; }
 
+#admin-menu .dropdown li:before {
+  content: ''; }
+
 .pane-node-title {
   margin-top: 1em; }
 
@@ -112,6 +115,9 @@ ul.pagination li:before {
   [data-where-is-kent] h2 {
     margin-bottom: 1rem !important;
     margin-top: 1rem; }
+
+.view-calendar-landing-page-featured-events {
+  margin-bottom: 1rem; }
 
 .image-align-left {
   float: left;
@@ -518,12 +524,10 @@ h1.subheader {
     background-color: #737373;
     color: white; }
 
-main > .main > ul.button-group {
+main > .main > ul.button-group, #drupal-node-utility-tabs > ul.button-group {
   margin-left: 0.5rem;
-  /* (if we decide to reposition the buttons below the body)
-	position: absolute;
-	bottom: -50px;*/ }
-  main > .main > ul.button-group > li > a.small.button.secondary {
+  margin-bottom: 1.5rem; }
+  main > .main > ul.button-group > li > a.small.button.secondary, #drupal-node-utility-tabs > ul.button-group > li > a.small.button.secondary {
     padding: 0.5rem;
     margin-bottom: 0.5rem; }
 
