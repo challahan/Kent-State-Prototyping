@@ -8,7 +8,7 @@
   background-size: 200% auto; }
 
 div[role="document"].none [data-ksu-mega-wrapper] {
-  border-top: none; }
+  border-top: none !important; }
 
 .homepage-feature .read-more {
   margin-bottom: 1.5em;
