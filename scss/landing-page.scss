@@ -157,6 +157,8 @@ table thead tr th {
 	margin-top: 1em;
 }
 
+#admin-menu .dropdown li:before {content:'';}
+
 .pane-node-title {
 	margin-top: 1em;
 }
@@ -192,6 +194,9 @@ table thead tr th {
 		margin-top: 1rem;
 	}
 }
+
+// Calendars Page Adjustments //
+.view-calendar-landing-page-featured-events {margin-bottom:1rem;}
 
 // Image Alignments //
 
@@ -770,11 +775,10 @@ h1.subheader {
 }
 
 // Primary Tabs - visible to admins only //
-main>.main>ul.button-group {
+main>.main>ul.button-group,
+#drupal-node-utility-tabs>ul.button-group {
 	margin-left: .5rem;
-	/* (if we decide to reposition the buttons below the body)
-	position: absolute;
-	bottom: -50px;*/
+	margin-bottom:1.5rem;
 
 	>li>a.small.button.secondary {
 		padding: .5rem;
