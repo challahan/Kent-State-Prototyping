@@ -146,7 +146,8 @@ ul.pagination li:before {
 }
 
 table thead tr th {
-	color: white;
+	color: white !important;
+	border-bottom: none;
 }
 
 .homepage-feature img {
