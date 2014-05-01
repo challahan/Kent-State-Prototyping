@@ -4,7 +4,6 @@
   overflow: hidden;
   background-position: top center;
   padding-top: 125px;
-  -webkit-background-size: 200% auto;
   background-size: 200% auto; }
 
 div[role="document"].none [data-ksu-mega-wrapper] {
@@ -17,7 +16,6 @@ div[role="document"].none [data-ksu-mega-wrapper] {
   font-weight: bold;
   font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
   color: #009dd8;
-  -webkit-transition: 0.2s color ease;
   transition: 0.2s color ease;
   text-decoration: none;
   line-height: 140%; }
@@ -29,13 +27,11 @@ div[role="document"].none [data-ksu-mega-wrapper] {
 .homepage-feature .play i {
   color: white;
   opacity: 0.7;
-  -webkit-transition: 0.3s opacity ease;
   transition: 0.3s opacity ease; }
   .homepage-feature .play i:hover {
     opacity: 1; }
 
 #future-students-block {
-  -webkit-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease; }
   #future-students-block:hover, #future-students-block:active, #future-students-block:focus {
     background-color: #003a97; }
@@ -85,6 +81,9 @@ ul.pagination li:before {
 
 .primaryEventsFeed ul {
   margin-left: 0; }
+
+table thead tr th {
+  color: white; }
 
 .homepage-feature img {
   margin-top: 1em; }
@@ -138,8 +137,6 @@ ul.pagination li:before {
   width: auto; }
 
 .feature-caption {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.93)));
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%);
   bottom: 1rem !important;
   right: 0rem !important;
@@ -202,7 +199,6 @@ main #ksu_og_side_nav ul.menu li {
   position: relative;
   display: block; }
   main #ksu_og_side_nav ul.menu li a {
-    -webkit-transition: background-color 0.4s ease;
     transition: background-color 0.4s ease;
     margin-left: 0;
     float: left;
@@ -320,7 +316,6 @@ main ol {
 .error-page {
   margin-bottom: 1px;
   margin-top: 1px;
-  -webkit-background-size: 250% auto;
   background-size: 250% auto;
   background-position: 35% 0;
   padding-left: 0 !important; }
@@ -349,8 +344,6 @@ main ol {
   .error-page a {
     color: #ffc82e; }
   .error-page .gradient {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), color-stop(30%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.9)));
-    background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.9) 90%);
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 30%, rgba(0, 0, 0, 0.9) 90%);
     padding-bottom: 2em; }
 
@@ -373,8 +366,6 @@ main ol {
   width: 100%;
   text-align: center;
   padding-bottom: 2.1em;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.93)));
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%);
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.93) 100%); }
 
 .landing-thumbs a {
@@ -415,7 +406,6 @@ main ol {
   background-color: #009dd8;
   border-color: #007fad;
   color: white;
-  -webkit-transition: background-color 200ms ease-out;
   transition: background-color 200ms ease-out;
   font-family: "tablet-gothic", Helvetica, Arial, sans-serif !important;
   font-weight: bold;
@@ -570,7 +560,6 @@ h2.subheader {
     background-color: #009dd8;
     border-color: #007fad;
     color: white;
-    -webkit-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out;
     font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); }
@@ -637,7 +626,6 @@ img.rounded {
 
 .feature-row {
   text-align: center;
-  -webkit-background-size: 700% auto;
   background-size: 700% auto;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); }
   .feature-row .owl-item li {
@@ -686,7 +674,6 @@ img.rounded {
     margin-top: 2em; }
     .feature-row ul a {
       color: white;
-      -webkit-transition: 0.1s color linear;
       transition: 0.1s color linear; }
     .feature-row ul a:hover, .feature-row ul a:active, .feature-row ul a:focus {
       color: #ffc82e; }
@@ -740,8 +727,6 @@ img.rounded {
     .feature-row .colored-blue-dark .introduction {
       margin-top: 0em; }
   .feature-row .colored-gray {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(115, 115, 115, 0.4)), to(rgba(0, 0, 0, 0.8)));
-    background-image: -webkit-linear-gradient(top, rgba(115, 115, 115, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%);
     background-image: linear-gradient(to bottom, rgba(115, 115, 115, 0.4) 0%, rgba(0, 0, 0, 0.8) 100%);
     padding-top: 2.5em;
     padding-bottom: 1.5em; }
@@ -761,8 +746,6 @@ img.rounded {
       color: #ffc82e;
       margin-top: 0.5em; }
   .feature-row .colored-gold {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(234, 171, 0, 0.3)), to(#eaab00));
-    background-image: -webkit-linear-gradient(top, rgba(234, 171, 0, 0.3) 0%, #eaab00 100%);
     background-image: linear-gradient(to bottom, rgba(234, 171, 0, 0.3) 0%, #eaab00 100%);
     padding-top: 1.5em;
     padding-bottom: 1.5em; }
@@ -792,8 +775,6 @@ img.rounded {
     .feature-row .colored-black h2 {
       margin-bottom: 1em; }
   .feature-row .colored-black-light {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 33, 71, 0.9)));
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 33, 71, 0.9) 100%);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 33, 71, 0.9) 100%);
     padding-top: 1.5em;
     padding-bottom: 1.5em;
@@ -841,7 +822,6 @@ img.rounded {
     .feature-row .photo-row img {
       border: 3px solid white;
       border-radius: 3px;
-      -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
       box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
       margin-bottom: 0.5em; }
 
@@ -851,9 +831,7 @@ img.rounded {
   margin-bottom: 1em;
   display: block;
   padding-top: 1em;
-  -webkit-transition: 0.4s margin-top ease-in;
   transition: 0.4s margin-top ease-in;
-  -webkit-background-size: 170% auto;
   background-size: 170% auto;
   border: 1px solid rgba(199, 194, 186, 0.7);
   border-radius: 5px;
@@ -882,8 +860,6 @@ img.rounded {
     font-size: 1.4em;
     font-style: italic; }
   .side-row .colored-black {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 33, 71, 0.9)));
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 33, 71, 0.9) 100%);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 33, 71, 0.9) 100%);
     background-color: transparent; }
 
@@ -910,7 +886,6 @@ img.rounded {
     display: block;
     opacity: 0.85; }
     .landing-icons a .fa-3x {
-      -webkit-transition: font-size 0.1s ease;
       transition: font-size 0.1s ease;
       height: 1em; }
   .landing-icons .row {
@@ -1008,13 +983,11 @@ img.rounded {
 
 @media only screen and (min-width:64.063em) {
   .hero {
-    -webkit-background-size: 100% auto;
     background-size: 100% auto;
     padding-top: 300px; }
   .button-group .button {
     font-size: 0.9rem; }
   .error-page {
-    -webkit-background-size: 100% auto;
     background-size: 100% auto;
     background-position: right top; }
     .error-page h2 {
@@ -1025,10 +998,8 @@ img.rounded {
   h1.landing {
     font-size: 4.5em; }
   .feature-row {
-    -webkit-background-size: 130% auto;
     background-size: 130% auto; }
   .side-row {
-    -webkit-background-size: 120% auto;
     background-size: 120% auto; }
   .box {
     margin-bottom: 3em;
@@ -1100,8 +1071,6 @@ img.rounded {
   .large {
     width: 14.5em; }
   .error-page .gradient {
-    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.9)));
-    background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 50%);
     background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 50%);
     padding-bottom: 5em; }
   .error-page h3 {
@@ -1109,14 +1078,12 @@ img.rounded {
 
 @media only screen and (min-width:40.063em) and (max-width:64em) {
   .hero {
-    -webkit-background-size: 150% auto;
     background-size: 150% auto;
     min-height: 250px;
     padding-top: 220px; }
   .button-group .button {
     font-size: 0.7rem; }
   .error-page {
-    -webkit-background-size: 150% auto;
     background-size: 150% auto;
     background-position: 10% 0; }
   .button-group.sequence {
@@ -1125,7 +1092,6 @@ img.rounded {
     max-width: 45%;
     font-size: 1.1em; }
   .feature-row {
-    -webkit-background-size: 275% auto;
     background-size: 275% auto; } }
 
 @media only screen and (max-width: 40em) {
