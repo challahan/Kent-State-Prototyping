@@ -1,7 +1,3 @@
-@media only screen and (min-width: 640px) and (max-width: 768px) {
-  .hide-for-small {
-    display: inherit !important; } }
-
 .hero {
   min-height: 220px;
   width: 100%;
@@ -90,7 +86,7 @@ ul.pagination li:before {
 .primaryEventsFeed ul {
   margin-left: 0; }
 
-table thead tr th {
+table thead tr th, table thead tr td {
   color: white !important;
   border-bottom: none; }
 
