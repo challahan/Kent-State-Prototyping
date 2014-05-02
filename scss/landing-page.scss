@@ -1716,7 +1716,7 @@ img.rounded {
 		background:none;
 
 		ul.title-area {
-			background: none;
+			background: none !important;
 
 			.name h1 {
 				display: none;
@@ -1727,10 +1727,6 @@ img.rounded {
 			top: 30px;
 			position: absolute;
 			left: 20px;
-		}
-
-		.top-bar.expanded .title-area {
-			background: none;
 		}
 	}
 
