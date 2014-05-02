@@ -1169,7 +1169,7 @@ img.rounded {
     [data-ss-bar] [data-ss-titles] ul li h1 {
       margin-top: 2rem; }
   div[role="document"].traditional .large-feature-image {
-    margin-top: 0; }
+    margin-top: 0 !important; }
   [data-ksu-footer-contact] span {
     display: block;
     padding-bottom: 20px; }
