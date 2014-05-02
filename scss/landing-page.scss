@@ -1710,6 +1710,11 @@ img.rounded {
 		width: 100%;
 	}
 
+	[data-ksu-header-logo] img {
+		width: 50%;
+		margin-top: 15px;
+	}
+
 	h2.subheader {
 		max-width: 80%;
 		margin: 0px auto;
