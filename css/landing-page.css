@@ -1152,6 +1152,8 @@ img.rounded {
       top: 40px;
       position: absolute;
       left: 1px; }
+      nav.top-bar .toggle-topbar.menu-icon a {
+        color: #eaab00; }
   section.top-bar-section {
     left: 0%;
     margin-top: 30px; }
@@ -1174,6 +1176,8 @@ img.rounded {
     [data-ksu-header-logo] img {
       width: 145px !important;
       margin-top: 15px; }
+  [data-ksu-header-wrapper] {
+    border-bottom: 1px solid white; }
   h2.subheader {
     max-width: 80%;
     margin: 0px auto;

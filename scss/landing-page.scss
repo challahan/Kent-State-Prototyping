@@ -1728,6 +1728,10 @@ img.rounded {
 			top: 40px;
 			position: absolute;
 			left: 1px;
+
+			a {
+				color: $ksu-gold;
+			}
 		}
 	}
 
@@ -1774,6 +1778,10 @@ img.rounded {
 		width: 145px !important;
 		margin-top: 15px;
 		}
+	}
+
+	[data-ksu-header-wrapper] {
+		border-bottom: 1px solid white;
 	}
 
 	h2.subheader {
