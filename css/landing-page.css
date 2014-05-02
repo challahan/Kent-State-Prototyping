@@ -1148,9 +1148,11 @@ img.rounded {
       nav.top-bar ul.title-area .name h1 {
         display: none; }
     nav.top-bar .toggle-topbar.menu-icon {
-      top: 20px;
+      top: 30px;
       position: absolute;
-      left: 50px; }
+      left: 20px; }
+    nav.top-bar .top-bar.expanded .title-area {
+      background: none; }
   section.top-bar-section {
     left: 0%;
     margin-top: 30px; }

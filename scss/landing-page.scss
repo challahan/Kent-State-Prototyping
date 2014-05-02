@@ -1724,9 +1724,13 @@ img.rounded {
 		}
 
 		.toggle-topbar.menu-icon {
-			top: 20px;
+			top: 30px;
 			position: absolute;
-			left: 50px;
+			left: 20px;
+		}
+
+		.top-bar.expanded .title-area {
+			background: none;
 		}
 	}
 
