@@ -1139,8 +1139,6 @@ img.rounded {
 @media only screen and (max-width: 40em) {
   #future-students-block {
     width: 100%; }
-  [data-list-pager] {
-    display: none; }
   h2.subheader {
     max-width: 80%;
     margin: 0px auto;
