@@ -1121,6 +1121,8 @@ img.rounded {
     background-size: 150% auto;
     min-height: 250px;
     padding-top: 220px; }
+  #future-students-block {
+    width: 100%; }
   .button-group .button {
     font-size: 0.7rem; }
   .error-page {
