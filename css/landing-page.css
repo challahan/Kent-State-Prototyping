@@ -1,3 +1,7 @@
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+  .hide-for-small {
+    display: inherit !important; } }
+
 .hero {
   min-height: 220px;
   width: 100%;
@@ -1014,7 +1018,7 @@ img.rounded {
 .section-container.auto > section > .title:hover {
   border-top: 4px solid #002664; }
 
-@media only screen and (min-width:1280px) {
+@media only screen and (min-width:80.063em) {
   .hero {
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
@@ -1062,7 +1066,7 @@ img.rounded {
   .colored-black-light .introduction {
     margin-bottom: 2em; } }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:48.063em) {
   .feature-row {
     background-position: center top; }
     .feature-row h2 {
@@ -1115,7 +1119,7 @@ img.rounded {
   .error-page h3 {
     margin-top: 2em; } }
 
-@media only screen and (min-width:768px) and (max-width:1280px) {
+@media only screen and (min-width:48.063em) and (max-width:80em) {
   .hero {
     -webkit-background-size: 150% auto;
     background-size: 150% auto;
@@ -1138,7 +1142,7 @@ img.rounded {
     -webkit-background-size: 275% auto;
     background-size: 275% auto; } }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 48em) {
   nav.top-bar {
     position: absolute;
     z-index: 1000;

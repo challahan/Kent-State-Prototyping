@@ -4,6 +4,11 @@
 @import "colors-blue";
 @import "settings";
 
+
+@media only screen and (min-width:640px) and (max-width:768px) {
+   .hide-for-small{display:inherit !important;}
+}
+
 .hero {
 	min-height: 220px;
 	width: 100%;
@@ -1681,7 +1686,7 @@ img.rounded {
 		padding-top: 220px;
 	}
 
-	
+
 	#future-students-block {
 		width: 100%;
 	}
