@@ -1706,6 +1706,39 @@ img.rounded {
 
 @media #{$small-only} {
 
+	// Top Bar Menu Styles //
+
+	nav.top-bar {
+		position:absolute;
+		z-index:1000000;
+		width:100%;
+		top:0;
+		background:none;
+
+		ul.title-area {
+			background: none;
+
+			.name h1 {
+				display: none;
+			}
+		}
+
+		.toggle-topbar.menu-icon {
+			top: 20px;
+			position: absolute;
+			left: 50px;
+		}
+	}
+
+	section.top-bar-section {
+		left: 0%;
+		margin-top: 30px;
+	}
+
+
+	// End Top BAR //
+
+
 	#future-students-block {
 		width: 100%;
 	}
