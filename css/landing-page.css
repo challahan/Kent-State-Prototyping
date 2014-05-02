@@ -1142,7 +1142,8 @@ img.rounded {
     z-index: 1000000;
     width: 100%;
     top: 0;
-    background: none; }
+    background: none;
+    height: 60px; }
     nav.top-bar ul.title-area {
       background: none !important; }
       nav.top-bar ul.title-area .name h1 {
