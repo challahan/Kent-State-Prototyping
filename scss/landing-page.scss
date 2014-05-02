@@ -1763,6 +1763,10 @@ img.rounded {
 		}
 	}
 
+	div[role="document"].traditional .large-feature-image {
+		margin-top: 0;
+	}
+
 	[data-ksu-footer-contact] span {
 		display: block;
 		padding-bottom: 20px;
