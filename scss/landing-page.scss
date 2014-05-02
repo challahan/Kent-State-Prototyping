@@ -1768,10 +1768,11 @@ img.rounded {
 
 	[data-ksu-header-logo]  {
 
+		z-index: 2000;
+
 		img {
 		width: 145px !important;
 		margin-top: 15px;
-		z-index: 2000;
 		}
 	}
 

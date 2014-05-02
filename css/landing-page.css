@@ -1169,10 +1169,11 @@ img.rounded {
     padding-bottom: 20px; }
   [data-ksu-footer-trademark] p {
     font-size: 0.8rem; }
-  [data-ksu-header-logo] img {
-    width: 145px !important;
-    margin-top: 15px;
+  [data-ksu-header-logo] {
     z-index: 2000; }
+    [data-ksu-header-logo] img {
+      width: 145px !important;
+      margin-top: 15px; }
   h2.subheader {
     max-width: 80%;
     margin: 0px auto;
