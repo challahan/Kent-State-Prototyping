@@ -1139,7 +1139,7 @@ img.rounded {
 @media only screen and (max-width: 40em) {
   nav.top-bar {
     position: absolute;
-    z-index: 1000000;
+    z-index: 1000;
     width: 100%;
     top: 0;
     background: none;
@@ -1151,7 +1151,7 @@ img.rounded {
     nav.top-bar .toggle-topbar.menu-icon {
       top: 40px;
       position: absolute;
-      left: 5px; }
+      left: 1px; }
   section.top-bar-section {
     left: 0%;
     margin-top: 30px; }
@@ -1171,7 +1171,8 @@ img.rounded {
     font-size: 0.8rem; }
   [data-ksu-header-logo] img {
     width: 145px !important;
-    margin-top: 15px; }
+    margin-top: 15px;
+    z-index: 2000; }
   h2.subheader {
     max-width: 80%;
     margin: 0px auto;
