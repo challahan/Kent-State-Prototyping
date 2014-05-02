@@ -1139,6 +1139,9 @@ img.rounded {
 @media only screen and (max-width: 40em) {
   #future-students-block {
     width: 100%; }
+  [data-ksu-footer-contact] span {
+    display: block;
+    padding-bottom: 20px; }
   [data-ksu-header-logo] img {
     width: 145px !important;
     margin-top: 15px; }
