@@ -1153,9 +1153,9 @@ img.rounded {
       nav.top-bar ul.title-area .name h1 {
         display: none; }
     nav.top-bar .toggle-topbar.menu-icon {
-      top: 40px;
+      top: 35px;
       position: absolute;
-      left: 1px; }
+      left: 0px; }
       nav.top-bar .toggle-topbar.menu-icon a {
         color: #eaab00;
         font-size: 0.8em;
