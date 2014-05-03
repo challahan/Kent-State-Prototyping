@@ -1142,10 +1142,12 @@ img.rounded {
   nav.top-bar {
     position: absolute;
     z-index: 1000;
-    width: 100%;
+    width: 25%;
     top: 0;
     background: none;
     height: 60px; }
+    nav.top-bar.expanded {
+      width: 100%; }
     nav.top-bar ul.title-area {
       background: none !important; }
       nav.top-bar ul.title-area .name h1 {
