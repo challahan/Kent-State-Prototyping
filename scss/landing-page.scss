@@ -1728,6 +1728,10 @@ img.rounded {
 	.feature-row {
 		background-size:275% auto;
 	}
+
+	[data-ksu-header-logo] img {
+		margin-top: .2em;
+	}
 }
 
 @media #{$small-only} {
