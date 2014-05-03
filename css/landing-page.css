@@ -296,7 +296,8 @@ main ol {
   .sequence-module p {
     font-size: 2em;
     color: #5a5a5a;
-    margin-bottom: 0.7em; }
+    margin-bottom: 0.7em;
+    font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
 
 .button-group.sequence {
   width: 80%;

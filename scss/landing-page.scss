@@ -452,9 +452,9 @@ main {
 
 	p {
 		font-size: 2em;
-		font-weight: bold;
 		color: darken($cool-gray, 10%);
-		margin-bottom:.7em
+		margin-bottom:.7em;
+		font-family: $sans-serif-condensed;
 	}
 
 	margin-top: 2em;
