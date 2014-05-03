@@ -1180,6 +1180,8 @@ img.rounded {
   [data-ksu-footer-contact] span {
     display: block;
     padding-bottom: 20px; }
+  [data-ksu-footer-logo] img {
+    width: 200px; }
   [data-ksu-footer-trademark] p {
     font-size: 0.8rem; }
   [data-ksu-header-logo] {
