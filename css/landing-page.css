@@ -86,6 +86,9 @@ ul.pagination li:before {
 .primaryEventsFeed ul {
   margin-left: 0; }
 
+[data-ss-thumbs] ul li img {
+  border: none; }
+
 table thead tr th, table thead tr td {
   color: white !important;
   border-bottom: none; }
