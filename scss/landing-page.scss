@@ -1677,9 +1677,13 @@ img.rounded {
 
 @media #{$medium-only} {
 	.hero {
-		background-size: 150% auto;
+		background-size: 110% auto;
 		min-height: 250px;
 		padding-top: 220px;
+	}
+
+	h1.landing {
+		font-size: 3em;
 	}
 
 

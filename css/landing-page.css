@@ -1117,10 +1117,12 @@ img.rounded {
 
 @media only screen and (min-width:48.063em) and (max-width:80em) {
   .hero {
-    -webkit-background-size: 150% auto;
-    background-size: 150% auto;
+    -webkit-background-size: 110% auto;
+    background-size: 110% auto;
     min-height: 250px;
     padding-top: 220px; }
+  h1.landing {
+    font-size: 3em; }
   #future-students-block {
     width: 100%; }
   .button-group .button {
