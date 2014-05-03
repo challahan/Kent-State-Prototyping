@@ -1154,7 +1154,7 @@ img.rounded {
     -webkit-background-size: 275% auto;
     background-size: 275% auto; }
   [data-ksu-header-logo] img {
-    margin-top: 0.2em; } }
+    margin-top: 0.5em; } }
 
 @media only screen and (max-width: 48em) {
   #header-action-container a {
