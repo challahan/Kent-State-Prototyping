@@ -811,11 +811,15 @@ img.rounded {
     .feature-row .colored-black-light h1.go {
       max-width: 600px;
       margin: 0px auto;
-      margin-top: 0.7em; }
+      margin-top: 0.7em;
+      line-height: 120%;
+      margin-bottom: 0.3em;
+      text-transform: none; }
       .feature-row .colored-black-light h1.go strong {
         color: #ffc82e;
         display: block;
-        font-size: 120%; }
+        font-size: 120%;
+        text-transform: uppercase; }
     .feature-row .colored-black-light p {
       text-shadow: 2px 2px 2px black; }
     .feature-row .colored-black-light i {

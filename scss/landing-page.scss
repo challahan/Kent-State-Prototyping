@@ -1180,10 +1180,15 @@ img.rounded {
 				max-width:600px;
 			margin:0px auto;
 			margin-top:.7em;
+			line-height:120%;
+			margin-bottom:.3em;
+			text-transform: none;
 
 				strong {
 					color: $bright-yellow;
 					display: block;
+					font-size: 120%;
+					text-transform:uppercase;
 				}
 			}
 
