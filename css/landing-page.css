@@ -808,8 +808,10 @@ img.rounded {
     border-bottom: 1px solid white; }
     .feature-row .colored-black-light .button {
       min-width: 15em; }
-    .feature-row .colored-black-light h1.go span {
-      display: block; }
+    .feature-row .colored-black-light h1.go {
+      max-width: 600px;
+      margin: 0px auto;
+      margin-top: 0.7em; }
     .feature-row .colored-black-light p {
       text-shadow: 2px 2px 2px black; }
     .feature-row .colored-black-light i {

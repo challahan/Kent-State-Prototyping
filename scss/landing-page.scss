@@ -1177,7 +1177,12 @@ img.rounded {
 			}
 
 			h1.go {
-				span {
+				max-width:600px;
+			margin:0px auto;
+			margin-top:.7em;
+
+				strong {
+					color: $light-yellow;
 					display: block;
 				}
 			}
