@@ -1737,14 +1737,14 @@ img.rounded {
 	}
 
 	.feature-caption {
-		position:relative;
+		position:relative !important;
 		background-image:none;
 		padding:.5em;
 		text-shadow:none;
 		text-align:center;
 
 		.feature-label {
-			display: none;
+			display: none !important;
 		}
 
 		.feature-title {

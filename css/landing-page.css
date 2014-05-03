@@ -1153,13 +1153,13 @@ img.rounded {
     #header-action-container a i {
       padding-left: 0.2rem; }
   .feature-caption {
-    position: relative;
+    position: relative !important;
     background-image: none;
     padding: 0.5em;
     text-shadow: none;
     text-align: center; }
     .feature-caption .feature-label {
-      display: none; }
+      display: none !important; }
     .feature-caption .feature-title {
       color: #737373; }
   #show-search-menu a i {
