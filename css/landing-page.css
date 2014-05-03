@@ -768,7 +768,8 @@ img.rounded {
       color: black; }
     .feature-row .colored-gray i {
       color: #ffc82e;
-      margin-top: 0.5em; }
+      margin-top: 0.5em;
+      margin-bottom: 0.1em; }
   .feature-row .colored-gold {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(234, 171, 0, 0.3)), to(#eaab00));
     background-image: -webkit-linear-gradient(top, rgba(234, 171, 0, 0.3) 0%, #eaab00 100%);
