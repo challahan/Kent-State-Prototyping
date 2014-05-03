@@ -1187,7 +1187,7 @@ img.rounded {
   [data-ksu-footer-trademark] p {
     font-size: 0.8rem; }
   [data-ksu-header-logo] {
-    z-index: 2000; }
+    z-index: 100; }
     [data-ksu-header-logo] img {
       width: 145px !important;
       margin-top: 15px; }
