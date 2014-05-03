@@ -1147,7 +1147,8 @@ img.rounded {
 
 @media only screen and (max-width: 48em) {
   #header-action-container a {
-    font-size: 1rem; }
+    font-size: 1rem !important;
+    font-style: italic; }
   nav.top-bar {
     position: absolute;
     z-index: 1000;
