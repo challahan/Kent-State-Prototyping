@@ -1146,6 +1146,8 @@ img.rounded {
     background-size: 275% auto; } }
 
 @media only screen and (max-width: 48em) {
+  #header-action-container a {
+    font-size: 1rem; }
   nav.top-bar {
     position: absolute;
     z-index: 1000;
