@@ -1177,6 +1177,8 @@ img.rounded {
   [data-ksu-footer-contact] span {
     display: block;
     padding-bottom: 20px; }
+    [data-ksu-footer-contact] span a {
+      color: white !important; }
   [data-ksu-footer-logo] img {
     width: 200px !important; }
   [data-ksu-footer-trademark] p {
