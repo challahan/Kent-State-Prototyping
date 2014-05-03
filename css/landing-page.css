@@ -1149,6 +1149,8 @@ img.rounded {
   #header-action-container a {
     font-size: 1rem !important;
     font-style: italic; }
+    #header-action-container a i {
+      padding-left: 0.2rem; }
   nav.top-bar {
     position: absolute;
     z-index: 1000;

@@ -1729,6 +1729,10 @@ img.rounded {
 	#header-action-container a {
 		font-size: 1rem !important;
 		font-style: italic;
+
+		i {
+			padding-left: .2rem;
+		}
 	}
 
 	nav.top-bar {
