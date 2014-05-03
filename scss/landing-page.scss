@@ -1177,9 +1177,9 @@ img.rounded {
 			}
 
 			h1.go {
-				max-width:600px;
-			margin:0px auto;
-			margin-top:.7em;
+				span {
+					display: block;
+				}
 			}
 
 						p {
