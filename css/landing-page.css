@@ -814,7 +814,8 @@ img.rounded {
       margin-top: 0.7em; }
       .feature-row .colored-black-light h1.go strong {
         color: #ffc82e;
-        display: block; }
+        display: block;
+        font-size: 120%; }
     .feature-row .colored-black-light p {
       text-shadow: 2px 2px 2px black; }
     .feature-row .colored-black-light i {
