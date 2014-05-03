@@ -1736,6 +1736,22 @@ img.rounded {
 		}
 	}
 
+	.feature-caption {
+		position:relative;
+		background-image:none;
+		padding:.5em;
+		text-shadow:none;
+		text-align:center;
+
+		.feature-label {
+			display: none;
+		}
+
+		.feature-title {
+			color: $cool-gray;
+		}
+	}
+
 	#show-search-menu a i {
 		color: $ksu-gold !important;
 		font-size: 1.2em;
