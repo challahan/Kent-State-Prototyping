@@ -86,9 +86,6 @@ ul.pagination li:before {
 .primaryEventsFeed ul {
   margin-left: 0; }
 
-[data-ss-thumbs] ul li img {
-  border: none; }
-
 table thead tr th, table thead tr td {
   color: white !important;
   border-bottom: none; }
@@ -297,7 +294,7 @@ main ol {
   .sequence-module img {
     width: 200px; }
   .sequence-module p {
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: bold;
     color: #5a5a5a; }
 
