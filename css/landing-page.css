@@ -1121,6 +1121,11 @@ img.rounded {
     background-size: 110% auto;
     min-height: 250px;
     padding-top: 250px; }
+  [data-ksu-footer-contact] span {
+    display: block;
+    padding-bottom: 20px; }
+    [data-ksu-footer-contact] span a {
+      color: white !important; }
   h1.landing {
     font-size: 3em; }
   #future-students-block {
