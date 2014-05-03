@@ -1779,7 +1779,12 @@ img.rounded {
 	    }
 
 		nav.top-bar .toggle-topbar.menu-icon a {
-			color: blue;
+			color: $alt-blue;
+
+			span {
+				-webkit-box-shadow: 0 10px 0 1px $alt-blue,0 16px 0 1px $alt-blue,0 22px 0 1px $alt-blue;
+				box-shadow: 0 10px 0 1px $alt-blue,0 16px 0 1px $alt-blue,0 22px 0 1px $alt-blue;
+			}
 		}
 	}
 

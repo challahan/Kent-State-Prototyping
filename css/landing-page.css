@@ -1173,7 +1173,10 @@ img.rounded {
   div[role="document"].traditional .large-feature-image {
     margin-top: 0 !important; }
   div[role="document"].traditional nav.top-bar .toggle-topbar.menu-icon a {
-    color: blue; }
+    color: #426da9; }
+    div[role="document"].traditional nav.top-bar .toggle-topbar.menu-icon a span {
+      -webkit-box-shadow: 0 10px 0 1px #426da9, 0 16px 0 1px #426da9, 0 22px 0 1px #426da9;
+      box-shadow: 0 10px 0 1px #426da9, 0 16px 0 1px #426da9, 0 22px 0 1px #426da9; }
   [data-ksu-footer-contact] span {
     display: block;
     padding-bottom: 20px; }
