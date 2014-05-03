@@ -1172,6 +1172,8 @@ img.rounded {
       margin-top: 2rem; }
   div[role="document"].traditional .large-feature-image {
     margin-top: 0 !important; }
+  div[role="document"].traditional nav.top-bar .toggle-topbar.menu-icon a {
+    color: blue; }
   [data-ksu-footer-contact] span {
     display: block;
     padding-bottom: 20px; }

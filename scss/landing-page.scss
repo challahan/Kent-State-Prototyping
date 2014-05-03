@@ -1769,8 +1769,18 @@ img.rounded {
 		}
 	}
 
-	div[role="document"].traditional .large-feature-image {
+	// Traditional Theme //
+
+	div[role="document"].traditional  {
+
+		.large-feature-image {
 		margin-top: 0 !important;
+
+	    }
+
+		nav.top-bar .toggle-topbar.menu-icon a {
+			color: blue;
+		}
 	}
 
 	[data-ksu-footer-contact] span {
