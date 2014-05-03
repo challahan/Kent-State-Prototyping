@@ -1736,6 +1736,11 @@ img.rounded {
 		}
 	}
 
+	#show-search-menu a i {
+		color: $ksu-gold;
+		font-size: 1.2em;
+	}
+
 	nav.top-bar {
 		position:absolute;
 		z-index:1000;

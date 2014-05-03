@@ -1152,6 +1152,9 @@ img.rounded {
     margin-left: -0.2em; }
     #header-action-container a i {
       padding-left: 0.2rem; }
+  #show-search-menu a i {
+    color: #eaab00;
+    font-size: 1.2em; }
   nav.top-bar {
     position: absolute;
     z-index: 1000;
