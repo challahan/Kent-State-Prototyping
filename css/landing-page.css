@@ -450,7 +450,7 @@ h1.title {
 h1.landing {
   font-family: "adobe-garamond-pro", Georgia, serif;
   font-weight: 600;
-  color: white;
+  color: white !important;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
   font-size: 2.7em;
   text-transform: none;
@@ -459,7 +459,7 @@ h1.landing {
 h1.subheader {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  color: #009dd8;
+  color: #009dd8 !important;
   text-transform: none;
   font-size: 1.5em; }
 
@@ -687,7 +687,7 @@ img.rounded {
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 0em;
-    color: #eaab00; }
+    color: #eaab00 !important; }
   .feature-row ul {
     text-shadow: none;
     text-align: left;
