@@ -296,7 +296,8 @@ main ol {
   .sequence-module p {
     font-size: 2em;
     font-weight: bold;
-    color: #5a5a5a; }
+    color: #5a5a5a;
+    margin-bottom: 0.7em; }
 
 .button-group.sequence {
   width: 80%;

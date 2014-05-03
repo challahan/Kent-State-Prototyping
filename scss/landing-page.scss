@@ -451,9 +451,10 @@ main {
 	}
 
 	p {
-		font-size: 1.2em;
+		font-size: 2em;
 		font-weight: bold;
 		color: darken($cool-gray, 10%);
+		margin-bottom:.7em
 	}
 
 	margin-top: 2em;
@@ -1703,11 +1704,6 @@ img.rounded {
 
 	h1.landing {
 		font-size: 3em;
-	}
-
-
-	#future-students-block {
-		width: 100%;
 	}
 
 	.button-group .button {
