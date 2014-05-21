@@ -40,7 +40,7 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
 
 #home-next {
 
-    position: fixed;
+    position: absolute;
     right: 2em;
     bottom: 3em;
     text-align: right;
@@ -71,9 +71,13 @@ span {
 }
 }
 
-@media screen and (min-height: 500px) {
+@media screen and (max-height: 750px) {
     #home-next {
-        display: hidden;
+        position: fixed;
+    }
+
+    .owl-carousel .owl-item {
+        max-height: 600px;
     }
 }
 
