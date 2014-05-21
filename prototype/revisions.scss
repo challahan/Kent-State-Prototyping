@@ -1,0 +1,215 @@
+// Variables //
+
+$ksu-blue: rgb(0,38,100); // #002663 and PMS 281 //
+$ksu-gold: rgb(234,171,0); // #ECAC00 and PMS 124 //
+
+$dark-blue: rgb(0,33,71); // #002147 and PMS 282 //
+$dark-gold: rgb(211,145,0); // #d39100 and PMS 7550 C //
+
+$cyan: rgb(0,157,216); // #009ddb and PMS Cyan //
+$bright-yellow: rgb(255,200,46); // #ffc82e and PMS 123C //
+
+$cool-gray: rgb(115,115,115); // #EEEEEE and Cool Gray //
+$warm-gray-1: rgb(224,222,217); // #e0ded9 and Warm Gray 1C //
+$warm-gray-3: rgb(199,194,186); // #c7c2bc and Warm Gray 3C //
+$warm-gray-5: rgb(174,167,159); // #afa79f and Warm Gray 5C //
+$warm-gray-8: rgb(139,129,120); // #8b8078 and 8C //
+
+$black: rgb(0,0,0); // #000000 //
+
+$green: rgb(135,150,55); // #879637 and PMS 7495C //
+
+$dark-green: rgb(91,99,52); // #5B6334 and PMS 5753C //
+
+$purple: rgb(110,44,107); // #6e2c6b and PMS 255C //
+
+$teal: rgb(88,145,153); // #589199 and PMS 5483C //
+
+$orange: rgb(197,76,0); // #c54c00 and PMS 1525C //
+
+$brown: rgb(106,73,28); // #6a491c and PMS 1405C //
+
+$red: rgb(158,48,57); // #9e2345 and PMS 208C //
+
+$maroon: rgb(136, 35,69); // #9e2345 and PMS 208C //
+
+$alt-blue: rgb(66, 109, 169); // #426da9//
+
+
+// Next Section Arrow //
+
+#home-next {
+
+    position: fixed;
+    right: 2em;
+    bottom: 3em;
+    text-align: right;
+    z-index:100;
+
+a {
+    height: 67px;
+padding: 25px 82px 25px 0;
+outline: none;
+text-decoration: none;
+color: #dcb439;
+}
+
+i {
+    color: $warm-gray-1;
+    opacity: .7;
+    transition: .7s ease-in-out opacity;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+
+    &:hover {
+        opacity: .9;
+        color: $warm-gray-3;
+    }
+}
+
+span {
+    display: none;
+}
+}
+
+@media screen and (min-height: 500px) {
+    #home-next {
+        display: hidden;
+    }
+}
+
+
+
+// Remove White Bar //
+
+[data-ss-bar] {
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 30%, rgba(0, 0, 0, 0.9) 80%); 
+bottom: 0;
+    max-height: 225px;
+    height: 225px;
+}
+
+[data-ss-titles-container] .owl-controls {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+// Hide Thumbs //
+
+[data-ss-thumbs] ul {
+    display: none !important;
+}
+
+// H1 Styling //
+
+@media screen and (min-width: 905px) {
+
+    [data-ss-thumbs] {
+
+        height: 225px;
+        bottom: 0;
+        position: relative;
+
+
+        .owl-page  {
+
+            float: right;
+            bottom: 0;
+
+        span {
+            display: block;
+        width: 12px;
+        height: 12px;
+        margin: 5px 7px;
+        filter: Alpha(Opacity=50);/*IE7 fix*/
+        opacity: 0.5;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        background: #869791;
+        }
+        }
+
+    }
+
+[data-ss-titles] {
+
+    margin-left: 2%;
+
+    ul li h1 {
+    color: white;
+    font-size: 4rem;
+    margin-top: 0em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,.8);}
+    margin-bottom: 0;
+
+    ul li h4 {
+        color: $ksu-gold;
+        font-size: 2em;
+        margin-top: 0;
+         text-shadow: 2px 2px 5px rgba(0,0,0,.8);
+         padding-bottom:.2em;
+
+    }
+
+    ul li a {
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0,0,0,.8);
+
+    }
+}
+}
+
+@media screen and (min-width: 905px) and (max-width: 1135px) {
+    [data-ss-titles] ul li h1 {
+        font-size: 3rem !important;
+    }
+}
+
+@media screen and (max-width: 905px) {
+    [data-ss-titles] ul li h1 {
+        margin-top: .5em !important;
+        font-size: 2rem !important;
+    }
+
+    [data-ss-titles] ul li h4 {
+        margin-bottom: 1em;
+    }
+
+    [data-ss-titles-container] a {
+        text-align: center !important;
+    }
+
+    #home-next {
+        display: none;
+    }
+}
+
+
+// Add Arrows to Success Story on Large Screen //
+
+#success-stories::after, #success-stories::before {
+	
+	 position: absolute;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    z-index: 100;
+    top: 40%;
+    font-size: 3rem;
+    opacity: .4; }
+
+#success-stories:before {
+    content: "\f053";
+    left: 2rem; }
+
+
+#success-stories:after {
+    content: "\f054";
+    right: 2rem; }
