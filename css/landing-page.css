@@ -1174,30 +1174,7 @@ img.rounded {
       color: #737373; }
   #show-search-menu a i {
     color: #eaab00 !important;
-    font-size: 1.2em; }
-  nav.top-bar {
-    position: absolute;
-    z-index: 1000;
-    width: 25%;
-    top: 0;
-    background: none;
-    height: 60px; }
-    nav.top-bar.expanded {
-      width: 100%; }
-    nav.top-bar ul.title-area {
-      background: none !important; }
-      nav.top-bar ul.title-area .name h1 {
-        display: none; }
-    nav.top-bar .toggle-topbar.menu-icon {
-      top: 35px;
-      position: absolute;
-      left: 0px; }
-      nav.top-bar .toggle-topbar.menu-icon a {
-        color: #eaab00;
-        font-size: 0.75em;
-        font-style: italic;
-        text-indent: -43px;
-        width: 27px; }
+    font-size: 1.1em; }
   section.top-bar-section {
     left: 0%;
     margin-top: 25px;
