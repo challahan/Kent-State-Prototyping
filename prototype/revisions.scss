@@ -194,8 +194,8 @@ bottom: 0;
 
 // Add Arrows to Success Story on Large Screen //
 
-#success-stories::after, #success-stories::before {
-	
+/*#success-stories::after, #success-stories::before,*/
+.navbtn {
 	 position: absolute;
     font-family: FontAwesome;
     font-style: normal;
@@ -209,11 +209,21 @@ bottom: 0;
     font-size: 3rem;
     opacity: .4; }
 
-#success-stories:before {
-    content: "\f053";
+/*#success-stories:before,*/
+.nav-l {
+    /*content: "\f053";*/
     left: 2rem; }
 
-
-#success-stories:after {
-    content: "\f054";
+/*#success-stories:after,*/
+.nav-r {
+    /*content: "\f054";*/
     right: 2rem; }
+    
+#success-slides .owl-pagination {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 1rem;
+}
