@@ -201,12 +201,8 @@ bottom: 0;
   margin-right: auto;
   left: 0;
   right: 0;
-  bottom: 1rem;
+  bottom: -1.75rem;
   
-  .owl-page span {
-    background:#fff;
-    
-  }
 }
 
 @media only screen and (min-width: 905px) {
@@ -239,5 +235,10 @@ bottom: 0;
 
   #success-slides .owl-pagination {
     bottom: 14rem;
+
+    .owl-page span {
+      background:#fff;
+      
+    }
   }
 }
