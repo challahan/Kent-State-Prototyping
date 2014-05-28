@@ -1,0 +1,36 @@
+@media only screen and (min-width:40.063em) {
+  .small-offset-1 {margin-left:0 !important;}
+}
+.einside .body-content {
+  background: url(http://www2.kent.edu/adf/apps/einside/style/bodyBG.png) center top no-repeat;
+  padding-top: 30px;
+
+  &:before {
+    content: url(http://www2.kent.edu/adf/apps/einside/style/einsideInterior.png);
+  }
+}
+
+.einside .ksu-article-created, .einside .ksu-article-author {
+  display: inline;
+  font-style: italic;
+  font-size: 95%;
+  }
+.einside .ksu-article-author:before {
+  content: " ";
+  color: #aaaaaa;
+  margin: 0 0.75rem;
+  position: relative;
+  top: 1px;
+  font-style: normal;
+}
+.einside .issue-date {font-weight:bold;}
+.einside form h5 {padding:0;margin:0;}
+.einside form input[type="text"] {
+  }
+.einside form input[type="text"]:after {
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  content: "\f007";
+}
