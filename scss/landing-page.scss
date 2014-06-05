@@ -1735,7 +1735,6 @@ img.rounded {
 }
 
 @media #{$small-only} {
-
 	// Top Bar Menu Styles //
 
 	#header-action-container a {
@@ -1765,43 +1764,9 @@ img.rounded {
 
 	#show-search-menu a i {
 		color: $ksu-gold !important;
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 
-	nav.top-bar {
-		position:absolute;
-		z-index:1000;
-		width:25%;
-		top:0;
-		background:none;
-		height: 60px;
-
-		&.expanded {
-			width: 100%;
-		}
-
-		ul.title-area {
-			background: none !important;
-
-			.name h1 {
-				display: none;
-			}
-		}
-
-		.toggle-topbar.menu-icon {
-			top: 35px;
-			position: absolute;
-			left: 0px;
-
-			a {
-				color: $ksu-gold;
-				font-size: .75em;
-				font-style: italic;
-				text-indent: -43px;
-				width: 27px;
-			}
-		}
-	}
 
 	section.top-bar-section {
 		left: 0%;

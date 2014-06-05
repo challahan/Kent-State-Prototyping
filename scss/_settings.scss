@@ -68,9 +68,9 @@ $body-font-family: $sans-serif;
 // $shiny-edge-active-color: rgba(#000, .2);
 
 // Media Query Ranges
-$small-range: (0em, 40em);
-$medium-range: (40.063em, 64em);
-$large-range: (64.063em, 90em);
+$small-range: (0em, 48em);
+$medium-range: (48.063em, 80em);
+$large-range: (80.063em, rem-calc(1500));
 // $xlarge-range: (90.063em, 120em);
 // $xxlarge-range: (120.063em);
 
