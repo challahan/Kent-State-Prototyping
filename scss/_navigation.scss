@@ -11,7 +11,7 @@
 	margin-left: 1.5em;
 	
 	li > a {
-		font-weight: 600;
+		/*font-weight: 600;*/
 	letter-spacing: .06ex;
 	}
 	
@@ -60,7 +60,7 @@ p.title a {
 }
 
 nav.breadcrumbs {
-	background-color: none !important;
+	background-color: transparent !important;
 	line-height: 150%;
 }
 

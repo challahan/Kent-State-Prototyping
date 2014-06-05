@@ -193,10 +193,23 @@ bottom: 0;
 
 
 // Add Arrows to Success Story on Large Screen //
+.navbtn {display:none;}
+/*#success-stories::after, #success-stories::before,*/
+#success-slides .owl-pagination {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: -1.75rem;
+  
+}
 
-#success-stories::after, #success-stories::before {
-	
-	 position: absolute;
+@media only screen and (min-width: 905px) {
+  
+  .navbtn {
+  	display:block;
+    position: absolute;
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
@@ -207,13 +220,25 @@ bottom: 0;
     z-index: 100;
     top: 40%;
     font-size: 3rem;
-    opacity: .4; }
+    opacity: .4;
 
-#success-stories:before {
-    content: "\f053";
-    left: 2rem; }
+    /*#success-stories:before,*/
+    &.nav-l {
+      /*content: "\f053";*/
+      left: 2rem; }
+  
+    /*#success-stories:after,*/
+    &.nav-r {
+      /*content: "\f054";*/
+      right: 2rem; }
+  }
 
+  #success-slides .owl-pagination {
+    bottom: 14rem;
 
-#success-stories:after {
-    content: "\f054";
-    right: 2rem; }
+    .owl-page span {
+      background:#fff;
+      
+    }
+  }
+}
