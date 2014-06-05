@@ -81,6 +81,11 @@ span {
     }
 }
 
+// Ensure image is 100% of screen //
+
+[data-ss-container] img {
+    width: 100%;
+}
 
 
 // Remove White Bar //
