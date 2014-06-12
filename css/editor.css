@@ -392,7 +392,7 @@ sub {
      half as far down as the superscript moved up */
   bottom: -0.25em; }
 
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 48em) {
   .image-align-left {
     float: none;
     display: block;
@@ -416,6 +416,6 @@ sub {
     padding-right: 0;
     padding-left: 0; } }
 
-@media only screen and (min-width:40.063em) {
+@media only screen and (min-width:48.063em) {
   .flex-video {
     min-width: 300px; } }
