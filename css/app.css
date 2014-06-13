@@ -4961,6 +4961,9 @@ table.swatches td {
   border-bottom: 2px solid #002664;
   margin-bottom: 2em; }
 
+p {
+  font-size: 1.2em; }
+
 .blog-author {
   padding-bottom: 1em;
   text-align: center;
@@ -4975,7 +4978,7 @@ table.swatches td {
 
 h1.blog-title {
   text-transform: none;
-  font-size: 2em;
+  font-size: 1.7em;
   letter-spacing: normal;
   line-height: 1.2;
   text-align: center;
@@ -5040,15 +5043,17 @@ h1.blog-title {
     padding-right: 2em;
     padding-bottom: 0.2em; }
   h1.blog-title {
-    font-size: 2.3em; }
+    font-size: 2em; }
   .blog-subtitle {
-    font-size: 1.9em; }
+    font-size: 1.7em; }
   .blog-author p {
     font-size: 0.9em; }
   .blog-author i {
     font-style: normal;
     margin: 0 0.5em;
-    display: inline; } }
+    display: inline; }
+  p {
+    font-size: 1.1em; } }
 
 @media only screen and (min-width:80.063em) {
   h1.blog-title {

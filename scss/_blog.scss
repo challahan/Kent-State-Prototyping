@@ -7,6 +7,10 @@
 
 	}
 
+	p {
+		font-size: 1.2em;
+	}
+
 
 	.blog-author {
 		padding-bottom: 1em;
@@ -30,7 +34,7 @@
 
 	h1.blog-title {
 		text-transform: none;
-		font-size: 2em;
+		font-size: 1.7em;
 		letter-spacing: normal;
 		line-height: 1.2;
 		text-align: center;
@@ -122,12 +126,12 @@
 	}
 
 	h1.blog-title {
-		font-size: 2.3em;
+		font-size: 2em;
 	}
 
 
 	.blog-subtitle {
-			font-size: 1.9em;
+			font-size: 1.7em;
 	}
 
 	.blog-author {
@@ -141,6 +145,10 @@
 				margin: 0 .5em;
 				display: inline;
 			}
+	}
+
+	p {
+		font-size: 1.1em;
 	}
 
 }
