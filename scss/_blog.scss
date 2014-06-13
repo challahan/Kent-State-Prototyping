@@ -1,4 +1,11 @@
-//Blog Module /
+   //Blog Module - Single Blost Post /
+	
+
+	.main {   // This sets the margin of the main content to drop down a bit.  May not be required in Drupal land //
+		margin-top: 2em;
+		padding-bottom: 2em;
+	}
+
 
 	.blog-header {
 		padding-top: 1.5em;
@@ -6,7 +13,7 @@
 
 	}
 
-	p {
+	.blog-main p {
 		font-size: 1.2em;
 	}
 
@@ -109,6 +116,10 @@
 		border-top: 1px solid $warm-gray-1;
 	}
 
+	.blog-date {
+		display: block;
+	}
+
 	.blog-tags {
 		span {
 			line-height: 150%;
@@ -122,9 +133,70 @@
 		}
 	}
 
-@media #{$medium-only} {
 
-}
+
+	// This starts the styling for the blog list page //
+
+	.blog-list-date, .blog-list-author {
+		text-transform: uppercase;
+		display: inline;
+		color: $cool-gray;
+		font-size: .8em;
+
+		a {
+			font-weight: normal;
+		}
+	}
+
+	.blog-list-entry {
+		border-top: 1px solid lighten($cool-gray,45%);
+		padding-top: 1em;
+		margin-top: 1em;
+		margin-bottom: 3em;
+
+		h3 {
+			font-size: 1.3em;
+			font-family: $sans-serif;
+		}
+
+		a:hover h3  {
+			color: lighten($ksu-blue,5%);
+		}
+	}
+
+	.blog-list-thumb {
+
+		width: 100px;
+		height: 100px;
+		border-radius: 3px;
+		overflow: hidden !important;
+		position: relative;
+		border: 1px solid $warm-gray-1;
+		float: left;
+		margin-right: 1.5em;
+		margin-bottom: .5em;
+
+		img	{
+			width: 200px;
+			max-width: none;
+		}
+	}
+
+	.blog-sidebar  {
+
+		h3 {
+		margin-top: 2em;
+
+		}
+
+		.blog-about {
+			p {
+				font-size: .9em;
+				line-height: 170%;
+			}
+		}
+	}
+
 
 @media #{$medium-up} { 
 
@@ -154,6 +226,10 @@
 		font-size: 2em;
 	}
 
+	.blog-date {
+		display: inline;
+	}
+
 
 	.blog-subtitle {
 			font-size: 1.7em;
@@ -172,8 +248,16 @@
 			}
 	}
 
-	p {
+	.blog-main p {
 		font-size: 1.1em;
+	}
+
+	.blog-list-entry h3 {
+		font-size: 1.4em;
+	}
+
+	.blog-list-date, .blog-list-author {
+		font-size: .9em;
 	}
 
 }
