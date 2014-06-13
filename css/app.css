@@ -4990,7 +4990,7 @@ h1.blog-title {
 .blog-headshot {
   width: 80px;
   height: 80px;
-  background-image: url('/prototype/headshot-sample.jpg');
+  background-image: url('../prototype/headshot-sample.jpg');
   display: inline-block;
   -webkit-background-size: cover;
   background-size: cover;
