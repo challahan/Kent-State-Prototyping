@@ -4958,11 +4958,29 @@ table.swatches td {
 
 .blog-header {
   padding-top: 1.5em;
-  border-bottom: 2px solid #002664;
-  margin-bottom: 2em; }
+  margin-bottom: 0.5em; }
 
 p {
   font-size: 1.2em; }
+
+.fancy-rule {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-top: 1em;
+  margin-bottom: 2em; }
+
+.long-rule {
+  border: 2px solid #002664;
+  width: 95%;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 2em;
+  max-width: 1500px; }
 
 .blog-author {
   padding-bottom: 1em;
@@ -4975,6 +4993,10 @@ p {
     font-style: normal; }
   .blog-author i {
     display: none; }
+
+.blog-comments a {
+  color: #737373;
+  font-weight: normal; }
 
 h1.blog-title {
   text-transform: none;

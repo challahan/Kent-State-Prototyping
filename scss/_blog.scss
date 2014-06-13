@@ -2,13 +2,33 @@
 
 	.blog-header {
 		padding-top: 1.5em;
-		border-bottom: 2px solid $ksu-blue;
-		margin-bottom: 2em;
+		margin-bottom: .5em;
 
 	}
 
 	p {
 		font-size: 1.2em;
+	}
+
+	.fancy-rule {
+		border: 0;
+	height: 1px;
+	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0,0,0,0)), color-stop(0.5, rgba(0,0,0,0.75)), to(rgba(0,0,0,0)));
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));   
+	margin-top: 1em;
+	margin-bottom: 2em;
+	}
+
+	.long-rule {
+		border: 2px solid $ksu-blue;
+		width: 95%;
+		display: block;
+		margin: 0px auto;
+		margin-bottom: 2em;
+		max-width: 1500px;
 	}
 
 
@@ -30,6 +50,11 @@
 			display: none;
 		}
 
+	}
+
+	.blog-comments a {
+		color: $cool-gray;
+		font-weight: normal;
 	}
 
 	h1.blog-title {
