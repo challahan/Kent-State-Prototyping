@@ -1,0 +1,11 @@
+[data-einside-feature].feature.panel {
+  background-color: rgb(234,171,0);
+  border-color: rgb(211,145,0);
+  
+  a {
+    color: rgb(0,38,100);
+    &:hover {
+      color: rgb(0,33,71);
+    }
+  }
+}
