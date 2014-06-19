@@ -970,7 +970,8 @@ img.rounded {
 .landing-page-tabs dd a {
   font-family: "museo-slab", Georgia, serif;
   font-size: 0.7rem;
-  text-align: center; }
+  text-align: center;
+  font-weight: normal; }
 .landing-page-tabs dd {
   background-color: #f7f6f5;
   border-top: 4px solid #009dd8;
@@ -981,8 +982,7 @@ img.rounded {
   border-left: 1px solid #e0ded9;
   border-right: 1px solid #e0ded9; }
   .landing-page-tabs dd.active a {
-    color: #002147;
-    font-weight: bold; }
+    color: #002147; }
 
 .landing-page-tabs .tabs-content > .content {
   margin-left: 2%;

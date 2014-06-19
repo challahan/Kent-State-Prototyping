@@ -5131,3 +5131,106 @@ h1.blog-title {
     margin-bottom: 0.3em; }
   .blog-feature-image {
     max-width: 600px; } }
+
+.profile-photo {
+  margin-bottom: 2em;
+  text-align: center; }
+  .profile-photo img {
+    max-width: 200px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 1px;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
+
+.profile-name {
+  text-align: center; }
+  .profile-name h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em; }
+  .profile-name .profiles-title {
+    margin-bottom: 0; }
+  .profile-name .profiles-department {
+    color: #737373; }
+
+.profile-stats {
+  margin-bottom: 0;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  text-align: center; }
+  .profile-stats a {
+    font-weight: normal; }
+  .profile-stats .profiles-heading:before {
+    display: inline;
+    color: #737373;
+    margin-right: 0.5em; }
+  .profile-stats .profiles-email:before {
+    font-family: FontAwesome;
+    content: "\f0e0"; }
+  .profile-stats .profiles-phone:before {
+    font-family: FontAwesome;
+    content: "\f095"; }
+  .profile-stats .profiles-website:before {
+    font-family: FontAwesome;
+    content: "\f0ac"; }
+  .profile-stats .profiles-office-info:before {
+    font-family: FontAwesome;
+    content: "\f0f7"; }
+  .profile-stats p {
+    margin-bottom: 0.5em; }
+
+.profile-bio {
+  border-top: 1px solid #e0ded9;
+  padding-top: 1em; }
+  .profile-bio p {
+    font-size: 1.1em; }
+
+.profile-additional p {
+  font-size: 0.9em; }
+.profile-additional h3 {
+  border-top: 1px solid #e0ded9;
+  max-width: 75%;
+  padding-top: 0.7em;
+  font-size: 1.1em; }
+.profile-additional ul li {
+  font-size: 0.9em; }
+.profile-additional .profile-additional-section {
+  margin-bottom: 0.5em; }
+
+.profile-list {
+  margin-top: 2em; }
+  .profile-list .profile-list-photo img {
+    width: 100%;
+    max-width: 200px;
+    border: 8px solid transparent;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease; }
+  .profile-list .profile-list-photo img:hover {
+    border: 8px solid #737373; }
+  .profile-list .profile-list-name {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    text-transform: uppercase;
+    text-align: center; }
+  .profile-list .profile-list-title {
+    margin-bottom: 0;
+    font-family: "adobe-garamond-pro", Georgia, serif;
+    font-style: italic;
+    font-size: 1em;
+    color: #737373;
+    text-align: center; }
+  .profile-list ul li:before {
+    content: none; }
+
+@media only screen and (min-width:48.063em) {
+  .profile-photo, .profile-name, .profile-stats {
+    text-align: inherit; }
+  .profile-photo img {
+    max-width: 275px; }
+  .profile-name h1 {
+    font-size: 3em; } }
+
+@media only screen and (min-width:80.063em) {
+  .profile-photo {
+    text-align: center; } }
