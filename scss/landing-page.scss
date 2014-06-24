@@ -1412,6 +1412,7 @@ img.rounded {
 		font-family: $slab-serif;
 		font-size: .7rem;
 		text-align: center;
+		font-weight: normal;
 	}
 
 	dd {
@@ -1429,7 +1430,6 @@ img.rounded {
 	border-right:1px solid $warm-gray-1;
 	a {
 		color: $dark-blue;
-		font-weight: bold;
 	}
 }
 
