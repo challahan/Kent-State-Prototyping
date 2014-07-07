@@ -5242,3 +5242,32 @@ h1.blog-title {
 @media only screen and (min-width:80.063em) {
   .profile-photo {
     text-align: center; } }
+
+.module-infographics {
+  padding: 1em;
+  margin-bottom: 1em; }
+  .module-infographics ul li:before {
+    content: none; }
+  .module-infographics li {
+    text-align: center;
+    margin-bottom: 0.8em;
+    padding-bottom: 0; }
+  .module-infographics a:hover span {
+    color: #003a97; }
+  .module-infographics img {
+    max-width: 70px;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em; }
+  .module-infographics span {
+    display: block;
+    text-align: center;
+    color: #002664;
+    font-size: 1.05em;
+    font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    width: 80%;
+    margin: 0px auto;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease; }
