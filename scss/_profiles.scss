@@ -176,6 +176,9 @@
 	.sub-nav dt {
 		font-size: .8em;
 		margin-top: .2em;
+		@media #{$small-only} {
+			display: none;
+		}
 	}
 
 	li {
@@ -183,6 +186,9 @@
 	}
 
 	margin-top: 2em;
+		@media #{$small-only} {
+			margin-top: .5em;
+		}
 
 	.profile-list-photo {
 

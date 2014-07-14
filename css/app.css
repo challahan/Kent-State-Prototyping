@@ -5254,8 +5254,14 @@ h1.blog-title {
   .profile-list .sub-nav dt {
     font-size: 0.8em;
     margin-top: 0.2em; }
+    @media only screen and (max-width: 48em) {
+      .profile-list .sub-nav dt {
+        display: none; } }
   .profile-list li {
     text-align: center; }
+  @media only screen and (max-width: 48em) {
+    .profile-list {
+      margin-top: 0.5em; } }
   .profile-list .profile-list-photo {
     text-align: center;
     position: relative;
