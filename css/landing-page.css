@@ -980,7 +980,8 @@ img.rounded {
 .landing-page-tabs dd.active {
   border-top: 7px solid #002664;
   border-left: 1px solid #e0ded9;
-  border-right: 1px solid #e0ded9; }
+  border-right: 1px solid #e0ded9;
+  border-bottom: 1px solid #e0ded9; }
   .landing-page-tabs dd.active a {
     color: #002147; }
 

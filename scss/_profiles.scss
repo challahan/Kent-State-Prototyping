@@ -14,6 +14,20 @@
 	}
 }
 
+.profile-return {
+	font-size: .9em;
+	font-weight: normal;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	display: block;
+	text-transform: uppercase;
+	&:before {
+		content: "\f190";
+		font-family: "FontAwesome";
+		margin-right: .5em;
+	}
+}
+
 
 .profile-name {
 
@@ -36,7 +50,7 @@
 .profile-stats {
 
 	margin-bottom: 0;
-	margin-top: 3em;
+	margin-top: 2.5em;
 	margin-bottom: 2em;
 	text-align:center;
 
@@ -47,7 +61,7 @@
 	.profiles-heading:before {
 		display: inline;
 		color: $cool-gray;
-		margin-right: .5em;
+		margin-right: .7em;
 	}
 
 		.profiles-email:before {
@@ -70,6 +84,11 @@
 		content: "\f0f7";
 	}
 
+	.profiles-resume:before {
+		font-family: FontAwesome;
+		content: "\f0f6";
+	}
+
 	p {
 		margin-bottom: .5em;
 	}
@@ -88,6 +107,7 @@
 .profile-additional {
 	p {
 		font-size: .9em;
+		margin-bottom: .5em;
 	}
 
 	h3 {
@@ -110,38 +130,125 @@
 
 // Profiles Display Page //
 
+
 .profile-list  {
+
+	.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a, .sub-nav dd a.active {
+	background: $cyan;
+	border-radius: 3px;
+	color: white;
+	}
+
+	.fac-staff-group {
+		padding-bottom: 2em;
+	}
+
+	#profile-filter {
+			margin-top: .5em;
+
+	}
+
+	.faculty-grid {
+		margin-top: .5em;
+	}
+
+	.sub-nav dt a, .sub-nav dd a, .sub-nav li a {
+	font-weight: normal;
+	text-transform: uppercase;
+	}
+
+	.sub-nav dd {
+		@media #{$medium-only} {
+			font-size: .8em;
+			margin-left: .5rem;
+		}
+		@media #{$small-only} {
+			font-size: .8em;
+			margin-left: .5rem;
+		}
+	}
+
+	.sub-nav dt {
+		font-size: .8em;
+		margin-top: .2em;
+	}
+
+	li {
+		text-align: center;
+	}
 
 	margin-top: 2em;
 
 	.profile-list-photo {
 
+		text-align: center;
+		position: relative;
+		display: inline-block;
+		background-color: #000;
+		overflow: hidden;
+
 		img {
 			width: 100%;
 			max-width: 200px;
-			border: 8px solid transparent;
-			transition: .3s all ease;
+			transition: 250ms opacity ease-in-out ;
 		}
 
-		img:hover {
-			border: 8px solid $cool-gray;
+		&:hover img {
+			opacity: 0.2;
+		}
+
+		.profile-list-additional {
+		    position: absolute;
+		    display: block;
+		    width: 100%;
+		    height: 100%;
+		    overflow: hidden;
+		    top: 0;
+		    transform: translateY(-100%);
+		    z-index: 1;
+		    transition: transform 250ms ease-in-out;
+		    text-align: center;
+		    color: white;
+		    padding: 1em;
+		    font-size: .9em;
+		    p {
+		    	font-size: .9em;
+		    	max-height: 80px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+		    }
+
+		    h3 {
+		    	color: $ksu-gold;
+		    }
+
+		    .secondary {
+		    	font-size: .6em;
+		    }
+		}
+
+		&:hover .profile-list-additional {
+    		transform: translateY(0%);
 		}
 	}
 
 	.profile-list-name {
 		font-size: 1.2em;
 		margin-top: .5em;
-		margin-bottom: 0em;
+		margin-bottom: .1em;
+		line-height: 1.3em;
 		text-transform: uppercase;
 		text-align: center;
+		a {
+			font-weight: normal;
+		}
 	}
 
-	.profile-list-title {
+	.profile-list-title, .profile-list-phone, .profile-list-email{
 		margin-bottom: 0;
-		font-family: $serif;
-		font-style: italic;
-		font-size: 1em;
+		font-size: .9em;
 		color: $cool-gray;
+		font-family: $sans-serif-condensed;
 		text-align: center;
 	}
 
@@ -159,14 +266,20 @@
 
 	.profile-photo  {
 
-	img {
-		max-width: 275px;
-	}
+		img {
+			max-width: 275px;
+		}
 
 	}
 
 	.profile-name h1 {
 		font-size: 3em;
+	}
+
+	.profile-list .profile-list-photo .profile-list-additional {
+		.secondary {
+		    	font-size: .7em;
+		}
 	}
 }
 

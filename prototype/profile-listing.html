@@ -68,42 +68,131 @@
       <h1>Faculty/Staff Directory</h1>
 
       <div class="profile-list">
-            <ul class="large-block-grid-5">
+            <div class="row">
+                <div class="large-8 medium-8 columns">
+                <dl class="sub-nav" id="profile-filter">
+                  <dt>Filter:</dt>
+                  <dd><a href="#" id="all" class="active">All</a></dd>
+                  <dd><a href="#" id="faculty" class="filter">Faculty</a></dd>
+                  <dd><a href="#" id="staff" class="filter">Staff</a></dd>
+                  <dd><a href="#" id="grad" class="filter">Graduate Students</a></dd>
+                </dl>
+                </div> <!-- End Large 8 -->
+                <div class="large-4 medium-4 columns">
+                  <div class="row collapse">
+                    <div class="small-10 medium-8 columns">
+                      <input type="text" placeholder="Search Directory">
+                      </div>
+                      <div class="small-2 medium-4 columns">
+                        <a href="#" class="button postfix">Go</a>
+                      </div>
+                   </div>
+                </div> <!-- End Large4  -->
 
-                  <li>
-                    <div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
+            </div> <!--End Row -->
+
+
+            <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-5 faculty-grid">
+
+                  <li class="fac-staff-group faculty">
+                    <div class="profile-list-photo" data-content="This is the text">
+                      <img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" />
+                       <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>Multimedia / Public Relations / Usability / Graphic Design / Multimedia / Public Relations / Usability / Graphic Design / Multimedia / Public Relations / Usability / Graphic Design</p>
+                            <a href="profile-single.html" class="button secondary">View Full Profile</a>
+                      </div>
+                    </div>
+                    <p class="profile-list-name"><a href="profile-single.html">Evan Bailey</a></p>
                     <p class="profile-list-title">Assistant Professor</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">ebailey@kent.edu</a></p>
                   </li>
-                  <li>
-                    <div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
+                  <li class="fac-staff-group faculty">
+                    <div class="profile-list-photo"><img src="thor.jpg" alt="Profile Headshot of Thor W." />
+                    <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>local television news / leadership / management / student media</p>
+                            <a href="profile-single-thor.html" class="button secondary">View Full Profile</a>
+                      </div>
+                    </div>
+                    <p class="profile-list-name"><a href="profile-single-thor.html">Thor Wasbotten</a></p>
+                    <p class="profile-list-title">Director/Professor</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">thor@kent.edu</a></p>
+                  </li>
+                  <li class="fac-staff-group grad"><div class="profile-list-photo"><img src="moore.jpg" alt="Profile Headshot of Stefanie Moore" /> <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>Multimedia / Public Relations / Usability / Graphic Design / Multimedia / Public Relations / Usability / Graphic Design / Multimedia / Public Relations / Usability / Graphic Design</p>
+                            <a href="profile-single-moore.html" class="button secondary">View Full Profile</a>
+                      </div></div>
+                    <p class="profile-list-name"><a href="profile-single-moore.html">Stefanie Moore</a></p>
                     <p class="profile-list-title">Assistant Professor</p>
-                  </li>
-                  <li><div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
-                    <p class="profile-list-title">Assistant Professor</p></li>
-                  <li><div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
-                    <p class="profile-list-title">Assistant Professor</p></li>
-                  <li><div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
-                    <p class="profile-list-title">Assistant Professor</p></li>
-                  <li><div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
-                    <p class="profile-list-title">Assistant Professor</p></li>
-                  <li><div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
-                    <p class="profile-list-title">Assistant Professor</p></li>
-                  <li><div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
-                    <p class="profile-list-title">Assistant Professor</p></li>
-                  <li><div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
-                    <p class="profile-list-title">Assistant Professor</p></li>
-                  <li><div class="profile-list-photo"><img src="bailey_evan_2.jpg" alt="Profile Headshot of Evan" /></div>
-                    <p class="profile-list-name">Evan Bailey</p>
-                    <p class="profile-list-title">Assistant Professor</p></li>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">smoore@kent.edu</a></p></li>
+                  <li class="fac-staff-group grad"><div class="profile-list-photo"><img src="robins.jpg" alt="Profile Headshot of Evan" /> <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>Information Architecture / Visual Explanations of Complex Constructs / User Interaction with Information Systems</p>
+                            <a href="#" class="button secondary">View Full Profile</a>
+                      </div></div>
+                    <p class="profile-list-name"><a href="profile-single.html">David B. Robins, Ph.D.</a></p>
+                    <p class="profile-list-title">Associate Professor</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">drobins@kent.edu</a></p></li>
+                  <li class="fac-staff-group faculty"><div class="profile-list-photo"><img src="bedford.jpg" alt="Profile Headshot of Evan" /> <div class="profile-list-additional">
+                           <h3>Expertise</h3>
+                            <p>Knowledge Architectures and Knowledge Engineering / Search System Design/Architecture / Semantic Analysis Methods / Communities of Practice</p>
+                            <a href="#" class="button secondary">View Full Profile</a>
+                      </div></div>
+                    <p class="profile-list-name"><a href="profile-single.html">Denise A. D. Bedford, Ph.D.</a></p>
+                    <p class="profile-list-title">Goodyear Professor, Knowledge Management</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">dbedford@kent.edu</a></p></li>
+                  <li class="fac-staff-group grad"><div class="profile-list-photo"><img src="armour.jpg" alt="Profile Headshot of Evan" /> <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>Multimedia / Public Relations / Usability / Graphic Design / Multimedia / Public Relations / Usability / Graphic Design / Multimedia / Public Relations / Usability / Graphic Design</p>
+                            <a href="#" class="button secondary">View Full Profile</a>
+                      </div></div>
+                    <p class="profile-list-name"><a href="profile-single.html">Luke Armour</a></p>
+                    <p class="profile-list-title">Assistant Professor</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">larmour@kent.edu</a></p></li>
+                  <li class="fac-staff-group staff"><div class="profile-list-photo"><img src="harper.jpg" alt="Profile Headshot of Evan" /> <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>School Library Administration / School Library Evaluation</p>
+                            <a href="#" class="button secondary">View Full Profile</a>
+                      </div></div>
+                    <p class="profile-list-name"><a href="profile-single.html">Meghan Harper, Ph.D.</a></p>
+                    <p class="profile-list-title">Associate Professor</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">mharper@kent.edu</a></p></li>
+                  <li class="fac-staff-group faculty"><div class="profile-list-photo"><img src="leblanc.jpg" alt="Profile Headshot of Evan" /> <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>Multimedia / Public Relations / Usability / Graphic Design / Multimedia / Public Relations / Usability / Graphic Design / Multimedia / Public Relations / Usability / Graphic Design</p>
+                            <a href="#" class="button secondary">View Full Profile</a>
+                      </div></div>
+                    <p class="profile-list-name"><a href="profile-single.html">AnnMarie LeBlanc</a></p>
+                    <p class="profile-list-title">Professor and Interim Dean, College of Communication and Information</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">aleblanc@kent.edu</a></p></li>
+                  <li class="fac-staff-group staff"><div class="profile-list-photo"><img src="blank.jpg" alt="Profile Headshot of Evan" /> <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>Male reproductive physiology / Physiological ecology / neuroendocrinology / Behavioral neuroendocrinology</p>
+                            <a href="#" class="button secondary">View Full Profile</a>
+                      </div></div>
+                    <p class="profile-list-name"><a href="profile-single.html">James L. Blank</a></p>
+                    <p class="profile-list-title">Interim Dean, College of Arts and Sciences</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">jblank@kent.edu</a></p></li>
+                  <li class="fac-staff-group staff"><div class="profile-list-photo"><img src="bracken.jpg" alt="Profile Headshot of Evan" /> <div class="profile-list-additional">
+                            <h3>Expertise</h3>
+                            <p>literature / library science</p>
+                            <a href="#" class="button secondary">View Full Profile</a>
+                      </div></div>
+                    <p class="profile-list-name"><a href="profile-single.html">Dr. James Kenneth Bracken</a></p>
+                    <p class="profile-list-title">Dean, University Libraries</p>
+                    <p class="profile-list-phone">330-672-3000</p>
+                    <p class="profile-list-email"><a href="#">jbracke1@kent.edu</a></p></li>
             </ul>
       </div><!--End Profile List-->
 
@@ -151,10 +240,28 @@
   </div>
   </footer>
    <!-- Required JavaScript Calls -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/scroll.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/foundation/js/foundation.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/scroll.js"></script>
+    <script>
+
+      $("#all").click(function(){
+       $(".fac-staff-group").fadeIn(100);
+       $("#profile-filter a").removeClass("active");
+       $(this).addClass("active");
+       return false;
+        });
+
+        $(".filter").click(function(){
+        var thisFilter = $(this).attr("id");
+        $(".fac-staff-group").fadeOut(200);
+        $("."+ thisFilter).fadeIn(100);
+        $("#profile-filter a").removeClass("active");
+        $(this).addClass("active");
+        return false;
+        });
+    </script>
   <!-- End Required JavaScript Calls -->
 </body>
 </html>
