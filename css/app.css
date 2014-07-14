@@ -5160,11 +5160,15 @@ h1.blog-title {
   margin-top: 1em;
   margin-bottom: 1.5em;
   display: block;
+  text-align: center;
   text-transform: uppercase; }
   .profile-return:before {
     content: "\f190";
     font-family: "FontAwesome";
     margin-right: 0.5em; }
+  @media only screen and (min-width:48.063em) {
+    .profile-return {
+      text-align: left; } }
 
 .profile-name {
   text-align: center; }
