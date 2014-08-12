@@ -4740,6 +4740,8 @@ ul.clearing-thumbs li:before {
   font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
 
+.top-bar-section ul li > a {
+  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
 
 .top-bar-section ul {
   background-color: #002147;
