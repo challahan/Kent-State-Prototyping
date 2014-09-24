@@ -605,7 +605,7 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
       <h2 id="typography">Typography</h3>
       <h3>Fonts</h3>
         <ul>
-          <li>Sans-Serif: Tablet Gothic (Body Copy)</li>
+          <li>Sans-Serif: Helvetica (Body Copy)</li>
           <li>Sans-Serif-Condensed: Tablet Gothic Condensed</li>
           <li>Slab Serif: Museo Slab</li>
           <li>Serif: Garamond</li>
@@ -613,8 +613,8 @@ $alt-blue: rgb(66, 109, 169); // #426da9//
       <a class="button secondary" onclick="toggle_visibility('font-sass');">Show SASS Variables</a>
       <pre id="font-sass">
       <code class="language-html"><div class="code-container">
-$serif: "adobe-garamond-pro", Georgia, serif;
-$sans-serif: "tablet-gothic", Helvetica, Arial, sans-serif;
+$serif: Garamond, "Times New Roman", serif;
+$sans-serif: Helvetica, Arial, sans-serif;
 $sans-serif-condensed: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
 $slab-serif: "museo-slab", Georgia, serif;
       </div></code>
@@ -630,25 +630,25 @@ $slab-serif: "museo-slab", Georgia, serif;
       </thead>
       <tbody>
           <tr>
-            <td>"tablet-gothic"</td>
-              <td>400</td>
+            <td>Helvetica</td>
+              <td>normal</td>
               <td>normal</td>
           </tr>
            <tr>
-            <td>"tablet-gothic"</td>
-              <td>400</td>
+            <td>Helvetica</td>
+              <td>normal</td>
               <td>italic</td>
           </tr>
            <tr>
-            <td>"tablet-gothic"</td>
-              <td>600</td>
-              <td>normal</td>
+            <td>Helvetica</td>
+              <td>bold</td>
+              <td>bold</td>
           </tr>
       </tbody>
         
       </table>
       <br />
-      <h4>Adobe Garamond Pro</h4>
+      <h4>Garamond</h4>
       <table>
       <thead>
         <tr>
@@ -659,19 +659,19 @@ $slab-serif: "museo-slab", Georgia, serif;
       </thead>
       <tbody>
           <tr>
-            <td>"adobe-garamond-pro"</td>
-              <td>400</td>
+            <td>"garamond, "times new roman", "serif"</td>
+              <td>normal</td>
               <td>normal</td>
           </tr>
            <tr>
-            <td>"adobe-garamond-pro"</td>
-              <td>400</td>
+            <td>"garamond, "times new roman", "serif"</td>
+              <td>normal</td>
               <td>italic</td>
           </tr>
            <tr>
-            <td>"adobe-garamond-pro"</td>
-              <td>700</td>
-              <td>normal</td>
+            <td>"garamond, "times new roman", "serif"</td>
+              <td>bold</td>
+              <td>bold</td>
           </tr>
       </tbody>
       </table>
@@ -733,18 +733,18 @@ $slab-serif: "museo-slab", Georgia, serif;
       <a class="button secondary" onclick="toggle_visibility('fonts');">Show JavaScript</a>
       <pre id="fonts">
 <code class="language-javascript"><div class="code-container">
-  &lt;script type="text/javascript" src="//use.typekit.net/oct1xai.js">&lt;/script>
-  &lt;script type="text/javascript">try{Typekit.load();}catch(e){}&lt;/script>
+  &lt;script src="//use.typekit.net/hzv2aqa.js">&lt;/script>
+  &lt;script>try{Typekit.load();}catch(e){}&lt;/script>
 </div>
 </code>
       </pre>
       <h3>Alternate Fonts</h3>
       <p>For Kent State websites that are hosted on third party servers (non kent.edu servers), alternate, free Google fonts may be used in place of the approved official university fonts.</p>
       <ul>
-        <li>Tablet Gothic:  <a href="http://www.google.com/fonts/specimen/Open+Sans">Use Open Sans</a></li>
+        <li>Helvetica: Use Arial (most systems have Helvetica or Arial preinstalled)</li>
         <li>Tablet Gothic Semicondensed:  <a href="https://www.google.com/fonts/specimen/Open+Sans+Condensed">Use Open Sans Condensed</a></li>
         <li>Museo Slab: <a href="http://www.google.com/fonts/specimen/Roboto+Slab">Use Roboto Slab</a></li>
-        <li>Adobe Garamond Pro:  Use Pre-installed Garamond Font (available on many systems by default) or <a href="http://www.google.com/fonts/specimen/EB+Garamond">EB Garamond</a></li>
+        <li>Garamond:  Use Pre-installed Garamond Font (available on many systems by default) or <a href="http://www.google.com/fonts/specimen/EB+Garamond">EB Garamond</a></li>
       </ul>				
   	<hr>
   		<h2 id="navigation">Navigation</h3>
