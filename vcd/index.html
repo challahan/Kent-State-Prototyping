@@ -1,0 +1,292 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kent State Website - Boilerplate Template</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/landing-page.css" />
+    <link rel="stylesheet" href="css/editor.css" />
+	<style>@import url("css/kent-core.css");</style>
+    <link rel="stylesheet" href="css/vcd.css" />
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/oct1xai.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body id="top">
+  <header class="row header-blue">
+        <div data-ksu-header-wrapper class="container  front">
+
+  <div data-ksu-header-top class="container clearfix">
+    <div class="container hide-for-small">
+      <div class="small-9 large-9 columns">
+        <ul data-ksu-header-utility-links class="inline-list">
+          <li>
+            <!--[if gte IE 9]><!-->
+            <a href="#" data-dropdown="flashlineDrop"><i class="fa fa-lock"></i> Flashline Login</a>
+            <div id="flashlineDrop" class="f-dropdown medium content" data-dropdown-content>
+              <iframe style="border:none;" src="https://login.kent.edu/login-small-new.aspx" id="flashlineiframe"></iframe>
+            </div>
+            <!--<![endif]-->
+            <!--[if lte IE 8]>
+            <a href="http://login.kent.edu"><i class="fa fa-lock"></i> Flashline Login</a>
+            <![endif]-->
+          </li>
+          <li>|</li>
+
+                        <li><a href="/calendars">Calendars</a>
+                        </li>
+              <li>|</li>
+                                <!--[if gte IE 9]><!-->
+                  <li><a href="#" data-dropdown="PhoneDirDrop">Phone Directory</a>
+                    <!--<![endif]-->
+                    <!--[if lte IE 8]>
+                    <li><a href="https://keys.kent.edu/ePROD/bwgkphon.p_viewpeopledirectory">Phone Directory</a>
+                    <![endif]-->
+                    <div id="PhoneDirDrop" class="f-dropdown medium content" data-dropdown-content>
+                      <div class="row">
+                        <div class="small-12">
+                          <div class="row">
+                            <div class="small-12 columns">
+                              <a href="https://keys.kent.edu/ePROD/bwgkphon.P_EnterStaffCriteria" class="read-more-link">Search for faculty and Staff member</a>
+                            </div>
+                            <div class="small-12 columns">
+                              <a href="https://keys.kent.edu/ePROD/bwgkphon.P_EnterEmeritiCriteria" class="read-more-link">Search for emeriti or retiree</a>
+                            </div>
+                            <div class="small-12 columns">
+                              <a href="https://keys.kent.edu/ePROD/bwgkphon.P_DeptDir" class="read-more-link">Find all departments</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>    
+                      <div>
+              
+	          </li>
+                  <li>|</li>
+                  <li><a href="/maps">Maps & Directions</a></li>
+        </ul>
+                      </div>
+                      <div class="small-3 large-3 columns text-right">
+                        <!--<ul data-ksu-header-other-links class="inline-list right">
+                        <li><a href="http://www.kent.edu/advancement/givetokent/" class="button tiny">Give to KSU</a></li>
+                        <li><a href="http://kentstate.askadmissions.net/ask.aspx" class="button tiny">Ask KSU</a></li>
+                        </ul>-->
+                        <a onClick="_gaq.push(['utility links', 'Give to KSU']);" href="http://www.kent.edu/advancement/givetokent">
+                          <img data-ksu-header-give-icon src="img/GiveToKentState.png" alt="Give to Kent State" />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="container clearfix">
+                      <div id="header-action-container" class="small-12 left">
+                        <div id="show-main-menu" class="left"><a href="#">Menu <i class="fa fa-bars"></i></a></div>
+                        <div id="show-search-menu" class="right"><a href="#"><i class="fa fa-search"></i></a></div>
+                      </div>
+                      <div data-ksu-header-logo class="large-4 large-offset-4 medium-4 medium-offset-4 small-6 small-offset-3 columns text-center">
+        	                        <a href="/">
+                                          <!--[if gte IE 9]><!-->
+                          <img src="img/Kent-State-Logo-White.svg" alt="Kent State University">
+                          <!--<![endif]-->
+                          <!--[if lte IE 8]>
+                          <img src="/sites/all/themes/custom/zurb-foundation-kent/images/Kent-State-Logo-White-Fallback@1x.png" alt="Kent State University">
+                          <![endif]-->
+                        </a>
+                      </div>
+                      <div data-ksu-header-search class="large-3 medium-3 left columns">
+                        <form action="/" method="post" id="google-appliance-block-form" accept-charset="UTF-8"><div>
+<form method="post" action="/" id="google-appliance-block-form" accept-charset="UTF-8">
+  <div class="row collapse">
+    <div class="small-10 medium-10 large-10 columns">
+      <div class="form-item form-type-textfield form-item-search-keys">
+  <label class="element-invisible" for="edit-search-keys">Enter the terms you wish to search for. </label>
+ <input class="auto_submit form-text form-autocomplete" type="text" id="edit-search-keys" name="search_keys" value="" size="15" maxlength="128" /><input type="hidden" id="edit-search-keys-autocomplete" value="http://www.kent.edu/sites/all/modules/contrib/google_appliance_suggest/google_appliance_suggest_callback.php?q=" disabled="disabled" class="autocomplete" />
+</div>
+      <input type="hidden" name="form_build_id" value="form-z1Fv8w4oojCxgjpmessu18e14QdUq9Gtec0PSVvPGqs" />
+<input type="hidden" name="form_id" value="google_appliance_block_form" />
+    </div>
+    <div class="small-2 medium-2 left large-1 columns">
+      <button class="button postfix expand form-submit" type="submit" value="Search" name="op" aria-label="Search" id="edit-submit"><i class="fa fa-search fa-2x"></i></button>    </div>
+  </div>
+  <div class="row" data-ksu-search-utilities>
+    <a href="/index">A-Z index</a><span>|</span><a href="http://kentstate.askadmissions.net/ask.aspx?ref=ksuheader">Ask KSU</a>
+  </div>
+</form>
+
+</div></form>        
+                      </div>
+                    </div>
+                    
+      </div>
+	  </div></div></div>
+  </header>
+  <nav class="top-bar">
+  <ul class="title-area">
+    <li class="name"></li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+  <section class="top-bar-section">
+  		<!-- Left Nav Section -->
+    <ul>
+      <li class="has-dropdown"><a href="#">About KSU</a>
+      </li>
+      <li class="has-dropdown"><a href="#">Academics</a>
+      </li>
+      <li class="has-dropdown"><a href="#">Admissions, Tuition and Aid</a>
+      </li>
+      <li class="has-dropdown"><a href="#">Campus Life</a>
+      </li>
+      <li class="has-dropdown"><a href="#">Athletics</a>
+      </li>
+      <li class="has-dropdown"><a href="#">Research</a>
+      </li>
+       <li class="has-dropdown"><a href="#">Locations</a>
+      </li>
+    </ul>
+  </section>
+</nav>
+  <div class="row" id="landing-page-global">
+  		<section class="hero" style="background-image: url(img/homepage6_2_1.jpg); background-size: cover">
+  			<div class="landing-title">
+  					<h1 class="landing">School of Visual Communication Design</h1>
+  			</div>
+  			<div class="photo-caption">
+  				<div class="caption-title" data-tooltip class="has-tip" title="This is the Caption"><i class="fa fa-info-circle hide-for-medium-up"></i><span class="hide-for-small-only">In This Photo</span></div>
+  				<p class="caption hide-for-small-only" >Schedule an advising appointment!</p>
+  		</section>
+  <ul class="landing-page-tabs button-group even-6 hide-for-small-only">
+                              <li><a href="#" class="button">About VCD</a></li>
+                              <li><a href="#" class="button">Undergraduate Programs</a></li>
+                              <li><a href="#" class="button">Graduate Programs</a></li>
+                              <li><a href="#" class="button">VCD Opportunities</a></li>
+                              <li><a href="#" class="button">Future Students</a></li>
+                              <li><a href="#" class="button">Current Students</a></li>
+                              <li><a href="#" class="button">Faculty & Staff</a></li>
+                              <li><a href="#" class="button">Student Work</a></li>
+                              <li><a href="#" class="button">VCD News</a></li>
+                              <li><a href="#" class="button">Alumni</a></li>
+</ul>
+  </div>
+  <div class="large-11 columns large-centered main-content">
+  <div class="row landing-row">
+  	<div class="small-12 medium-5 image-rounded large-5 columns">
+		<div id="news">
+			<h4>Current News</h4>
+          <ul class="no-bullet active">
+               
+              <li class="tab">
+                <a href="#">
+                Faculty Member Raises Money for Animal Shelter, Friend Through T-shirt Sale 
+                </a><br/>
+				Visual Communication Design Associate Professor Jaime Kennedy and his wife Kelly Urquhart are selling “Pugzilla” t-shirts to raise money for the Best Friends Animal Society and the Brian Sirl ALS fund before Kennedy runs the Bank of America Chicago Marathon October 12. - Posted Sep. 30, 2014
+            </li>
+			
+		
+			<li>
+                <a href="#">
+                School of Visual Communication Design Hosts Type High Press Alumni Workshop and Alumni Events Oct. 18-19 
+                </a><br/>
+				School of Visual Communication Design invites alumni to sign up for one of three available time slots for the free Type High Press Alumni Workshop and participate in alumni social events during Homecoming weekend at Kent State October 18-19, 2014. - Posted Sep. 13, 2014
+            </li>
+			
+		
+			<li>
+                <a href="#">
+                School of Visual Communication Design in PRINT Magazine! 
+                </a><br/>
+				The August 2014 edition of PRINT Magazine featured a story about a semester-long project by Professor Ken Visocky O'Grady’s graduate seminar students in the School of Visual Communication Design. - Posted Sep. 10, 2014 
+            </li>
+			
+          </ul>
+		</div>
+	</div>
+  	<div class="small-12 medium-7 large-7 columns">
+
+				<h4>Areas of Study</h4>
+
+				<ul id="actionItems"> 
+					<li class="actionItem_link">
+                        <img src="http://www2.kent.edu/CCI/vcd/images/2d-design.jpg" alt="2D Design" align="left"/>
+						<h4><a href="CCI/vcd/undergrad/2d.cfm" >2D Design</a></h4>	
+					</li>
+					<li class="actionItem_link">
+                        <img src="http://www2.kent.edu/CCI/vcd/images/3d-design.jpg" alt="3D Design" align="left"/>
+						<h4><a href="CCI/vcd/undergrad/3d.cfm" >3D Design</a></h4>	
+					</li>                
+					<li class="actionItem_link">
+						<img src="http://www2.kent.edu/CCI/vcd/images/illustration.jpg" alt="Illustration" align="left"/>
+						<h4><a href="CCI/vcd/undergrad/illustration.cfm" >Illustration</a></h4>	
+					</li>
+                
+					<li class="actionItem_link">
+						<img src="http://www2.kent.edu/CCI/vcd/images/interaction_1.jpg" alt="Interaction Design" align="left"/>
+						<h4><a href="CCI/vcd/undergrad/interaction_design.cfm" >Interaction Design</a></h4>	
+					</li>                
+					<li class="actionItem_link">
+						<img src="http://www2.kent.edu/CCI/vcd/images/photo-illustration.jpg" alt="Photo-Illustration" align="left"/>
+						<h4><a href="CCI/vcd/undergrad/photo_illustration.cfm" >Photo-Illustration</a></h4>	
+					</li>
+                </ul>
+     
+  	<br />
+  	</div>
+  </div>
+
+  
+   </div>
+    </div>
+  <footer>
+  <div class="row links">
+  	<div class="large-12 large-centered columns">
+	  	<div class="row">
+	  		<div class="small-12 large-5 columns">
+						<h3>About</h3>
+                        <ul>
+							  <li><a href="#">About VCD</a></li>
+                              <li><a href="#">Undergraduate Programs</a></li>
+                              <li><a href="#">Graduate Programs</a></li>
+                              <li><a href="#">VCD Opportunities</a></li>
+                              <li><a href="#">Future Students</a></li>
+                              <li><a href="#">Current Students</a></li>
+                              <li><a href="#">Faculty & Staff</a></li>
+                              <li><a href="#">Student Work</a></li>
+                              <li><a href="#">VCD News</a></li>
+                              <li><a href="#">Alumni</a></li>
+						</ul>
+			</div>
+	  		<div class="small-12 large-5 columns">
+	  				<ul class="quicklinks">
+                          <li><a href="#">VCD Opportunities</a></li>
+                          <li><a href="#">Support VCD</a></li>
+                          <li><a href="#">Information for Alumni</a></li>
+	  				</ul>
+	  		</div>
+  </div>
+  	</div>
+  </div>
+  <div class="row contact">
+		<img src="img/vcd-logo.png" id="department-logo" alt="School of Visual Communication"/>
+      	<div class="logo-white" id="footer-white"><a href="http://www.kent.edu"><span>Kent State University</span></a></div>
+  	<div class="large-4 columns"><span class="footer-head">Phone</span><p>330-672-7856</p>
+  	</div>
+  	<div class="large-4 columns"><span class="footer-head">Address</span><p>231 Art Building 800 East Summit Street, Kent, Ohio 44242</p>
+  	</div>
+  	<div class="large-4 columns"><span class="footer-head">Email</span><p>info@kent.edu</p>
+  	</div>
+  </div>
+  <div class="row">
+      <div class="top"><a href="#top" class="scrollTo"><i class="fa fa-arrow-circle-o-up fa-2x"></i>Return to Top</a></div>
+
+  <div class="small-12 small-centered copyright">
+  	<p>As a top Ohio undergraduate and graduate school, Kent State’s eight campuses offer the resources of a large university with the friendly atmosphere of a liberal arts college. Enroll today to start pursuing your future at one of the best colleges in Ohio. We’ve been educating graduates for over 100 years; join us today.</p>
+  	<p>Copyright 2014 Kent State University</p>
+  </div>
+  </div>
+  </footer>
+  <!-- Required JavaScript Calls -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  <!-- End Required JavaScript Calls -->
+  </body>
+</html>

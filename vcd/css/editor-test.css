@@ -1,0 +1,106 @@
+//Image Alignment Classes //
+
+
+// Lists //
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 2em;
+  list-style-position: outside;
+  margin-top: 0.5em;
+  margin-bottom: 1em; }
+  ul li {
+    padding-left: 0em;
+    text-indent: 0em;
+    margin-bottom: 0.5em; }
+  ul li:before {
+    content: "■";
+    font-size: 1em;
+    color: #ffc82e;
+    padding-right: 0px;
+    line-height: 20px;
+    margin-left: -1.2em;
+    position: relative;
+    float: left; }
+
+ol {
+  font-style: normal;
+  color: black;
+  counter-reset: li;
+  margin-left: 1em;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0.5em; }
+  ol > li {
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 2em;
+    margin-top: 0.7em; }
+  ol > li:before {
+    content: counter(li);
+    counter-increment: li;
+    margin-right: 10px;
+    font-style: italic;
+    color: #002664;
+    font-weight: bold;
+    left: -1.5em;
+    position: absolute; }
+
+// Typography //
+
+blockquote {
+  font-family: "museo-slab", Georgia, serif;
+  text-align: center;
+  border-left: none;
+  color: #009dd8;
+  font-size: 1.2em;
+  border-top: 1px solid #f7f6f5;
+  border-bottom: 1px solid #f7f6f5;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+  blockquote cite {
+    font-style: normal; }
+
+h1 {
+  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #002664;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #009dd8;
+  margin-top: 0.5em;
+  margin-bottom: 0.7em; }
+
+h3 {
+  font-family: "museo-slab", Georgia, serif;
+  color: #002147;
+  text-transform: uppercase;
+  margin-bottom: 0.7em;
+  font-weight: 500;
+  margin-top: 0.5em; }
+
+h4 {
+  font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+  color: #002664;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 1em; }
+
+h5 {
+  color: #002664;
+  font-family: "museo-slab", Georgia, serif;
+  font-weight: normal;
+  margin-bottom: 1em; }
+
+h6 {
+  color: #737373;
+  font-weight: normal;
+  font-family: "tablet-gothic", Helvetica, Arial, sans-serif;
+  margin-bottom: 1em; }
