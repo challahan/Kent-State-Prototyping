@@ -27,8 +27,6 @@
 <link rel="apple-touch-icon-precomposed" href="img/favicon-57.png">
 
   <title>Kent State Pattern Library</title>
-  <script type="text/javascript" src="//use.typekit.net/oct1xai.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <!-- If you are using the gem version, you need this only -->
   <link rel="stylesheet" href="css/app.css" />
@@ -127,7 +125,7 @@
 			<li>The header should be marked up in CSS only and not output as a bitmapped image.</li>
 			<li>The Kent State logo must link to www.kent.edu (except for regional campuses, which will link to the regional campus home page).</li>
 			<li>The Kent State logo should be one of the logos below. The Kent State web logo should never be converted into a different file format or altered in any way.</li>
-			<li>No elements may be added within or on top of the Kent State header.</li>
+			<li>No elements may be added within or on top of the Kent State header, except the included Utility Links and Give to Kent image (see below)</li>
       <li>While the HTML5 "header" element is more symantically correct than using a "div" element, header does not always play well with Internet Explorer 8, so we have used the less semantic version here.</li>
 		</ul>
 			<div class="panel">You must either use the SVG version of the logo, with a PNG fallback version, or use the 2X version downscaled to 50% in order to support high-density displays.</div>
@@ -236,9 +234,241 @@
 				<li><a href="img/Kent-State-Logo-White-Fallback@2x.png">PNG Logo @2x - White</a></li>
         <li><a href="img/Kent-State-Logo-White-Fallback@1x.png">PNG Logo @1x - White</a></li>
         <li><a href="img/Kent-State-Logo-White.svg">SVG Logo - White</a></li>
-				<!--<li><a href="img/Kent-State-Logo-White-Fallback@1x.png">PNG Logo @1x</a></li>-->
 			</ul>
 			<hr>
+
+  <h3>Global Header (Blue) - With Utilities</h3>
+        <div class="panel">Some web sites may require the use of the utility links and Give to Kent Sate.  If you want to include these elements, use the markup below.  The included links may not be modified.</div>
+        <div class="header header-blue">
+
+        <div class="utility-links">
+          <ul>
+            <li><a href="http://login.kent.edu">FlashLine Login</a></li>
+            <li><a href="http://www.kent.edu/calendars">Calendars</a></li>
+            <li><a href="https://keys.kent.edu/ePROD/bwgkphon.p_viewpeopledirectory">Phone Directory</li>
+            <li><a href="http://www.kent.edu/maps">Maps & Directions</a></li>
+          </ul>
+        </div>
+
+        <div class="give-to-kent">
+          <a href="http://www.kent.edu/advancement/givetokent"><img src="img/give.png" alt="Give to Kent State" /></a>
+        </div>
+
+        <a href="http://www.kent.edu/">
+            <div class="logo-white logo">
+                <span>Kent State University</span>
+            </div>
+        </a>
+      </div>
+
+      <a class="button secondary" onclick="toggle_visibility('blue-utilities-markup');">Show Blue Header with Utilities Markup</a>
+          <pre id="blue-utilities-markup">
+        <code class="language-javascript"><div class="code-container">
+       &lt;div class="header header-blue">
+        &lt;div class="utility-links">
+          &lt;ul>
+            &lt;li>&lt;a href="http://login.kent.edu">FlashLine Login&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="http://www.kent.edu/calendars">Calendars&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="https://keys.kent.edu/ePROD/bwgkphon.p_viewpeopledirectory">Phone Directory&lt;/li>
+            &lt;li>&lt;a href="http://www.kent.edu/maps">Maps &amp; Directions&lt;/a>&lt;/li>
+          &lt;/ul>
+        &lt;/div>
+        &lt;div class="give-to-kent">
+          &lt;a href="http://www.kent.edu/advancement/givetokent">&lt;img src="img/give.png" alt="Give to Kent State" />&lt;/a>
+        &lt;/div>
+        &lt;a href="http://www.kent.edu/">
+            &lt;div class="logo-white logo">
+                &lt;span>Kent State University&lt;/span>
+            &lt;/div>
+        &lt;/a>
+      &lt;/div>          
+        </div></code></pre>
+      <a class="button secondary" onclick="toggle_visibility('blue-utility-gradient');">Show Blue Header with Utilities CSS</a>
+      <pre id="blue-utility-gradient">
+        <code class="language-javascript"><div class="code-container">
+
+// Official Header Markup //
+
+.header {
+  padding: 1.5em;
+  margin: 0 auto;
+  padding-top: 1.25em; 
+  text-align: center;
+  position: relative;
+}
+
+.header a {
+  width: 285px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header-blue {
+  background-color: #002664;
+  background-image: -webkit-gradient(linear, 14% 14%, 14% 86%, color-stop(0, #002147), color-stop(0.21, #002751), color-stop(1, rgba(0, 60, 120, 0.96)));
+  background-image: -webkit-linear-gradient(-90deg, #002147 0%, #002751 21%, rgba(0, 60, 120, 0.96) 100%);
+  background-image: -webkit-linear-gradient(270deg, #002147 0%, #002751 21%, rgba(0, 60, 120, 0.96) 100%);
+  background-image: linear-gradient(180deg, #002147 0%, #002751 21%, rgba(0, 60, 120, 0.96) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0);
+}
+
+.logo-white {
+  background-image: url(../img/Kent-State-Logo-White-Fallback@1x.png);
+  background-repeat: no-repeat; 
+}
+
+/* Retina-Quality White Logo */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+  .logo-white {
+  background-image: url(../img/Kent-State-Logo-White-Fallback@2x.png);
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  }
+}
+
+/* Retina-Quality Blue Logo */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+  .logo-blue {
+  background-image: url(../img/Kent-State-Logo-Blue-Fallback@2x.png);
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  }
+}
+
+.logo-white span, .logo-blue span {
+  display: block; 
+  width: 0; 
+  height: 0; 
+  overflow: hidden;
+}
+
+.logo {
+  height: 88px;
+  width: 285px;
+  background-size: 100%;
+  margin: 0px auto; 
+}
+
+// Start Utility Links - Optional //
+
+@media screen and (max-width: 40em) {
+  .utility-links {
+    display: none;
+  }
+}
+
+.utility-links {
+  font-family: "tablet-gothic-semi-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.utility-links ul {
+  margin-bottom: .5em;
+  margin-left: 0;
+  margin-top: -.3em;
+  padding-left: 0;
+}
+
+.utility-links a {
+  display: inline;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-blue .utility-links a {
+  color: white;
+}
+
+.header-blue .utility-links ul li:first-child a {
+  color: #eaab00;
+}
+
+.utility-links ul li {
+  display: inline;
+  font-size: .9em;
+  margin-left: .5em;
+}
+
+.utility-links ul li:after {
+    content:"|";
+    margin-left: .6em;
+}
+
+.header-blue .utility-links ul li:after {
+  color: white;
+}
+
+.utility-links ul li:last-child:after {
+    content:"";
+}
+
+.utility-links ul li:before {
+  content: none;
+}
+
+// Start Give to Kent - Optional //
+
+.give-to-kent {
+  float: right;
+  position: absolute;
+  top: -.2em;
+  right: 0;
+  transition: .3s all linear;
+}
+
+.give-to-kent img {
+  width: 105px;
+}
+
+.give-to-kent:hover {
+  top: 0;
+}
+
+/* Small Screen Sizes */
+
+
+@media screen and (max-width: 40em) {
+  .header {
+    padding-top: 0.75em;
+  }
+
+  .header a {
+    height: 2.7em;
+    margin: 0 auto;
+    width: 10em;
+  }
+
+  .logo {
+    width: 10em;
+    margin-right:0;
+    margin-left:0;
+    margin: 0 auto;
+    height: 3em;
+  }
+}
+
+
+@media screen and (max-width: 60em) {
+  .give-to-kent {
+    display: none;
+  }
+}
+        </div></code></pre>
+
+       <h4>Blue Header Logo Files (White/Gold Logo) and Give to Kent</h4>
+      <ul>
+        <li><a href="img/Kent-State-Logo-White-Fallback@2x.png">PNG Logo @2x - White</a></li>
+        <li><a href="img/Kent-State-Logo-White-Fallback@1x.png">PNG Logo @1x - White</a></li>
+        <li><a href="img/Kent-State-Logo-White.svg">SVG Logo - White</a></li>
+        <li><a href="img/give.png">Give to Kent Icon</a></li>
+      </ul>
+
+  <hr>
+
 	 <h3>Global Header (Neutral)</h3>
     <div class="header header-white">
         <a href="http://www.kent.edu">
@@ -345,6 +575,230 @@
 			<!--<li><a href="img/Kent-State-Logo-Blue-Fallback@1x.png">PNG Logo @1x - Blue</a></li>-->
 		</ul>
   		<hr>
+
+
+<h3>Global Header (Neutral) - With Utilities</h3>
+
+         <div class="panel">Some web sites may require the use of the utility links and Give to Kent Sate.  If you want to include these elements, use the markup below.  The included links may not be modified.</div>
+        <div class="header header-white">
+
+        <div class="utility-links">
+          <ul>
+            <li><a href="http://login.kent.edu">FlashLine Login</a></li>
+            <li><a href="http://www.kent.edu/calendars">Calendars</a></li>
+            <li><a href="https://keys.kent.edu/ePROD/bwgkphon.p_viewpeopledirectory">Phone Directory</li>
+            <li><a href="http://www.kent.edu/maps">Maps & Directions</a></li>
+          </ul>
+        </div>
+
+        <div class="give-to-kent">
+          <a href="http://www.kent.edu/advancement/givetokent"><img src="img/give.png" alt="Give to Kent State" /></a>
+        </div>
+
+        <a href="http://www.kent.edu/">
+            <div class="logo-blue logo">
+                <span>Kent State University</span>
+            </div>
+        </a>
+      </div>
+
+            <a class="button secondary" onclick="toggle_visibility('white-utility-markup');">Show White Header with Utilities Markup</a>
+          <pre id="white-utility-markup">
+        <code class="language-javascript"><div class="code-container">
+        &lt;div class="header header-white">
+        &lt;div class="utility-links">
+          &lt;ul>
+            &lt;li>&lt;a href="http://login.kent.edu">FlashLine Login&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="http://www.kent.edu/calendars">Calendars&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="https://keys.kent.edu/ePROD/bwgkphon.p_viewpeopledirectory">Phone Directory&lt;/li>
+            &lt;li>&lt;a href="http://www.kent.edu/maps">Maps &amp; Directions&lt;/a>&lt;/li>
+          &lt;/ul>
+        &lt;/div>
+        &lt;div class="give-to-kent">
+          &lt;a href="http://www.kent.edu/advancement/givetokent">&lt;img src="img/give.png" alt="Give to Kent State" />&lt;/a>
+        &lt;/div>
+        &lt;a href="http://www.kent.edu/">
+            &lt;div class="logo-blue logo">
+                &lt;span>Kent State University&lt;/span>
+            &lt;/div>
+        &lt;/a>
+      &lt;/div>
+            
+        </div></code></pre>
+      <a class="button secondary" onclick="toggle_visibility('white-utility-gradient');">Show White Header with Utilities CSS</a>
+      <pre id="white-utility-gradient">
+        <code class="language-javascript"><div class="code-container">
+// Official Header Markup //
+
+.header {
+  padding: 1.5em;
+  margin: 0 auto;
+  padding-top: 1.25em; 
+  text-align: center;
+  position: relative;
+}
+
+.header a {
+  width: 285px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header-white {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 14% 1%, 14% 94%, color-stop(0.11, #ffffff), color-stop(0.55, #f7f7f7), color-stop(1, rgba(238, 238, 238, 0.93))) !important;
+  background-image: -webkit-linear-gradient(-90deg, #ffffff 11%, #f7f7f7 55%, rgba(238, 238, 238, 0.93) 100%);
+  background-image: -webkit-linear-gradient(270deg, #ffffff 11%, #f7f7f7 55%, rgba(238, 238, 238, 0.93) 100%);
+  background-image: linear-gradient(180deg, #ffffff 11%, #f7f7f7 55%, rgba(238, 238, 238, 0.93) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#edeeeeee,GradientType=0)";
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#edeeeeee,GradientType=0); 
+}
+
+.logo-blue {
+  background-image: url(../img/Kent-State-Logo-Blue-Fallback@1x.png);
+  background-repeat: no-repeat; 
+}
+
+
+/* Retina-Quality Blue Logo */
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+  .logo-blue {
+  background-image: url(../img/Kent-State-Logo-Blue-Fallback@2x.png);
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  }
+}
+
+.logo-white span, .logo-blue span {
+  display: block; 
+  width: 0; 
+  height: 0; 
+  overflow: hidden;
+}
+
+.logo {
+  height: 88px;
+  width: 285px;
+  background-size: 100%;
+  margin: 0px auto; 
+}
+
+
+/* Small Screen Sizes */
+
+
+@media screen and (max-width: 40em) {
+  .header {
+    padding-top: 0.75em;
+  }
+
+  .header a {
+    height: 2.7em;
+    margin: 0 auto;
+    width: 10em;
+  }
+
+  .logo {
+    width: 10em;
+    margin-right:0;
+    margin-left:0;
+    margin: 0 auto;
+    height: 3em;
+  }
+}
+
+
+// Start Utility Links - Optional //
+
+@media screen and (max-width: 40em) {
+  .utility-links {
+    display: none;
+  }
+}
+
+.utility-links {
+  font-family: "tablet-gothic-semi-condensed", "Arial Narrow", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.utility-links ul {
+  margin-bottom: .5em;
+  margin-left: 0;
+  margin-top: -.3em;
+  padding-left: 0;
+}
+
+.utility-links a {
+  display: inline;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-white .utility-links a {
+  color: #002664;
+}
+
+.header-white .utility-links ul li:first-child a {
+  color: #426da9;
+}
+
+.utility-links ul li {
+  display: inline;
+  font-size: .9em;
+  margin-left: .5em;
+}
+
+.utility-links ul li:after {
+    content:"|";
+    margin-left: .6em;
+}
+
+.utility-links ul li:last-child:after {
+    content:"";
+}
+
+.utility-links ul li:before {
+  content: none;
+}
+
+// Start Give to Kent - Optional //
+
+.give-to-kent {
+  float: right;
+  position: absolute;
+  top: -.2em;
+  right: 0;
+  transition: .3s all linear;
+}
+
+.give-to-kent img {
+  width: 105px;
+}
+
+.give-to-kent:hover {
+  top: 0;
+}
+
+@media screen and (max-width: 60em) {
+  .give-to-kent {
+    display: none;
+  }
+}
+
+        </div></code></pre>
+
+       <h4>Blue Header Logo Files (Blue/Gold Logo) and Give to Kent</h4>
+      <ul>
+        <li><a href="img/Kent-State-Logo-White-Fallback@2x.png">PNG Logo @2x - White</a></li>
+        <li><a href="img/Kent-State-Logo-White-Fallback@1x.png">PNG Logo @1x - White</a></li>
+        <li><a href="img/Kent-State-Logo-White.svg">SVG Logo - White</a></li>
+        <li><a href="img/give.png">Give to Kent Icon</a></li>
+      </ul>
+
+<hr>
+
   		<h3>Global Footer</h3>
   		<div class="panel">The "fat footer" commonly repeats the top navigation in list format.  Optional Quick Links are placed to the right.  The footer also houses social media icons and contact information.</div>
   			<footer id="ksu-footer">
@@ -1500,6 +1954,8 @@ P.O. Box 5190, Kent, OH 44242-0001  (Mailing Address)</p>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/scroll.js"></script>
+      <script type="text/javascript" src="//use.typekit.net/oct1xai.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <!-- End Required JavaScript Calls -->
 </body>
 </html>
