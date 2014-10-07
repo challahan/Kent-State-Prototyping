@@ -49,7 +49,7 @@ header {
     margin-top: .9rem; }
 
   [data-ksu-header-top] {
-    background-color: #002664; }
+    }
     [data-ksu-header-top] [data-ksu-header-utility-links] {
       display: none; }
     [data-ksu-header-top] [data-ksu-header-other-links] {
@@ -101,13 +101,7 @@ header {
   font-family: tablet-gothic-semi-condensed, Helvetica, Arial, sans-serif;
   padding-top: 1rem;
   color: white;
-  background-image: -webkit-gradient(linear, 14% 14%, 14% 86%, color-stop(0, #002147), color-stop(0.21, #002751), color-stop(1, rgba(0, 60, 120, 0.96)));
-  background-image: -webkit-linear-gradient(-90deg, #002147 0%, #002751 21%, rgba(0, 60, 120, 0.96) 100%);
-  background-image: -webkit-linear-gradient(270deg, #002147 0%, #002751 21%, rgba(0, 60, 120, 0.96) 100%);
-  background-image: -moz-linear-gradient(180deg, #002147 0%, #002751 21%, rgba(0, 60, 120, 0.96) 100%);
-  background-image: linear-gradient(180deg, #002147 0%, #002751 21%, rgba(0, 60, 120, 0.96) 100%);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0)";
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff002147,endColorstr=#f4003c78,GradientType=0); }
+}
 
 [data-ksu-header-top] .button {
   font-weight: 600;
