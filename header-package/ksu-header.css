@@ -196,6 +196,7 @@
 
 .give-to-kent img {
 	width: 105px;
+	border: 0;
 }
 
 .give-to-kent:hover {
