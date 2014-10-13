@@ -1,0 +1,198 @@
+/*Setup department and determine hero height for opacity*/
+#department{background-color: rgb(232,232,232); background-color: rgba(234,234,234,.9); border-top: 3px solid #009ddb;}
+#department h2 a{display: inline-block; color: #009ddb; font-family: "adobe-garamond-pro",Georgia,serif; font-weight: normal; background: transparent url('../img/comm-logo-small.png') 0 10px no-repeat; padding-left: 200px; height: 50px;}
+.hero{ overflow: visible; padding-top: 400px; margin-top: -135px; }
+#department h2 a.active:hover{background-position: 0 -70px}
+
+#footer-logo{background: transparent url('../img/comm-logo.png') center top no-repeat; text-align: center; color: #009ddb; width: 221px; margin: 0 auto; padding-top: 70px; margin-bottom: 30px; width: 300px;}
+
+.top-bar-section, .top-bar-section ul li a{background-color: #e8e8e8 !important;}
+.top-bar-section ul li a{color: #333}
+header.header-blue div.container{background: #e8e8e8 !important; /* Old browsers */
+background: -moz-linear-gradient(top,  #e8e8e8 45%, #ffffff 98%) !important; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(45%,#e8e8e8), color-stop(98%,#ffffff)) !important; /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e8e8e8 45%,#ffffff 98%) !important; /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e8e8e8 45%,#ffffff 98%) !important; /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e8e8e8 45%,#ffffff 98%) !important; /* IE10+ */
+background: linear-gradient(to bottom,  #e8e8e8 45%,#ffffff 98%) !important; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff',GradientType=0 ) !important; /* IE6-9 */
+  color: #333;
+}
+div.landing-title h1{width: 100%; max-width: 50%;}
+div.landing-title h2.subheader{color: #009ddb !important;}
+div.landing-title p{color: #fff;}
+
+header.header-blue div, ul.inline-list a, header form#google-appliance-block-form a{color: #333}
+
+nav ul li a:hover{background-color: #737373 !important; color: #fff !important}
+
+footer, nav.top-bar{background-color: #e8e8e8; color: #333}
+nav.top-bar .toggle-topbar.menu-icon a{color: #333 !important}
+footer a, footer .quicklinks{color: #333 !important}
+footer .quicklinks{width: 100%}
+
+
+.main-content{background-color: #fff}
+footer ul li a{color: #fff}
+#department-logo{display: block; margin: 0 auto; margin-bottom: 50px;}
+#news{text-align: left}
+#actionItems{margin: 0}
+#actionItems li:before {
+    content: "";
+    margin: 0 !important;
+}
+.actionItem_link {
+	margin: 0 !important ;
+	padding: 0 !important;
+	margin-top: 12px !important;
+	height: 49px !important;
+	background-image: none !important;
+	background: rgba(234,234,234,.8) !important;
+	border-radius: 1px !important;
+	-moz-transition: background 0.3s ease !important;
+	-o-transition: background 0.3s ease !important;
+	-webkit-transition: background 0.3s ease !important;
+	transition: background 0.3s ease !important;
+	max-width: 450px
+}
+
+.actionItem_link:hover {
+	background: rgba(105,105,105,1) !important;
+
+}
+
+.actionItem_link a {
+	background-image: none !important;
+	text-align: right !important;
+	text-transform: uppercase !important;
+	color: #555555 !important;
+	font-family: 'Open Sans Condensed', sans-serif !important;
+	margin: 0 auto !important;
+	height: 38px !important;
+	position: relative !important;
+	z-index: 1 !important;
+	font-size: 18px !important;
+	padding-top: 14px !important;
+		font-weight: 500 !important;
+
+}
+
+.actionItem_link a:hover {
+	color: white !important;
+}
+
+.actionItem_link img {
+	padding-right: 10px !important;
+}
+
+.actionItem_link img {
+	opacity: .8;
+}
+
+.actionItem_link:hover img {
+	opacity: 1;
+}
+
+.quicklinks li:after { border-left: 10px solid #009ddb; }
+  
+
+.top-bar-section .has-dropdown > a::after {
+  border-color: #009ddb transparent transparent transparent; }
+
+h4, #news a, .footer-head, .fa, footer h3, .hero .photo-caption .caption-title, header ul.inline-list li, header ul.inline-list li:first-child a, ul li:before, a.read-more-link:after, #google-appliance-block-form div.row span{
+	color: #009ddb !important;
+}
+
+.layout70_30 .col2 .actionItem_link h4 {
+	font-family: 'Open Sans Condensed', sans-serif !important;
+	font-size: 22px !important;
+	padding-right: 5px !important;
+	color: #009ddb;
+
+}
+
+.element-invisible{display: none}
+
+/*Carousel*/
+.slide-pane{margin: 0 auto; max-width: 1110px; width: 100%; margin-top: 50px;}
+.owl-next, .owl-prev{display: none}
+ul#owl-carousel{max-width: 1110px; max-height: 360px; margin: 0}
+ul#owl-carousel li{max-height: 360px;}
+.owl-wrapper{width: 1110px; margin: 0 auto; overflow: hidden; padding: 0 0 30px 0}
+.owl-caption{color: #009ddb !important; bottom: -1px !important;}
+.owl-caption a{color: #009ddb !important}
+.owl-caption a span:after{display: none; border: 0 !important}
+.owl-controls{margin-top: -25px !important;}
+
+/*Comm Studies callouts*/
+#schedule, #transfer, #graduate{display: block; width: 100%; padding: 5% 10% 5% 15%; text-align: left; font-size: .875em; color: #fff; font-weight: normal; min-height: 60px; text-transform: uppercase;}
+#schedule{background-color: rgb(77, 80, 81); margin-bottom: 1%;}
+#graduate{ background-color: rgb(225, 209, 184);}
+#transfer{ background: none repeat scroll 0 0 rgb(129, 191, 214); color: #fff; margin-left: 1%; width: 99%; min-height: 123px; padding-top: 40px; font-size: .675em; line-height: 1.2em;}
+#transfer span{font-size: 1.7em; font-weight: bold}
+#commCallouts div{padding: 0}
+#commCallouts img{margin: 3px 0 0 0; padding: 0;}
+
+/*Quote*/
+blockquote{font-size: 1.6em; border: 0; font-family: "tablet-gothic",Helvetica,Arial,sans-serif; border-top: 1px solid #333; border-bottom: 1px solid #333}
+blockquote span{font-size: .675em; display: block; color: #333}
+
+
+
+/*COMM ICONS*/
+
+#commMajors #col1, #commMajors #col2, #commMajors #col3 {
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 13px;
+    text-align: center;
+    width: 33%;
+}
+#commMajors a{
+  color: #009ddb !important;
+	font-size: .875em;
+}
+
+#commMajors #col1 {
+    clear: both;
+}
+
+.icon-doctor {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.4%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2260px%22%20height%3D%2260px%22%20viewBox%3D%220%200%2060%2060%22%20enable-background%3D%22new%200%200%2060%2060%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M43.675%2C51.381v-2.875l-3.949-0.479c0%2C0%2C1.54%2C7.664-6.307%2C7.784c-7.848%2C0.119-9.689%2C0-9.689%2C0%0D%0A%09%09s-9.396%2C0.958-9.396-10.777c0-8.792%2C0-17.261%2C0-20.479h-1.197h-2.036v2.633c0%2C0%2C0%2C9.462%2C0%2C21.199s11.617%2C10.778%2C11.617%2C10.778%0D%0A%09%09s2.275%2C0.12%2C11.975%2C0C44.395%2C59.045%2C43.675%2C51.381%2C43.675%2C51.381z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M48.958%2C2.28H47.47v3.571c3.173%2C0%2C4.789%2C2.204%2C4.789%2C4.921v30.074c0%2C2.716-1.616%2C3.961-4.789%2C3.961H34.533%0D%0A%09%09c-3.174%2C0-4.79-1.245-4.79-3.961V10.771c0-2.486%2C1.197-4.534%2C3.993-4.868V2.28h-0.944c-3.968%2C0-7.186%2C2.57-7.186%2C5.738v35.069%0D%0A%09%09c0%2C3.171%2C3.218%2C5.74%2C7.186%2C5.74h16.166c3.971%2C0%2C7.188-2.569%2C7.188-5.74V8.018C56.146%2C4.85%2C52.929%2C2.28%2C48.958%2C2.28z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M38.367%2C53.058%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M12.449%2C8.805c-4.746%2C0-8.594%2C3.848-8.594%2C8.593c0%2C4.746%2C3.849%2C8.593%2C8.594%2C8.593%0D%0A%09%09c4.744%2C0%2C8.591-3.847%2C8.591-8.593C21.04%2C12.652%2C17.192%2C8.805%2C12.449%2C8.805z%20M12.468%2C23.313c-3.276%2C0-5.934-2.657-5.934-5.936%0D%0A%09%09c0-3.278%2C2.658-5.935%2C5.934-5.935c3.279%2C0%2C5.935%2C2.656%2C5.935%2C5.935C18.403%2C20.656%2C15.747%2C23.313%2C12.468%2C23.313z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M46.46%2C7.427c-1.836%2C0-3.323-1.487-3.323-3.322c0-1.837%2C1.487-3.324%2C3.323-3.324%0D%0A%09%09C46.46%2C3.72%2C46.46%2C4.805%2C46.46%2C7.427z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M35.112%2C7.427c1.838%2C0%2C3.325-1.487%2C3.325-3.322c0-1.837-1.487-3.324-3.325-3.324%0D%0A%09%09C35.112%2C3.72%2C35.112%2C4.805%2C35.112%2C7.427z%22/%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A");
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+.icon-monitor {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.4%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2260px%22%20height%3D%2260px%22%20viewBox%3D%220%200%2060%2060%22%20enable-background%3D%22new%200%200%2060%2060%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M1.042%2C3.627v40.251h57.916V3.627H1.042z%20M56.042%2C41.853H3.958V5.654h52.084V41.853z%22/%3E%0D%0A%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%2382BFD6%22%20stroke-miterlimit%3D%2210%22%20points%3D%227.558%2C32.6%207.558%2C9.143%2031.883%2C9.143%20%22/%3E%0D%0A%3Cg%3E%0D%0A%09%3Crect%20x%3D%2226.09%22%20y%3D%2242.576%22%20fill%3D%22%2382BFD6%22%20width%3D%227.819%22%20height%3D%2211.873%22/%3E%0D%0A%09%3Cellipse%20fill%3D%22%2382BFD6%22%20cx%3D%2230%22%20cy%3D%2254.725%22%20rx%3D%2212.307%22%20ry%3D%223.04%22/%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A");
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+.icon-notepad {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.4%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2260px%22%20height%3D%2260px%22%20viewBox%3D%220%200%2060%2060%22%20enable-background%3D%22new%200%200%2060%2060%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M47.102%2C3.5H12.955c-3.261%2C0-5.902%2C2.667-5.902%2C5.955v44.243c0%2C3.288%2C2.642%2C5.955%2C5.902%2C5.955h34.147%0D%0A%09%09c3.259%2C0%2C5.903-2.667%2C5.903-5.955V9.455C53.005%2C6.166%2C50.36%2C3.5%2C47.102%2C3.5z%20M49.314%2C50.389c0%2C2.822-2.204%2C5.111-4.922%2C5.111%0D%0A%09%09H15.911c-2.719%2C0-4.924-2.289-4.924-5.111V12.422c0-2.822%2C2.205-5.111%2C4.924-5.111h28.482c2.718%2C0%2C4.922%2C2.289%2C4.922%2C5.111V50.389z%0D%0A%09%09%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M32.345%2C8.894c0%2C1.256-1.018%2C2.275-2.274%2C2.275l0%2C0c-1.257%2C0-2.274-1.019-2.274-2.275V2.623%0D%0A%09%09c0-1.257%2C1.018-2.275%2C2.274-2.275l0%2C0c1.257%2C0%2C2.274%2C1.019%2C2.274%2C2.275V8.894z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M42.184%2C8.894c0%2C1.256-1.02%2C2.275-2.275%2C2.275l0%2C0c-1.257%2C0-2.274-1.019-2.274-2.275V2.623%0D%0A%09%09c0-1.257%2C1.018-2.275%2C2.274-2.275l0%2C0c1.256%2C0%2C2.275%2C1.019%2C2.275%2C2.275V8.894z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M22.508%2C8.894c0%2C1.256-1.019%2C2.275-2.276%2C2.275l0%2C0c-1.257%2C0-2.275-1.019-2.275-2.275V2.623%0D%0A%09%09c0-1.257%2C1.018-2.275%2C2.275-2.275l0%2C0c1.257%2C0%2C2.276%2C1.019%2C2.276%2C2.275V8.894z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M46.527%2C19.244c0%2C0.453-0.367%2C0.82-0.819%2C0.82H14.883c-0.452%2C0-0.82-0.367-0.82-0.82l0%2C0%0D%0A%09%09c0-0.452%2C0.368-0.819%2C0.82-0.819h30.825C46.16%2C18.424%2C46.527%2C18.792%2C46.527%2C19.244L46.527%2C19.244z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M46.527%2C29.082c0%2C0.452-0.367%2C0.819-0.819%2C0.819H14.883c-0.453%2C0-0.82-0.367-0.82-0.819l0%2C0%0D%0A%09%09c0-0.453%2C0.367-0.819%2C0.82-0.819h30.825C46.16%2C28.262%2C46.527%2C28.628%2C46.527%2C29.082L46.527%2C29.082z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M46.527%2C38.92c0%2C0.452-0.367%2C0.819-0.819%2C0.819H14.883c-0.453%2C0-0.82-0.367-0.82-0.819l0%2C0%0D%0A%09%09c0-0.453%2C0.367-0.82%2C0.82-0.82h30.825C46.16%2C38.1%2C46.527%2C38.467%2C46.527%2C38.92L46.527%2C38.92z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M46.527%2C48.757c0%2C0.453-0.367%2C0.819-0.819%2C0.819H14.883c-0.454%2C0-0.82-0.366-0.82-0.819l0%2C0%0D%0A%09%09c0-0.453%2C0.366-0.818%2C0.82-0.818h30.825C46.16%2C47.938%2C46.527%2C48.304%2C46.527%2C48.757L46.527%2C48.757z%22/%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A");
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+.icon-telephone {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.4%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2260px%22%20height%3D%2260px%22%20viewBox%3D%220%200%2060%2060%22%20enable-background%3D%22new%200%200%2060%2060%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M40.663%2C0.135H21.356c-3.998%2C0-7.239%2C3.241-7.239%2C7.24v45.25c0%2C3.998%2C3.241%2C7.24%2C7.239%2C7.24h19.307%0D%0A%09c3.999%2C0%2C7.238-3.242%2C7.238-7.24V7.375C47.901%2C3.376%2C44.662%2C0.135%2C40.663%2C0.135z%20M31.161%2C56.545c-1.417%2C0-2.565-1.146-2.565-2.564%0D%0A%09c0-1.414%2C1.148-2.562%2C2.565-2.562c1.415%2C0%2C2.563%2C1.148%2C2.563%2C2.562C33.725%2C55.398%2C32.576%2C56.545%2C31.161%2C56.545z%20M44.282%2C48.703%0D%0A%09H17.736V6.168h26.546V48.703z%22/%3E%0D%0A%3C/svg%3E%0D%0A");
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+.icon-global {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.4%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2260px%22%20height%3D%2260px%22%20viewBox%3D%220%200%2060%2060%22%20enable-background%3D%22new%200%200%2060%2060%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%3E%0D%0A%09%3Ccircle%20fill%3D%22none%22%20stroke%3D%22%2382BFD6%22%20stroke-width%3D%222%22%20stroke-miterlimit%3D%2210%22%20cx%3D%2230.21%22%20cy%3D%2230.024%22%20r%3D%2228.274%22/%3E%0D%0A%09%3Cellipse%20fill%3D%22none%22%20stroke%3D%22%2382BFD6%22%20stroke-width%3D%222%22%20stroke-miterlimit%3D%2210%22%20cx%3D%2230.469%22%20cy%3D%2230.095%22%20rx%3D%2216.64%22%20ry%3D%2228.204%22/%3E%0D%0A%09%3Cellipse%20fill%3D%22none%22%20stroke%3D%22%2382BFD6%22%20stroke-width%3D%222%22%20stroke-miterlimit%3D%2210%22%20cx%3D%2230.33%22%20cy%3D%2229.954%22%20rx%3D%2228.204%22%20ry%3D%2218.896%22/%3E%0D%0A%09%3Cline%20fill%3D%22none%22%20stroke%3D%22%2382BFD6%22%20stroke-width%3D%222%22%20stroke-miterlimit%3D%2210%22%20x1%3D%2258.273%22%20y1%3D%2230.237%22%20x2%3D%221.867%22%20y2%3D%2230.237%22/%3E%0D%0A%09%3Cline%20fill%3D%22none%22%20stroke%3D%22%2382BFD6%22%20stroke-width%3D%222%22%20stroke-miterlimit%3D%2210%22%20x1%3D%2230.351%22%20y1%3D%222.032%22%20x2%3D%2230.351%22%20y2%3D%2258.439%22/%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A");
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+.icon-microphone {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0D%0A%3C%21--%20Generator%3A%20Adobe%20Illustrator%2016.0.4%2C%20SVG%20Export%20Plug-In%20.%20SVG%20Version%3A%206.00%20Build%200%29%20%20--%3E%0D%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-//W3C//DTD%20SVG%201.1//EN%22%20%22http%3A//www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd%22%3E%0D%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20x%3D%220px%22%20y%3D%220px%22%0D%0A%09%20width%3D%2260px%22%20height%3D%2260px%22%20viewBox%3D%220%200%2060%2060%22%20enable-background%3D%22new%200%200%2060%2060%22%20xml%3Aspace%3D%22preserve%22%3E%0D%0A%3Cg%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M42.206%2C28.649v2.513c0%2C4.838-3.924%2C8.762-8.761%2C8.762h-6.936c-4.838%2C0-8.761-3.924-8.761-8.762v-2.513%0D%0A%09%09c-2.758%2C0-5.069%2C0-6.568%2C0c0%2C10.394%2C8.427%2C18.821%2C18.82%2C18.821c10.395%2C0%2C18.82-8.428%2C18.82-18.821%0D%0A%09%09C47.484%2C28.649%2C45.122%2C28.649%2C42.206%2C28.649z%22/%3E%0D%0A%09%3Cpath%20fill%3D%22%2382BFD6%22%20d%3D%22M39.41%2C30.979c0%2C3.703-3.004%2C6.708-6.708%2C6.708h-5.31c-3.705%2C0-6.709-3.006-6.709-6.708V6.941%0D%0A%09%09c0-3.705%2C3.004-6.708%2C6.709-6.708h5.31c3.704%2C0%2C6.708%2C3.003%2C6.708%2C6.708V30.979z%22/%3E%0D%0A%09%3Crect%20x%3D%2226.553%22%20y%3D%2244.488%22%20fill%3D%22%2382BFD6%22%20width%3D%227.174%22%20height%3D%2210.9%22/%3E%0D%0A%09%3Crect%20x%3D%2217.422%22%20y%3D%2252.688%22%20fill%3D%22%2382BFD6%22%20width%3D%2225.342%22%20height%3D%227.08%22/%3E%0D%0A%3C/g%3E%0D%0A%3C/svg%3E%0D%0A");
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 520px){
+  .actionItem_link{margin: 0; padding: 0; height: auto !important}
+  .actionItem_link img{width: 100%; padding: 0 !important; margin: 0;} 
+  
+}
+

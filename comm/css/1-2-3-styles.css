@@ -1,0 +1,34 @@
+#future-students-block {
+  background-color: #002664;
+  display: block;
+  text-align: center;
+  -webkit-transition: 0.2s background-color ease-in;
+  transition: 0.2s background-color ease-in;
+  margin-top: -1.25rem; }
+  #future-students-block .title {
+    display: none; }
+  #future-students-block p {
+    margin-bottom: 0; }
+  #future-students-block img {
+    width: 15em;
+    height: auto;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em; }
+  #future-students-block .white {
+    color: white;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif; }
+  #future-students-block .yellow {
+    color: #ffc82e;
+    font-size: 1.5em;
+    font-family: "tablet-gothic-semi-condensed", Helvetica, Arial, sans-serif;
+    margin-top: -0.3em;
+    margin-bottom: 0.2em; }
+  #future-students-block .action-link {
+    color: white; }
+  #future-students-block i {
+    color: #eaab00; }
+
+#future-students-block:hover, #future-students-block:active, #future-students-block:focus {
+  background-color: #003283; }
