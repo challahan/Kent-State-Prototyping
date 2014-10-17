@@ -1,4 +1,10 @@
-.top-bar-section, .top-bar-section ul li a{background-color: #e8e8e8 !important}
+/*Setup department and determine hero height for opacity*/
+#department{background-color: rgb(232,232,232); background-color: rgba(234,234,234,.9); border-top: 3px solid rgb(255,200,46)}
+#department h2 a{background-color: transparent; color: rgb(255,200,46); font-family: "adobe-garamond-pro",Georgia,serif; font-weight: normal;}
+.hero{ overflow: visible; padding-top: 400px; margin-top: -135px;}
+#department h2 a.active img{display: inline-block; padding-right: 20px; border-right: 1px solid #333}
+
+.top-bar-section, .top-bar-section ul li a{background-color: #e8e8e8 !important;}
 .top-bar-section ul li a{color: #333}
 header.header-blue div.container{background: #e8e8e8 !important; /* Old browsers */
 background: -moz-linear-gradient(top,  #e8e8e8 45%, #ffffff 98%) !important; /* FF3.6+ */
@@ -80,14 +86,31 @@ footer ul li a{color: #fff}
 	opacity: 1;
 }
 
+.quicklinks li:after { border-left: 10px solid rgb(255,200,46); }
+  
+h4, #news a, .footer-head, .fa, footer h3, .hero .photo-caption .caption-title, header ul.inline-list li, ul li:before, a.read-more-link:after{
+	color: rgb(255,200,46) !important;
+}
+
 .layout70_30 .col2 .actionItem_link h4 {
 	font-family: 'Open Sans Condensed', sans-serif !important;
 	font-size: 22px !important;
 	padding-right: 5px !important;
+	color: rgb(255,200,46);
 
 }
 
 .element-invisible{display: none}
+
+/*Carousel*/
+.owl-next, .owl-prev{display: none}
+ul#owl-carousel{max-width: 1077px; max-height: 431px; margin: 0}
+ul#owl-carousel li{max-height: 431px;}
+.owl-wrapper{width: 1077px; margin: 0 auto; overflow: hidden; padding: 0 0 30px 0}
+.owl-caption{color: rgb(255,200,46) !important; bottom: -1px !important;}
+.owl-caption a{color: rgb(255,200,46) !important}
+.owl-caption a span:after{display: none; border: 0 !important}
+.owl-controls{margin-top: -25px !important;}
 
 
 @media only screen and (max-width: 520px){
